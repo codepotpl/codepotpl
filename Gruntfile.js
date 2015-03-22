@@ -23,6 +23,7 @@ module.exports = function (grunt) {
             dist: {
                 files: [
                     {expand: true, src:'font/**', dest:'static/'},
+                    {expand: true, src:'img/**', dest:'static/'},
                     {src:'js/body.js', dest:'static/body.js'},
                     {src:'js/google-analytics.js', dest:'static/google-analytics.js'}
                 ]
