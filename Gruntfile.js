@@ -3,11 +3,10 @@ module.exports = function (grunt) {
         sass: {
             dist: {
                 options: {
-                    lineNumbers: true,
                     includePaths: ['bower_components/foundation/scss']
                 },
                 files: {
-                    'static/style.css': 'sass/style.scss'
+                    'public/style.css': 'src/sass/style.scss'
                 }
             }
         },
@@ -15,26 +14,19 @@ module.exports = function (grunt) {
         concat: {
             dist: {
                 src: ['bower_components/modernizr/modernizr.js', 'bower_components/yepnope/dist/yepnope-2.0.0.js'],
-                dest: 'static/head.js'
+                dest: 'public/head.js'
             }
         },
 
         copy: {
             dist: {
                 files: [
-                    {expand: true, src:'font/**', dest:'static/'},
-                    {expand: true, src:'img/**', dest:'static/'},
-                    {src:'js/body.js', dest:'static/body.js'},
-                    {src:'js/google-analytics.js', dest:'static/google-analytics.js'}
+                    {expand: true, cwd:'src/font/', src:['**'], dest:'public/font/'},
+                    {expand: true, cwd:'src/img/', src:['**'], dest:'public/img/'},
+                    {expand: true, cwd:'src/static/', src:['**'], dest:'public/'},
+                    {src:'src/js/body.js', dest:'public/body.js'},
+                    {src:'src/js/google-analytics.js', dest:'public/google-analytics.js'}
                 ]
-            }
-        },
-
-        jade: {
-            dist: {
-                files: {
-                    'index.html': 'index.jade'
-                }
             }
         },
 
@@ -42,10 +34,6 @@ module.exports = function (grunt) {
             sass: {
                 files: '**/*.scss',
                 tasks: ['sass']
-            },
-            jade: {
-                files: '**/*.jade',
-                tasks: ['jade']
             }
         }
     });
@@ -53,8 +41,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-jade');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['sass', 'concat', 'copy', 'jade']);
+    grunt.registerTask('default', ['sass', 'concat', 'copy']);
+    grunt.registerTask('dist', ['sass:dist', 'concat:dist', 'copy:dist']);
 };
