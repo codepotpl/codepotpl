@@ -30,6 +30,14 @@ module.exports = function (grunt) {
             }
         },
 
+        cssmin: {
+            dist: {
+                files: {
+                    'public/style.css': ['public/style.css']
+                }
+            }
+        },
+
         watch: {
             sass: {
                 files: '**/*.scss',
@@ -42,7 +50,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     grunt.registerTask('default', ['sass', 'concat', 'copy']);
-    grunt.registerTask('dist', ['sass:dist', 'concat:dist', 'copy:dist']);
+    grunt.registerTask('dist', ['sass:dist', 'concat:dist', 'copy:dist', 'cssmin:dist']);
 };
