@@ -1,6 +1,8 @@
 var express = require('express');
+var compression = require('compression');
 var app = express();
 
+app.use(compression());
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/src/templates');
 app.use('/public', express.static(__dirname + '/public'));
