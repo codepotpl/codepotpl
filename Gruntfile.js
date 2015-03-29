@@ -38,6 +38,16 @@ module.exports = function (grunt) {
             }
         },
 
+        uglify: {
+            dist: {
+                files: {
+                    'public/head.js': ['public/head.js'],
+                    'public/body.js': ['public/body.js'],
+                    'public/google-analytics.js': ['public/google-analytics.js']
+                }
+            }
+        },
+
         watch: {
             sass: {
                 files: '**/*.scss',
@@ -51,7 +61,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.registerTask('default', ['sass', 'concat', 'copy']);
-    grunt.registerTask('dist', ['sass:dist', 'concat:dist', 'copy:dist', 'cssmin:dist']);
+    grunt.registerTask('dist', ['sass:dist', 'concat:dist', 'copy:dist', 'cssmin:dist', 'uglify:dist']);
 };
