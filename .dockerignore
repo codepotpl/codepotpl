@@ -1,5 +1,5 @@
 .dockerignore
-#bower_components
-#node_modules
-#public
+bower_components
+node_modules
+public
 .idea
