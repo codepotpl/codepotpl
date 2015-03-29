@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bower-dist": "bower install --allow-root --verbose",
     "grunt-dist": "grunt dist --verbose",
-    "build-dist": "bower install --allow-root --verbose; grunt dist --verbose"
+    "build-dist": "bower install --allow-root; grunt dist"
   },
   "repository": {
     "type": "git",
