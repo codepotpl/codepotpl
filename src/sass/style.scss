@@ -10,6 +10,17 @@ $orange: #FFC268;
 $gray: #484949;
 $blue: #406FC1;
 
+
+$base-font-size: 20px;
+$rem-base: $base-font-size;
+$row-width: rem-calc(600);
+@import "foundation/components/grid";
+
+
+$input-font-size: rem-calc($base-font-size);
+@import "foundation/components/forms";
+
+
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
   font-weight: bold;
@@ -68,10 +79,7 @@ button {
 
 }
 
-$base-font-size: 20px;
-$rem-base: $base-font-size;
-$row-width: rem-calc(600);
-@import "foundation/components/grid";
+
 
 header {
   color: white;
@@ -104,13 +112,25 @@ section {
   }
 }
 
-section#sponsor-us, section#contact {
+section#sponsor-us, section#contact, section#subscribe {
   .center {
     text-align: center;
   }
   @media #{$small-only} {
-    button {
-      width: 100%;
+    button, input {
+      width: 80%;
     }
+  }
+  @media #{$medium-up} {
+    button, input {
+      width: 60%;
+    }
+  }
+}
+
+section#subscribe {
+  input {
+    display: inline-block;
+    text-align: center;
   }
 }
