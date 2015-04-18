@@ -1,0 +1,54 @@
+div.team {
+    vertical-align: middle;
+}
+
+div.team > .team {
+    width: 100%;
+}
+
+div.team div.row div.col-sm-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.clr {
+    clear: both; 
+    width: 0px;
+    height: 0px; 
+    margin: 0px; 
+    padding: 0px;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+.fill{
+    width:100%;
+    padding:10px;
+    color:#efefef;
+}
+
+.img-thumbnail {
+
+}
+
+.col-sm-3 {
+    width: 20%;
+}
+
+div.row h4 {
+    background: rgb(118, 106, 106);
+    margin: 0px;
+}
+
+div.row div.placeholder {
+    text-align: center;
+}

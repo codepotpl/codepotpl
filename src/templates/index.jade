@@ -1,5 +1,6 @@
 html
     head
+        include head.html
         title Codepot
         meta(charset='utf-8')
         <link rel="icon" type="image/png" href="public/img/favicon-32.png" sizes="32x32">
@@ -20,7 +21,20 @@ html
                 div.small-12.columns
                     h1 ABOUT
                     p 100% workshop technology conference taking place at the end of summer, August 28-29th, 2015 at the University of Social Sciences and Humanities in Warsaw, Poland. If you believe in learning by doing approach and are thirsty for knowledge and networking this event is for you! There will be multiple hands-on sessions on software development, devops tools, product design, IoT and hardware renaissance, agile practices and many, many more. Instead of just talking about great new tools - Codepot will show you how to actually use them.
-
+        section#map
+            div.row
+                div.small-12.columns
+                    include map.html
+        section#promoters
+            div.row
+                div.small-12.columns
+                    h1 SPEAKERS
+                    include speakers.html
+        section#team
+            div.row
+                div.small-12.columns
+                    h1 TEAM
+                    include team.html
         section#sponsor-us
             div.row
                 div.small-12.columns

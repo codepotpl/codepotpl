@@ -24,6 +24,13 @@ module.exports = function (grunt) {
                     {expand: true, cwd:'src/font/', src:['**'], dest:'public/font/'},
                     {expand: true, cwd:'src/img/', src:['**'], dest:'public/img/'},
                     {expand: true, cwd:'src/static/', src:['**'], dest:'public/'},
+                    {expand: true, cwd:'src/sass/team_css', src:['**'], dest:'public/team_css'},
+                    {expand: true, cwd:'src/js/team_js', src:['**'], dest:'public/team_js'},
+                    {expand: true, cwd:'src/img/team_img', src:['**'], dest:'public/team_img'},
+                    {expand: true, cwd:'src/bootstrap/', src:['**'], dest:'public/bootstrap'},
+                    {expand: true, cwd:'src/bootstrap/', src:['**'], dest:'public/bootstrap'},
+                    {expand: true, cwd:'src/img/speakers_img/', src:['**'], dest:'public/speakers_img'},
+                    {expand: true, cwd:'src/sass/speakers_css/', src:['**'], dest:'public/speakers_css'},
                     {src:'src/js/body.js', dest:'public/body.js'},
                     {src:'src/js/google-analytics.js', dest:'public/google-analytics.js'}
                 ]
