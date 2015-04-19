@@ -32,6 +32,8 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sass": "^0.18.1",
     "jade": "^1.9.2",
-    "node-sass": "^2.0.1"
+    "markdown": "^0.5.0",
+    "node-sass": "^2.0.1",
+    "yamljs": "^0.2.1"
   }
 }
