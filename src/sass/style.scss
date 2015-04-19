@@ -137,13 +137,11 @@ section#organizers {
   .wrapper {
     padding-bottom: 0;
     margin-bottom: rem-calc(16);
-    @media #{$small-only} {
-      &.odd {
-        padding-right: rem-calc(8);
-      }
-      &.even {
-        padding-left: rem-calc(8);
-      }
+    &.odd {
+      padding-right: rem-calc(8);
+    }
+    &.even {
+      padding-left: rem-calc(8);
     }
     .center-holder {
       text-align: center;
