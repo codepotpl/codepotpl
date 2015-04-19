@@ -10,16 +10,15 @@ $orange: #FFC268;
 $gray: #484949;
 $blue: #406FC1;
 
-
 $base-font-size: 20px;
 $rem-base: $base-font-size;
-$row-width: rem-calc(600);
+$row-width: rem-calc(1000);
 @import "foundation/components/grid";
-
 
 $input-font-size: rem-calc($base-font-size);
 @import "foundation/components/forms";
 
+@import "foundation/components/block-grid";
 
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
@@ -45,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: rem-calc(30);
+  text-align: center;
 }
 
 p, span, a {
@@ -68,18 +68,16 @@ button {
   background: $green;
   font-size: rem-calc(18);
   border: none;
-//  border: 1px solid darken($green, 10%);
-    padding: 0.5rem 1rem;
-    &:hover {
-      background-color: $dark-green;
-    }
-    &:active {
-      background-color: darken($dark-green, 10%);
-    }
+  //  border: 1px solid darken($green, 10%);
+  padding: 0.5rem 1rem;
+  &:hover {
+    background-color: $dark-green;
+  }
+  &:active {
+    background-color: darken($dark-green, 10%);
+  }
 
 }
-
-
 
 header {
   color: white;
@@ -124,6 +122,52 @@ section#sponsor-us, section#contact, section#subscribe {
   @media #{$medium-up} {
     button, input {
       width: 60%;
+    }
+  }
+}
+
+section#organizers {
+  span.tag-line {
+    font-size: rem-calc(21);
+    @extend .font-source-sans-pro-regular;
+    display: block;
+    text-align: center;
+    margin: -1rem 0 2rem 0;
+  }
+  .wrapper {
+    padding-bottom: 0;
+    margin-bottom: rem-calc(16);
+    @media #{$small-only} {
+      &.odd {
+        padding-right: rem-calc(8);
+      }
+      &.even {
+        padding-left: rem-calc(8);
+      }
+    }
+    .center-holder {
+      text-align: center;
+      background-color: $green;
+      .name-wrapper {
+        display: inline-block;
+        text-align: center;
+        padding: 0.5rem 0;
+        span {
+          color: white;
+          line-height: 1;
+          &.first-name {
+            font-size: rem-calc(20);
+          }
+          &.last-name {
+            font-size: rem-calc(18);
+          }
+        }
+        hr {
+          margin: 0.2rem 0;
+          border: solid white;
+          border-width: 1px 0 0 0;
+        }
+      }
     }
   }
 }

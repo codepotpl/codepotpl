@@ -10,12 +10,12 @@ app.set('views', __dirname + '/src/templates');
 app.use('/public', express.static(__dirname + '/public'));
 
 var data = {
-    organizers : YAML.load('src/data/organizers.yml'),
-    tutors : YAML.load('src/data/tutors.yml')
+    organizers: YAML.load('src/data/organizers.yml'),
+    tutors: YAML.load('src/data/tutors.yml')
 };
 
 app.get('/', function (req, res) {
-    res.render('index');
+    res.render('index', {organizers: data.organizers});
 });
 
 var server = app.listen(8080, function () {

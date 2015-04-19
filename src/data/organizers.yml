@@ -1,19 +1,43 @@
 - firstName: Magdalena
   lastName: Żebrowska
-  pictreUrl: http://warsjawa.pl/images/organizers/magda-zebrowska-320x320.jpg
+  pictureUrl: public/img/people/magdalena-zebrowska.jpg
 
-- firstName: Magdalena
-  lastName: Żebrowska
-  pictreUrl: http://warsjawa.pl/images/organizers/magda-zebrowska-320x320.jpg
+- firstName: Michał
+  lastName: Lewandowski
+  pictureUrl: public/img/people/michal-lewandowski.jpg
 
-- firstName: Magdalena
-  lastName: Żebrowska
-  pictreUrl: http://warsjawa.pl/images/organizers/magda-zebrowska-320x320.jpg
+- firstName: Maciej
+  lastName: Opała
+  pictureUrl: public/img/people/maciej-opala.jpg
 
-- firstName: Magdalena
-  lastName: Żebrowska
-  pictreUrl: http://warsjawa.pl/images/organizers/magda-zebrowska-320x320.jpg
+- firstName: Krzysztof
+  lastName: Siejkowski
+  pictureUrl: public/img/people/krzysztof-siejkowski.jpg
 
-- firstName: Magdalena
-  lastName: Żebrowska
-  pictreUrl: http://warsjawa.pl/images/organizers/magda-zebrowska-320x320.jpg
+- firstName: Tomasz
+  lastName: Netczuk
+  pictureUrl: public/img/people/tomasz-netczuk.jpg
+
+- firstName: Ilona
+  lastName: Sobiczewska
+  pictureUrl: public/img/people/ilona-sobiczewska.jpg
+
+- firstName: Marcin
+  lastName: Jasion
+  pictureUrl: public/img/people/marcin-jasion.jpg
+
+- firstName: Andrzej
+  lastName: Chmielowski
+  pictureUrl: public/img/people/andrzej-chmielowski.jpg
+
+- firstName: Agnieszka
+  lastName: Cieśla
+  pictureUrl: public/img/people/agnieszka-ciesla.jpg
+
+
+
+
+
+
+
+
