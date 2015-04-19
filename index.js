@@ -14,8 +14,6 @@ var data = {
     tutors : YAML.load('src/data/tutors.yml')
 };
 
-console.log(data);
-
 app.get('/', function (req, res) {
     res.render('index');
 });
