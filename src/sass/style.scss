@@ -18,6 +18,7 @@ $row-width: rem-calc(1000);
 $input-font-size: rem-calc($base-font-size);
 @import "foundation/components/forms";
 
+$block-grid-default-spacing: rem-calc(16);
 @import "foundation/components/block-grid";
 
 .font-oxygen-bold {
@@ -135,14 +136,6 @@ section#organizers {
     margin: -1rem 0 2rem 0;
   }
   .wrapper {
-    padding-bottom: 0;
-    margin-bottom: rem-calc(16);
-    &.odd {
-      padding-right: rem-calc(8);
-    }
-    &.even {
-      padding-left: rem-calc(8);
-    }
     .center-holder {
       text-align: center;
       background-color: $green;
