@@ -15,7 +15,10 @@ var data = {
 };
 
 app.get('/', function (req, res) {
-    res.render('index', {organizers: data.organizers});
+    res.render('index', {
+        organizers: data.organizers,
+        tutors: data.tutors
+    });
 });
 
 var server = app.listen(8080, function () {

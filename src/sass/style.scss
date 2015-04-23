@@ -109,6 +109,51 @@ section {
   &:last-of-type {
     padding-bottom: 3rem;
   }
+  span.tagline {
+    font-size: rem-calc(21);
+    @extend .font-source-sans-pro-regular;
+    display: block;
+    text-align: center;
+    margin: -1rem 0 2rem 0;
+  }
+}
+
+section#tutors {
+  ul {
+    margin-bottom: 2rem;
+  }
+  .wrapper {
+    padding-bottom: 0;
+    margin-bottom: -1rem;
+    &.even {
+      margin-top: 2rem;
+    }
+    img {
+      width: 100%;
+    }
+    .center-holder {
+      background-color: $green;
+      .description-wrapper {
+        display: inline-block;
+        padding: 0.5rem 0.5rem;
+        span {
+          color: white;
+          line-height: 1;
+          &.top-line {
+            font-size: rem-calc(20);
+          }
+          &.bottom-line {
+            font-size: rem-calc(18);
+          }
+        }
+        hr {
+          margin: 0.2rem 0;
+          border: solid white;
+          border-width: 1px 0 0 0;
+        }
+      }
+    }
+  }
 }
 
 section#sponsor-us, section#contact, section#subscribe {
@@ -128,13 +173,6 @@ section#sponsor-us, section#contact, section#subscribe {
 }
 
 section#organizers {
-  span.tag-line {
-    font-size: rem-calc(21);
-    @extend .font-source-sans-pro-regular;
-    display: block;
-    text-align: center;
-    margin: -1rem 0 2rem 0;
-  }
   .wrapper {
     .center-holder {
       text-align: center;
