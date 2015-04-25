@@ -80,5 +80,20 @@ html
                         div.center
                             input(type='email' required='required' placeholder='Your e-mail address' name='EMAIL' id='mce-EMAIL')
                             button SUBSCRIBE
+        if sponsors && sponsors.length > 0
+            section#sponsors
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        h1#sponsors SPONSORS
+                        span.tagline Here is amazing companies that make Codepot possible!
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        ul.small-block-grid-2.medium-block-grid-3
+                            each sponsor, index in sponsors
+                                li.wrapper(class=(index % 2 == 0) ? 'even' : 'odd')
+                                    div.box
+                                        div.sponsors
+                                            a(href=sponsor.url)
+                                                img(src=sponsor.pictureUrl)
 
         script(src='public/body.js' defer)
