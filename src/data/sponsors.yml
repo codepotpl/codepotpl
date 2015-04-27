@@ -1,8 +1,20 @@
-- pictureUrl: public/img/logo/allegro.png
+- name: "Allegro"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/logo/allegro.png
   url: //www.allegro.pl
 
-- pictureUrl: public/img/logo/hp.png
+- name: "HP"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/logo/hp.png
   url: //www.hp.pl
 
-- pictureUrl: public/img/logo/allegro.png
+- name: "Allegro"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/logo/allegro.png
   url: //www.allegro.pl
