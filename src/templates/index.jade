@@ -76,9 +76,9 @@ html
                             each sponsor, index in sponsors
                                 li.wrapper(class=(index % 2 == 0) ? 'even' : 'odd')
                                     div.box(itemscope, itemtype='http://schema.org/Organization')
-                                        div.sponsors
-                                            a(href=sponsor.url, itemprop="url")
-                                                img(src=sponsor.pictureUrl)
+                                        a(href=sponsor.url, itemprop="url")
+                                           div.sponsors
+                                               img(src=sponsor.pictureUrl)
                                         div(hidden)
                                             div(itemprop='name')!=sponsor.name
                                             div(itemprop='description')!=sponsor.description
