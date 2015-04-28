@@ -209,16 +209,20 @@ section#subscribe {
 }
 
 section#sponsors {
-  h1#sponsors {
-    font-family: "oxygenbold";
+  h1 {
+    font-family: "oxygenbold", serif;
     font-size: 36px;
+    font-weight: bold;
     color: #22C486;
     text-decoration: underline;
+    font-style: normal;
   }
   span.tagline {
-    font-family: "source_sans_prolight";
+    font-family: "source_sans_prolight", sans-serif;;
+    font-weight: bold;
     font-size: 24px;
     color: #484949;
+    font-style: normal;
   }
   ul {
      margin-bottom: 2rem; 
