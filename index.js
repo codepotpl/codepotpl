@@ -11,13 +11,15 @@ app.use('/public', express.static(__dirname + '/public'));
 
 var data = {
     organizers: YAML.load('src/data/organizers.yml'),
-    tutors: YAML.load('src/data/tutors.yml')
+    tutors: YAML.load('src/data/tutors.yml'),
+    sponsors: YAML.load('src/data/sponsors.yml')
 };
 
 app.get('/', function (req, res) {
     res.render('index', {
         organizers: data.organizers,
-        tutors: data.tutors
+        tutors: data.tutors,
+        sponsors: data.sponsors
     });
 });
 

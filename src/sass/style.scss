@@ -207,3 +207,54 @@ section#subscribe {
     text-align: center;
   }
 }
+
+section#sponsors {
+  h1 {
+    font-family: "oxygenbold", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #22C486;
+    text-decoration: underline;
+    font-style: normal;
+  }
+  span.tagline {
+    font-family: "source_sans_prolight", sans-serif;;
+    font-weight: bold;
+    font-size: 24px;
+    color: #484949;
+    font-style: normal;
+  }
+  ul {
+     margin-bottom: 2rem; 
+  }
+  .wrapper {
+    padding-bottom: 0;
+  }
+  .wrapper.even {
+    margin-top: 1rem; 
+  }
+  .wrapper {
+    div.box {
+      position: relative;
+      width: 100%;
+      div.sponsors {
+        position:  absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #F4F4F4;
+        img { 
+          margin: 20%;
+          width: 60%;
+        }
+      }  
+    }
+    div.box:before{
+      content: "";
+      display: block;
+      padding-top: 100%;  
+    }    
+  }
+}
+
