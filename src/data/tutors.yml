@@ -1,4 +1,5 @@
-- firstName: Aleksander
+- publish: false
+  firstName: Aleksander
   lastName: Piotrowski
   tagline: Trolluje więc jestem.
   pictureUrl: https://media.licdn.com/media/p/4/005/024/250/3da7e76.jpg
@@ -28,7 +29,8 @@
     yet another line
 
 
-- firstName: Aleksander222
+- publish: false
+  firstName: Aleksander222
   lastName: Piotrowski
   tagline: Trolluje więc jestem.
   pictureUrl: https://media.licdn.com/media/p/4/005/024/250/3da7e76.jpg

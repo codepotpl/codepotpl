@@ -11,7 +11,9 @@ app.use('/public', express.static(__dirname + '/public'));
 
 var data = {
     organizers: YAML.load('src/data/organizers.yml'),
-    tutors: YAML.load('src/data/tutors.yml')
+    tutors: YAML.load('src/data/tutors.yml').filter(function(tutor){
+        return tutor.publish;
+    })
 };
 
 var metaTagsData = {
