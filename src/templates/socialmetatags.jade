@@ -1,19 +1,19 @@
-<meta property="og:title" content="#{metaTags.title}"/>
-<meta property="og:site_name" content="#{metaTags.siteName}"/>
-<meta property="og:url" content="#{metaTags.url}"/>
-<meta property="og:description" content="#{metaTags.description}" /> 
-<meta property="fb:app_id" content="#{metaTags.fbAppId}" />
-<meta property="og:type" content="#{metaTags.type}" /> 
-<meta property="og:locale" content="#{metaTags.locale}" />           
-<meta property="article:author" content="#{metaTags.author}" /> 
-<meta property="article:publisher" content="#{metaTags.publisher}" /> 
-<meta property="og:image" content="#{metaTags.image}" /> 
+meta(property='og:title' content!=metaTags.title)
+meta(property='og:site_name' content!=metaTags.siteName)
+meta(property='og:url' content!=metaTags.url)
+meta(property='og:description' content!=metaTags.description)
+meta(property='fb:app_id' content!=metaTags.fbAppId)
+meta(property='og:type' content!=metaTags.type)
+meta(property='og:locale' content!=metaTags.locale)
+meta(property='article:author' content!=metaTags.author)
+meta(property='article:publisher' content!=metaTags.publisher)
+meta(property='og:image' content!=metaTags.image)
 
-<meta name="twitter:card" content="#{metaTags.type}"/> 
-<meta name="twitter:site" content="#{metaTags.twitterSite}" />
-<meta name="twitter:url" content="#{metaTags.url}"/>
-<meta name="twitter:title" content="#{metaTags.title}"> 
-<meta name="twitter:description" content="#{metaTags.description}"/>
-<meta name="twitter:image" content="#{metaTags.image}"/> 
+meta(name='twitter:card' content!=metaTags.type)
+meta(name='twitter:site' content!=metaTags.twitterSite)
+meta(name='twitter:url' content!=metaTags.url)
+meta(name='twitter:title' content!=metaTags.title)
+meta(name='twitter:description' content!=metaTags.description)
+meta(name='twitter:image' content!=metaTags.image)
 
-<meta name="google" content="notranslate" /> <!-- Google display origin text, in our case English -->
+meta(name='google' content='notranslate')
