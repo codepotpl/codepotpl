@@ -14,10 +14,25 @@ var data = {
     tutors: YAML.load('src/data/tutors.yml')
 };
 
+var metaTagsData = {
+    siteName: "Codepot",
+    title: "100% workshop conference!",
+    description: "100% workshop technology conference taking place at the end of summer, August 28-29th, 2015. There will be multiple hands-on sessions on software development, devops tools, product design, IoT and hardware renaissance, agile practices and many, many more. Instead of just talking about great new tools - Codepot will show you how to actually use them.",
+    url: "http://codepot.pl/",
+    locale: "pl_PL",
+    image: "public/img/social-icon.jpg",
+    type: "summary",
+    fbAppId: "noneYet ///TODO",  //TODO
+    author: "http://codepot.pl/",
+    publisher: "http://codepot.pl/",
+    twitterSite: "@codepot_pl"
+};
+
 app.get('/', function (req, res) {
     res.render('index', {
         organizers: data.organizers,
-        tutors: data.tutors
+        tutors: data.tutors,
+        metaTags: metaTagsData
     });
 });
 
