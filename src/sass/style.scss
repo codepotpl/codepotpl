@@ -210,3 +210,39 @@ section#subscribe {
     text-align: center;
   }
 }
+
+section#sponsors {
+  ul {
+     margin-bottom: 2rem; 
+  }
+  .wrapper {
+    padding-bottom: 0;
+  }
+  .wrapper.even {
+    margin-top: 1rem; 
+  }
+  .wrapper {
+    div.box {
+      position: relative;
+      width: 100%;
+      div.sponsors {
+        position:  absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #F4F4F4;
+        img { 
+          margin: 3%;
+          width: 94%;
+          height: 94%;
+        }
+      }  
+    }
+    div.box:before{
+      content: "";
+      display: block;
+      padding-top: 100%;  
+    }    
+  }
+}

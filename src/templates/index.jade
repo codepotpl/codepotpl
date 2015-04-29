@@ -76,6 +76,27 @@ html
                                     span(itemprop='givenName').first-name!=organizer.firstName
                                     hr
                                     span(itemprop='familyName').last-name!=organizer.lastName
+    if sponsors && sponsors.length > 0
+        section#sponsors
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1#sponsors SPONSORS
+                    span.tagline Here is amazing companies that make Codepot possible!
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    ul.small-block-grid-2.medium-block-grid-3
+                        each sponsor, index in sponsors
+                            li.wrapper(class=(index % 2 == 0) ? 'even' : 'odd')
+                                div.box(itemscope, itemtype='http://schema.org/Organization')
+                                    a(href=sponsor.url, itemprop="url")
+                                       div.sponsors
+                                           img(src=sponsor.pictureUrl)
+                                    div(hidden)
+                                        div(itemprop='name')!=sponsor.name
+                                        div(itemprop='description')!=sponsor.description
+                                        div(itemprop='address', itemscope, itemtype='http://schema.org/PostalAddress')
+                                            span(itemprop='addressCountry')!=sponsor.country
+                                            span(itemprop='addressLocality')!=sponsor.city
 
     section#contact
         div.row
