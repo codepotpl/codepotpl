@@ -23,8 +23,7 @@ var metaTagsData = {
     url: "http://codepot.pl/",
     locale: "pl_PL",
     image: "http://codepot.pl/public/img/social-icon.jpg",
-    type: "summary",
-    fbAppId: "noneYet ///TODO",  //TODO
+    type: "website",
     author: "http://codepot.pl/",
     publisher: "http://codepot.pl/",
     twitterSite: "@codepot_pl"
