@@ -1,60 +1,50 @@
 - publish: false
+  firstName: Michał
+  lastName: Tajchert
+  tagline: 
+  pictureUrl: 
+  twitterUsername: Tajchert
+  githubUsername: 
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=241772131
+  websiteUrl:
+  bioInMd: 
+- publish: false
   firstName: Aleksander
   lastName: Piotrowski
-  tagline: Trolluje więc jestem.
-  pictureUrl: https://media.licdn.com/media/p/4/005/024/250/3da7e76.jpg
+  tagline: 
+  pictureUrl: 
   twitterUsername: pelotasplus
   githubUsername: pelotasplus
-  linkedInProfileUrl: https://pl.linkedin.com/in/pelotasplus
-  websiteUrl: http://pelotaspl.us
-  bioInMd: >
-    content line 1
-
-
-    content line 2
-
-
-    content line 3
-
-
-    *italics*
-
-
-    **bold**
-
-
-    #header 1
-
-
-    yet another line
-
-
+  linkedInProfileUrl: https://www.linkedin.com/in/pelotasplus
+  websiteUrl:
+  bioInMd: 
 - publish: false
-  firstName: Aleksander222
-  lastName: Piotrowski
-  tagline: Trolluje więc jestem.
-  pictureUrl: https://media.licdn.com/media/p/4/005/024/250/3da7e76.jpg
-  twitterUsername: pelotasplus
-  githubUsername: pelotasplus
-  linkedInProfileUrl: https://pl.linkedin.com/in/pelotasplus
-  websiteUrl: http://pelotaspl.us
-  bioInMd: >
-    content line 1
-
-
-    content line 2
-
-
-    content line 3
-
-
-    *italics*
-
-
-    **bold**
-
-
-    #header 1
-
-
-    yet another line
+  firstName: Chris
+  lastName: Eidhof
+  tagline: 
+  pictureUrl: 
+  twitterUsername: chriseidhof 
+  githubUsername: 
+  linkedInProfileUrl:
+  websiteUrl: http://chris.eidhof.nl
+  bioInMd: Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as [Deckset](http://decksetapp.com) and [Scenery](http://www.getscenery.com). He started [UIKonf](http://www.uikonf.com), [objc.io](http://www.objc.io), and wrote a book about [Functional Programming in Swift](http://www.objc.io/books/).
+- publish: false
+  firstName: Konrad
+  lastName: Gadzina
+  tagline: FeniX
+  pictureUrl: 
+  twitterUsername: fenixb3
+  githubUsername: FeniXb3
+  linkedInProfileUrl: https://www.linkedin.com/in/fenixb3
+  websiteUrl:
+  bioInMd:   
+- publish: false
+  firstName: Mateusz
+  lastName: Herych
+  tagline: Software Developer @ BaseCRM
+  pictureUrl: 
+  twitterUsername: mherych
+  githubUsername: partition
+  linkedInProfileUrl: https://www.linkedin.com/in/herych
+  websiteUrl:
+  bioInMd:   
