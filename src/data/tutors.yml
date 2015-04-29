@@ -2,7 +2,7 @@
   firstName: Michał
   lastName: Tajchert
   tagline: 
-  pictureUrl: ../img/people/michal-tajchert.jpg
+  pictureUrl: <img src="public/img/people/michal-tajchert.jpg">
   twitterUsername: Tajchert
   githubUsername: 
   linkedInProfileUrl: https://www.linkedin.com/profile/view?id=241772131
@@ -12,7 +12,7 @@
   firstName: Aleksander
   lastName: Piotrowski
   tagline: 
-  pictureUrl: ../img/people/aleksander-piotrowski.jpg
+  pictureUrl: <img src="public/img/people/aleksander-piotrowski.jpg">
   twitterUsername: pelotasplus
   githubUsername: pelotasplus
   linkedInProfileUrl: https://www.linkedin.com/in/pelotasplus
@@ -22,7 +22,7 @@
   firstName: Chris
   lastName: Eidhof
   tagline: 
-  pictureUrl: ../img/people/chris-eidhof.png
+  pictureUrl: <img src="public/img/people/chris-eidhof.png">
   twitterUsername: chriseidhof 
   githubUsername: 
   linkedInProfileUrl:
@@ -32,7 +32,7 @@
   firstName: Konrad
   lastName: Gadzina
   tagline: FeniX
-  pictureUrl: ../img/people/konrad-gadzina.jpg
+  pictureUrl: <img src="public/img/people/konrad-gadzina.jpg">
   twitterUsername: fenixb3
   githubUsername: FeniXb3
   linkedInProfileUrl: https://www.linkedin.com/in/fenixb3
@@ -42,7 +42,7 @@
   firstName: Mateusz
   lastName: Herych
   tagline: Software Developer @ BaseCRM
-  pictureUrl: ../img/people/mateusz-herych.jpg
+  pictureUrl: <img src="public/img/people/mateusz-herych.jpg">
   twitterUsername: mherych
   githubUsername: partition
   linkedInProfileUrl: https://www.linkedin.com/in/herych
