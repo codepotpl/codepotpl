@@ -2,47 +2,51 @@
   firstName: Michał
   lastName: Tajchert
   tagline: 
-  pictureUrl: <img src="public/img/people/michal-tajchert.jpg">
+  pictureUrl: public/img/people/michal-tajchert.jpg
   twitterUsername: Tajchert
   githubUsername: 
   linkedInProfileUrl: https://www.linkedin.com/profile/view?id=241772131
   websiteUrl:
-  bioInMd: 
+  bioInMd:
+
 - publish: true
   firstName: Aleksander
   lastName: Piotrowski
   tagline: 
-  pictureUrl: <img src="public/img/people/aleksander-piotrowski.jpg">
+  pictureUrl: public/img/people/aleksander-piotrowski.jpg
   twitterUsername: pelotasplus
   githubUsername: pelotasplus
   linkedInProfileUrl: https://www.linkedin.com/in/pelotasplus
   websiteUrl:
-  bioInMd: 
+  bioInMd:
+
 - publish: true
   firstName: Chris
   lastName: Eidhof
   tagline: 
-  pictureUrl: <img src="public/img/people/chris-eidhof.png">
+  pictureUrl: public/img/people/chris-eidhof.png
   twitterUsername: chriseidhof 
   githubUsername: 
   linkedInProfileUrl:
   websiteUrl: http://chris.eidhof.nl
   bioInMd: Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as [Deckset](http://decksetapp.com) and [Scenery](http://www.getscenery.com). He started [UIKonf](http://www.uikonf.com), [objc.io](http://www.objc.io), and wrote a book about [Functional Programming in Swift](http://www.objc.io/books/).
+
 - publish: true
   firstName: Konrad
   lastName: Gadzina
   tagline: FeniX
-  pictureUrl: <img src="public/img/people/konrad-gadzina.jpg">
+  pictureUrl: public/img/people/konrad-gadzina.jpg
   twitterUsername: fenixb3
   githubUsername: FeniXb3
   linkedInProfileUrl: https://www.linkedin.com/in/fenixb3
   websiteUrl:
-  bioInMd:   
+  bioInMd:
+
 - publish: true
   firstName: Mateusz
   lastName: Herych
   tagline: Software Developer @ BaseCRM
-  pictureUrl: <img src="public/img/people/mateusz-herych.jpg">
+  pictureUrl: public/img/people/mateusz-herych.jpg
   twitterUsername: mherych
   githubUsername: partition
   linkedInProfileUrl: https://www.linkedin.com/in/herych
