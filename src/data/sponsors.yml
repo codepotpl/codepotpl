@@ -1,4 +1,4 @@
-- name: "Touk"
+- name: "TouK"
   description: "Software company"
   country: "Poland"
   city: "Warsaw"
@@ -10,5 +10,5 @@
   country: "Poland"
   city: "Warsaw"
   pictureUrl: public/img/logo/4finance-logo.png
-  url: //www.4Finance.pl
+  url: //www.4finance.com
 
