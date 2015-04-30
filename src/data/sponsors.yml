@@ -1,0 +1,14 @@
+- name: "Touk"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/logo/touk-logo.png
+  url: //www.touk.pl
+
+- name: "4Finance"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/logo/4finance-logo.png
+  url: //www.4Finance.pl
+
