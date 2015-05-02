@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bower-dist": "bower install --allow-root --verbose",
-    "grunt-dist": "grunt dist --verbose",
-    "build-dist": "bower install --allow-root; grunt dist"
+    "build-dist": "grunt dist"
   },
   "repository": {
     "type": "git",
@@ -30,6 +28,7 @@
     "grunt-contrib-cssmin": "^0.12.2",
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-imagemagick": "^0.1.5",
     "grunt-sass": "^0.18.1",
     "jade": "^1.9.2",
     "markdown": "^0.5.0",
