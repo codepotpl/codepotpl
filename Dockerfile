@@ -1,6 +1,6 @@
 FROM node:0.12.1-slim
 
-RUN ["apt-get", "update"]
+RUN ["apt-get", "update", "--fix-missing"]
 RUN ["apt-get", "install", "git", "-y"]
 RUN ["apt-get", "install", "imagemagick", "-y"]
 RUN ["npm", "install", "-g", "bower", "grunt-cli"]
