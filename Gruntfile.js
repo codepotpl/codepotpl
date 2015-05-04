@@ -21,12 +21,32 @@ module.exports = function (grunt) {
         copy: {
             dist: {
                 files: [
-                    {expand: true, cwd:'src/font/', src:['**'], dest:'public/font/'},
-                    {expand: true, cwd:'src/img/', src:['**'], dest:'public/img/'},
-                    {expand: true, cwd:'src/static/', src:['**'], dest:'public/'},
-                    {src:'src/js/body.js', dest:'public/body.js'},
-                    {src:'src/js/google-analytics.js', dest:'public/google-analytics.js'}
+                    {expand: true, cwd: 'src/font/', src: ['**'], dest: 'public/font/'},
+                    {expand: true, cwd: 'src/img/', src: ['**'], dest: 'public/img/'},
+                    {expand: true, cwd: 'src/static/', src: ['**'], dest: 'public/'},
+                    {src: 'src/js/body.js', dest: 'public/body.js'},
+                    {src: 'src/js/google-analytics.js', dest: 'public/google-analytics.js'}
                 ]
+            }
+        },
+
+        'imagemagick-resize': {
+            people: {
+                from: 'src/img/people/',
+                to: 'public/img/people/',
+                files: '*.jpg',
+                props: {
+                    width: 300,
+                    quality: 0.6
+                }
+            },
+            sponsors: {
+                from: 'src/img/logo/',
+                to: 'public/img/logo/',
+                files: '*.png',
+                props: {
+                    width: 300
+                }
             }
         },
 
@@ -59,10 +79,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-imagemagick');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.registerTask('default', ['sass', 'concat', 'copy']);
-    grunt.registerTask('dist', ['sass:dist', 'concat:dist', 'copy:dist', 'cssmin:dist', 'uglify:dist']);
+    grunt.registerTask('dist', ['sass:dist', 'concat:dist', 'copy:dist', 'cssmin:dist', 'uglify:dist', 'imagemagick-resize']);
 };

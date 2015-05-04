@@ -1,60 +1,54 @@
-- publish: false
+- publish: true
+  firstName: Michał
+  lastName: Tajchert
+  tagline: 
+  pictureUrl: public/img/people/michal-tajchert.jpg
+  twitterUsername: Tajchert
+  githubUsername: 
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=241772131
+  websiteUrl:
+  bioInMd:
+
+- publish: true
   firstName: Aleksander
   lastName: Piotrowski
-  tagline: Trolluje więc jestem.
-  pictureUrl: https://media.licdn.com/media/p/4/005/024/250/3da7e76.jpg
+  tagline: 
+  pictureUrl: public/img/people/aleksander-piotrowski.jpg
   twitterUsername: pelotasplus
   githubUsername: pelotasplus
-  linkedInProfileUrl: https://pl.linkedin.com/in/pelotasplus
-  websiteUrl: http://pelotaspl.us
-  bioInMd: >
-    content line 1
+  linkedInProfileUrl: https://www.linkedin.com/in/pelotasplus
+  websiteUrl:
+  bioInMd:
 
+- publish: true
+  firstName: Chris
+  lastName: Eidhof
+  tagline: 
+  pictureUrl: public/img/people/chris-eidhof.jpg
+  twitterUsername: chriseidhof 
+  githubUsername: 
+  linkedInProfileUrl:
+  websiteUrl: http://chris.eidhof.nl
+  bioInMd: Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as [Deckset](http://decksetapp.com) and [Scenery](http://www.getscenery.com). He started [UIKonf](http://www.uikonf.com), [objc.io](http://www.objc.io), and wrote a book about [Functional Programming in Swift](http://www.objc.io/books/).
 
-    content line 2
+- publish: true
+  firstName: Konrad
+  lastName: Gadzina
+  tagline: FeniX
+  pictureUrl: public/img/people/konrad-gadzina.jpg
+  twitterUsername: fenixb3
+  githubUsername: FeniXb3
+  linkedInProfileUrl: https://www.linkedin.com/in/fenixb3
+  websiteUrl:
+  bioInMd:
 
-
-    content line 3
-
-
-    *italics*
-
-
-    **bold**
-
-
-    #header 1
-
-
-    yet another line
-
-
-- publish: false
-  firstName: Aleksander222
-  lastName: Piotrowski
-  tagline: Trolluje więc jestem.
-  pictureUrl: https://media.licdn.com/media/p/4/005/024/250/3da7e76.jpg
-  twitterUsername: pelotasplus
-  githubUsername: pelotasplus
-  linkedInProfileUrl: https://pl.linkedin.com/in/pelotasplus
-  websiteUrl: http://pelotaspl.us
-  bioInMd: >
-    content line 1
-
-
-    content line 2
-
-
-    content line 3
-
-
-    *italics*
-
-
-    **bold**
-
-
-    #header 1
-
-
-    yet another line
+- publish: true
+  firstName: Mateusz
+  lastName: Herych
+  tagline: Software Developer @ BaseCRM
+  pictureUrl: public/img/people/mateusz-herych.jpg
+  twitterUsername: mherych
+  githubUsername: partition
+  linkedInProfileUrl: https://www.linkedin.com/in/herych
+  websiteUrl:
+  bioInMd:   
