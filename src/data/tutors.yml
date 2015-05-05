@@ -23,7 +23,7 @@
 - publish: true
   firstName: Chris
   lastName: Eidhof
-  tagline: 
+  tagline: Software Developer @ objc.io
   pictureUrl: public/img/people/chris-eidhof.jpg
   twitterUsername: chriseidhof 
   githubUsername: 
@@ -34,7 +34,7 @@
 - publish: true
   firstName: Konrad
   lastName: Gadzina
-  tagline: FeniX
+  tagline: Senior Software Engineer @ Ganymede
   pictureUrl: public/img/people/konrad-gadzina.jpg
   twitterUsername: fenixb3
   githubUsername: FeniXb3
