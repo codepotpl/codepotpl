@@ -14,8 +14,3 @@ To build for staging/release environment just run docker:
 
 - `docker build --tag codepotpl .` to build image,
 - `docker run -it -p 8080:8080 -e CDPT_HOST="<HOST_HERE>" codepotpl` to run container with exposed port 8080.
-
-## Known issues:
-
-- long time building due to lack of node_modules/bower_components caching,
-- (development) big image sizes due to missing node_modules/bower_components/public in `.dockerignore`.
