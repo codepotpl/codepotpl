@@ -217,9 +217,10 @@ section#sponsors {
   }
   .wrapper {
     padding-bottom: 0;
+    margin-bottom: -1rem;
   }
   .wrapper.even {
-    margin-top: 1rem; 
+    margin-top: 2rem;
   }
   .wrapper {
     div.box {
@@ -244,5 +245,35 @@ section#sponsors {
       display: block;
       padding-top: 100%;  
     }    
+  }
+}
+
+section#partners {
+  ul {
+    margin-bottom: 2rem;
+  }
+  .wrapper {
+    div.box {
+      position: relative;
+      width: 100%;
+      div.partners {
+        position:  absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #F4F4F4;
+        img {
+          margin: 5%;
+          width: 90%;
+          height: 90%;
+        }
+      }
+    }
+    div.box:before{
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
   }
 }

@@ -76,6 +76,7 @@ html
                                     span(itemprop='givenName').first-name!=organizer.firstName
                                     hr
                                     span(itemprop='familyName').last-name!=organizer.lastName
+
     if sponsors && sponsors.length > 0
         section#sponsors
             div.row
@@ -97,6 +98,28 @@ html
                                         div(itemprop='address', itemscope, itemtype='http://schema.org/PostalAddress')
                                             span(itemprop='addressCountry')!=sponsor.country
                                             span(itemprop='addressLocality')!=sponsor.city
+
+    if partners && partners.length > 0
+        section#partners
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 PARTNERS
+                    span.tagline Codepot is supported by the following organisations!
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    ul.small-block-grid-2.medium-block-grid-4
+                        each partner, index in partners
+                            li.wrapper
+                                div.box(itemscope itemtype='http://schema.org/Organization')
+                                    a(href=partner.url, itemprop='url', target='_blank')
+                                        div.partners
+                                            img(src=partner.pictureUrl)
+                                    div(hidden)
+                                        div(itemprop='name')!=partner.name
+                                        div(itemprop='description')!=partner.description
+                                        div(itemprop='address', itemscope, itemtype='http://schema.org/PostalAddress')
+                                            span(itemprop='addressCountry')!=partner.country
+                                            span(itemprop='addressLocality')!=partner.city
 
     section#contact
         div.row

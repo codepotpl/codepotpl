@@ -30,7 +30,8 @@ var data = {
     tutors: YAML.load('src/data/tutors.yml').filter(function (tutor) {
         return tutor.publish;
     }),
-    sponsors: YAML.load('src/data/sponsors.yml')
+    sponsors: YAML.load('src/data/sponsors.yml'),
+    partners: YAML.load('src/data/partners.yml')
 };
 
 var metaTagsData = {
@@ -52,6 +53,7 @@ app.get('/', function (req, res) {
         organizers: data.organizers,
         tutors: data.tutors,
         sponsors: data.sponsors,
+        partners: data.partners,
         metaTags: metaTagsData
     });
 });
