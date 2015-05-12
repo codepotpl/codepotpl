@@ -52,3 +52,25 @@
   linkedInProfileUrl: https://www.linkedin.com/in/herych
   websiteUrl:
   bioInMd:   
+  
+- publish: true
+  firstName: Przemysław
+  lastName: Jakubczyk
+  tagline: Android Technical Lead @ Applause
+  pictureUrl: public/img/people/przemyslaw-jakubczyk.jpg
+  twitterUsername: 
+  githubUsername: pjakubczyk
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:  
+
+- publish: true
+  firstName: Martin
+  lastName: Skurla
+  tagline: Software Engineer @ Barclays
+  pictureUrl: public/img/people/martin-skurla.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: https://cz.linkedin.com/pub/martin-skurla/28/114/951
+  websiteUrl:
+  bioInMd: Java Developer, Technology Enthusiastic, OpenSource Committer, Trainer, Technical Reviewer, Community/Conference/JUG speaker, Java Community Leader, JCP member
