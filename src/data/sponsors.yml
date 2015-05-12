@@ -3,12 +3,19 @@
   country: "Poland"
   city: "Warsaw"
   pictureUrl: public/img/organizations/touk-logo.png
-  url: //www.touk.pl
+  url: http://www.touk.pl
 
 - name: "4Finance"
   description: "Software company"
   country: "Poland"
   city: "Warsaw"
   pictureUrl: public/img/organizations/4finance-logo.png
-  url: //www.4finance.com
+  url: http://www.4finance.com
+
+- name: "Allegro Tech"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/allegro-logo.png
+  url: http://www.allegrotech.io
 
