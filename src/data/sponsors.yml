@@ -18,3 +18,10 @@
   city: "Warsaw"
   pictureUrl: public/img/organizations/touk-logo.png
   url: http://www.touk.pl
+
+- name: "Pragmatists"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/pragmatists-logo.png
+  url: http://www.pragmatists.pl
