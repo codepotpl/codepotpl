@@ -1,5 +1,5 @@
 - name: "4Finance"
-  description: "Software company"
+  description: "Banking"
   country: "Poland"
   city: "Warsaw"
   pictureUrl: public/img/organizations/4finance-logo.png
@@ -25,3 +25,9 @@
   city: "Warsaw"
   pictureUrl: public/img/organizations/pragmatists-logo.png
   url: http://www.pragmatists.pl
+
+- name: "Barclays"
+  description: "Banking"
+  country: "United Kingdom"
+  pictureUrl: public/img/organizations/barclays-logo.png
+  url: http://www.barclays.co.uk
