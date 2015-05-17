@@ -5,9 +5,16 @@
   pictureUrl: public/img/organizations/tiktalik-logo.png
   url: http://www.tiktalik.com
 
+- name: "Agile Development Day"
+  description: "Agile Workshop"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/add-logo.png
+  url: http://www.agiledevelopmentday.pl
+
 - name: "Devoxx Poland"
   description: "Biggest Java Conference in Poland"
   country: "Poland"
   city: "Cracow"
   pictureUrl: public/img/organizations/devoxx-logo.png
-  url: http://www.devoxx.pl
+  url: http://www.agiledevelopmentday.pl
