@@ -1,0 +1,27 @@
+html
+    head
+        title Codepot
+        meta(charset='utf-8')
+        link(rel='icon' type='image/png' href='public/img/favicon-32.png' sizes='32x32')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
+        include socialmetatags
+        link(rel='stylesheet' type='text/css' href='public/style.css')
+        script(src='public/head.js')
+
+    body(itemtype='http://schema.org/EducationEvent', itemscope)
+        header
+            div.row
+                div.small-12.columns
+                    h1(itemprop='name') CODEPOT 
+                    h2(itemprop='attendee') 100% workshop conference!
+                    span.tagline
+                        time(itemprop='startDate' datetime='2015-08-28')!='August 28-29th, 2015&nbsp'
+                        span(itemprop='location' itemscope itemtype='http://schema.org/Place')
+                            span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
+                                span(itemprop='addressLocality')!='Warsaw'
+                            span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+
+    section#call-for-papers
+        h1!='CALL FOR PAPERS'
+
+    script(src='public/body.js' defer)
