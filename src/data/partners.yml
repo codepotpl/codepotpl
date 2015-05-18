@@ -18,3 +18,9 @@
   city: "Cracow"
   pictureUrl: public/img/organizations/devoxx-logo.png
   url: http://www.devoxx.pl
+
+- name: "MegiTeam"
+  description: "Hosting"
+  country: "Poland"
+  pictureUrl: public/img/organizations/megiteam-logo.png
+  url: http://www.megiteam.pl
