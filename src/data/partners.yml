@@ -24,3 +24,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/megiteam-logo.png
   url: http://www.megiteam.pl
+
+- name: "PyWaw Summit"
+  description: "Python Conference"
+  country: "Poland"
+  pictureUrl: public/img/organizations/pywaw-s-logo.png
+  url: http://summit.pywaw.org/
