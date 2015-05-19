@@ -31,3 +31,9 @@
   country: "United Kingdom"
   pictureUrl: public/img/organizations/barclays-logo.png
   url: http://www.barclays.co.uk
+
+- name: "Codilime"
+  description: "Software company"
+  country: "Poland"
+  pictureUrl: public/img/organizations/codilime-logo.png
+  url: http://www.codilime.com
