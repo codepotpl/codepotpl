@@ -58,6 +58,12 @@ app.get('/', function (req, res) {
     });
 });
 
+app.get('/call-for-papers', function (req, res) {
+    res.render('call-for-papers', {
+        metaTags: metaTagsData
+    });
+});
+
 var server = app.listen(8080, function () {
     var host = server.address().address;
     var port = server.address().port;

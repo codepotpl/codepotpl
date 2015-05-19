@@ -4,9 +4,9 @@ Codepot website
 # Development
 
 1. install dependencies: `npm install`,
-2. install bower dependencies: `bower install`,
-3. build grunt: `grunt`,
-4. start grunt watcher: `grunt watch`,
+2. install bower dependencies: `node_modules/.bin/bower install`,
+3. build grunt: `node_modules/.bin/grunt`,
+4. start grunt watcher: `node_modules/.bin/grunt watch`,
 5. start the app: `CDPT_HOST="http://localhost:8080/" node index.js`.
 
 # Staging/release builds

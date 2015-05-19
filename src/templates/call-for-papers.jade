@@ -1,0 +1,77 @@
+html
+    head
+        title Codepot
+        meta(charset='utf-8')
+        link(rel='icon' type='image/png' href='public/img/favicon-32.png' sizes='32x32')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
+        include socialmetatags
+        link(rel='stylesheet' type='text/css' href='public/style.css')
+        script(src='public/head.js')
+
+
+    body(itemtype='http://schema.org/EducationEvent', itemscope)
+        header
+            div.row
+                div.small-12.columns
+                    h1(itemprop='name') CODEPOT 
+                    h2(itemprop='attendee') 100% workshop conference!
+                    span.tagline
+                        time(itemprop='startDate' datetime='2015-08-28')!='August 28-29th, 2015&nbsp'
+                        span(itemprop='location' itemscope itemtype='http://schema.org/Place')
+                            span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
+                                span(itemprop='addressLocality')!='Warsaw'
+                            span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+
+        section#call-for-papers
+            h1!='CALL FOR PAPERS'
+
+            section.form
+                .row
+                    .descr
+                        | Please fill in the form and submit. We will contact you about the result shortly.
+                    br
+                    br
+                    .req
+                        span.star *
+                        |  Indicates a required field
+                    .small-10.small-centered.columns
+                        form
+                            #loading.hidden
+                            #thanks.hidden
+                                span
+                                    | Thank you for sending your workshop proposal!
+                                    br
+                                    | We will get in touch soon :)
+                            .ss-q-title
+                                | Full Name
+                                span.star *
+                            input(type='text', name='entry.1436400997', required='')
+                            .ss-q-title
+                                | E-mail
+                                span.star *
+                            input(type='email', name='entry.268804549', required='')
+                            .ss-q-title Technology
+                            input(type='text', name='entry.1077049440')
+                            .ss-q-title
+                                | Topic
+                                span.star *
+                            input(type='text', name='entry.472766301', required='')
+                            .ss-q-title
+                                | Short but accurate description
+                                span.star *
+                            textarea(name='entry.1981681847', rows='8', cols='0', dir='auto', required='')
+                            .ss-q-title
+                                | How much time do you need (1 hour, 3 hours, more) ?
+                                span.star *
+                            input(type='text', name='entry.1693997362', required='')
+                            .ss-q-title
+                                | Have you spoken on conference or prepared a workshop before? If yes, please tell us something more? If no, please leave it blank.
+                            textarea.ss-q-long(name='entry.1344399983', rows='8', cols='0')
+                            button(value='Submit') Send
+
+                section.description
+                    .row
+                        .small-12.columns
+
+        script(src='public/jquery.js')
+        script(src='public/call-for-papers.js')

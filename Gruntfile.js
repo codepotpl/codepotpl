@@ -25,6 +25,8 @@ module.exports = function (grunt) {
                     {expand: true, cwd: 'src/img/', src: ['**'], dest: 'public/img/'},
                     {expand: true, cwd: 'src/static/', src: ['**'], dest: 'public/'},
                     {src: 'src/js/body.js', dest: 'public/body.js'},
+                    {src: 'src/js/call-for-papers.js', dest: 'public/call-for-papers.js'},
+                    {src: 'bower_components/jquery/dist/jquery.min.js', dest: 'public/jquery.js'},
                     {src: 'src/js/google-analytics.js', dest: 'public/google-analytics.js'}
                 ]
             }
