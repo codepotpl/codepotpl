@@ -10,59 +10,35 @@ html
 
 
     body(itemtype='http://schema.org/EducationEvent', itemscope)
-        header
+        a(href='/')
+            header
+                div.row
+                    div.small-12.columns
+                        h1(itemprop='name') CODEPOT
+                        h2(itemprop='attendee') 100% workshop conference!
+                        span.tagline
+                            time(itemprop='startDate' datetime='2015-08-28')!='August 28-29th, 2015&nbsp'
+                            span(itemprop='location' itemscope itemtype='http://schema.org/Place')
+                                span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
+                                    span(itemprop='addressLocality')!='Warsaw'
+                                span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+
+        section#call-for-papers-form
             div.row
                 div.small-12.columns
-                    h1(itemprop='name') CODEPOT 
-                    h2(itemprop='attendee') 100% workshop conference!
-                    span.tagline
-                        time(itemprop='startDate' datetime='2015-08-28')!='August 28-29th, 2015&nbsp'
-                        span(itemprop='location' itemscope itemtype='http://schema.org/Place')
-                            span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
-                                span(itemprop='addressLocality')!='Warsaw'
-                            span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
-
-        section#call-for-papers
-            h1!='CALL FOR PAPERS'
-            section.form
-                .row
-                    .descr
-                        p Please fill in the form and submit. We will contact you about the result shortly.
-                    .req
-                        span.star *
-                        |  Indicates a required field
-                    .small-10.small-centered.columns
-                        form
-                            #loading.hidden
-                            #thanks.hidden
-                                p Thank you for sending your workshop proposal
-                                p We will get in touch soon :)
-                            .ss-q-title
-                                | Full Name
-                                span.star *
-                            input(type='text', name='entry.1436400997', required='')
-                            .ss-q-title
-                                | E-mail
-                                span.star *
-                            input(type='email', name='entry.268804549', required='')
-                            .ss-q-title Technology
-                            input(type='text', name='entry.1077049440')
-                            .ss-q-title
-                                | Topic
-                                span.star *
-                            input(type='text', name='entry.472766301', required='')
-                            .ss-q-title
-                                | Short but accurate description
-                                span.star *
-                            textarea(name='entry.1981681847', rows='8', cols='0', dir='auto', required='')
-                            .ss-q-title
-                                | How much time do you need (1 hour, 3 hours, more) ?
-                                span.star *
-                            input(type='text', name='entry.1693997362', required='')
-                            .ss-q-title
-                                | Have you ever spoken on conference or prepared a workshop before? If yes, please tell us something more? If no, please leave it blank.
-                            textarea.ss-q-long(name='entry.1344399983', rows='8', cols='0')
-                            button(value='Submit') Send
+                    h1!='CALL FOR PAPERS'
+                    p Please fill in the form and submit. We will contact you about the result shortly.
+            div.row
+                div.small-12.medium-6.columns
+                    form
+                        input(placeholder='Full name (required)', type='text', name='entry.1436400997', required='', id='name')
+                        input(placeholder='E-mail address (required)', type='email', name='entry.268804549', required='', id='email')
+                        input(placeholder='', type='text', name='entry.1077049440')
+                        input(placeholder='Topic (required)', type='text', name='entry.472766301', required='', id='topic')
+                        textarea(placeholder='Short but accurate description (required)', name='entry.1981681847', rows='8', cols='0', dir='auto', required='', id='description')
+                        input(placeholder='How much time do you need (1,3 hours, more)? (required)', type='text', name='entry.1693997362', required='', id='requested-time')
+                        textarea(placeholder="Have you ever spoken on conference or prepared a workshop before? If yes, please tell us something more? If no, please leave it blank.", name='entry.1344399983', rows='8', cols='0')
+                        button(value='Submit', id='call-for-paper-button', disabled='') SUBMIT FORM
 
         script(src='public/jquery.js')
         script(src='public/call-for-papers.js')

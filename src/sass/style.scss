@@ -121,6 +121,19 @@ section {
   }
 }
 
+section#call-for-papers {
+  padding: 2rem 0;
+  p {
+    font-size: 24px;
+  }
+  .columns {
+    text-align: center;
+  }
+  button {
+    background-color: #F28D86;
+  }
+}
+
 section#tutors {
   ul {
     margin-bottom: 2rem;
@@ -213,7 +226,7 @@ section#subscribe {
 
 section#sponsors {
   ul {
-     margin-bottom: 2rem; 
+    margin-bottom: 2rem;
   }
   .wrapper {
     padding-bottom: 0;
@@ -227,37 +240,7 @@ section#sponsors {
       position: relative;
       width: 100%;
       div.sponsors {
-        position:  absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background-color: #F4F4F4;
-        img { 
-          margin: 5%;
-          width: 90%;
-          height: 90%;
-        }
-      }  
-    }
-    div.box:before{
-      content: "";
-      display: block;
-      padding-top: 100%;  
-    }    
-  }
-}
-
-section#partners {
-  ul {
-    margin-bottom: 2rem;
-  }
-  .wrapper {
-    div.box {
-      position: relative;
-      width: 100%;
-      div.partners {
-        position:  absolute;
+        position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
@@ -270,7 +253,7 @@ section#partners {
         }
       }
     }
-    div.box:before{
+    div.box:before {
       content: "";
       display: block;
       padding-top: 100%;
@@ -278,83 +261,47 @@ section#partners {
   }
 }
 
-div.ss-q-title{
-  color: #484949;
+section#partners {
+  ul {
+    margin-bottom: 2rem;
+  }
+  .wrapper {
+    div.box {
+      position: relative;
+      width: 100%;
+      div.partners {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #F4F4F4;
+        img {
+          margin: 5%;
+          width: 90%;
+          height: 90%;
+        }
+      }
+    }
+    div.box:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  }
 }
 
-div.req{
-  font-size: 0.8rem;
-  text-align: right;
-  color: #484949;
-  width:90%;
+section#call-for-papers-form {
+  img {
+    width: 100%;
+  }
+  p.text-center {
+    text-align: center;
+  }
+  button:disabled {
+    background: lightgray;
+  }
+  button:focus {
+    background: darken($dark-green, 10%);
+  }
 }
-
-div.descr{
-  font-size: 1.2rem;
-  text-align: center;
-  color: #484949;
-  width:100%;
-}
-
-span.star {
-  color: #2CB588;
-}
-
-form {
-  position: relative; }
-form input[type='text'], form input[type='email'] {
-  font-size: 1rem; }
-form input {
-  font-size: 1rem; }
-form button {
-  width: 100%;
-  background-color: #2CB588;
-  color: #ffffff; }
-form button:hover, form button:focus, form .button:hover, form .button:focus {
-  background-color: #34a587; }
-
-#loading {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: -0.5rem;
-  background: lightgrey;
-  z-index: 98; }
-
-#thanks {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 99; }
-#thanks p {
-  padding: 0.5rem;
-  width: 60%;
-  color: #2b2b2b;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: x-large;
-  font-weight: bolder;
-}
-
-.hiddenable, #loading, #thanks {
-  -webkit-transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  -moz-transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  -o-transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  /* easeInBack */
-  -webkit-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  -moz-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  -o-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  /* easeInBack */ }
-.hiddenable.hidden, .hidden#loading, .hidden#thanks {
-  opacity: 0;
-  visibility: hidden; }
-
-section.form {
-  padding: 3rem 0 0 0; }
