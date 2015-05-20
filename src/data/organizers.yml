@@ -1,7 +1,3 @@
-- firstName: Magdalena
-  lastName: Żebrowska
-  pictureUrl: public/img/people/magdalena-zebrowska.jpg
-
 - firstName: Michał
   lastName: Lewandowski
   pictureUrl: public/img/people/michal-lewandowski.jpg
@@ -34,7 +30,9 @@
   lastName: Cieśla
   pictureUrl: public/img/people/agnieszka-ciesla.jpg
 
-
+- firstName: Kamil
+  lastName: Kurop
+  pictureUrl: public/img/people/kamil-kurop.jpg
 
 
 
