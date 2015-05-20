@@ -40,6 +40,6 @@ $(document).ready(function () {
         $('form').find('input, text').val('');
         $('#thanks').addClass('hidden');
         $('#loading').addClass('hidden');
-		$('.ss-q-title').addClass('hidden');
+		$('.ss-q-title').hide();
     });
 });
