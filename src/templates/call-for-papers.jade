@@ -24,21 +24,45 @@ html
                                 span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
 
         section#call-for-papers-form
-            div.row
+            .row
                 div.small-12.columns
                     h1!='CALL FOR PAPERS'
                     p Please fill in the form and submit. We will contact you about the result shortly.
-            div.row
-                div.small-12.medium-6.columns
-                    form
-                        input(placeholder='Full name (required)', type='text', name='entry.1436400997', required='', id='name')
-                        input(placeholder='E-mail address (required)', type='email', name='entry.268804549', required='', id='email')
-                        input(placeholder='', type='text', name='entry.1077049440')
-                        input(placeholder='Topic (required)', type='text', name='entry.472766301', required='', id='topic')
-                        textarea(placeholder='Short but accurate description (required)', name='entry.1981681847', rows='8', cols='0', dir='auto', required='', id='description')
-                        input(placeholder='How much time do you need (1,3 hours, more)? (required)', type='text', name='entry.1693997362', required='', id='requested-time')
-                        textarea(placeholder="Have you ever spoken on conference or prepared a workshop before? If yes, please tell us something more? If no, please leave it blank.", name='entry.1344399983', rows='8', cols='0')
-                        button(value='Submit', id='call-for-paper-button', disabled='') SUBMIT FORM
+            .row
+                form.large-10.columns
+                    .row
+                        .small-3.columns
+                            label.right.inline(for='name') Full name *
+                        .small-9.columns
+                            input(placeholder='', type='text', name='entry.1436400997', required='', id='name')
+                    .row
+                        .small-3.columns
+                            label.right.inline(for='email') E-mail *
+                        .small-9.columns
+                            input(placeholder='', type='email', name='entry.268804549', required='', id='email')
+                    .row
+                        .small-3.columns
+                            label.right.inline(for='topic') Topic *
+                        .small-9.columns
+                            input(placeholder='', type='text', name='entry.472766301', required='', id='topic')
+                    .row
+                        .small-3.columns
+                            label.right.inline(for='description') Short but accurate description *
+                        .small-9.columns
+                            textarea(placeholder='', name='entry.1981681847', rows='8', cols='0', dir='auto', required='', id='description')
+                    .row
+                        .small-3.columns
+                            label.right.inline(for='requested-time') How much time do you need? *
+                        .small-9.columns
+                            input(placeholder='(1, 3 hours, more)', type='text', name='entry.1693997362', required='', id='requested-time')
+                    .row
+                        .small-3.columns
+                            label.right.inline(for='workshops') Have you ever spoken on conference or prepared a workshop before? If yes, please tell us something more? If no, please leave it blank.
+                        .small-9.columns
+                            textarea(placeholder='', name='entry.1344399983', rows='8', cols='0', id='workshops')
+                    .row
+                        .small-12.columns
+                            button.right(value='Submit', id='call-for-paper-button', disabled='') SUBMIT FORM
 
         script(src='public/jquery.js')
         script(src='public/call-for-papers.js')
