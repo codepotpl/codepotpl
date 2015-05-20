@@ -24,13 +24,10 @@ html
 
         section#call-for-papers
             h1!='CALL FOR PAPERS'
-
             section.form
                 .row
                     .descr
-                        | Please fill in the form and submit. We will contact you about the result shortly.
-                    br
-                    br
+                        p Please fill in the form and submit. We will contact you about the result shortly.
                     .req
                         span.star *
                         |  Indicates a required field
@@ -38,10 +35,8 @@ html
                         form
                             #loading.hidden
                             #thanks.hidden
-                                span
-                                    | Thank you for sending your workshop proposal!
-                                    br
-                                    | We will get in touch soon :)
+                                p Thank you for sending your workshop proposal
+                                p We will get in touch soon :)
                             .ss-q-title
                                 | Full Name
                                 span.star *
@@ -65,7 +60,7 @@ html
                                 span.star *
                             input(type='text', name='entry.1693997362', required='')
                             .ss-q-title
-                                | Have you spoken on conference or prepared a workshop before? If yes, please tell us something more? If no, please leave it blank.
+                                | Have you ever spoken on conference or prepared a workshop before? If yes, please tell us something more? If no, please leave it blank.
                             textarea.ss-q-long(name='entry.1344399983', rows='8', cols='0')
                             button(value='Submit') Send
 

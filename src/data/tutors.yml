@@ -74,3 +74,25 @@
   linkedInProfileUrl: https://cz.linkedin.com/pub/martin-skurla/28/114/951
   websiteUrl:
   bioInMd: Java Developer, Technology Enthusiastic, OpenSource Committer, Trainer, Technical Reviewer, Community/Conference/JUG speaker, Java Community Leader, JCP member
+
+- publish: true
+  firstName: Jakub
+  lastName: Nabrdalik
+  tagline: Head of Software Development in PL @ 4financeIT
+  pictureUrl: public/img/people/jakub-nabrdalik.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd: 
+  
+- publish: true
+  firstName: Sławomir
+  lastName: Sobótka
+  tagline: Trener @ Bottega IT Solutions
+  pictureUrl: public/img/people/slawomir-sobotka.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd: 
