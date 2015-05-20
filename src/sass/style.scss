@@ -132,6 +132,16 @@ section#call-for-papers {
   button {
     background-color: #F28D86;
   }
+  @media #{$small-only} {
+    button, input {
+      width: 80%;
+    }
+  }
+  @media #{$medium-up} {
+    button, input {
+      width: 60%;
+    }
+  }
 }
 
 section#tutors {
@@ -303,5 +313,20 @@ section#call-for-papers-form {
   }
   button:focus {
     background: darken($dark-green, 10%);
+  }
+  ::-webkit-input-placeholder {
+    color: gray;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: gray;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: gray;
+  }
+
+  :-ms-input-placeholder {
+    color: gray;
   }
 }
