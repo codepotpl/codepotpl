@@ -96,3 +96,25 @@
   linkedInProfileUrl: 
   websiteUrl:
   bioInMd: 
+  
+ - publish: true
+  firstName: Maciej
+  lastName: Oczko
+  tagline: 
+  pictureUrl: public/img/people/maciej-oczko.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd: 
+  
+- publish: true
+  firstName: Paweł
+  lastName: Dudek
+  tagline:
+  pictureUrl: public/img/people/pawel-dudek.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd: 
