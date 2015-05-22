@@ -10,29 +10,72 @@ html
 
     body(itemtype='http://schema.org/EducationEvent', itemscope)
         header
-            div.row
-                div.small-12.columns
-                    h1(itemprop='name') CODEPOT 
-                    h2(itemprop='attendee') 100% workshop conference!
-                    span.tagline
-                        time(itemprop='startDate' datetime='2015-08-28')!='August 28-29th, 2015&nbsp'
-                        span(itemprop='location' itemscope itemtype='http://schema.org/Place')
-                            span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
-                                span(itemprop='addressLocality')!='Warsaw'
-                            span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+            div.cd-secondary-nav
+                a.cd-secondary-nav-trigger(href='#0') Menu
+                span
+            nav
+            ul
+                li
+                    a.href='#sponsor-us'
+                b Services
+                span
+
+            ul
+                li  TUTORS
+                li  SPONSORS
+
+    section#header
+        div.row
+            div.small-12.columns
+                h1(itemprop='name') CODEPOT
+                h2(itemprop='attendee') 100% workshop conference!
+                span.tagline
+                    time(itemprop='startDate' datetime='2015-08-28' hidden)!='August 28-29th, 2015&nbsp'
+                    span(itemprop='location' itemscope itemtype='http://schema.org/Place')
+                        span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
+                            span(itemprop='addressLocality' hidden)!='Warsaw'
+                        span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+    section#place
+        div.row
+            div.small-12.columns
+                div.calendar
+                    div.left
+                        div.left
+                            img(src='public/img/icons/calendar.svg')
+                        div.right.span
+                            span August, 28-29th
+                            | <br/> 2015
+                    div.right
+                        div.left
+                            img(src='public/img/icons/pointer.png')
+                        div.right.span
+                            span SWPS, Warsaw
+                            | <br/> Chodakowska 19/31
+    section#illustration
+        img(src="public/img/icons/ilustracja.png")
+        div.row
+            div.small-12.columns
 
     section#about
         div.row
             div.small-12.medium-10.medium-centered.columns
                 h1 ABOUT
-                p(itemprop='description')
-                    | 100% workshop technology conference taking place at the end of summer,
-                    | August 28-29th, 2015 at the University of Social Sciences and Humanities in Warsaw, Poland.
-                    | If you believe in learning by doing approach and are thirsty for knowledge and networking this
-                    | event is for you! There will be multiple hands-on sessions on software development, devops tools,
-                    | product design, IoT and hardware renaissance, agile practices and many, many more. Instead of just
-                    | talking about great new tools - Codepot will show you how to actually use them.
-
+                div
+                    p.left(itemprop='description')
+                        | 100% workshop technology conference taking place at the end of summer,
+                        | August 28-29th, 2015 at the University of Social Sciences and Humanities in Warsaw, Poland.
+                        | If you believe in learning by doing approach and are thirsty for knowledge and networking this
+                        | event is for you! There will be multiple hands-on sessions on software development, devops tools,
+                        | product design, IoT and hardware renaissance, agile practices and many, many more. Instead of just
+                        | talking about great new tools - Codepot will show you how to actually use them.
+                div
+                    p.right(itemprop='description')
+                        | 100% workshop technology conference taking place at the end of summer,
+                        | August 28-29th, 2015 at the University of Social Sciences and Humanities in Warsaw, Poland.
+                        | If you believe in learning by doing approach and are thirsty for knowledge and networking this
+                        | event is for you! There will be multiple hands-on sessions on software development, devops tools,
+                        | product design, IoT and hardware renaissance, agile practices and many, many more. Instead of just
+                        | talking about great new tools - Codepot will show you how to actually use them.
     if tutors && tutors.length > 0
         section#tutors
             div.row

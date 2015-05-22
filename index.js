@@ -9,10 +9,10 @@ for (var i = 0; i < REQUIRED_ENV_VARIABLES.length; i++) {
         MISSING_ENV_VARIABLES.push(variable);
     }
 }
-if (MISSING_ENV_VARIABLES.length > 0) {
-    var message = 'Missing environment variables: ' + MISSING_ENV_VARIABLES.join(', ');
-    throw new Error(message);
-}
+//if (MISSING_ENV_VARIABLES.length > 0) {
+//    var message = 'Missing environment variables: ' + MISSING_ENV_VARIABLES.join(', ');
+//    throw new Error(message);
+//}
 
 var express = require('express');
 var compression = require('compression');

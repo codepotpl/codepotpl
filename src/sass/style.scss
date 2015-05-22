@@ -84,6 +84,20 @@ header {
   color: white;
   background: $green;
   padding: 2rem 0;
+  position: relative;
+  ul {
+    margin-right:0;
+    padding:0;
+    list-style:none;
+    position: absolute;
+    bottom: 0px;
+    li {
+      line-height:28px;
+      color:#fff;
+      margin:0 20px 0 0;
+      float:right;
+    }
+  }
   h1, h2, span {
     text-align: center;
   }
@@ -119,6 +133,55 @@ section {
     text-align: center;
     margin: -1rem 0 2rem 0;
   }
+}
+
+
+section#header {
+  padding: 2rem 0;
+  h1, h2, span {
+    text-align: center;
+  }
+  h1 {
+    font-size: rem-calc(60);
+    margin: 0;
+    line-height: 1.2;
+  }
+  h2 {
+    @extend .font-source-sans-pro-light;
+    font-size: rem-calc(35);
+    margin: 1rem 0 0 0;
+    line-height: 1;
+  }
+  span.tagline {
+    display: block;
+    font-size: rem-calc(25);
+    margin-top: 1rem;
+  }
+  .hidden {
+    display: none;
+  }
+}
+
+section#place {
+  img {
+    width: 60px;
+    height: 60px;
+  }
+  .span {
+    margin-left: 10px;
+  }
+  //.hidden {
+  //  display: none;
+  //}
+}
+
+section#illustration {
+  img {
+    width: 100%;
+  }
+  //.hidden {
+  //  display: none;
+  //}
 }
 
 section#tutors {
