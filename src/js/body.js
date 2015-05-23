@@ -73,6 +73,7 @@ function adaptMenu() {
         if ( $(this).parent().width() < $width*1.05 ) {
             $(this).children('.rmm-main-list').hide(0);
             $(this).children('.rmm-toggled').show(0);
+            $('section#illustration img#ilustration').attr('src', 'public/img/icons/ilustracja_mobile.png')
         }
         else {
             $(this).children('.rmm-main-list').show(0);
@@ -117,17 +118,17 @@ function initialize() {
         navigationControl: false,
         mapTypeControl: false,
         scaleControl: false,
-        draggable: false,
         center: new google.maps.LatLng(52.2482095, 21.0650699),
-        zoom: 15,
+        zoom: 17,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(0,0),
+        position: new google.maps.LatLng(52.2482095, 21.0650699),
         map: map,
         title:"CODEPOT will be here!"
     });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
+$('section#map').hide();
 //END GOOGLE MAP
