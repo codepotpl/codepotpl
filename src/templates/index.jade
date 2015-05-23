@@ -18,7 +18,7 @@ html
                     li
                         a(href='#about') ABOUT
                     li
-                        a(href='#venue') VENUE
+                        a(href='#map-information') VENUE
                     li
                         a(href='#tutors') TUTORS
                     li
@@ -138,7 +138,7 @@ html
                 p Our conference will be held at the University of Social Science and Humanities.
                 p See the website:
                     a(href='http://www.swps.pl/english-version' target='blank') http://www.swps.pl/english-version
-                button#show_map(onclick="$('section#map').show(); google.maps.event.trigger(map, 'resize'); map.setCenter(currentCenter);") SEE THE MAP
+                button#show_map(onclick="$('section#map').show(); currentCenter = map.getCenter(); google.maps.event.trigger(map, 'resize'); map.setCenter(currentCenter);") SEE THE MAP
 
     section#map(style='display: none;')
         div#map-canvas

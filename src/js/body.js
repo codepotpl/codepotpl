@@ -131,5 +131,5 @@ function initialize() {
     });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
-var currntCenter = map.getCenter();
+var currentCenter = map.getCenter();
 //END GOOGLE MAP
