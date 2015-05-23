@@ -20,11 +20,11 @@ html
                     li
                         a(href='#venue') VENUE
                     li
-                        a(href='#organizers') TEAM
-                    li
                         a(href='#tutors') TUTORS
                     li
                         a(href='#sponsors') SPONSORS
+                    li
+                        a(href='#organizers') TEAM
                     li
                         a(href="https://twitter.com/codepot_pl")
                             img(src="public/img/icons/twitter.png")
@@ -32,7 +32,7 @@ html
                         a(href="https://www.facebook.com/pages/Codepot/397791273715096")
                             img(src="public/img/icons/facebook.png")
                     li
-                        a(href="contact@codepot.pl")
+                        a(href="mailto:contact@codepot.pl")
                             img(src="public/img/icons/mail.png")
     section#header
         div.row
@@ -138,9 +138,11 @@ html
                 p Our conference will be held at the University of Social Science and Humanities.
                 p See the website:
                     a(href='http://www.swps.pl/english-version' target='blank') http://www.swps.pl/english-version
-                button(onclick="$('section#map').show();") SEE THE MAP
-    section#map
+                button#show_map(onclick="$('section#map').show(); google.maps.event.trigger(map, 'resize');") SEE THE MAP
+
+    section#map(style='display: none;')
         div#map-canvas
+
     if tutors && tutors.length > 0
         section#tutors
             div.row

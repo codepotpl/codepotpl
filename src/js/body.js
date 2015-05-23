@@ -73,7 +73,7 @@ function adaptMenu() {
         if ( $(this).parent().width() < $width*1.05 ) {
             $(this).children('.rmm-main-list').hide(0);
             $(this).children('.rmm-toggled').show(0);
-            $('section#illustration img#ilustration').attr('src', 'public/img/icons/ilustracja_mobile.png')
+            $('section#illustration img#illustration').attr('src', 'public/img/icons/ilustracja_mobile.png');
         }
         else {
             $(this).children('.rmm-main-list').show(0);
@@ -111,6 +111,7 @@ $(window).resize(function() {
 //END MENU
 
 //GOOGLE MAP
+var map;
 function initialize() {
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
@@ -122,7 +123,7 @@ function initialize() {
         zoom: 17,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
-    var map = new google.maps.Map(mapCanvas, mapOptions);
+    map = new google.maps.Map(mapCanvas, mapOptions);
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(52.2482095, 21.0650699),
         map: map,
@@ -130,5 +131,4 @@ function initialize() {
     });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
-$('section#map').hide();
 //END GOOGLE MAP
