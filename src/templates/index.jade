@@ -155,6 +155,7 @@ html
                         each tutor, index in tutors
                             li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
                                 img(src=tutor.pictureUrl)
+                                div.empty
                                 div.center-holder
                                     div.description-wrapper
                                         span.top-line!=[tutor.firstName, tutor.lastName].join(' ')
