@@ -46,6 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: rem-calc(30);
   text-align: center;
+  color: $green;
+  text-decoration: underline;
 }
 
 p, span, a {
@@ -83,19 +85,16 @@ button {
 header {
   color: white;
   background: $green;
-  padding: 2rem 0;
   position: relative;
   ul {
-    margin-right:0;
-    padding:0;
-    list-style:none;
-    position: absolute;
-    bottom: 0px;
-    li {
-      line-height:28px;
-      color:#fff;
-      margin:0 20px 0 0;
-      float:right;
+    align-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    a {
+      text-align: center;
+      color: white;
+      font-weight: bold;
     }
   }
   h1, h2, span {
@@ -135,10 +134,8 @@ section {
   }
 }
 
-<<<<<<< HEAD
-
 section#header {
-  padding: 2rem 0;
+  padding: 20px 0;
   h1, h2, span {
     text-align: center;
   }
@@ -146,6 +143,8 @@ section#header {
     font-size: rem-calc(60);
     margin: 0;
     line-height: 1.2;
+    text-decoration: none;
+    color: black;
   }
   h2 {
     @extend .font-source-sans-pro-light;
@@ -165,25 +164,22 @@ section#header {
 
 section#place {
   img {
-    width: 60px;
-    height: 60px;
+    margin-top: 5px;
+    width: 45px;
+    height: 45px;
   }
   .span {
     margin-left: 10px;
   }
-  //.hidden {
-  //  display: none;
-  //}
 }
 
 section#illustration {
+  margin-top: 20px;
   img {
     width: 100%;
   }
-  //.hidden {
-  //  display: none;
-  //}
-=======
+}
+
 section#call-for-papers {
   padding: 2rem 0;
   p {
@@ -205,7 +201,34 @@ section#call-for-papers {
       width: 60%;
     }
   }
->>>>>>> master
+}
+
+section#about {
+  .imgs {
+    text-align: center;
+    .number {
+      margin-top: 5px;
+      margin-bottom: 0px;
+      color: $green;
+      text-decoration: none;
+    }
+    .description {
+
+    }
+  }
+}
+
+section#map-information {
+  .content {
+    text-align: center;
+  }
+}
+
+section#map {
+  #map-canvas {
+    width: 100%;
+    height: 500px;
+  }
 }
 
 section#tutors {
@@ -344,6 +367,36 @@ section#partners {
       position: relative;
       width: 100%;
       div.partners {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #F4F4F4;
+        img {
+          margin: 5%;
+          width: 90%;
+          height: 90%;
+        }
+      }
+    }
+    div.box:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  }
+}
+
+section#media {
+  ul {
+    margin-bottom: 2rem;
+  }
+  .wrapper {
+    div.box {
+      position: relative;
+      width: 100%;
+      div.media {
         position: absolute;
         top: 0;
         left: 0;

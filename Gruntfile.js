@@ -24,6 +24,8 @@ module.exports = function (grunt) {
                     {expand: true, cwd: 'src/font/', src: ['**'], dest: 'public/font/'},
                     {expand: true, cwd: 'src/img/', src: ['**'], dest: 'public/img/'},
                     {expand: true, cwd: 'src/static/', src: ['**'], dest: 'public/'},
+                    {src: 'src/js/jquery-compat-git.js', dest: 'public/jquery-compat-git.js'},
+                    {src: 'src/css/responsivemobilemenu.css', dest: 'public/css/responsivemobilemenu.css'},
                     {src: 'src/js/body.js', dest: 'public/body.js'},
                     {src: 'src/js/call-for-papers.js', dest: 'public/call-for-papers.js'},
                     {src: 'bower_components/jquery/dist/jquery.min.js', dest: 'public/jquery.js'},
@@ -63,6 +65,8 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 files: {
+                    'public/css/responsivemobilemenu.css': ['public/css/responsivemobilemenu.css'],
+                    'public/jquery-compat-git.js': ['public/jquery-compat-git.js'],
                     'public/head.js': ['public/head.js'],
                     'public/body.js': ['public/body.js'],
                     'public/google-analytics.js': ['public/google-analytics.js']
