@@ -10,10 +10,10 @@ API_KEY='vyMxyN-TZO5L72m8b_RQpkxYejUqpdO4'
 function optimize {
   for image in `find . -type f -name "*.$1"`; do
     echo "Opimizing $image"
-    JSON=`curl -q --user api:"$API_KEY" --data-binary @$image https://api.tinify.com/shrink`
+    JSON=`curl -s --user api:"$API_KEY" --data-binary @$image https://api.tinify.com/shrink`
     URL=${JSON/*url\":\"/};
     URL=${URL/\"*/};
-    curl -q $URL > $image
+    curl -s $URL > $image
   done
 }
 
