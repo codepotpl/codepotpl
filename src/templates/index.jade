@@ -12,14 +12,42 @@ html
         header
             div.row
                 div.small-12.columns
-                    h1(itemprop='name') CODEPOT 
-                    h2(itemprop='attendee') 100% workshop conference!
-                    span.tagline
-                        time(itemprop='startDate' datetime='2015-08-28')!='August 28-29th, 2015&nbsp'
-                        span(itemprop='location' itemscope itemtype='http://schema.org/Place')
-                            span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
-                                span(itemprop='addressLocality')!='Warsaw'
-                            span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+
+    section#header
+        div.row
+            div.small-12.columns
+                h1(itemprop='name') CODEPOT
+                h2(itemprop='attendee') 100% workshop conference!
+                span.tagline
+                    time(itemprop='startDate' datetime='2015-08-28' hidden)!='August 28-29th, 2015&nbsp'
+                    span(itemprop='location' itemscope itemtype='http://schema.org/Place')
+                        span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
+                            span(itemprop='addressLocality' hidden)!='Warsaw'
+                        span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+
+    section#place
+        div.row
+            div.small-12.columns
+                div.calendar
+                    div.left
+                        div.left
+                            img(src='public/img/icons/calendar_title.svg')
+                        div.right.span
+                            span August, 28-29th
+                            | <br/> 2015
+                    div.right
+                        div.left
+                            img(src='public/img/icons/map43.svg')
+                        div.right.span
+                            a(href='https://www.google.pl/maps/@52.2484033,21.0651879,17z' target='blank')
+                                span SWPS, Warsaw
+                                | <br/> Chodakowska 19/31
+
+    section#illustration
+        img#illustration.img-normal(src="public/img/icons/ilustracja.png")
+        img#illustration.img-mobile(src="public/img/icons/ilustracja_mobile.png")
+        div.row
+            div.small-12.columns
 
     section#call-for-papers
         div.row

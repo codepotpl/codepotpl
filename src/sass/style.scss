@@ -121,6 +121,63 @@ section {
   }
 }
 
+section#header {
+  padding: 20px 0;
+  h1, h2, span {
+    text-align: center;
+  }
+  h1 {
+    font-size: rem-calc(60);
+    margin: 0;
+    line-height: 1.2;
+    text-decoration: none;
+    color: black;
+  }
+  h2 {
+    @extend .font-source-sans-pro-light;
+    font-size: rem-calc(35);
+    margin: 1rem 0 0 0;
+    line-height: 1;
+  }
+  span.tagline {
+    display: block;
+    font-size: rem-calc(25);
+    margin-top: 1rem;
+  }
+  .hidden {
+    display: none;
+  }
+}
+
+section#place {
+  img {
+    margin-top: 5px;
+    width: 45px;
+    height: 45px;
+  }
+  .span {
+    margin-left: 10px;
+  }
+}
+
+section#illustration {
+  margin-top: 20px;
+  img {
+    width: 100%;
+  }
+  .img-mobile {
+    display: none;
+  }
+  @media #{$small-only} {
+    .img-mobile {
+      display: inline;
+    }
+    .img-normal {
+      display: none;
+    }
+  }
+}
+
 section#call-for-papers {
   padding: 2rem 0;
   p {
