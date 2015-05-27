@@ -70,23 +70,6 @@ html
                     a(href='public/codepot-sponsor-offer.pdf' target='blank')
                         button SPONSOR OFFER
 
-    section#organizers
-        div.row
-            div.small-12.medium-10.medium-centered.columns
-                h1 ORGANIZERS
-                span.tagline Meet the Team!
-        div.row
-            div.small-12.medium-10.medium-centered.columns
-                ul.small-block-grid-2.medium-block-grid-5
-                    each organizer, index in organizers
-                        li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
-                            img(src=organizer.pictureUrl)
-                            div.center-holder(itemprop='organizer' itemscope itemtype='http://schema.org/Person')
-                                div.name-wrapper
-                                    span(itemprop='givenName').first-name!=organizer.firstName
-                                    hr
-                                    span(itemprop='familyName').last-name!=organizer.lastName
-
     if sponsors && sponsors.length > 0
         section#sponsors
             div.row
@@ -152,6 +135,23 @@ html
                                         div(itemprop='address', itemscope, itemtype='http://schema.org/PostalAddress')
                                             span(itemprop='addressCountry')!=med.country
                                             span(itemprop='addressLocality')!=med.city
+
+    section#organizers
+        div.row
+            div.small-12.medium-10.medium-centered.columns
+                h1 ORGANIZERS
+                span.tagline Meet the Team!
+        div.row
+            div.small-12.medium-10.medium-centered.columns
+                ul.small-block-grid-2.medium-block-grid-5
+                    each organizer, index in organizers
+                        li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
+                            img(src=organizer.pictureUrl)
+                            div.center-holder(itemprop='organizer' itemscope itemtype='http://schema.org/Person')
+                                div.name-wrapper
+                                    span(itemprop='givenName').first-name!=organizer.firstName
+                                    hr
+                                    span(itemprop='familyName').last-name!=organizer.lastName
 
     section#contact
         div.row
