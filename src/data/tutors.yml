@@ -118,3 +118,47 @@
   linkedInProfileUrl: 
   websiteUrl:
   bioInMd: 
+
+- publish: true
+  firstName: Anna
+  lastName: Jóźwik
+  tagline: HR Manager @ CodiLime
+  pictureUrl: public/img/people/anna-jozwik.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd: 
+
+- publish: true
+  firstName: Sylwester
+  lastName: Madej
+  tagline: Co-founder/Android Developer @ Outline
+  pictureUrl: public/img/people/sylwester-madej.jpg
+  twitterUsername: @smdremedy
+  githubUsername: smdremedy
+  linkedInProfileUrl: https://pl.linkedin.com/pub/sylwester-madej/16/3ab/963
+  websiteUrl:
+  bioInMd: Co-founder of Outline (http://byoutline.com) - team of Android experts, crafting beautiful apps. Experienced Java (8 yrs) and Android (4 yrs) developer - created both enterprise systems in TouK and multiplayer games in Gadu Gadu. Currently focused on optimizing development speed. Likes to share knowlege by blogging on http://soldiersofmobile.com, training developers at http://szkoleniaandroid.pl and speaking on events e.g. Droidcon, Mobilization, Warsjawa, MobileWarsaw.
+
+- publish: false
+  firstName: Konrad
+  lastName: Malawski
+  tagline: Akka hakker @ Typesafe
+  pictureUrl: public/img/people/konrad-malawski.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd: Akka hakker @ Typesafe, where he also participated in the Reactive Streams initiative and implemented it's Technology Compatibility Kit. Konrad is a late-night passionate dev living by the motto "Life is Study!". His favourite discussion topics range from distributed systems to capybaras. He has founded and run multiple user groups (Java, Scala, Computer Science, ...), and has is leading the awesome GeeCON conference and participates as program committee member of JavaOne SF. Other than that, he's a frequent speaker on distributed systems and concurrency topics, at conferences all around the world. In those rare times he's not coding, he spreads the joy of computer science, through helping local user groups and whitepaper reading clubs.
+
+- publish: false
+  firstName: Grzegorz
+  lastName: Nosek
+  tagline: Chief Tinkering Officer @ MegiTeam
+  pictureUrl: public/img/people/grzegorz-nosek.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:
