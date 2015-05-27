@@ -30,3 +30,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/pywaw-s-logo.png
   url: http://summit.pywaw.org/
+
+- name: "Torun JUG"
+  description: "JUG"
+  country: "Poland"
+  pictureUrl: public/img/organizations/torun-jug-logo.png
+  url: http://torun.jug.pl/
