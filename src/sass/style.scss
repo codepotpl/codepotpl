@@ -111,7 +111,7 @@ header {
       @include align-items(center);
       &:last-of-type {
         @media #{$medium-up} {
-          justify-content: flex-end;
+          @include justify-content(flex-end);
         }
       }
     }
