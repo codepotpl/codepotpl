@@ -98,13 +98,8 @@ header {
   h2 {
     @extend .font-source-sans-pro-light;
     font-size: rem-calc(35);
-    margin: 1rem 0 0 0;
+    margin: 1rem 0;
     line-height: 1;
-  }
-  span.tagline {
-    display: block;
-    font-size: rem-calc(25);
-    margin-top: 1rem;
   }
   .hidden {
     display: none;
