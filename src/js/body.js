@@ -9,13 +9,13 @@ function initialize() {
         navigationControl: false,
         mapTypeControl: false,
         scaleControl: false,
-        center: new google.maps.LatLng(52.2482095, 21.0650699),
+        center: new google.maps.LatLng(52.248421,21.066009),
         zoom: 17,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     map = new google.maps.Map(mapCanvas, mapOptions);
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(52.2482095, 21.0650699),
+        position: new google.maps.LatLng(52.248421, 21.066009),
         map: map,
         title:"CODEPOT will be here!"
     });
@@ -24,7 +24,6 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 document.getElementById("show_map").onclick = function(){
     document.getElementById("map").style.display = 'inline';
-    //$('section#map').show();
     currentCenter = map.getCenter();
     google.maps.event.trigger(map, 'resize');
     map.setCenter(currentCenter);
