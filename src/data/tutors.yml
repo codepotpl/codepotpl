@@ -135,18 +135,18 @@
   lastName: Madej
   tagline: Co-founder/Android Developer @ Outline
   pictureUrl: public/img/people/sylwester-madej.jpg
-  twitterUsername: @smdremedy
+  twitterUsername: smdremedy
   githubUsername: smdremedy
   linkedInProfileUrl: https://pl.linkedin.com/pub/sylwester-madej/16/3ab/963
   websiteUrl:
   bioInMd: Co-founder of Outline (http://byoutline.com) - team of Android experts, crafting beautiful apps. Experienced Java (8 yrs) and Android (4 yrs) developer - created both enterprise systems in TouK and multiplayer games in Gadu Gadu. Currently focused on optimizing development speed. Likes to share knowlege by blogging on http://soldiersofmobile.com, training developers at http://szkoleniaandroid.pl and speaking on events e.g. Droidcon, Mobilization, Warsjawa, MobileWarsaw.
 
-- publish: false
+- publish: true
   firstName: Konrad
   lastName: Malawski
   tagline: Akka hakker @ Typesafe
-  pictureUrl: public/img/people/konrad-malawski.jpg
-  twitterUsername: 
+  pictureUrl: public/img/people/konrad-malawski.png
+  twitterUsername: ktosopl
   githubUsername: 
   linkedInProfileUrl: 
   websiteUrl:
