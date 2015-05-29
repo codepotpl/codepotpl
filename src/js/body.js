@@ -1,6 +1,5 @@
 yepnope.injectJs('public/google-analytics.js');
 
-//GOOGLE MAP
 var map;
 function initialize() {
     var mapCanvas = document.getElementById('map-canvas');
@@ -20,10 +19,14 @@ function initialize() {
         title:"CODEPOT will be here!"
     });
 }
-
+//GOOGLE MAP
 google.maps.event.addDomListener(window, 'load', initialize);
 document.getElementById("show_map").onclick = function(){
     document.getElementById("map").style.display = 'inline';
+    document.getElementById("show_map").style.display = 'none';
+
+
+
     currentCenter = map.getCenter();
     google.maps.event.trigger(map, 'resize');
     map.setCenter(currentCenter);
