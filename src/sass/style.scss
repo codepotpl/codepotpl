@@ -319,38 +319,4 @@ section#partners {
   }
 }
 
-section#call-for-papers-form {
-  img {
-    width: 100%;
-  }
-  p.text-center {
-    text-align: center;
-  }
-  button:disabled {
-    background: lightgray;
-  }
-  button:focus {
-    background: darken($dark-green, 10%);
-  }
-  ::-webkit-input-placeholder {
-    color: gray;
-  }
-
-  :-moz-placeholder {
-    /* Firefox 18- */
-    color: gray;
-  }
-
-  ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: gray;
-  }
-
-  :-ms-input-placeholder {
-    color: gray;
-  }
-  form label {
-    font-size: large;
-  }
-}
-
+@import "call-for-papers";

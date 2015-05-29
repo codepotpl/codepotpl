@@ -1,0 +1,62 @@
+header.call-for-papers-form {
+  color: white;
+  background: $green;
+  padding: 2rem 0;
+  h1, h2, span {
+    text-align: center;
+  }
+  h1 {
+    font-size: rem-calc(60);
+    margin: 0;
+    line-height: 1.2;
+  }
+  h2 {
+    @extend .font-source-sans-pro-light;
+    font-size: rem-calc(35);
+    margin: 1rem 0 0 0;
+    line-height: 1;
+  }
+  span.tagline {
+    display: block;
+    font-size: rem-calc(25);
+    margin-top: 1rem;
+  }
+  .hidden {
+    display: none;
+  }
+}
+
+section#call-for-papers-form {
+  img {
+    width: 100%;
+  }
+  p.text-center {
+    text-align: center;
+  }
+  button:disabled {
+    background: lightgray;
+  }
+  button:focus {
+    background: darken($dark-green, 10%);
+  }
+  ::-webkit-input-placeholder {
+    color: gray;
+  }
+
+  :-moz-placeholder {
+    /* Firefox 18- */
+    color: gray;
+  }
+
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: gray;
+  }
+
+  :-ms-input-placeholder {
+    color: gray;
+  }
+  form label {
+    font-size: large;
+  }
+}
