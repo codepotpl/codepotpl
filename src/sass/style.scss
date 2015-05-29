@@ -162,6 +162,26 @@ section#call-for-papers {
   }
 }
 
+section#map-information {
+  .content {
+    text-align: center;
+  }
+}
+
+section#map {
+  width: 100%;
+  #map-canvas {
+    width: 100%;
+    height: 500px;
+  }
+  @media #{$small-only} {
+    #map-canvas {
+      width: 100%;
+      height: 250px;
+    }
+  }
+}
+
 section#tutors {
   ul {
     margin-bottom: 2rem;
