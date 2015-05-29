@@ -187,6 +187,7 @@ section#tutors {
     margin-bottom: 2rem;
   }
   .wrapper {
+    position: relative;
     padding-bottom: 0;
     margin-bottom: -1rem;
     &.even {
@@ -195,7 +196,17 @@ section#tutors {
     img {
       width: 100%;
     }
+    .empty {
+      height: 85px;
+    }
     .center-holder {
+      min-height: 85px;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      margin-right: 8px;
+      margin-left: 8px;
       background-color: $green;
       .description-wrapper {
         display: inline-block;
@@ -339,4 +350,68 @@ section#partners {
   }
 }
 
+section#media {
+  ul {
+    margin-bottom: 2rem;
+  }
+  .wrapper {
+    div.box {
+      position: relative;
+      width: 100%;
+      div.media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #F4F4F4;
+        img {
+          margin: 5%;
+          width: 90%;
+          height: 90%;
+        }
+      }
+    }
+    div.box:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  }
+}
+
+section#call-for-papers-form {
+  img {
+    width: 100%;
+  }
+  p.text-center {
+    text-align: center;
+  }
+  button:disabled {
+    background: lightgray;
+  }
+  button:focus {
+    background: darken($dark-green, 10%);
+  }
+  ::-webkit-input-placeholder {
+    color: gray;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: gray;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: gray;
+  }
+
+  :-ms-input-placeholder {
+    color: gray;
+  }
+  form label {
+    font-size: large;
+  }
+}
+
 @import "call-for-papers";
+
