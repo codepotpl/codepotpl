@@ -2,6 +2,7 @@
 @import "normalize";
 @import "fonts";
 @import "codepot-icons";
+@import "flexbox";
 
 $green: #2CB588;
 $dark-green: #219B6F;
@@ -20,6 +21,7 @@ $input-font-size: rem-calc($base-font-size);
 
 $block-grid-default-spacing: rem-calc(16);
 @import "foundation/components/block-grid";
+@import "foundation/components/visibility";
 
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
@@ -81,9 +83,10 @@ button {
 }
 
 header {
-  color: white;
-  background: $green;
-  padding: 2rem 0;
+  color: black;
+  background-color: #F4F4F4;
+  padding: 2rem 0 0 0;
+  margin: 0 0 2rem 0;
   h1, h2, span {
     text-align: center;
   }
@@ -95,16 +98,31 @@ header {
   h2 {
     @extend .font-source-sans-pro-light;
     font-size: rem-calc(35);
-    margin: 1rem 0 0 0;
+    margin: 1rem 0;
     line-height: 1;
-  }
-  span.tagline {
-    display: block;
-    font-size: rem-calc(25);
-    margin-top: 1rem;
   }
   .hidden {
     display: none;
+  }
+  .credentials {
+    .columns {
+      margin-bottom: 0.5rem;
+      @extend %flexbox;
+      @include align-items(center);
+      &:last-of-type {
+        @media #{$medium-up} {
+          @include justify-content(flex-end);
+        }
+      }
+    }
+    i {
+      font-size: rem-calc(50);
+    }
+    span {
+      font-size: rem-calc(20);
+      line-height: 1;
+      text-align: left;
+    }
   }
 }
 
@@ -318,11 +336,13 @@ section#call-for-papers-form {
     color: gray;
   }
 
-  :-moz-placeholder { /* Firefox 18- */
+  :-moz-placeholder {
+    /* Firefox 18- */
     color: gray;
   }
 
-  ::-moz-placeholder {  /* Firefox 19+ */
+  ::-moz-placeholder {
+    /* Firefox 19+ */
     color: gray;
   }
 
