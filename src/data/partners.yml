@@ -36,3 +36,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/torun-jug-logo.png
   url: http://torun.jug.pl/
+
+- name: "GeeCON"
+  description: "Java Conference"
+  country: "Poland"
+  pictureUrl: public/img/organizations/geecon-logo.png
+  url: http://www.geecon.org/
