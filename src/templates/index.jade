@@ -132,7 +132,7 @@ html
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 SPONSOR US
-                    p Be the part of the only one workshop conference in Poland.
+                    span.tagline Be the part of the only one workshop conference in Poland.
                     div.center
                         a(href='public/codepot-sponsor-offer.pdf' target='blank')
                             button SPONSOR OFFER
@@ -147,7 +147,7 @@ html
                     div.small-12.medium-10.medium-centered.columns
                         ul.small-block-grid-2.medium-block-grid-3
                             each sponsor, index in sponsors
-                                li.wrapper(class=(index % 2 == 0) ? 'even' : 'odd')
+                                li.wrapper(class=((index % 2 == 0) ? 'small-up' : 'small-down') class=(((index == 1) || ((index > 3) && ((index + 2) % 3 == 0))) ? 'medium-up' : 'medium-down'))
                                     div.box(itemscope itemtype='http://schema.org/Organization')
                                         a(href=sponsor.url, itemprop='url', target='_blank')
                                             div.sponsors
@@ -224,14 +224,15 @@ html
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 CONTACT
-                    a(href='mailto:contact@codepot.pl') contact@codepot.pl
+                    span.tagline
+                        a(href='mailto:contact@codepot.pl') contact@codepot.pl
 
         section#subscribe
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     form(method="post" action="//codepot.us10.list-manage.com/subscribe/post?u=e3b6b208ec2b30c8e9827973f&amp;id=d26e38382d")
                         h1 SUBSCRIBE
-                        p Subscribe to our mailing list to find out about new workshops and tutors first.
+                        span.tagline Subscribe to our mailing list to find out about new workshops and tutors first.
                         div.center
                             input(type='email' required='required' placeholder='Your e-mail address' name='EMAIL' id='mce-EMAIL')
                             button SUBSCRIBE
