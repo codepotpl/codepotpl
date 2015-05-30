@@ -13,8 +13,17 @@ module.exports = function (grunt) {
 
         concat: {
             dist: {
-                src: ['bower_components/modernizr/modernizr.js', 'bower_components/yepnope/dist/yepnope-2.0.0.js'],
-                dest: 'public/head.js'
+                files: {
+                    'public/head.js': [
+                        'bower_components/modernizr/modernizr.js',
+                        'bower_components/yepnope/dist/yepnope-2.0.0.js'
+                    ],
+                    'public/body.js': [
+                        'bower_components/jquery/dist/jquery.js',
+                        'bower_components/foundation/js/foundation/foundation.topbar.js',
+                        'src/js/body.js'
+                    ]
+                }
             }
         },
 
@@ -24,9 +33,7 @@ module.exports = function (grunt) {
                     {expand: true, cwd: 'src/font/', src: ['**'], dest: 'public/font/'},
                     {expand: true, cwd: 'src/img/', src: ['**'], dest: 'public/img/'},
                     {expand: true, cwd: 'src/static/', src: ['**'], dest: 'public/'},
-                    {src: 'src/js/body.js', dest: 'public/body.js'},
                     {src: 'src/js/call-for-papers.js', dest: 'public/call-for-papers.js'},
-                    {src: 'bower_components/jquery/dist/jquery.min.js', dest: 'public/jquery.js'},
                     {src: 'src/js/google-analytics.js', dest: 'public/google-analytics.js'}
                 ]
             }
@@ -74,6 +81,10 @@ module.exports = function (grunt) {
             sass: {
                 files: '**/*.scss',
                 tasks: ['sass']
+            },
+            concat: {
+                files: 'src/js/**.*',
+                tasks:['concat']
             }
         }
     });
