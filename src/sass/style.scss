@@ -309,14 +309,22 @@ section#subscribe {
 
 section#sponsors {
   ul {
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
   .wrapper {
     padding-bottom: 0;
     margin-bottom: 1rem;
   }
-  .wrapper.even {
-    margin-top: 2rem;
+  @media #{$medium-up} {
+    .medium-up {
+      margin-top: -2rem;
+    }
+  }
+  @media #{$small-only} {
+      .small-up {
+        margin-top: -2rem;
+      }
   }
   .wrapper {
     div.box {
