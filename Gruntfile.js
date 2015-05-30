@@ -20,6 +20,7 @@ module.exports = function (grunt) {
                     ],
                     'public/body.js': [
                         'bower_components/jquery/dist/jquery.js',
+                        'bower_components/foundation/js/foundation/foundation.js',
                         'bower_components/foundation/js/foundation/foundation.topbar.js',
                         'src/js/body.js'
                     ]
