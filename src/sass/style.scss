@@ -48,6 +48,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: rem-calc(30);
   text-align: center;
+  color: $green;
+  text-decoration: underline;
 }
 
 p, span, a {
@@ -94,6 +96,8 @@ header {
     font-size: rem-calc(60);
     margin: 0;
     line-height: 1.2;
+    text-decoration: none;
+    color: inherit;
   }
   h2 {
     @extend .font-source-sans-pro-light;
@@ -162,11 +166,52 @@ section#call-for-papers {
   }
 }
 
+section#about {
+  .graphics {
+    margin-top: 50px;
+    i {
+      color: $green;
+      font-size: rem-calc(50);
+    }
+    text-align: center;
+    .number {
+      margin-top: 5px;
+      margin-bottom: 0px;
+      color: $green;
+      text-decoration: none;
+    }
+    .description {
+
+    }
+  }
+}
+
+section#map-information {
+  .content {
+    text-align: center;
+  }
+}
+
+section#map {
+  width: 100%;
+  #map-canvas {
+    width: 100%;
+    height: 500px;
+  }
+  @media #{$small-only} {
+    #map-canvas {
+      width: 100%;
+      height: 250px;
+    }
+  }
+}
+
 section#tutors {
   ul {
     margin-bottom: 2rem;
   }
   .wrapper {
+    position: relative;
     padding-bottom: 0;
     margin-bottom: -1rem;
     &.even {
@@ -175,7 +220,17 @@ section#tutors {
     img {
       width: 100%;
     }
+    .empty {
+      height: 85px;
+    }
     .center-holder {
+      min-height: 85px;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      margin-right: 8px;
+      margin-left: 8px;
       background-color: $green;
       .description-wrapper {
         display: inline-block;
@@ -254,14 +309,22 @@ section#subscribe {
 
 section#sponsors {
   ul {
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
   .wrapper {
     padding-bottom: 0;
     margin-bottom: 1rem;
   }
-  .wrapper.even {
-    margin-top: 2rem;
+  @media #{$medium-up} {
+    .medium-up {
+      margin-top: -2rem;
+    }
+  }
+  @media #{$small-only} {
+      .small-up {
+        margin-top: -2rem;
+      }
   }
   .wrapper {
     div.box {
@@ -319,4 +382,68 @@ section#partners {
   }
 }
 
+section#media {
+  ul {
+    margin-bottom: 2rem;
+  }
+  .wrapper {
+    div.box {
+      position: relative;
+      width: 100%;
+      div.media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #F4F4F4;
+        img {
+          margin: 5%;
+          width: 90%;
+          height: 90%;
+        }
+      }
+    }
+    div.box:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  }
+}
+
+section#call-for-papers-form {
+  img {
+    width: 100%;
+  }
+  p.text-center {
+    text-align: center;
+  }
+  button:disabled {
+    background: lightgray;
+  }
+  button:focus {
+    background: darken($dark-green, 10%);
+  }
+  ::-webkit-input-placeholder {
+    color: gray;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: gray;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: gray;
+  }
+
+  :-ms-input-placeholder {
+    color: gray;
+  }
+  form label {
+    font-size: large;
+  }
+}
+
 @import "call-for-papers";
+
