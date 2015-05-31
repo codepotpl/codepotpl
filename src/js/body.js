@@ -30,3 +30,4 @@ document.getElementById("show_map").onclick = function () {
     });
 };
 //END GOOGLE MAP
+$(document).foundation('topbar', 'reflow');

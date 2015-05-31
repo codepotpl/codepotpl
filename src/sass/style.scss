@@ -146,8 +146,11 @@ section {
   }
 }
 
-.top-bar {
+nav {
   background-color: $green;
+  .title-area {
+    background-color: $green !important;
+  }
   .top-bar-section {
     background-color: $green;
     padding-bottom: 45px;
@@ -155,12 +158,13 @@ section {
       a {
         background-color: $green !important;
         height: 100%;
+        text-align: center;
         i {
           color: $white;
           font-size: rem-calc(25);
         }
         &:hover {
-          background-color: $dark-green;
+          background-color: $dark-green !important;
         }
       }
     }
