@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'codepot';
-  src: url('font/codepot.eot?82397043');
-  src: url('font/codepot.eot?82397043#iefix') format('embedded-opentype'),
-       url('font/codepot.woff?82397043') format('woff'),
-       url('font/codepot.ttf?82397043') format('truetype'),
-       url('font/codepot.svg?82397043#codepot') format('svg');
+  src: url('font/codepot.eot?88870890');
+  src: url('font/codepot.eot?88870890#iefix') format('embedded-opentype'),
+       url('font/codepot.woff?88870890') format('woff'),
+       url('font/codepot.ttf?88870890') format('truetype'),
+       url('font/codepot.svg?88870890#codepot') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'codepot';
-    src: url('../font/codepot.svg?82397043#codepot') format('svg');
+    src: url('../font/codepot.svg?88870890#codepot') format('svg');
   }
 }
 */
@@ -61,3 +61,8 @@
 .icon-codepot-icon-ball:before { content: '\e804'; } /* '' */
 .icon-codepot-icon-group:before { content: '\e805'; } /* '' */
 .icon-codepot-icon-hammer:before { content: '\e806'; } /* '' */
+.icon-twitter:before { content: '\e807'; } /* '' */
+.icon-twitter-bird:before { content: '\e808'; } /* '' */
+.icon-mail:before { content: '\e809'; } /* '' */
+.icon-meetup:before { content: '\e80a'; } /* '' */
+.icon-facebook-1:before { content: '\e80b'; } /* '' */
