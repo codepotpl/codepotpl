@@ -42,3 +42,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/geecon-logo.png
   url: http://www.geecon.org/
+
+- name: "MCE 2015"
+  description: "Mobile Conference"
+  country: "Poland"
+  pictureUrl: public/img/organizations/mce-logo.png
+  url: http://mceconf.com/
