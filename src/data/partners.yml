@@ -54,3 +54,8 @@
   country: "Poland"
   pictureUrl: public/img/organizations/pjug-logo.png
   url: http://www.java.pl/
+
+- name: "Android Developers Group Poznań"
+  country: "Poland"
+  pictureUrl: public/img/organizations/padg-logo.png
+  url: http://www.meetup.com/Poznan-Android-Developer-Group/
