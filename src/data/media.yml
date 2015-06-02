@@ -1,6 +1,9 @@
-#- name: "Tiktalik"
-#  description: "Inexpensive virtual servers, Simple Cloud Computing, Cheap VPS"
-#  country: "Poland"
-#  city: "Warsaw"
-#  pictureUrl: public/img/organizations/tiktalik-logo.png
-#  url: http://www.tiktalik.com
+- name: "Programistamag"
+  country: "Poland"
+  pictureUrl: public/img/organizations/programistamag-logo.png
+  url: http://programistamag.pl/
+
+- name: "GeekClub"
+  country: "Poland"
+  pictureUrl: public/img/organizations/geekclub-logo.png
+  url: http://geekclub.pl/

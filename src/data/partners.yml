@@ -48,24 +48,3 @@
   country: "Poland"
   pictureUrl: public/img/organizations/mce-logo.png
   url: http://mceconf.com/
-
-- name: "Polish JUG"
-  description: "JUG"
-  country: "Poland"
-  pictureUrl: public/img/organizations/pjug-logo.png
-  url: http://www.java.pl/
-
-- name: "Android Developers Group Poznań"
-  country: "Poland"
-  pictureUrl: public/img/organizations/padg-logo.png
-  url: http://www.meetup.com/Poznan-Android-Developer-Group/
-
-- name: "GeekClub"
-  country: "Poland"
-  pictureUrl: public/img/organizations/geekclub-logo.png
-  url: http://geekclub.pl/
-
-- name: "Programistamag"
-  country: "Poland"
-  pictureUrl: public/img/organizations/programistamag-logo.png
-  url: http://programistamag.pl/
