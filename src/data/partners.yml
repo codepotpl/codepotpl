@@ -64,3 +64,8 @@
   country: "Poland"
   pictureUrl: public/img/organizations/geekclub-logo.png
   url: http://geekclub.pl/
+
+- name: "Programistamag"
+  country: "Poland"
+  pictureUrl: public/img/organizations/programistamag-logo.png
+  url: http://programistamag.pl/
