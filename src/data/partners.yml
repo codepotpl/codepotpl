@@ -59,3 +59,8 @@
   country: "Poland"
   pictureUrl: public/img/organizations/padg-logo.png
   url: http://www.meetup.com/Poznan-Android-Developer-Group/
+
+- name: "GeekClub"
+  country: "Poland"
+  pictureUrl: public/img/organizations/geekclub-logo.png
+  url: http://geekclub.pl/
