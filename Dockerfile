@@ -1,8 +1,9 @@
 FROM node:0.12.1-slim
 
-RUN apt-get update --fix-missing && \
-    apt-get install git imagemagick -y --no-install-recommends && \
-    npm install -g bower grunt-cli
+RUN apt-get update --fix-missing
+RUN apt-get install git imagemagick -y --no-install-recommends
+RUN apt-get install pngquant -y
+RUN npm install -g bower grunt-cli
 
 ADD package.json /app/package.json
 WORKDIR /app

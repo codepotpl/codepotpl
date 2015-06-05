@@ -29,6 +29,7 @@
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-imagemagick": "^0.1.5",
+    "grunt-pngmin": "^1.0.2",
     "grunt-sass": "^0.18.1",
     "jade": "^1.9.2",
     "markdown": "^0.5.0",

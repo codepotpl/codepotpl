@@ -60,6 +60,24 @@ module.exports = function (grunt) {
             }
         },
 
+        pngmin: {
+            compile: {
+                options: {
+                    concurrency: 8,
+                    ext: '.png',
+                    quality: {min: 10, max: 80},
+                    speed: 1,
+                    force: true
+                },
+                files: [
+                    {
+                        src: 'public/img/organizations/*.png',
+                        dest: 'public/img/organizations/'
+                    }
+                ]
+            }
+        },
+
         cssmin: {
             dist: {
                 files: {
@@ -85,7 +103,7 @@ module.exports = function (grunt) {
             },
             concat: {
                 files: 'src/js/**.*',
-                tasks:['concat']
+                tasks: ['concat']
             }
         }
     });
@@ -97,7 +115,16 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-pngmin');
 
     grunt.registerTask('default', ['sass', 'concat', 'copy']);
-    grunt.registerTask('dist', ['sass:dist', 'concat:dist', 'copy:dist', 'cssmin:dist', 'uglify:dist', 'imagemagick-resize']);
+    grunt.registerTask('dist', [
+        'sass:dist',
+        'concat:dist',
+        'copy:dist',
+        'cssmin:dist',
+        'uglify:dist',
+        'imagemagick-resize',
+        'pngmin'
+    ]);
 };
