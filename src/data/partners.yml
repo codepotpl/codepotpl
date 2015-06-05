@@ -48,3 +48,15 @@
   country: "Poland"
   pictureUrl: public/img/organizations/mce-logo.png
   url: http://mceconf.com/
+
+- name: "Zielona Góra JUG"
+  description: "JUG"
+  country: "Poland"
+  pictureUrl: public/img/organizations/pjug-logo.png
+  url: http://java.pl
+
+- name: "Zielona Góra JUG"
+  description: "JUG"
+  country: "Poland"
+  pictureUrl: public/img/organizations/zg-jug-logo.png
+  url: http://zielona-gora-jug.github.io/
