@@ -25,6 +25,63 @@ $block-grid-default-spacing: rem-calc(16);
 @import "foundation/components/block-grid";
 @import "foundation/components/visibility";
 
+$include-html-top-bar-classes: $include-html-classes;
+
+$topbar-bg-color: $green;
+$topbar-bg: $topbar-bg-color;
+
+$topbar-height: rem-calc(45);
+$topbar-margin-bottom: 0;
+
+$topbar-title-weight: $font-weight-normal;
+$topbar-title-font-size: rem-calc(17);
+
+$topbar-dropdown-bg: $green;
+$topbar-dropdown-link-color: $white;
+$topbar-dropdown-link-bg: $green;
+$topbar-dropdown-link-bg-hover: $dark-green;
+$topbar-dropdown-link-weight: $font-weight-normal;
+$topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: $white;
+$topbar-dropdown-toggle-alpha: 0.4;
+
+$topbar-link-color: $white;
+$topbar-link-color-hover: $white;
+$topbar-link-color-active: $white;
+$topbar-link-color-active-hover: $white;
+$topbar-link-weight: $font-weight-normal;
+$topbar-link-font-size: rem-calc(17);;
+$topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-hover: $dark-green;
+$topbar-link-bg-color-hover: $dark-green;
+$topbar-link-font-family: $body-font-family;
+$topbar-link-text-transform: none;
+
+$topbar-dropdown-label-color: $green;
+$topbar-dropdown-label-text-transform: uppercase;
+$topbar-dropdown-label-font-weight: $font-weight-bold;
+$topbar-dropdown-label-font-size: rem-calc(13);
+$topbar-dropdown-label-bg: $green;
+
+$topbar-menu-link-transform: uppercase;
+$topbar-menu-link-font-size: rem-calc(17);
+$topbar-menu-link-weight: $font-weight-bold;
+$topbar-menu-link-color: $white;
+$topbar-menu-icon-color: $white;
+$topbar-menu-link-color-toggled: $green;
+$topbar-menu-icon-color-toggled: $green;
+$topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
+
+$topbar-transition-speed: 300ms;
+$topbar-breakpoint: #{lower-bound($medium-range)}; // Change to 9999px for always mobile layout
+$topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
+
+$topbar-divider-border-bottom: solid 1px scale-color($topbar-bg-color, $lightness: 13%);
+$topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
+
+$topbar-sticky-class: ".sticky";
+$topbar-arrows: true; //Set false to remove the triangle icon from the menu item
 @import "foundation/components/top-bar";
 
 .font-oxygen-bold {
@@ -148,6 +205,15 @@ section {
 }
 
 nav {
+  a {
+    height: 100%;
+    text-align: center;
+    i {     
+      font-size: rem-calc(25);
+    }
+  }
+}
+/*nav {
   background-color: $green;
   .title-area {
     background-color: $green !important;
@@ -170,7 +236,7 @@ nav {
       }
     }
   }
-}
+}*/
 
 section#call-for-papers {
   padding: 2rem 0;
