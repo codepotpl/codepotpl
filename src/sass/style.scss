@@ -3,7 +3,6 @@
 @import "fonts";
 @import "codepot-icons";
 @import "flexbox";
-@import "foundation/components/top-bar";
 
 $green: #2CB588;
 $dark-green: #219B6F;
@@ -25,6 +24,8 @@ $input-font-size: rem-calc($base-font-size);
 $block-grid-default-spacing: rem-calc(16);
 @import "foundation/components/block-grid";
 @import "foundation/components/visibility";
+
+@import "foundation/components/top-bar";
 
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
