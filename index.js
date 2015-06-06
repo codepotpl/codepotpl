@@ -24,6 +24,7 @@ app.use(compression());
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/src/templates');
 app.use('/public', express.static(__dirname + '/public'));
+app.use('/', express.static(__dirname + '/public'));
 
 var data = {
     organizers: YAML.load('src/data/organizers.yml'),
