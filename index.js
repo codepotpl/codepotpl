@@ -51,6 +51,7 @@ var metaTagsData = {
 
 app.get('/', function (req, res) {
     res.render('index', {
+        host: process.env['CDPT_HOST'],
         organizers: data.organizers,
         tutors: data.tutors,
         sponsors: data.sponsors,
