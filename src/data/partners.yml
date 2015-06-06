@@ -60,3 +60,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/zg-jug-logo.png
   url: http://zielona-gora-jug.github.io/
+
+- name: "Warszawa JUG"
+  description: "JUG"
+  country: "Poland"
+  pictureUrl: public/img/organizations/wjug-logo.png
+  url: http://warszawa.jug.pl/
