@@ -66,3 +66,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/wjug-logo.png
   url: http://warszawa.jug.pl/
+
+- name: "Django Girls"
+  description: "Django"
+  country: "Poland"
+  pictureUrl: public/img/organizations/django-girls.png
+  url: http://pyladies-waw.weebly.com/
