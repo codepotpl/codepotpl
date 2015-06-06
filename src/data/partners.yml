@@ -72,3 +72,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/django-girls.png
   url: http://pyladies-waw.weebly.com/
+
+- name: "Spotkania Entuzjastów R"
+  description: "R"
+  country: "Poland"
+  pictureUrl: public/img/organizations/smarter-poland.png
+  url: http://mi2.mini.pw.edu.pl/
