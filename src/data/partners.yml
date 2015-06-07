@@ -71,7 +71,7 @@
   description: "Django"
   country: "Poland"
   pictureUrl: public/img/organizations/django-girls.png
-  url: http://pyladies-waw.weebly.com/
+  url: http://djangogirls.org/
 
 - name: "Spotkania Entuzjastów R"
   description: "R"
