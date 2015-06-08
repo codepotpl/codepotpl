@@ -78,3 +78,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/smarter-poland.png
   url: http://smarterpoland.pl/
+
+- name: "Enterprise Search Warsaw Meetup"
+  description: "Search"
+  country: "Poland"
+  pictureUrl: public/img/organizations/eswm-logo.png
+  url: http://www.meetup.com/es-warsaw/
