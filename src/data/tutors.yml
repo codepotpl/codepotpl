@@ -152,11 +152,22 @@
   websiteUrl:
   bioInMd: Akka hakker @ Typesafe, where he also participated in the Reactive Streams initiative and implemented it's Technology Compatibility Kit. Konrad is a late-night passionate dev living by the motto "Life is Study!". His favourite discussion topics range from distributed systems to capybaras. He has founded and run multiple user groups (Java, Scala, Computer Science, ...), and has is leading the awesome GeeCON conference and participates as program committee member of JavaOne SF. Other than that, he's a frequent speaker on distributed systems and concurrency topics, at conferences all around the world. In those rare times he's not coding, he spreads the joy of computer science, through helping local user groups and whitepaper reading clubs.
 
-- publish: false
+- publish: true
   firstName: Grzegorz
   lastName: Nosek
   tagline: Chief Tinkering Officer @ MegiTeam
   pictureUrl: public/img/people/grzegorz-nosek.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:
+
+- publish: true
+  firstName: Alper
+  lastName: Çugun
+  tagline: Principal Technologist @ Hubbub
+  pictureUrl: public/img/people/alper-cugun.jpg
   twitterUsername: 
   githubUsername: 
   linkedInProfileUrl: 
