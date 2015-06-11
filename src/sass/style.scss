@@ -10,6 +10,8 @@ $light-green: #2BC187;
 $orange: #FFC268;
 $gray: #484949;
 $blue: #406FC1;
+$black: #000000;
+$white: #FFFFFF;
 
 $base-font-size: 20px;
 $rem-base: $base-font-size;
@@ -22,6 +24,32 @@ $input-font-size: rem-calc($base-font-size);
 $block-grid-default-spacing: rem-calc(16);
 @import "foundation/components/block-grid";
 @import "foundation/components/visibility";
+
+$topbar-bg-color: $green;
+$topbar-bg: $topbar-bg-color;
+
+$topbar-dropdown-bg: $green;
+$topbar-dropdown-link-color: $white;
+$topbar-dropdown-link-bg: $green;
+$topbar-dropdown-link-bg-hover: $dark-green;
+$topbar-dropdown-toggle-size: 5px;
+
+$topbar-link-font-size: rem-calc(17);
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-hover: $dark-green;
+$topbar-link-bg-color-hover: $dark-green;
+
+$topbar-dropdown-label-color: $green;
+$topbar-dropdown-label-font-size: rem-calc(13);
+$topbar-dropdown-label-bg: $green;
+
+$topbar-menu-link-font-size: rem-calc(17);
+$topbar-menu-link-color-toggled: $green;
+$topbar-menu-icon-color-toggled: $green;
+$topbar-breakpoint: #{lower-bound($large-range)};
+
+$topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
+@import "foundation/components/top-bar";
 
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
@@ -85,7 +113,7 @@ button {
 }
 
 header {
-  color: black;
+  color: $black;
   background-color: #F4F4F4;
   padding: 2rem 0 0 0;
   margin: 0 0 2rem 0;
@@ -143,6 +171,40 @@ section {
   }
 }
 
+nav {
+  a {
+    height: 100%;
+    text-align: center;
+    i {     
+      font-size: rem-calc(25);
+    }
+  }
+}
+/*nav {
+  background-color: $green;
+  .title-area {
+    background-color: $green !important;
+  }
+  .top-bar-section {
+    background-color: $green;
+    padding-bottom: 45px;
+    li {
+      a {
+        background-color: $green !important;
+        height: 100%;
+        text-align: center;
+        i {
+          color: $white;
+          font-size: rem-calc(25);
+        }
+        &:hover {
+          background-color: $dark-green !important;
+        }
+      }
+    }
+  }
+}*/
+
 section#call-for-papers {
   padding: 2rem 0;
   p {
@@ -186,7 +248,7 @@ section#about {
   }
 }
 
-section#map-information {
+section#venue {
   .content {
     text-align: center;
   }

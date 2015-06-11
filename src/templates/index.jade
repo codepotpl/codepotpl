@@ -14,6 +14,38 @@ html
         //script(src='public/head.js')
         //TODO add environment variable to control inlining mechanism
     body(itemtype='http://schema.org/EducationEvent', itemscope)
+        div.fixed
+            nav.top-bar(data-topbar role='navigation')
+                ul.title-area
+                    li.name
+                        h1
+                    li.toggle-topbar.menu-icon
+                        a(href='#')
+                            span Menu
+                section.top-bar-section
+                    ul.right
+                        li.name
+                            a(href='#about') ABOUT
+                        li.name
+                            a(href='#venue') VENUE
+                        li.name
+                            a(href='#tutors') TUTORS
+                        li.name
+                            a(href='#sponsors') SPONSORS
+                        li.name
+                            a(href='#organizers') TEAM
+                        li.name
+                            a(href='https://twitter.com/codepot_pl' target='_blank') &nbsp;
+                                i.icon-twitter &nbsp;
+                        li.name
+                            a(href='https://www.facebook.com/pages/Codepot/397791273715096' target='_blank') &nbsp;
+                                i.icon-facebook-1 &nbsp;
+                        li.name
+                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank') &nbsp;
+                                i.icon-meetup &nbsp;
+                        li.name
+                            a(href='mailto:contact@codepot.pl') &nbsp;
+                                i.icon-mail &nbsp;
         header
             div.row
                 div.small-12.columns
@@ -101,7 +133,7 @@ html
                                 h1.number 12
                                 span.discription parallel sessions
 
-        section#map-information
+        section#venue
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 VENUE
