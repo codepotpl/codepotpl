@@ -46,6 +46,7 @@ $topbar-dropdown-label-bg: $green;
 $topbar-menu-link-font-size: rem-calc(17);
 $topbar-menu-link-color-toggled: $green;
 $topbar-menu-icon-color-toggled: $green;
+$topbar-breakpoint: #{lower-bound($large-range)};
 
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 @import "foundation/components/top-bar";
