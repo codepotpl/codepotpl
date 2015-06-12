@@ -7,3 +7,8 @@
   country: "Poland"
   pictureUrl: public/img/organizations/geekclub-logo.png
   url: http://geekclub.pl/
+
+- name: "Kariera Plus"
+  country: "Poland"
+  pictureUrl: public/img/organizations/karieraplus-logo.png
+  url: http://karieraplus.pl/
