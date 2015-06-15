@@ -96,3 +96,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/wrug-logo.png
   url: http://wrug.eu/
+
+- name: "NetWtorek"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/netwtorek-logo.png
+  url: http://netwtorek.pl/
