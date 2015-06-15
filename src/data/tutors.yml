@@ -173,3 +173,25 @@
   linkedInProfileUrl: 
   websiteUrl:
   bioInMd:
+
+- publish: true
+  firstName: Mateusz
+  lastName: Górski
+  tagline: Developer @ TouK
+  pictureUrl: public/img/people/mateusz-gorski.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName: 
+  lastName: 
+  tagline: 
+  pictureUrl: public/img/people/
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:
