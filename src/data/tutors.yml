@@ -174,7 +174,7 @@
   websiteUrl:
   bioInMd:
 
-- publish: false
+- publish: true
   firstName: Mateusz
   lastName: Górski
   tagline: Developer @ TouK
