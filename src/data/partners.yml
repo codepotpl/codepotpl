@@ -90,3 +90,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/pykonik-logo.png
   url: http://blog.pykonik.org/
+
+- name: "WRUG"
+  description: "Ruby"
+  country: "Poland"
+  pictureUrl: public/img/organizations/wrug-logo.png
+  url: http://wrug.eu/
