@@ -102,3 +102,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/netwtorek-logo.png
   url: http://netwtorek.pl/
+
+- name: "ScKRK"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sckrk-logo.png
+  url: http://www.meetup.com/sc-krk/
