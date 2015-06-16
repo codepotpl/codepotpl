@@ -185,6 +185,17 @@
   websiteUrl:
   bioInMd:
 
+- publish: true
+  firstName: Przemysław
+  lastName: Piotrowski
+  tagline: Software Engineer @ Adform.com
+  pictureUrl: public/img/people/przemyslaw-piotrowski.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName: 
   lastName: 
