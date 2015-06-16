@@ -12,3 +12,8 @@
   country: "Poland"
   pictureUrl: public/img/organizations/karieraplus-logo.png
   url: http://karieraplus.pl/
+
+- name: "Praca.pl"
+  country: "Poland"
+  pictureUrl: public/img/organizations/praca-logo.png
+  url: http://praca.pl/
