@@ -196,6 +196,17 @@
   websiteUrl:
   bioInMd:
 
+- publish: true
+  firstName: Marcin
+  lastName: Brański
+  tagline: Python Develop @ DaftCode
+  pictureUrl: public/img/people/marcin-branski.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName: 
   lastName: 
