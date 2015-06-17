@@ -31,3 +31,34 @@ document.getElementById("show_map").onclick = function () {
 };
 //END GOOGLE MAP
 $(document).foundation('topbar', 'reflow');
+
+//NAV BAR SCROLLING
+var offset = 500; //ms
+var lies = $("nav li.name");
+
+lies.find("a[href='#about']").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top  - $("nav.top-bar").height()
+    }, offset);
+});
+lies.find("a[href='#venue']").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#venue").offset().top  - $("nav.top-bar").height()
+    }, offset);
+});
+lies.find("a[href='#tutors']").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#tutors").offset().top  - $("nav.top-bar").height()
+    }, offset);
+});
+lies.find("a[href='#sponsor-us']").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#sponsor-us").offset().top  - $("nav.top-bar").height()
+    }, offset);
+});
+lies.find("a[href='#organizers']").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#organizers").offset().top  - $("nav.top-bar").height()
+    }, offset);
+});
+//END NAV BAR SCROLLING
