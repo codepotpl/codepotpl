@@ -177,14 +177,19 @@ section {
   }
 }
 
-nav {
-  a {
-    height: 100%;
-    text-align: center;
-    i {     
-      font-size: rem-calc(25);
+#navbar {
+  nav {
+    a {
+      height: 100%;
+      text-align: center;
+      i {
+        font-size: rem-calc(25);
+      }
     }
   }
+}
+.nav-up-hide {
+  top: -80px;
 }
 
 section#call-for-papers {
