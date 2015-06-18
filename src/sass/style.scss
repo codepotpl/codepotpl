@@ -156,6 +156,12 @@ header {
       text-align: left;
     }
   }
+  .credentials-below-logo {
+    padding-top: 40px;
+  }
+  @media #{$small-only} {
+    margin-bottom: 0px;
+  }
 }
 
 section {
@@ -180,30 +186,6 @@ nav {
     }
   }
 }
-/*nav {
-  background-color: $green;
-  .title-area {
-    background-color: $green !important;
-  }
-  .top-bar-section {
-    background-color: $green;
-    padding-bottom: 45px;
-    li {
-      a {
-        background-color: $green !important;
-        height: 100%;
-        text-align: center;
-        i {
-          color: $white;
-          font-size: rem-calc(25);
-        }
-        &:hover {
-          background-color: $dark-green !important;
-        }
-      }
-    }
-  }
-}*/
 
 section#call-for-papers {
   padding: 2rem 0;
@@ -217,6 +199,7 @@ section#call-for-papers {
     background-color: #F28D86;
   }
   @media #{$small-only} {
+    padding-top: 0px;
     button, input {
       width: 80%;
     }
