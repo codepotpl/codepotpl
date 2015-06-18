@@ -207,6 +207,17 @@
   websiteUrl:
   bioInMd:
 
+- publish: true
+  firstName: Wojtek
+  lastName: Erbetowski
+  tagline: Head of Engineering @ Polidea
+  pictureUrl: public/img/people/wojtek-erbetowski.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName: 
   lastName: 
