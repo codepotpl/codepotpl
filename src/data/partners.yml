@@ -114,3 +114,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/sages-logo.png
   url: http://www.sages.com.pl/
+
+- name: "Polygon"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/polygon-logo.png
+  url: http://polygon.pw.edu.pl/
