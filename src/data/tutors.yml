@@ -218,6 +218,17 @@
   websiteUrl:
   bioInMd:
 
+- publish: true
+  firstName: Dawid
+  lastName: Pytel
+  tagline: Senior Developer @ CoCoNet
+  pictureUrl: public/img/people/dawid-pytel.jpg
+  twitterUsername: 
+  githubUsername: 
+  linkedInProfileUrl: 
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName: 
   lastName: 
