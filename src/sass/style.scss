@@ -340,42 +340,55 @@ section#tutors {
 }
 
 .reveal-modal {
-    .contact {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      @extend .font-lato-regular;
-      font-size: rem-calc(24);
-      .icons {
-        padding-right: rem-calc(15);
-        a {
-          margin-right: rem-calc(4);
-          i {
-            color: $black;
-            font-size: rem-calc(24);
-          }
-        }
-      }
-      .name {
-        margin-top: rem-calc(-7);
-        span {
-          font-weight: bold !important;
-        }
+  .img {
+    @media #{$medium-up} {
+      img {
+        min-width: rem-calc(260);
       }
     }
-    .tagline {
-      @extend .font-lato-light;
-      font-size: rem-calc(16);
+    @media #{$small-only} {
+      margin-top: rem-calc(15);
+      img {
+        width: 100%;
+      }
     }
-    .bioInMd {
-      @extend .font-lato-light;
-      font-size: rem-calc(18);
+  }
+  .contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @extend .font-lato-regular;
+    font-size: rem-calc(24);
+    .icons {
+      padding-right: rem-calc(15);
+      a {
+        margin-right: rem-calc(4);
+        i {
+          color: $black;
+          font-size: rem-calc(24);
+        }
+      }
     }
-    div.inline {
-      float: left;
+    .name {
+      margin-top: rem-calc(-7);
+      span {
+        font-weight: bold !important;
+      }
     }
-    .clearBoth {
-      clear: both;
-    }
+  }
+  .tagline {
+    @extend .font-lato-light;
+    font-size: rem-calc(16);
+  }
+  .bioInMd {
+    @extend .font-lato-light;
+    font-size: rem-calc(18);
+  }
+  div.inline {
+    float: left;
+  }
+  .clearBoth {
+    clear: both;
+  }
 }
 
 section#sponsor-us, section#contact, section#subscribe {
