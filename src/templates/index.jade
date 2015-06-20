@@ -166,7 +166,7 @@ html
                                                 span.top-line!=[tutor.firstName, tutor.lastName].join(' ')
                                                 hr
                                                 span.bottom-line!=tutor.tagline
-                                    div.reveal-modal.medium(id="tutor" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
+                                    div.reveal-modal(id="tutor" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
                                         div.row.img
                                             div.medium-3
                                                 img(src=tutor.pictureUrl)

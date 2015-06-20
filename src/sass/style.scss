@@ -54,13 +54,13 @@ $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint
 
 $include-html-reveal-classes: $include-html-classes;
 
-$reveal-overlay-bg: rgba($black, 0);
+$reveal-overlay-bg: rgba($black, .45);
 $reveal-overlay-bg-old: $black;
 $reveal-modal-bg: $white;
 $reveal-position-top: rem-calc(100);
 $reveal-default-width: 100%;
 $reveal-max-width: $row-width;
-$reveal-box-shadow: 0 0 2px rgba($black,.4);
+$reveal-box-shadow: 0 0 0px rgba($black,.4);
 $reveal-border-width: 0px;
 @import "foundation/components/reveal";
 
