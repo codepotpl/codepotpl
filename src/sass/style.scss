@@ -268,6 +268,19 @@ section#map {
   }
 }
 
+section#schedule {
+  .buttons {
+    a {
+      width: 50%;
+      background-color: $green;
+      &:hover {
+        background-color: $dark-green;
+      }
+    }
+  }
+
+}
+
 section#tutors {
   ul {
     margin-bottom: 2rem;

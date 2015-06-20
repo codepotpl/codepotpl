@@ -62,3 +62,18 @@ lies.find("a[href='#organizers']").click(function() {
     }, offset);
 });
 //END NAV BAR SCROLLING
+
+
+
+$("#schedule").find("a[href='#day1']").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#schedule #day1").offset().top - $("nav.top-bar").height()
+    }, offset);
+});
+
+
+$("#schedule").find("a[href='#day2']").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#schedule #day2").offset().top - $("nav.top-bar").height()
+    }, offset);
+});

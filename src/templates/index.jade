@@ -146,6 +146,20 @@ html
         section#map(style='display: none;')
             div#map-canvas
 
+        section#schedule
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 AGENDA
+            div.row.buttons
+                div.small-12.medium-10.medium-centered.columns
+                    a.button.day1(href="#day1") DAY 1, 27th August
+                    a.button.day2(href="#day2") DAY 2, 28th August
+            div.row.content
+                div.small-12.medium-10.medium-centered.columns
+                    div#day1 Test 1
+                    div#day2 Test 2
+
+
 
         if tutors && tutors.length > 0
             section#tutors
