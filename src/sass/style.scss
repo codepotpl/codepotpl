@@ -51,6 +51,23 @@ $topbar-breakpoint: #{lower-bound($large-range)};
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 @import "foundation/components/top-bar";
 
+
+$include-html-reveal-classes: $include-html-classes;
+
+// We use these to control the style of the reveal overlay.
+$reveal-overlay-bg: rgba($black, 0);
+$reveal-overlay-bg-old: $black;
+// We use these to control the style of the modal itself.
+$reveal-modal-bg: $white;
+$reveal-position-top: rem-calc(150);
+$reveal-default-width: 100%;
+//$reveal-min-width: rem-calc(590);
+$reveal-max-width: $row-width;
+$reveal-box-shadow: 0 0 2px rgba($black,.4);
+// We use these to control the modal border
+$reveal-border-width: 0px;
+@import "foundation/components/reveal";
+
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
   font-weight: bold;
@@ -313,6 +330,17 @@ section#tutors {
           border-width: 1px 0 0 0;
         }
       }
+    }
+  }
+}
+
+.reveal-modal {
+  .contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    a{
+      padding-right: 5px;
     }
   }
 }

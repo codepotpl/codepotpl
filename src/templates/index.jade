@@ -158,13 +158,38 @@ html
                         ul.small-block-grid-2.medium-block-grid-4
                             each tutor, index in tutors
                                 li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
-                                    img(src=tutor.pictureUrl)
-                                    div.empty
-                                    div.center-holder
-                                        div.description-wrapper
-                                            span.top-line!=[tutor.firstName, tutor.lastName].join(' ')
-                                            hr
+                                    a(href="#" data-reveal-id="tutor" + index)
+                                        img(src=tutor.pictureUrl)
+                                        div.empty
+                                        div.center-holder
+                                            div.description-wrapper
+                                                span.top-line!=[tutor.firstName, tutor.lastName].join(' ')
+                                                hr
+                                                span.bottom-line!=tutor.tagline
+                                    div.reveal-modal.large(id="tutor" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
+                                        div.row.img
+                                            div.medium-3
+                                                img(src=tutor.pictureUrl)
+                                        div.row.contact
+                                            if tutor.linkedInProfileUrl
+                                                a(href!=tutor.linkedInProfileUrl target='_blank')
+                                                    i.icon-meetup
+                                            if tutor.githubUsername
+                                                a(href='https://www.github.com/' + tutor.githubUsername target='_blank')
+                                                    i.icon-facebook-1
+                                            if tutor.twitterUsername
+                                                a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
+                                                    i.icon-twitter
+                                            if tutor.websiteUrl
+                                                a(href!=tutor.websiteUrl target='_blank')
+                                                    span.name!=[tutor.firstName, tutor.lastName].join(' ')
+                                            else
+                                                span.name!=[tutor.firstName, tutor.lastName].join(' ')
+                                        div.row.tagline
                                             span.bottom-line!=tutor.tagline
+                                        div.row.bioInMd
+                                            p!=tutor.bioInMd
+                                        a.close-reveal-modal(aria-label="Close")&#215;
 
         section#sponsor-us
             div.row

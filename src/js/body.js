@@ -62,3 +62,5 @@ lies.find("a[href='#organizers']").click(function() {
     }, offset);
 });
 //END NAV BAR SCROLLING
+
+$(document).foundation();
