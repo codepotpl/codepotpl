@@ -1,6 +1,6 @@
 yepnope.injectJs('public/google-analytics.js');
 
-var isSmall = $(window).width() < 820 ? true : false;
+var isSmall = $(window).width() < 780;
 /**GOOGLE MAP*/
 var map;
 function initialize() {
