@@ -44,12 +44,26 @@ $topbar-dropdown-label-font-size: rem-calc(13);
 $topbar-dropdown-label-bg: $green;
 
 $topbar-menu-link-font-size: rem-calc(17);
-$topbar-menu-link-color-toggled: $green;
-$topbar-menu-icon-color-toggled: $green;
-$topbar-breakpoint: #{lower-bound($large-range)};
+$topbar-menu-link-color-toggled: #fff;
+$topbar-menu-icon-color-toggled: #fff;
+$topbar-breakpoint: 780px;
 
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 @import "foundation/components/top-bar";
+#navbar {
+  nav {
+    .title-area {
+      padding: 0; // fixes menu wrapping
+    }
+    .top-bar-section a {
+      line-height: 1; // menu for small screens
+      text-align: center;
+      i {
+        font-size: rem-calc(25);
+      }
+    }
+  }
+}
 
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
@@ -109,7 +123,6 @@ button {
   &:active {
     background-color: darken($dark-green, 10%);
   }
-
 }
 
 header {
@@ -156,6 +169,12 @@ header {
       text-align: left;
     }
   }
+  .credentials-below-logo {
+    padding-top: 40px;
+  }
+  @media #{$small-only} {
+    margin-bottom: 0px;
+  }
 }
 
 section {
@@ -171,40 +190,6 @@ section {
   }
 }
 
-nav {
-  a {
-    height: 100%;
-    text-align: center;
-    i {     
-      font-size: rem-calc(25);
-    }
-  }
-}
-/*nav {
-  background-color: $green;
-  .title-area {
-    background-color: $green !important;
-  }
-  .top-bar-section {
-    background-color: $green;
-    padding-bottom: 45px;
-    li {
-      a {
-        background-color: $green !important;
-        height: 100%;
-        text-align: center;
-        i {
-          color: $white;
-          font-size: rem-calc(25);
-        }
-        &:hover {
-          background-color: $dark-green !important;
-        }
-      }
-    }
-  }
-}*/
-
 section#call-for-papers {
   padding: 2rem 0;
   p {
@@ -217,6 +202,7 @@ section#call-for-papers {
     background-color: #F28D86;
   }
   @media #{$small-only} {
+    padding-top: 0px;
     button, input {
       width: 80%;
     }
@@ -384,9 +370,9 @@ section#sponsors {
     }
   }
   @media #{$small-only} {
-      .small-up {
-        margin-top: -2rem;
-      }
+    .small-up {
+      margin-top: -2rem;
+    }
   }
   .wrapper {
     div.box {
@@ -491,11 +477,13 @@ section#call-for-papers-form {
     color: gray;
   }
 
-  :-moz-placeholder { /* Firefox 18- */
+  :-moz-placeholder {
+    /* Firefox 18- */
     color: gray;
   }
 
-  ::-moz-placeholder {  /* Firefox 19+ */
+  ::-moz-placeholder {
+    /* Firefox 19+ */
     color: gray;
   }
 
