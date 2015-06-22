@@ -44,12 +44,28 @@ $topbar-dropdown-label-font-size: rem-calc(13);
 $topbar-dropdown-label-bg: $green;
 
 $topbar-menu-link-font-size: rem-calc(17);
-$topbar-menu-link-color-toggled: $green;
-$topbar-menu-icon-color-toggled: $green;
-$topbar-breakpoint: #{lower-bound($large-range)};
+$topbar-menu-link-color-toggled: #fff;
+$topbar-menu-icon-color-toggled: #fff;
+$topbar-breakpoint: 780px;
 
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 @import "foundation/components/top-bar";
+#navbar {
+  nav {
+    .title-area {
+      padding: 0; // fixes menu wrapping
+    }
+    .top-bar-section a {
+      @media #{$small-only} {
+        line-height: 1; // menu for small screens
+        text-align: center;
+        i {
+          font-size: rem-calc(25);
+        }
+      }
+    }
+  }
+}
 
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
@@ -109,7 +125,6 @@ button {
   &:active {
     background-color: darken($dark-green, 10%);
   }
-
 }
 
 header {
@@ -156,6 +171,12 @@ header {
       text-align: left;
     }
   }
+  .credentials-below-logo {
+    padding-top: 40px;
+  }
+  @media #{$small-only} {
+    margin-bottom: 0px;
+  }
 }
 
 section {
@@ -171,40 +192,6 @@ section {
   }
 }
 
-nav {
-  a {
-    height: 100%;
-    text-align: center;
-    i {     
-      font-size: rem-calc(25);
-    }
-  }
-}
-/*nav {
-  background-color: $green;
-  .title-area {
-    background-color: $green !important;
-  }
-  .top-bar-section {
-    background-color: $green;
-    padding-bottom: 45px;
-    li {
-      a {
-        background-color: $green !important;
-        height: 100%;
-        text-align: center;
-        i {
-          color: $white;
-          font-size: rem-calc(25);
-        }
-        &:hover {
-          background-color: $dark-green !important;
-        }
-      }
-    }
-  }
-}*/
-
 section#call-for-papers {
   padding: 2rem 0;
   p {
@@ -217,6 +204,7 @@ section#call-for-papers {
     background-color: #F28D86;
   }
   @media #{$small-only} {
+    padding-top: 0px;
     button, input {
       width: 80%;
     }
@@ -317,6 +305,71 @@ section#tutors {
   }
 }
 
+section#agenda {
+  h2 {
+    @extend .font-source-sans-pro-regular;
+    font-size: rem-calc(24);
+    border: 1px solid;
+    border-width: 0 0 1px 0;
+    margin-bottom: 2rem;
+  }
+  .agenda-row {
+    @extend %flexbox;
+    @include flex-direction(row);
+    @include align-items(center);
+    margin-bottom: 0.7rem;
+    span {
+      line-height: 1.2;
+    }
+    .time {
+      min-width: rem-calc(50);
+      max-width: rem-calc(50);
+      @media #{$medium-up} {
+        min-width: rem-calc(95);
+        max-width: rem-calc(95);
+      }
+      text-align: right;
+      @media #{$small-only} {
+        span {
+          display: none;
+        }
+      }
+      @media #{$medium-up} {
+        br {
+          display: none;
+        }
+      }
+    }
+    .dot {
+      background: $green;
+      border-radius: 50%;
+      min-height: rem-calc(12);
+      max-height: rem-calc(12);
+      min-width: rem-calc(12);
+      max-width: rem-calc(12);
+      margin: 0 rem-calc(28);
+      position: relative;
+      i {
+        border: 1px solid $green;
+        border-radius: 50px;
+        color: $green;
+        background: white;
+        position: absolute;
+        padding: 1px;
+        top: -9px;
+        left: -9px;
+        height: 30px;
+        width: 30px;
+        &::before {
+          margin: 3px;
+        }
+      }
+    }
+    .name {
+    }
+  }
+}
+
 section#sponsor-us, section#contact, section#subscribe {
   .center {
     text-align: center;
@@ -384,9 +437,9 @@ section#sponsors {
     }
   }
   @media #{$small-only} {
-      .small-up {
-        margin-top: -2rem;
-      }
+    .small-up {
+      margin-top: -2rem;
+    }
   }
   .wrapper {
     div.box {
@@ -491,11 +544,13 @@ section#call-for-papers-form {
     color: gray;
   }
 
-  :-moz-placeholder { /* Firefox 18- */
+  :-moz-placeholder {
+    /* Firefox 18- */
     color: gray;
   }
 
-  ::-moz-placeholder {  /* Firefox 19+ */
+  ::-moz-placeholder {
+    /* Firefox 19+ */
     color: gray;
   }
 

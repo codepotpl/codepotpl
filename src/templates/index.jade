@@ -14,7 +14,7 @@ html
         //script(src='public/head.js')
         //TODO add environment variable to control inlining mechanism
     body(itemtype='http://schema.org/EducationEvent', itemscope)
-        div.fixed
+        div#navbar.fixed
             nav.top-bar(data-topbar role='navigation')
                 ul.title-area
                     li.name
@@ -57,7 +57,7 @@ html
                                 span(itemprop='addressLocality' hidden)!='Warsaw'
                             span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
 
-                    div.row
+                    div.row.show-for-medium-up
                         div.small-12.medium-10.medium-centered.columns
                             div.row.credentials
                                 div.small-12.medium-6.columns
@@ -72,6 +72,21 @@ html
 
             img.show-for-small(src='public/img/codepot-header-illustration-small.png')
             img.show-for-medium-up(src='public/img/codepot-header-illustration-medium-up.png')
+
+            div.row.show-for-small-down.credentials-below-logo
+                div.small-12.columns
+                    div.row
+                        div.small-12.medium-10.medium-centered.columns
+                            div.row.credentials
+                                div.small-12.medium-6.columns
+                                    i.icon-codepot-icon-calendar
+                                    span August, 28-29th
+                                        | <br/> 2015
+                                div.small-12.medium-6.columns.right
+                                    i.icon-codepot-icon-map-pin
+                                    a(href='https://www.google.pl/maps/@52.2484033,21.0651879,17z' target='blank')
+                                        span SWPS, Warsaw
+                                        | <br/> Chodakowska 19/31
 
         section#call-for-papers
             div.row
@@ -165,6 +180,77 @@ html
                                             span.top-line!=[tutor.firstName, tutor.lastName].join(' ')
                                             hr
                                             span.bottom-line!=tutor.tagline
+
+        section#agenda
+            div.row
+                div.small-12.columns
+                    h1 AGENDA
+            div.row
+                div.small-12.large-5.large-push-1.columns
+                    h2 DAY 1, THURSDAY 27th&nbsp;AUGUST
+                    div.agenda-row
+                        span.time 8:00<span>-</span><br>9:00
+                        div.dot
+                        span.name Registration
+                    div.agenda-row
+                        span.time 9:00<span>-</span><br>9:15
+                        div.dot
+                        span.name Opening
+                    div.agenda-row
+                        span.time 9:15<span>-</span><br>12:30
+                        div.dot
+                        span.name Workshops
+                    div.agenda-row
+                        span.time 12:30<span>-</span><br>13:30
+                        div.dot
+                            i.icon-codepot-icon-cutlery
+                        span.name Lunch
+                    div.agenda-row
+                        span.time 13:30<span>-</span><br>14:45
+                        div.dot
+                        span.name Soft-skill workshops
+                    div.agenda-row
+                        span.time 14:45<span>-</span><br>15:00
+                        div.dot
+                            i.icon-codepot-icon-coffee
+                        span.name Coffee break
+                    div.agenda-row
+                        span.time 15:00<span>-</span><br>18:15
+                        div.dot
+                        span.name Workshops
+
+                div.small-12.large-5.large-push-1.end.columns
+                    h2 DAY 2, FRIDAY 28th&nbsp;AUGUST
+                    div.agenda-row
+                        span.time 9:00<span>-</span><br>9:30
+                        div.dot
+                        span.name Registration
+                    div.agenda-row
+                        span.time 9:30<span>-</span><br>9:45
+                        div.dot
+                        span.name Opening
+                    div.agenda-row
+                        span.time 9:45<span>-</span><br>13:00
+                        div.dot
+                        span.name Workshops
+                    div.agenda-row
+                        span.time 13:00<span>-</span><br>14:00
+                        div.dot
+                            i.icon-codepot-icon-cutlery
+                        span.name Lunch
+                    div.agenda-row
+                        span.time 14:00<span>-</span><br>15:00
+                        div.dot
+                        span.name Soft-skill workshops
+                    div.agenda-row
+                        span.time 15:00<span>-</span><br>15:15
+                        div.dot
+                            i.icon-codepot-icon-coffee
+                        span.name Coffee break
+                    div.agenda-row
+                        span.time 15:15<span>-</span><br>18:30
+                        div.dot
+                        span.name Workshops
 
         section#sponsor-us
             div.row
