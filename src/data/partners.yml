@@ -126,3 +126,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/cocoaheads-logo.png
   url: http://www.meetup.com/CocoaHeads-Krakow/
+
+- name: "Mobile Warsaw"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/mobilewarsaw-logo.png
+  url: http://mobile-warsaw.pl/
