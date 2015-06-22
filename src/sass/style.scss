@@ -56,10 +56,12 @@ $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint
       padding: 0; // fixes menu wrapping
     }
     .top-bar-section a {
-      line-height: 1; // menu for small screens
-      text-align: center;
-      i {
-        font-size: rem-calc(25);
+      @media #{$small-only} {
+        line-height: 1; // menu for small screens
+        text-align: center;
+        i {
+          font-size: rem-calc(25);
+        }
       }
     }
   }
@@ -322,6 +324,10 @@ section#agenda {
     .time {
       min-width: rem-calc(50);
       max-width: rem-calc(50);
+      @media #{$medium-up} {
+        min-width: rem-calc(95);
+        max-width: rem-calc(95);
+      }
       text-align: right;
       @media #{$small-only} {
         span {
