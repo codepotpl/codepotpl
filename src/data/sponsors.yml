@@ -37,3 +37,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/codilime-logo.png
   url: http://www.codilime.com
+
+- name: "Applause"
+  description: "Mobile and web test automation"
+  country: "Poland"
+  pictureUrl: public/img/organizations/applause-logo.png
+  url: http://www.applause.com/
