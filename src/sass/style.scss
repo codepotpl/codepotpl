@@ -56,10 +56,12 @@ $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint
       padding: 0; // fixes menu wrapping
     }
     .top-bar-section a {
-      line-height: 1; // menu for small screens
-      text-align: center;
-      i {
-        font-size: rem-calc(25);
+      @media #{$small-only} {
+        line-height: 1; // menu for small screens
+        text-align: center;
+        i {
+          font-size: rem-calc(25);
+        }
       }
     }
   }
@@ -299,6 +301,71 @@ section#tutors {
           border-width: 1px 0 0 0;
         }
       }
+    }
+  }
+}
+
+section#agenda {
+  h2 {
+    @extend .font-source-sans-pro-regular;
+    font-size: rem-calc(24);
+    border: 1px solid;
+    border-width: 0 0 1px 0;
+    margin-bottom: 2rem;
+  }
+  .agenda-row {
+    @extend %flexbox;
+    @include flex-direction(row);
+    @include align-items(center);
+    margin-bottom: 0.7rem;
+    span {
+      line-height: 1.2;
+    }
+    .time {
+      min-width: rem-calc(50);
+      max-width: rem-calc(50);
+      @media #{$medium-up} {
+        min-width: rem-calc(95);
+        max-width: rem-calc(95);
+      }
+      text-align: right;
+      @media #{$small-only} {
+        span {
+          display: none;
+        }
+      }
+      @media #{$medium-up} {
+        br {
+          display: none;
+        }
+      }
+    }
+    .dot {
+      background: $green;
+      border-radius: 50%;
+      min-height: rem-calc(12);
+      max-height: rem-calc(12);
+      min-width: rem-calc(12);
+      max-width: rem-calc(12);
+      margin: 0 rem-calc(28);
+      position: relative;
+      i {
+        border: 1px solid $green;
+        border-radius: 50px;
+        color: $green;
+        background: white;
+        position: absolute;
+        padding: 1px;
+        top: -9px;
+        left: -9px;
+        height: 30px;
+        width: 30px;
+        &::before {
+          margin: 3px;
+        }
+      }
+    }
+    .name {
     }
   }
 }
