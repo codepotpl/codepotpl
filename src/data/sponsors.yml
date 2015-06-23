@@ -43,3 +43,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/applause-logo.png
   url: http://www.applause.com/
+
+- name: "Sii"
+  description: "Passion for technology"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sii-logo.png
+  url: http://sii.pl/
