@@ -251,7 +251,7 @@
   websiteUrl:
   bioInMd: Maciej is a passionate Android developer. He cares about writing cleaner code and less amount of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables.
 
-- publish: false
+- publish: true
   firstName: Marcin
   lastName: Karkocha
   tagline: Software Engineer @ Intel
