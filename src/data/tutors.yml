@@ -310,7 +310,7 @@
   websiteUrl:
   bioInMd: Marcin jest programistą Pythona który kocha zasadę jednej drogi do celu. Na co dzień perfekcjonista zakochany w zasadach projektowych i refaktoryzacji. Z szerokim doświadczeniem w tworzeniu API dla projektów dużej skali. Od czasu do czasu pracuje nad projektami Open Source. Prelegent na wielu konferencjach i warsztatach. Twórca Trójmiejskiej Grupy miłośników Pythona - PyGDA. W wolnej chwili teoretyzuje nad stworzeniem własnego języka programowania pozbawionego wad. Aktualnie współpracuje z firmą Intel, pracując nad OpenStackiem.
 
-- publish: true
+- publish: false
   firstName: Anton
   lastName: Sarov
   tagline: Software Engineer @ Entimo
@@ -323,7 +323,7 @@
   websiteUrl:
   bioInMd: A Java coder. Anton is able to pay his rent thanks to a position as a Java Software Engineer in a Berlin-based company, working with rich client technologies. He can be found on the streets of Berlin riding his Honda (and thinking about Java). Oh, and he loves the Play Framework.
 
-- publish: true
+- publish: false
   firstName: Beata
   lastName: Nowakowska
   tagline: 
@@ -336,11 +336,11 @@
   websiteUrl: https://glowkapracuje.wordpress.com/
   bioInMd: Beata is a developer, Scrum Master, agile and business coach. She started as a developer and quickly became the refactoring-guy-on-duty for the team and the teacher of all the quality stuff. At some point she realized that there is something even more important then clean code. Something that creates environment where writing clean code is easy and natural. She got interested in agile and scrum and soon started spreading that knowledge together with clean code. But it wasn't enough - she became a Scrum Master and learned classic coaching from the best coaches in Poland. Now she's three in one: Developer, Scrum Master and a Proffessional Coach. She shares the knowledge all over the country with her classes. She belives that knowledge about human brain can make software development easy. It can make working a happier and even the world a better place.
 
-- publish: true
+- publish: false
   firstName: Piotr
   lastName: Jagielski
   tagline: Java Developer @ TouK
-  pictureUrl: public/img/people/
+  pictureUrl: public/img/people/piotr-jagielski.jpg
   twitterUsername: pjagielski
   githubUsername: pjagielski
   linkedInProfileUrl:
@@ -349,7 +349,7 @@
   websiteUrl:
   bioInMd: I make Java backends for almost 9 years, recently exploring the container-less distributed service architecture. In my spare time I do some Clojure and learn sound synthesis. I wrote "Instant Spring Security Starter" and commit to hermes.allegrotech.io
 
-- publish: true
+- publish: false
   firstName: Marcin
   lastName: Kosiński
   tagline: Data Scientist @ Grupa Wirtualna Polska
