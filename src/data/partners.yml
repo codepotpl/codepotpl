@@ -126,3 +126,11 @@
   country: "Poland"
   pictureUrl: public/img/organizations/cocoaheads-logo.png
   url: http://www.meetup.com/CocoaHeads-Krakow/
+
+- name: "Techsoup"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/techsoup-logo.png
+  url: http://fundacjatechsoup.pl/
+
+
