@@ -240,7 +240,7 @@
   websiteUrl:
   bioInMd:
 
-- publish: false
+- publish: true
   firstName: Maciej
   lastName: Górski
   tagline: Lazy Developer @ EL Passion
