@@ -1,13 +1,13 @@
 - publish: true
   firstName: Michał
   lastName: Tajchert
-  tagline: Entrepreneur @ 12hours.io
+  tagline: Entrepreneur @ 12hours.io, GDG Warszawa
   pictureUrl: public/img/people/michal-tajchert.jpg
   twitterUsername: Tajchert
-  githubUsername: 
+  githubUsername:
   linkedInProfileUrl: https://www.linkedin.com/profile/view?id=241772131
   websiteUrl:
-  bioInMd:
+  bioInMd: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
 
 - publish: true
   firstName: Aleksander
@@ -18,15 +18,15 @@
   githubUsername: pelotasplus
   linkedInProfileUrl: https://www.linkedin.com/in/pelotasplus
   websiteUrl:
-  bioInMd:
+  bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer.
 
 - publish: true
   firstName: Chris
   lastName: Eidhof
   tagline: Software Developer @ objc.io
   pictureUrl: public/img/people/chris-eidhof.jpg
-  twitterUsername: chriseidhof 
-  githubUsername: 
+  twitterUsername: chriseidhof
+  githubUsername:
   linkedInProfileUrl:
   websiteUrl: http://chris.eidhof.nl
   bioInMd: Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as [Deckset](http://decksetapp.com) and [Scenery](http://www.getscenery.com). He started [UIKonf](http://www.uikonf.com), [objc.io](http://www.objc.io), and wrote a book about [Functional Programming in Swift](http://www.objc.io/books/).
@@ -39,8 +39,8 @@
   twitterUsername: fenixb3
   githubUsername: FeniXb3
   linkedInProfileUrl: https://www.linkedin.com/in/fenixb3
-  websiteUrl:
-  bioInMd:
+  websiteUrl: http://enklawa-tworcza.blogspot.com/
+  bioInMd: Senior Software Engineer at Ganymede. Leading coding dojo and sharing his interest in test automation. Working in gamedev since the end of 2014, but he's been creating games as a hobby and because of studying Vudei Game Development at Jagiellonian University. He's a big fan of Behaviour-Driven Development and automation in general. He's passionate about table-top games, loves to play on ukulele, harmonica and any other instruments he can get.
 
 - publish: true
   firstName: Mateusz
@@ -51,26 +51,26 @@
   githubUsername: partition
   linkedInProfileUrl: https://www.linkedin.com/in/herych
   websiteUrl:
-  bioInMd:   
-  
+  bioInMd: Heniek works at Base where he uses his android-abracadabras to make his users' work more efficient. Apart from that he's a Google Developer Expert for Android and GDG Kraków co-organizer where together with his friends he organized several things like KrakDroid (later known as a Droidcon), dizygotic twins, DevFest, Android Tech Talks and more.
+
 - publish: true
   firstName: Przemysław
   lastName: Jakubczyk
   tagline: Android Technical Lead @ Applause.com
   pictureUrl: public/img/people/przemyslaw-jakubczyk.jpg
-  twitterUsername: 
+  twitterUsername:
   githubUsername: pjakubczyk
-  linkedInProfileUrl: 
+  linkedInProfileUrl: https://pl.linkedin.com/pub/przemysław-jakubczyk/4b/ba7/545
   websiteUrl:
-  bioInMd:  
+  bioInMd: Active member of Warsaw developers community. As the author of RoboSpock is a strong believer in TDD. Person who really cares about code quality. Currently working for Applause creating Android SDK library and auto instrumentation service.
 
 - publish: true
   firstName: Martin
   lastName: Skurla
   tagline: Software Engineer @ Barclays
   pictureUrl: public/img/people/martin-skurla.jpg
-  twitterUsername: 
-  githubUsername: 
+  twitterUsername:
+  githubUsername:
   linkedInProfileUrl: https://cz.linkedin.com/pub/martin-skurla/28/114/951
   websiteUrl:
   bioInMd: Java Developer, Technology Enthusiastic, OpenSource Committer, Trainer, Technical Reviewer, Community/Conference/JUG speaker, Java Community Leader, JCP member
@@ -80,55 +80,55 @@
   lastName: Nabrdalik
   tagline: Head of Software Development in PL @ 4financeIT
   pictureUrl: public/img/people/jakub-nabrdalik.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
-  bioInMd: 
-  
+  bioInMd:
+
 - publish: true
   firstName: Sławomir
   lastName: Sobótka
   tagline: Trener @ Bottega IT Solutions
   pictureUrl: public/img/people/slawomir-sobotka.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
-  bioInMd: 
-  
+  bioInMd:
+
 - publish: true
   firstName: Maciej
   lastName: Oczko
-  tagline: 
+  tagline:
   pictureUrl: public/img/people/maciej-oczko.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
-  bioInMd: 
-  
+  bioInMd:
+
 - publish: true
   firstName: Paweł
   lastName: Dudek
   tagline:
   pictureUrl: public/img/people/pawel-dudek.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
-  bioInMd: 
+  bioInMd:
 
 - publish: true
   firstName: Anna
   lastName: Józwik
   tagline: HR Manager @ CodiLime
   pictureUrl: public/img/people/anna-jozwik.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
-  bioInMd: 
+  bioInMd:
 
 - publish: true
   firstName: Sylwester
@@ -147,8 +147,8 @@
   tagline: Akka hakker @ Typesafe
   pictureUrl: public/img/people/konrad-malawski.jpg
   twitterUsername: ktosopl
-  githubUsername: 
-  linkedInProfileUrl: 
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd: Akka hakker @ Typesafe, where he also participated in the Reactive Streams initiative and implemented it's Technology Compatibility Kit. Konrad is a late-night passionate dev living by the motto "Life is Study!". His favourite discussion topics range from distributed systems to capybaras. He has founded and run multiple user groups (Java, Scala, Computer Science, ...), and has is leading the awesome GeeCON conference and participates as program committee member of JavaOne SF. Other than that, he's a frequent speaker on distributed systems and concurrency topics, at conferences all around the world. In those rare times he's not coding, he spreads the joy of computer science, through helping local user groups and whitepaper reading clubs.
 
@@ -157,9 +157,9 @@
   lastName: Nosek
   tagline: Chief Tinkering Officer @ MegiTeam
   pictureUrl: public/img/people/grzegorz-nosek.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd:
 
@@ -168,9 +168,9 @@
   lastName: Çugun
   tagline: Principal Technologist @ Hubbub
   pictureUrl: public/img/people/alper-cugun.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd:
 
@@ -179,9 +179,9 @@
   lastName: Górski
   tagline: Developer @ TouK
   pictureUrl: public/img/people/mateusz-gorski.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd:
 
@@ -190,9 +190,9 @@
   lastName: Piotrowski
   tagline: Software Engineer @ Adform.com
   pictureUrl: public/img/people/przemyslaw-piotrowski.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd:
 
@@ -201,9 +201,9 @@
   lastName: Brański
   tagline: Python Developer @ DaftCode
   pictureUrl: public/img/people/marcin-branski.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd:
 
@@ -212,9 +212,9 @@
   lastName: Erbetowski
   tagline: Head of Engineering @ Polidea
   pictureUrl: public/img/people/wojtek-erbetowski.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd:
 
@@ -223,19 +223,63 @@
   lastName: Pytel
   tagline: Senior Developer @ CoCoNet
   pictureUrl: public/img/people/dawid-pytel.jpg
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  websiteUrl:
+  bioInMd:
+
+- publish: true
+  firstName: Adam
+  lastName: Bien
+  tagline: Chief Java Enthusiast, adam-bien.com
+  pictureUrl: public/img/people/adam-bien.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd:
 
 - publish: false
-  firstName: 
-  lastName: 
-  tagline: 
+  firstName: Maciej
+  lastName: Górski
+  tagline: Lazy Developer @ EL Passion
+  pictureUrl: public/img/people/maciej-gorski.jpg
+  twitterUsername: mg6maciej
+  githubUsername: mg6maciej
+  linkedInProfileUrl: https://www.linkedin.com/in/mg6maciej
+  websiteUrl:
+  bioInMd: Maciej is a passionate Android developer. He cares about writing cleaner code and less amount of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables.
+
+- publish: false
+  firstName: Marcin
+  lastName: Karkocha
+  tagline: Software Engineer @ Intel
+  pictureUrl: public/img/people/marcin-karkocha.jpg
+  twitterUsername: kivvio
+  githubUsername: kivio
+  linkedInProfileUrl: https://pl.linkedin.com/in/kivio
+  websiteUrl:
+  bioInMd: Marcin jest programistą Pythona który kocha zasadę jednej drogi do celu. Na co dzień perfekcjonista zakochany w zasadach projektowych i refaktoryzacji. Z szerokim doświadczeniem w tworzeniu API dla projektów dużej skali. Od czasu do czasu pracuje nad projektami Open Source. Prelegent na wielu konferencjach i warsztatach. Twórca Trójmiejskiej Grupy miłośników Pythona - PyGDA. W wolnej chwili teoretyzuje nad stworzeniem własnego języka programowania pozbawionego wad. Aktualnie współpracuje z firmą Intel, pracując nad OpenStackiem.
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
   pictureUrl: public/img/people/
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
   websiteUrl:
   bioInMd:
