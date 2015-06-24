@@ -17,3 +17,8 @@
   country: "Poland"
   pictureUrl: public/img/organizations/praca-logo.png
   url: http://praca.pl/
+
+- name: "Crossweb.pl"
+  country: "Poland"
+  pictureUrl: public/img/organizations/crossweb-logo.png
+  url: http://crossweb.pl/
