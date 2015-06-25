@@ -336,7 +336,7 @@
   websiteUrl: https://glowkapracuje.wordpress.com/
   bioInMd: Beata is a developer, Scrum Master, agile and business coach. She started as a developer and quickly became the refactoring-guy-on-duty for the team and the teacher of all the quality stuff. At some point she realized that there is something even more important then clean code. Something that creates environment where writing clean code is easy and natural. She got interested in agile and scrum and soon started spreading that knowledge together with clean code. But it wasn't enough - she became a Scrum Master and learned classic coaching from the best coaches in Poland. Now she's three in one: Developer, Scrum Master and a Proffessional Coach. She shares the knowledge all over the country with her classes. She belives that knowledge about human brain can make software development easy. It can make working a happier and even the world a better place.
 
-- publish: false
+- publish: true
   firstName: Piotr
   lastName: Jagielski
   tagline: Java Developer @ TouK
