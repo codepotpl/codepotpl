@@ -323,7 +323,7 @@
   websiteUrl:
   bioInMd: A Java coder. Anton is able to pay his rent thanks to a position as a Java Software Engineer in a Berlin-based company, working with rich client technologies. He can be found on the streets of Berlin riding his Honda (and thinking about Java). Oh, and he loves the Play Framework.
 
-- publish: false
+- publish: true
   firstName: Beata
   lastName: Nowakowska
   tagline: 
