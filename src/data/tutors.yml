@@ -310,7 +310,7 @@
   websiteUrl:
   bioInMd: Marcin jest programistą Pythona który kocha zasadę jednej drogi do celu. Na co dzień perfekcjonista zakochany w zasadach projektowych i refaktoryzacji. Z szerokim doświadczeniem w tworzeniu API dla projektów dużej skali. Od czasu do czasu pracuje nad projektami Open Source. Prelegent na wielu konferencjach i warsztatach. Twórca Trójmiejskiej Grupy miłośników Pythona - PyGDA. W wolnej chwili teoretyzuje nad stworzeniem własnego języka programowania pozbawionego wad. Aktualnie współpracuje z firmą Intel, pracując nad OpenStackiem.
 
-- publish: false
+- publish: true
   firstName: Anton
   lastName: Sarov
   tagline: Software Engineer @ Entimo
