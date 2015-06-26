@@ -362,6 +362,45 @@
   websiteUrl:
   bioInMd: Data Scientist w Grupie Wirtualna Polska. Kończy ostatni rok studiów na specjalności Statystyka Matematyczna i Analiza Danych na Politechnice Warszawskiej. Na co dzień pasjonat pakietu statystycznego R i ogromny entuzjasta wyzwań. Pomaga organizować warszawskie Spotkania Entuzjastów R i Maratony Analizy Danych. Zgadza się ze stwierdzeniem, że jeśli dostatecznie długo dręczy się dane, to w końcu powiedzą to co chciało się usłyszeć, jednak nie praktykuje tej zasady.
 
+- publish: true
+  firstName: Konrad
+  lastName: Krakowiak
+  tagline: Senior Software Engineer @ Polidea
+  pictureUrl: public/img/people/konrad-krakowiak.jpg
+  twitterUsername: KKonrad1987
+  githubUsername: KKonradMC
+  linkedInProfileUrl: https://pl.linkedin.com/pub/konrad-krakowiak/72/833/110
+  stackoverflowId: http://stackoverflow.com/users/2833965/konrad-krakowiak
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I have almost 6 years experience in programming, of which 5 years as an Android developer. I attended in development of many projects from the beginning (planning, design) to the end (release). I want to show you how you can create a professional application in a easy way via Android Libraries.
+
+- publish: false
+  firstName: Przemysław
+  lastName: Hejman
+  tagline: Senior Systems Engineer @ Applause, Inc.
+  pictureUrl: public/img/people/przemyslaw-hejman.jpg
+  twitterUsername: slepykorzen
+  githubUsername: mieciu
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=176852407&trk=hp-identity-name
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName: Robert
+  lastName: Gurgul
+  tagline: Front-end / Trener @ helloworld.edu.pl
+  pictureUrl: public/img/people/robert-gurgul.jpg
+  twitterUsername: rgurgul
+  githubUsername: rgurgul
+  linkedInProfileUrl: http://pl.linkedin.com/in/robertgurgul
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I am front-end developer and trainer. Currently I collaborate with companies such as Javatech and Eduweb. I also lead my own training business under the brand "helloword" (helloworld.edu.pl).
+
 - publish: false
   firstName:
   lastName:
