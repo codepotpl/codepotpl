@@ -375,7 +375,7 @@
   websiteUrl:
   bioInMd: I have almost 6 years experience in programming, of which 5 years as an Android developer. I attended in development of many projects from the beginning (planning, design) to the end (release). I want to show you how you can create a professional application in a easy way via Android Libraries.
 
-- publish: false
+- publish: true
   firstName: Przemysław
   lastName: Hejman
   tagline: Senior Systems Engineer @ Applause, Inc.
