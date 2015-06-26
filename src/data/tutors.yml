@@ -362,7 +362,7 @@
   websiteUrl:
   bioInMd: Data Scientist w Grupie Wirtualna Polska. Kończy ostatni rok studiów na specjalności Statystyka Matematyczna i Analiza Danych na Politechnice Warszawskiej. Na co dzień pasjonat pakietu statystycznego R i ogromny entuzjasta wyzwań. Pomaga organizować warszawskie Spotkania Entuzjastów R i Maratony Analizy Danych. Zgadza się ze stwierdzeniem, że jeśli dostatecznie długo dręczy się dane, to w końcu powiedzą to co chciało się usłyszeć, jednak nie praktykuje tej zasady.
 
-- publish: false
+- publish: true
   firstName: Konrad
   lastName: Krakowiak
   tagline: Senior Software Engineer @ Polidea
