@@ -349,7 +349,7 @@
   websiteUrl:
   bioInMd: I make Java backends for almost 9 years, recently exploring the container-less distributed service architecture. In my spare time I do some Clojure and learn sound synthesis. I wrote "Instant Spring Security Starter" and commit to hermes.allegrotech.io
 
-- publish: false
+- publish: true
   firstName: Marcin
   lastName: Kosiński
   tagline: Data Scientist @ Grupa Wirtualna Polska
