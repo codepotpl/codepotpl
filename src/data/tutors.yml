@@ -402,6 +402,19 @@
   bioInMd: I am front-end developer and trainer. Currently I collaborate with companies such as Javatech and Eduweb. I also lead my own training business under the brand "helloword" (helloworld.edu.pl).
 
 - publish: false
+  firstName: Wojciech
+  lastName: Łukaszuk
+  tagline: Software Engineer @ mBank
+  pictureUrl: public/img/people/wojciech-lukaszuk.jpg
+  twitterUsername: wojteklukaszuk
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=284279040
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Swift and WatchKit enthusiast. Currently works as an iOS engineer at mBank
+
+- publish: false
   firstName:
   lastName:
   tagline:
