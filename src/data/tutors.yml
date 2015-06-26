@@ -388,7 +388,7 @@
   websiteUrl:
   bioInMd:
 
-- publish: false
+- publish: true
   firstName: Robert
   lastName: Gurgul
   tagline: Front-end / Trener @ helloworld.edu.pl
