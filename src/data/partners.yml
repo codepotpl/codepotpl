@@ -133,4 +133,10 @@
   pictureUrl: public/img/organizations/techsoup-logo.png
   url: http://fundacjatechsoup.pl/
 
+- name: "Techsoup"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/gcc-logo.png
+  url: http://geekgirlscarrots.org/
+
 
