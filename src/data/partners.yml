@@ -133,10 +133,16 @@
   pictureUrl: public/img/organizations/techsoup-logo.png
   url: http://fundacjatechsoup.pl/
 
-- name: "Techsoup"
+- name: "Geek Girls Carrots"
   description: "IT"
   country: "Poland"
   pictureUrl: public/img/organizations/gcc-logo.png
   url: http://geekgirlscarrots.org/
+
+- name: "JDay"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/jday-logo.png
+  url: http://www.jday.com.ua/
 
 
