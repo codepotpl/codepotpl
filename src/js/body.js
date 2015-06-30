@@ -64,3 +64,11 @@ lies.find("a[href='#organizers']").click(function() {
 //END NAV BAR SCROLLING
 
 $(document).foundation();
+
+$(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
+    var width = this.offsetWidth;
+    if(width > 720){
+        this.style.width = "720px";
+    }
+});
+
