@@ -401,7 +401,7 @@
   websiteUrl:
   bioInMd: I am front-end developer and trainer. Currently I collaborate with companies such as Javatech and Eduweb. I also lead my own training business under the brand "helloword" (helloworld.edu.pl).
 
-- publish: false
+- publish: true
   firstName: Wojciech
   lastName: Łukaszuk
   tagline: Software Engineer @ mBank
@@ -413,6 +413,19 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Swift and WatchKit enthusiast. Currently works as an iOS engineer at mBank
+
+- publish: true
+  firstName: Kate
+  lastName: Terlecka
+  tagline: Founder @ Brass Willow
+  pictureUrl: public/img/people/kate-terlecka.jpg
+  twitterUsername: kateterlecka
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/kate-terlecka/19/738/77a
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Kate is a consultant, a Scrum.org-licensed trainer and a coach with broad experience spanning from hardware corporations to small privately owned software companies. She concentrates her efforts on market in Poland, helping companies foster self-organization and return more value than they did before. Her main forcus are people - she is intersted in anthropology, sociology and psychology - how humans learn, interact, grow and create amazing things. She wants to change something in the way people in Poland make software, so she foounded Brass Willow, which is bringing together experienced trainers, coaches and technical experts who together want to make a true difference.
 
 - publish: false
   firstName: Andrzej
@@ -426,19 +439,6 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd:
-
-- publish: false
-  firstName: Kate
-  lastName: Terlecka
-  tagline: Founder @ Brass Willow
-  pictureUrl: public/img/people/kate-terlecka.jpg
-  twitterUsername: kateterlecka
-  githubUsername:
-  linkedInProfileUrl: https://pl.linkedin.com/pub/kate-terlecka/19/738/77a
-  stackoverflowId: 
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd: Kate is a consultant, a Scrum.org-licensed trainer and a coach with broad experience spanning from hardware corporations to small privately owned software companies. She concentrates her efforts on market in Poland, helping companies foster self-organization and return more value than they did before. Her main forcus are people - she is intersted in anthropology, sociology and psychology - how humans learn, interact, grow and create amazing things. She wants to change something in the way people in Poland make software, so she foounded Brass Willow, which is bringing together experienced trainers, coaches and technical experts who together want to make a true difference.
 
 - publish: false
   firstName: Łukasz
