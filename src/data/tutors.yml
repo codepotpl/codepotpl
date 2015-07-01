@@ -401,7 +401,7 @@
   websiteUrl:
   bioInMd: I am front-end developer and trainer. Currently I collaborate with companies such as Javatech and Eduweb. I also lead my own training business under the brand "helloword" (helloworld.edu.pl).
 
-- publish: false
+- publish: true
   firstName: Wojciech
   lastName: Łukaszuk
   tagline: Software Engineer @ mBank
@@ -413,6 +413,58 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Swift and WatchKit enthusiast. Currently works as an iOS engineer at mBank
+
+- publish: true
+  firstName: Kate
+  lastName: Terlecka
+  tagline: Founder @ Brass Willow
+  pictureUrl: public/img/people/kate-terlecka.jpg
+  twitterUsername: kateterlecka
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/kate-terlecka/19/738/77a
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Kate is a consultant, a Scrum.org-licensed trainer and a coach with broad experience spanning from hardware corporations to small privately owned software companies. She concentrates her efforts on market in Poland, helping companies foster self-organization and return more value than they did before. Her main forcus are people - she is intersted in anthropology, sociology and psychology - how humans learn, interact, grow and create amazing things. She wants to change something in the way people in Poland make software, so she foounded Brass Willow, which is bringing together experienced trainers, coaches and technical experts who together want to make a true difference.
+
+- publish: false
+  firstName: Andrzej
+  lastName: Cyb
+  tagline: Senior Software Engineer @ SII Polska
+  pictureUrl: public/img/people/andrzej-cyb.jpg
+  twitterUsername: 
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/pub/andrzej-cyb/21/961/583
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName: Łukasz
+  lastName: Aziukiewicz
+  tagline: Scrum Master @ STX Next
+  pictureUrl: public/img/people/lukasz-aziukiewicz.jpg
+  twitterUsername: aziuk_l
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/łukasz-aziukiewicz/5/b12/373
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Lukasz is a Scrum Master, Agile Coach, certified individual and group coach. Agile Software Development methods practitioner for the past 2 years, building effective teams in different companies. Formerly a project manager working on initiatives led according to PRINCE2 and PMI methods. Currently works as a Scrum Master at STX Next, actively involved in company's transition to Agile and mentoring inexperienced Scrum Masters.
+
+- publish: false
+  firstName: Vladimir
+  lastName: Alekseichenko
+  tagline: Data Scientist
+  pictureUrl: public/img/people/vladimir-alekseichenko.jpg
+  twitterUsername: slon1024
+  githubUsername: slon1024
+  linkedInProfileUrl: https://linkedin.com/in/vladimiralekseichenko
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I like to think and travel. I love discovering this world and try to find some patterns and understand them. I have experience in  different areas, tools and programming languages, but the most interesting thing for me is analyze data.
 
 - publish: false
   firstName:
