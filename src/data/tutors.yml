@@ -453,7 +453,7 @@
   websiteUrl:
   bioInMd: Lukasz is a Scrum Master, Agile Coach, certified individual and group coach. Agile Software Development methods practitioner for the past 2 years, building effective teams in different companies. Formerly a project manager working on initiatives led according to PRINCE2 and PMI methods. Currently works as a Scrum Master at STX Next, actively involved in company's transition to Agile and mentoring inexperienced Scrum Masters.
 
-- publish: false
+- publish: true
   firstName: Andrzej
   lastName: Cyb
   tagline: Senior Software Engineer @ SII Polska
@@ -466,7 +466,7 @@
   websiteUrl:
   bioInMd:
 
-- publish: false
+- publish: true
   firstName: Ewa
   lastName: Gowin
   tagline: Lean Agile Coach @ Grupa Allegro
