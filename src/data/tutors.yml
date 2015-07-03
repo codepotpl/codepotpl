@@ -479,30 +479,30 @@
   websiteUrl:
   bioInMd: Product and Process Development Team Lead at Grupa Allegro with 9 years of product and project management experience. For last four years Ewa has been working as a Lean Agile Coach and Scrum Master. In this time she was supporting transformation in Allegro and PayU, coaching at least a dozen of teams that just begun to work with scrum, and at the same time working as a Scrum Master in one of Allegro’s teams. Since year and a half she is supporting IT Operations improving work with Kanban. Ewa is certified product owner and scrum master. Co-founder of agile247.pl mostly interested in people and interactions in agile for she believes there’s nothing impossible for well-knit team.
 
-- publish: false
-  firstName:
-  lastName:
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername:
-  githubUsername:
-  linkedInProfileUrl:
+- publish: true
+  firstName: Radosław
+  lastName: Ganczarek
+  tagline: Senior Python Developer @ STX Next
+  pictureUrl: public/img/people/radoslaw-ganczarek.jpg
+  twitterUsername: dreamwalker_in
+  githubUsername: dreamwalker
+  linkedInProfileUrl: https://pl.linkedin.com/in/dreamwalker
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: Radosław Ganczarek discovered Python and Linux during studies and from that time haven't stopped using it. In Linux his preference gone from Slackware to ArchLinux, which gave him strong console and scripting skills (vim FTW!). In Python most of his experience is about using Django web framework, but he also spent some time developing automation and deployment scripts with fabric. Recently interested in strengthening his JavaScript skills, but Python still remains his weapon of choice for performing any task.
 
-- publish: false
-  firstName:
-  lastName:
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername:
-  githubUsername:
-  linkedInProfileUrl:
+- publish: true
+  firstName: Krzysztof
+  lastName: Pachulski
+  tagline: Arcane Master @ KNTG Polygon
+  pictureUrl: public/img/people/krzysztof-pachulski.jpg
+  twitterUsername: daltostronic
+  githubUsername: daltostronic
+  linkedInProfileUrl: https://www.linkedin.com/in/krzysztofpachulski
   stackoverflowId: 
   googlePlusHandler:
-  websiteUrl:
+  websiteUrl: http://dalton.gd/
   bioInMd:
 
 - publish: false
