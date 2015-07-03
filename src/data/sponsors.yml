@@ -49,3 +49,10 @@
   country: "Poland"
   pictureUrl: public/img/organizations/sii-logo.png
   url: http://sii.pl/
+
+- name: "DaftCode"
+  description: "DaftCode"
+  country: "Poland"
+  pictureUrl: public/img/organizations/daftcode-logo.png
+  url: http://daftcode.com/
+
