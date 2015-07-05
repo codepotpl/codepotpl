@@ -63,12 +63,14 @@ lies.find("a[href='#organizers']").click(function() {
 });
 //END NAV BAR SCROLLING
 
+
+//TUTORS MODAL WINDOW
 $(document).foundation();
 
 $(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
     var width = this.offsetWidth;
-    if(width > 720){
+    if(width > 720){ //resize if large
         this.style.width = "720px";
     }
 });
-
+//END TUTORS MODAL WINDOW
