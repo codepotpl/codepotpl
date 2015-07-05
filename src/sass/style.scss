@@ -50,20 +50,45 @@ $topbar-breakpoint: 780px;
 
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 @import "foundation/components/top-bar";
+.nav-up-hide {
+  top: -80px;
+}
 #navbar {
+  transition: top 0.2s ease-in-out; //animation when menu is hided
   nav {
     .title-area {
       padding: 0; // fixes menu wrapping
     }
-    .top-bar-section a {
-      @media #{$small-only} {
-        line-height: 1; // menu for small screens
-        text-align: center;
-        i {
-          font-size: rem-calc(25);
+    .top-bar-section
+      li {
+        @media #{$medium} {
+          //border-style: solid;
+          //border-width: 0;
+          //border-bottom-width: rem-calc(2);
+          //border-bottom-color: $dark-green;
+          a {
+            text-align: center;
+          //  line-height: 1; // menu for small screens
+          //  i {
+          //    font-size: rem-calc(25);
+          //  }
+          }
+        }
+
+        @media #{$small-only}{
+          border-style: solid;
+          border-width: 0;
+          border-top-width: rem-calc(2);
+          border-top-color: $dark-green;
+          a {
+            text-align: center;
+            line-height: 1; // menu for small screens
+            i {
+              font-size: rem-calc(25);
+            }
+          }
         }
       }
-    }
   }
 }
 
