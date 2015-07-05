@@ -120,3 +120,29 @@
   country: "Poland"
   pictureUrl: public/img/organizations/polygon-logo.png
   url: http://polygon.pw.edu.pl/
+
+- name: "CocoaHeads Kraków"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/cocoaheads-logo.png
+  url: http://www.meetup.com/CocoaHeads-Krakow/
+
+- name: "Techsoup"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/techsoup-logo.png
+  url: http://fundacjatechsoup.pl/
+
+- name: "Geek Girls Carrots"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/gcc-logo.png
+  url: http://geekgirlscarrots.org/
+
+- name: "JDay"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/jday-logo.png
+  url: http://www.jday.com.ua/
+
+

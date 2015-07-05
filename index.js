@@ -9,10 +9,10 @@ for (var i = 0; i < REQUIRED_ENV_VARIABLES.length; i++) {
         MISSING_ENV_VARIABLES.push(variable);
     }
 }
-if (MISSING_ENV_VARIABLES.length > 0) {
-    var message = 'Missing environment variables: ' + MISSING_ENV_VARIABLES.join(', ');
-    throw new Error(message);
-}
+//if (MISSING_ENV_VARIABLES.length > 0) {
+//    var message = 'Missing environment variables: ' + MISSING_ENV_VARIABLES.join(', ');
+//    throw new Error(message);
+//}
 
 var express = require('express');
 var compression = require('compression');
@@ -61,17 +61,17 @@ app.get('/', function (req, res) {
     });
 });
 
-app.get('/call-for-papers', function (req, res) {
-    res.render('call-for-papers', {
-        metaTags: metaTagsData
-    });
-});
+//app.get('/call-for-papers', function (req, res) {
+//    res.render('call-for-papers', {
+//        metaTags: metaTagsData
+//    });
+//});
 
-app.get('/call-for-papers-thanks', function (req, res) {
-    res.render('call-for-papers-thanks', {
-        metaTags: metaTagsData
-    });
-});
+//app.get('/call-for-papers-thanks', function (req, res) {
+//    res.render('call-for-papers-thanks', {
+//        metaTags: metaTagsData
+//    });
+//});
 
 var server = app.listen(8080, function () {
     var host = server.address().address;

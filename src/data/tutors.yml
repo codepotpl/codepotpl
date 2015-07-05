@@ -1,15 +1,17 @@
 - publish: true
   firstName: Michał
   lastName: Tajchert
-  tagline: Entrepreneur @ 12hours.io
+  tagline: Entrepreneur @ 12hours.io, GDG Warszawa
   pictureUrl: public/img/people/michal-tajchert.jpg
   twitterUsername: Tajchert
-  githubUsername: 
+  githubUsername:
   linkedInProfileUrl: https://www.linkedin.com/profile/view?id=241772131
+  stackoverflowId: 
+  googlePlusHandler: +MichalTajchert
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
-  bioInMd:
+  bioInMd: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
 
 - publish: true
   firstName: Aleksander
@@ -19,21 +21,25 @@
   twitterUsername: pelotasplus
   githubUsername: pelotasplus
   linkedInProfileUrl: https://www.linkedin.com/in/pelotasplus
+  stackoverflowId: 
+  googlePlusHandler:
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
-  bioInMd:
+  bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)
 
 - publish: true
   firstName: Chris
   lastName: Eidhof
   tagline: Software Developer @ objc.io
   pictureUrl: public/img/people/chris-eidhof.jpg
-  twitterUsername: chriseidhof 
-  githubUsername: 
+  twitterUsername: chriseidhof
+  githubUsername:
   linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
   websiteUrl: http://chris.eidhof.nl
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
   bioInMd: Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as [Deckset](http://decksetapp.com) and [Scenery](http://www.getscenery.com). He started [UIKonf](http://www.uikonf.com), [objc.io](http://www.objc.io), and wrote a book about [Functional Programming in Swift](http://www.objc.io/books/).
 
@@ -45,10 +51,12 @@
   twitterUsername: fenixb3
   githubUsername: FeniXb3
   linkedInProfileUrl: https://www.linkedin.com/in/fenixb3
-  stackOverflowUsername: 1816426/konrad-gadzina
+  stackoverflowId: 1816426/konrad-gadzina
   facebookUrl:
   websiteUrl: http://enklawa-tworcza.blogspot.com/
   bioInMd: Senior Software Engineer at Ganymede. Leading coding dojo and sharing his interest in test automation. Working in gamedev since the end of 2014, but he&#39;s been creating games as a hobby and because of studying Vudei Game Development at Jagiellonian University. He&#39;s a big fan of Behaviour-Driven Development and automation in general. He&#39;s passionate about table-top games, loves to play on ukulele, harmonica and any other instruments he can get.
+  googlePlusHandler:
+  websiteUrl: http://enklawa-tworcza.blogspot.com/
 
 - publish: true
   firstName: Mateusz
@@ -58,10 +66,12 @@
   twitterUsername: mherych
   githubUsername: partition
   linkedInProfileUrl: https://www.linkedin.com/in/herych
+  stackoverflowId: 
+  googlePlusHandler:
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
-  bioInMd: Heniek works at Base where he uses his android-abracadabras to make his users&#39; work more efficient. Apart from that he's a Google Developer Expert for Android and GDG Kraków co-organizer where together with his friends he organized several things like KrakDroid (later known as a Droidcon), dizygotic twins, DevFest, Android Tech Talks and more.
+  bioInMd: Heniek works at Base where he uses his android-abracadabras to make his users&#39; work more efficient. Apart from that he&#39;s a Google Developer Expert for Android and GDG Kraków co-organizer where together with his friends he organized several things like KrakDroid (later known as a Droidcon), dizygotic twins, DevFest, Android Tech Talks and more.
 
 - publish: true
   firstName: Przemysław
@@ -72,8 +82,9 @@
   githubUsername: pjakubczyk
   linkedInProfileUrl: https://pl.linkedin.com/pub/przemysław-jakubczyk/4b/ba7/545
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
+  googlePlusHandler:
   bioInMd: Active member of Warsaw developers community. As the author of RoboSpock is a strong believer in TDD. Person who really cares about code quality. Currently working for Applause creating Android SDK library and auto instrumentation service.
 
 - publish: true
@@ -84,10 +95,11 @@
   twitterUsername:
   githubUsername:
   linkedInProfileUrl: https://cz.linkedin.com/pub/martin-skurla/28/114/951
-  stackOverflowUsername: 1280723/crazyjavahacking
+  stackoverflowId: 1280723/crazyjavahacking
   websiteUrl:
   facebookUrl:
   bioInMd: Software Engineer, Java Developer, Technology Enthusiastic, OpenSource Committer, Trainer, Technical Reviewer, Community/Conference/JUG speaker, Java Community Leader, JCP member
+  googlePlusHandler:
 
 - publish: true
   firstName: Jakub
@@ -97,9 +109,10 @@
   twitterUsername:
   githubUsername:
   linkedInProfileUrl:
-  websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
+  googlePlusHandler:
+  websiteUrl:
   bioInMd: Jakub Nabrdalik is the Head of Software Development in Poland at 4FinanceIT. 12 years of hands on experience as a developer, architect, analyst and  everything in between. You can find all the details here: solidcraft.eu
 
 - publish: true
@@ -110,10 +123,11 @@
   twitterUsername:
   githubUsername:
   linkedInProfileUrl:
-  websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
-  bioInMd:
+  googlePlusHandler:
+  websiteUrl: http://art-of-software.blogspot.com/
+  bioInMd: Jestem trenerem i konsultantem w firmie Bottega IT Solutions, specjalizuję się w technologiach Java EE. W codziennej pracy integruję Domain Driven Design, wzorce, style architektoniczne, zwinne procesy wytwórcze i zdrowy rozsądek. Stosuję nadrzędną zasadę: rozpoznać klasę problemu z jaką mamy do czynienia i dobrać do niej odpowiednią klasę narzędzia. Hobbystycznie interesuję się psychologią pozytywną i kognitywistyką. Lubię myśleć o sobie jako entuzjaście Software Craftsmanship. 
 
 - publish: true
   firstName: Maciej
@@ -124,9 +138,10 @@
   githubUsername: literator
   linkedInProfileUrl:
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
-  bioInMd: I'm a software engineer, in love with iOS. I&#39;m passionate about clean code, so things like testing, architecture and model design are my points of interest. Equally, I care a lot about user experience and I enjoy making responsive, beautiful and clear UI. Interacting with others is so inspiring that I&#39;m big agile evangelist and I love team work.
+  bioInMd: I&#39;m a software engineer, in love with iOS. I&#39;m passionate about clean code, so things like testing, architecture and model design are my points of interest. Equally, I care a lot about user experience and I enjoy making responsive, beautiful and clear UI. Interacting with others is so inspiring that I&#39;m big agile evangelist and I love team work. 
+  googlePlusHandler:
 
 - publish: true
   firstName: Paweł
@@ -137,8 +152,9 @@
   githubUsername: paweldudek
   linkedInProfileUrl:
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
+  googlePlusHandler:
   bioInMd: Software engineering that has been on the iOS platform for over 6 years. Build beautiful apps for enterprises at [Taptera](http://www.taptera.com). Organiser of [Mobile Warsaw](http://www.mobile-warsaw.pl). Loves clean, testable code, Chemex coffee and craft beers.
 
 - publish: true
@@ -151,7 +167,8 @@
   linkedInProfileUrl: https://www.linkedin.com/profile/view?id=184315736&trk=hp-identity-name
   websiteUrl:
   facebookUrl: https://www.facebook.com/anna.zaniewska.75?fref=ts
-  stackOverflowUsername:
+  stackoverflowId:
+  googlePlusHandler:
   bioInMd: HR Manager w firmie CodiLime Sp. z o.o. W latach 2007-2014 związana z firmą technologiczno-doradczą Gemius SA, w której odpowiadała za budowę i realizację polityki personalnej. Wcześniej jako doradca zawodowy i trener zdobywała doświadczenie w sektorze publicznym w Polsce i Wielkiej Brytanii, specjalizując się w szkoleniach z zakresu rozwoju umiejętności miękkich. Z wykształcenia pedagog specjalny, absolwentka Akademii Pedagogiki Specjalnej w Warszawie. Ukończyła także studia podyplomowe z zakresu Zarządzania Zasobami Pracy w Szkole Głównej Handlowej oraz Polish Open University.
 
 - publish: true
@@ -162,8 +179,10 @@
   twitterUsername: smdremedy
   githubUsername: smdremedy
   linkedInProfileUrl: https://pl.linkedin.com/pub/sylwester-madej/16/3ab/963
+  stackoverflowId: 
+  googlePlusHandler:
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
   bioInMd: Co-founder of Outline (http://byoutline.com) - team of Android experts, crafting beautiful apps. Experienced Java (8 yrs) and Android (4 yrs) developer - created both enterprise systems in TouK and multiplayer games in Gadu Gadu. Currently focused on optimizing development speed. Likes to share knowlege by blogging on http://soldiersofmobile.com, training developers at http://szkoleniaandroid.pl and speaking on events e.g. Droidcon, Mobilization, Warsjawa, MobileWarsaw.
 
@@ -175,10 +194,11 @@
   twitterUsername: ktosopl
   githubUsername:
   linkedInProfileUrl:
-  websiteUrl: akka.io
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
   bioInMd: Akka hakker @ Typesafe, where he also participated in the Reactive Streams initiative and implemented it&#39;s Technology Compatibility Kit. Konrad is a late-night passionate dev living by the motto "Life is Study!". His favourite discussion topics range from distributed systems to capybaras. He has founded and run multiple user groups (Java, Scala, Computer Science, ...), and has is leading the awesome GeeCON conference and participates as program committee member of JavaOne SF. Other than that, he&#39;s a frequent speaker on distributed systems and concurrency topics, at conferences all around the world. In those rare times he&#39;s not coding, he spreads the joy of computer science, through helping local user groups and whitepaper reading clubs.
+  googlePlusHandler:
+  websiteUrl: http://akka.io/
 
 - publish: true
   firstName: Grzegorz
@@ -189,8 +209,9 @@
   githubUsername: gnosek
   linkedInProfileUrl: https://www.linkedin.com/pub/grzegorz-nosek/a8/42a/172
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
+  googlePlusHandler:
   bioInMd: Zbyt doświadczony admin Linuksów i programista systemowy, Chief Tinkering Officer w MegiTeam. Leniwy do szpiku kości, automatyzuje wszystko, co musi zrobić trzeci raz.
 
 - publish: true
@@ -202,8 +223,9 @@
   githubUsername: alper
   linkedInProfileUrl:
   websiteUrl: http://hubbub.eu
-  stackOverflowUsername:
-  facebookUrl:
+  stackoverflowId:
+  facebookUrl: 
+  googlePlusHandler:
   bioInMd: Alper Cugun (MSc, Delft University of Technology) is an engineer and partner at Hubbub, a Dutch/German design studio that does strategy, invention and prototyping around games and play. Alper was active in the Amsterdam startup scene, led a data visualization agency and helped found the Open State Foundation, a Dutch open government institution. Alper is currently based in Berlin.
 
 - publish: true
@@ -214,8 +236,9 @@
   twitterUsername: gorski_mt
   githubUsername:
   linkedInProfileUrl: https://pl.linkedin.com/in/gorskimateusz
+  googlePlusHandler:
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
   bioInMd:
 
@@ -228,8 +251,10 @@
   githubUsername:
   linkedInProfileUrl: https://pl.linkedin.com/in/ppiotrow
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
+  googlePlusHandler:
+  websiteUrl:
   bioInMd: Entuzjasta języka Scala zainteresowany tematyką skalowalności aplikacji.
 
 - publish: true
@@ -241,8 +266,10 @@
   githubUsername: 3h4xx
   linkedInProfileUrl: https://pl.linkedin.com/pub/marcin-branski/26/450/2b3
   websiteUrl:
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/marcin-branski/26/450/2b3
+  googlePlusHandler:
   bioInMd: Recently I’ve been devopsing in TouK and now I'm extreme developer in DaftCode. I want to show how new technologies can help you and your team!
 
 - publish: true
@@ -254,9 +281,10 @@
   githubUsername: wojtekerbetowski
   linkedInProfileUrl: https://www.linkedin.com/profile/view?id=45616048
   websiteUrl: http://erbetowski.pl/
-  stackOverflowUsername:
+  stackoverflowId:
   facebookUrl:  https://www.facebook.com/wojtekerbetowski
   bioInMd: Wojtek is Head of Engineering at Polidea – mobile/hardware software-house. That’s an unusual environment for a backend dev – here it’s the mobile app, that is the center of universe. Backend is the one that has to fit best, so that the app remains simple and robust. Thanks to that he has gathered many interesting tips and tricks, that he will gladly share. <br/>Wojtek invented MobileWarsaw, GitKata and Mobile Central Europe. He’s also co-leader of Warsaw JUG and Warsjawa conference. Worked on Apphance Flow – an OS build tool for mobile and co-created a library for unit testing Android apps – RoboSpock.
+  googlePlusHandler:
 
 - publish: true
   firstName: Dawid
@@ -264,20 +292,258 @@
   tagline: Senior Developer @ CoCoNet
   pictureUrl: public/img/people/dawid-pytel.jpg
   twitterUsername:
+  linkedInProfileUrl:
+  githubUsername: destin
+  linkedInProfileUrl: https://pl.linkedin.com/pub/dawid-pytel/4a/747/256
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Java Developer and Team Leader interested mainly in server-side programming, clean and well designed code, automated tests and agile processes. Dawid has been doing projects for public sector and banking industry for over 8 years, during which he has been striving to train, share knowledge and coach others in order to make himself redundant. Personally he loves spending time with his family, learning languages and contributing to open source projects.
+
+- publish: true
+  firstName: Adam
+  lastName: Bien
+  tagline: Chief Java Enthusiast, adam-bien.com
+  pictureUrl: public/img/people/adam-bien.jpg
+  twitterUsername:
   githubUsername:
   linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl: http://adam-bien.com/
+  bioInMd:
+
+- publish: true
+  firstName: Maciej
+  lastName: Górski
+  tagline: Lazy Developer @ EL Passion
+  pictureUrl: public/img/people/maciej-gorski.jpg
+  twitterUsername: mg6maciej
+  githubUsername: mg6maciej
+  linkedInProfileUrl: https://www.linkedin.com/in/mg6maciej
+  stackoverflowId: 
+  googlePlusHandler:
   websiteUrl:
-  stackOverflowUsername:
+  bioInMd: Maciej is a passionate Android developer. He cares about writing cleaner code and less amount of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables.
+
+- publish: true
+  firstName: Marcin
+  lastName: Karkocha
+  tagline: Software Engineer @ Intel
+  pictureUrl: public/img/people/marcin-karkocha.jpg
+  twitterUsername: kivvio
+  githubUsername: kivio
+  linkedInProfileUrl: https://pl.linkedin.com/in/kivio
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Marcin jest programistą Pythona który kocha zasadę jednej drogi do celu. Na co dzień perfekcjonista zakochany w zasadach projektowych i refaktoryzacji. Z szerokim doświadczeniem w tworzeniu API dla projektów dużej skali. Od czasu do czasu pracuje nad projektami Open Source. Prelegent na wielu konferencjach i warsztatach. Twórca Trójmiejskiej Grupy miłośników Pythona - PyGDA. W wolnej chwili teoretyzuje nad stworzeniem własnego języka programowania pozbawionego wad. Aktualnie współpracuje z firmą Intel, pracując nad OpenStackiem.
+
+- publish: true
+  firstName: Anton
+  lastName: Sarov
+  tagline: Software Engineer @ Entimo
+  pictureUrl: public/img/people/anton-sarov.jpg
+  twitterUsername: duxanton
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: A Java coder. Anton is able to pay his rent thanks to a position as a Java Software Engineer in a Berlin-based company, working with rich client technologies. He can be found on the streets of Berlin riding his Honda (and thinking about Java). Oh, and he loves the Play Framework.
+
+- publish: true
+  firstName: Beata
+  lastName: Nowakowska
+  tagline: 
+  pictureUrl: public/img/people/beata-nowakowska.jpg
+  twitterUsername: BeataNowakowska
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/beata-nowakowska/2/66b/baa
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl: https://glowkapracuje.wordpress.com/
+  bioInMd: Beata is a developer, Scrum Master, agile and business coach. She started as a developer and quickly became the refactoring-guy-on-duty for the team and the teacher of all the quality stuff. At some point she realized that there is something even more important then clean code. Something that creates environment where writing clean code is easy and natural. She got interested in agile and scrum and soon started spreading that knowledge together with clean code. But it wasn't enough - she became a Scrum Master and learned classic coaching from the best coaches in Poland. Now she's three in one: Developer, Scrum Master and a Proffessional Coach. She shares the knowledge all over the country with her classes. She belives that knowledge about human brain can make software development easy. It can make working a happier and even the world a better place.
+
+- publish: true
+  firstName: Piotr
+  lastName: Jagielski
+  tagline: Java Developer @ TouK
+  pictureUrl: public/img/people/piotr-jagielski.jpg
+  twitterUsername: pjagielski
+  githubUsername: pjagielski
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I make Java backends for almost 9 years, recently exploring the container-less distributed service architecture. In my spare time I do some Clojure and learn sound synthesis. I wrote "Instant Spring Security Starter" and commit to hermes.allegrotech.io
+
+- publish: true
+  firstName: Marcin
+  lastName: Kosiński
+  tagline: Data Scientist @ Grupa Wirtualna Polska
+  pictureUrl: public/img/people/marcin-kosinski.jpg
+  twitterUsername:
+  githubUsername: MarcinKosinski
+  linkedInProfileUrl: https://pl.linkedin.com/pub/marcin-kosi%C5%84ski/ab/35a/814
+  stackoverflowId: http://stackoverflow.com/users/3857701/marcin-kosinski
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Data Scientist w Grupie Wirtualna Polska. Kończy ostatni rok studiów na specjalności Statystyka Matematyczna i Analiza Danych na Politechnice Warszawskiej. Na co dzień pasjonat pakietu statystycznego R i ogromny entuzjasta wyzwań. Pomaga organizować warszawskie Spotkania Entuzjastów R i Maratony Analizy Danych. Zgadza się ze stwierdzeniem, że jeśli dostatecznie długo dręczy się dane, to w końcu powiedzą to co chciało się usłyszeć, jednak nie praktykuje tej zasady.
+
+- publish: true
+  firstName: Konrad
+  lastName: Krakowiak
+  tagline: Senior Software Engineer @ Polidea
+  pictureUrl: public/img/people/konrad-krakowiak.jpg
+  twitterUsername: KKonrad1987
+  githubUsername: KKonradMC
+  linkedInProfileUrl: https://pl.linkedin.com/pub/konrad-krakowiak/72/833/110
+  stackoverflowId: http://stackoverflow.com/users/2833965/konrad-krakowiak
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I have almost 6 years experience in programming, of which 5 years as an Android developer. I attended in development of many projects from the beginning (planning, design) to the end (release). I want to show you how you can create a professional application in a easy way via Android Libraries.
+
+- publish: true
+  firstName: Przemysław
+  lastName: Hejman
+  tagline: Senior Systems Engineer @ Applause, Inc.
+  pictureUrl: public/img/people/przemyslaw-hejman.jpg
+  twitterUsername: slepykorzen
+  githubUsername: mieciu
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=176852407&trk=hp-identity-name
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: true
+  firstName: Robert
+  lastName: Gurgul
+  tagline: Front-end / Trener @ helloworld.edu.pl
+  pictureUrl: public/img/people/robert-gurgul.jpg
+  twitterUsername: rgurgul
+  githubUsername: rgurgul
+  linkedInProfileUrl: http://pl.linkedin.com/in/robertgurgul
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I am front-end developer and trainer. Currently I collaborate with companies such as Javatech and Eduweb. I also lead my own training business under the brand "helloword" (helloworld.edu.pl).
+
+- publish: true
+  firstName: Wojciech
+  lastName: Łukaszuk
+  tagline: Software Engineer @ mBank
+  pictureUrl: public/img/people/wojciech-lukaszuk.jpg
+  twitterUsername: wojteklukaszuk
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=284279040
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Swift and WatchKit enthusiast. Currently works as an iOS engineer at mBank
+
+- publish: true
+  firstName: Kate
+  lastName: Terlecka
+  tagline: Founder @ Brass Willow
+  pictureUrl: public/img/people/kate-terlecka.jpg
+  twitterUsername: kateterlecka
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/kate-terlecka/19/738/77a
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Kate is a consultant, a Scrum.org-licensed trainer and a coach with broad experience spanning from hardware corporations to small privately owned software companies. She concentrates her efforts on market in Poland, helping companies foster self-organization and return more value than they did before. Her main forcus are people - she is intersted in anthropology, sociology and psychology - how humans learn, interact, grow and create amazing things. She wants to change something in the way people in Poland make software, so she foounded Brass Willow, which is bringing together experienced trainers, coaches and technical experts who together want to make a true difference.
+
+- publish: true
+  firstName: Vladimir
+  lastName: Alekseichenko
+  tagline: Data Scientist
+  pictureUrl: public/img/people/vladimir-alekseichenko.jpg
+  twitterUsername: slon1024
+  githubUsername: slon1024
+  linkedInProfileUrl: https://linkedin.com/in/vladimiralekseichenko
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I like to think and travel. I love discovering this world and try to find some patterns and understand them. I have experience in  different areas, tools and programming languages, but the most interesting thing for me is analyze data.
+
+- publish: true
+  firstName: Łukasz
+  lastName: Aziukiewicz
+  tagline: Scrum Master @ STX Next
+  pictureUrl: public/img/people/lukasz-aziukiewicz.jpg
+  twitterUsername: aziuk_l
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/łukasz-aziukiewicz/5/b12/373
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Lukasz is a Scrum Master, Agile Coach, certified individual and group coach. Agile Software Development methods practitioner for the past 2 years, building effective teams in different companies. Formerly a project manager working on initiatives led according to PRINCE2 and PMI methods. Currently works as a Scrum Master at STX Next, actively involved in company's transition to Agile and mentoring inexperienced Scrum Masters.
+
+- publish: true
+  firstName: Andrzej
+  lastName: Cyb
+  tagline: Senior Software Engineer @ SII Polska
+  pictureUrl: public/img/people/andrzej-cyb.jpg
+  twitterUsername: 
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/pub/andrzej-cyb/21/961/583
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  stackoverflowId:
   facebookUrl:
   bioInMd: Java Developer and Team Leader interested mainly in server-side programming, clean and well designed code, automated tests and agile processes. Dawid has been doing projects for public sector and banking industry for over 8 years, during which he has been striving to train, share knowledge and coach others in order to make himself redundant. <br/> Personally he loves spending time with his family, learning languages and contributing to open source projects.
 
+- publish: true
+  firstName: Ewa
+  lastName: Gowin
+  tagline: Lean Agile Coach @ Grupa Allegro
+  pictureUrl: public/img/people/ewa-gowin.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=20260551
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Product and Process Development Team Lead at Grupa Allegro with 9 years of product and project management experience. For last four years Ewa has been working as a Lean Agile Coach and Scrum Master. In this time she was supporting transformation in Allegro and PayU, coaching at least a dozen of teams that just begun to work with scrum, and at the same time working as a Scrum Master in one of Allegro’s teams. Since year and a half she is supporting IT Operations improving work with Kanban. Ewa is certified product owner and scrum master. Co-founder of agile247.pl mostly interested in people and interactions in agile for she believes there’s nothing impossible for well-knit team.
+
+- publish: true
+  firstName: Radosław
+  lastName: Ganczarek
+  tagline: Senior Python Developer @ STX Next
+  pictureUrl: public/img/people/radoslaw-ganczarek.jpg
+  twitterUsername: dreamwalker_in
+  githubUsername: dreamwalker
+  linkedInProfileUrl: https://pl.linkedin.com/in/dreamwalker
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Radosław Ganczarek discovered Python and Linux during studies and from that time haven't stopped using it. In Linux his preference gone from Slackware to ArchLinux, which gave him strong console and scripting skills (vim FTW!). In Python most of his experience is about using Django web framework, but he also spent some time developing automation and deployment scripts with fabric. Recently interested in strengthening his JavaScript skills, but Python still remains his weapon of choice for performing any task.
+
+- publish: true
+  firstName: Krzysztof
+  lastName: Pachulski
+  tagline: Arcane Master @ KNTG Polygon
+  pictureUrl: public/img/people/krzysztof-pachulski.jpg
+  twitterUsername: daltostronic
+  githubUsername: daltostronic
+  linkedInProfileUrl: https://www.linkedin.com/in/krzysztofpachulski
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl: http://dalton.gd/
+  bioInMd:
+
 - publish: false
-  firstName: 
-  lastName: 
-  tagline: 
+  firstName:
+  lastName:
+  tagline:
   pictureUrl: public/img/people/
-  twitterUsername: 
-  githubUsername: 
-  linkedInProfileUrl: 
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
   websiteUrl:
   bioInMd:
