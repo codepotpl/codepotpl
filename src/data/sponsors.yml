@@ -56,3 +56,10 @@
   pictureUrl: public/img/organizations/daftcode-logo.png
   url: http://daftcode.com/
 
+- name: "Cyfrowy Polsat"
+  description: "Cyfrowy Polsat"
+  country: "Poland"
+  pictureUrl: public/img/organizations/cyfrowy-polsat.png
+  url: http://www.cyfrowypolsat.pl/
+
+
