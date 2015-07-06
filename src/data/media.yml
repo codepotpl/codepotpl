@@ -12,3 +12,18 @@
   country: "Poland"
   pictureUrl: public/img/organizations/karieraplus-logo.png
   url: http://karieraplus.pl/
+
+- name: "Praca.pl"
+  country: "Poland"
+  pictureUrl: public/img/organizations/praca-logo.png
+  url: http://praca.pl/
+
+- name: "Crossweb.pl"
+  country: "Poland"
+  pictureUrl: public/img/organizations/crossweb-logo.png
+  url: http://crossweb.pl/
+
+- name: "Spotkania IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/spotkaniait-logo.png
+  url: http://spotkania-it.pl/
