@@ -505,6 +505,58 @@
   websiteUrl: http://dalton.gd/
   bioInMd:
 
+- publish: true
+  firstName: Jarosław
+  lastName: Pałka
+  tagline: Code mangler @Allegro.pl
+  pictureUrl: public/img/people/jaroslaw-palka.jpg
+  twitterUsername: j_palka
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/in/jpalka
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I have spent last 15 years of my life in IT working as database and system administrator, developer, architect, manager and "on site disaster engineer ". At the moment I work as code mangler at Allegro, recovering from long journey as chief architect of a large SaaS platform for HR solutions. I was involved in small, medium and horribly and nonsense large systems, from "waterfall" through Agile to "no methodology" methodology. It all lead me to conclusion that it doesn't matter what you do as long as you do it right, keep it simple and use the right tool to do the job for you. In the meantime I fell in love it TDD and Software Craftmanship, explored architectures and design of legacy systems and was trapped inside JVM, till death do as apart. I also spent a lot of time exploring ideas like system thinking, system dynamics, strange attractor and complexity theory. From time to time you can hear my low quality jokes about architecture at conferences in Poland. I am also trying to make a world a better place as blog author at http://geekyprimitives.wordpress.com and trainer at http://symentis.pl/.
+
+- publish: false
+  firstName: Jarek
+  lastName: Potiuk
+  tagline: CTO @ Polidea
+  pictureUrl: public/img/people/jarek-potiuk.jpg
+  twitterUsername: higrys
+  githubUsername: potiuk
+  linkedInProfileUrl: https://pl.linkedin.com/in/jarekpotiuk
+  stackoverflowId: http://stackoverflow.com/users/516701/jarek-potiuk
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Enthusiastic and pragmatic CTO, Technology Evangelist, Software Gardener, geek and gadget lover, who tries keep sane while helping to build business and at the same time stay in touch with one of his true passions - programming. Other passions include singing in choir and - recently - running and being fit.
+
+- publish: false
+  firstName: George
+  lastName: Babey
+  tagline: Lead Software Engineer @ Applause
+  pictureUrl: public/img/people/george-babey.jpg
+  twitterUsername: georgebabey
+  githubUsername: georgebabey
+  linkedInProfileUrl: https://www.linkedin.com/pub/george-babey/2/5b9/a73
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: George is a Lead Engineer at Applause where he is focused on improving the crowd testing platform. He spends his days mainly in Javascript, both on the frontend with Angular and server-side with NodeJS. Prior to Applause he worked at Carbonite where he developed the UI for their first server appliance. A former C# / .net developer, he still helps run the local Boston Azure User Group.
+
+- publish: false
+  firstName: Louis
+  lastName: Sivillo
+  tagline: Sr. Software Engineer @ Applause.com
+  pictureUrl: public/img/people/louis-sivillo.jpg
+  twitterUsername: sivillo
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName:
   lastName:
