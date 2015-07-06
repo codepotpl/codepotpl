@@ -44,12 +44,17 @@ lies.find("a[href='#venue']").click(function() {
 lies.find("a[href='#tutors']").click(function() {
     goToId('tutors');
 });
+lies.find("a[href='#agenda']").click(function() {
+    goToId('agenda');
+});
 lies.find("a[href='#sponsor-us']").click(function() {
     goToId('sponsor-us');
 });
 lies.find("a[href='#organizers']").click(function() {
     goToId('organizers');
 });
+
+//END NAV BAR SCROLLING
 
 function goToId(id){
     var speed = 500; //ms
@@ -115,3 +120,14 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 /**END HIDE/SHOW NAV BAR ON SCROLL*/
+
+//TUTORS MODAL WINDOW
+$(document).foundation();
+
+$(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
+    var width = this.offsetWidth;
+    if(width > 720){ //resize if large
+        this.style.width = "720px";
+    }
+});
+//END TUTORS MODAL WINDOW

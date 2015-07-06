@@ -50,22 +50,60 @@ $topbar-breakpoint: 780px;
 
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 @import "foundation/components/top-bar";
+.nav-up-hide {
+  top: -80px;
+}
 #navbar {
+  transition: top 0.2s ease-in-out; //animation when menu is hided
   nav {
     .title-area {
       padding: 0; // fixes menu wrapping
     }
-    .top-bar-section a {
-      @media #{$small-only} {
-        line-height: 1; // menu for small screens
-        text-align: center;
-        i {
-          font-size: rem-calc(25);
+    .top-bar-section
+      li {
+        @media #{$medium} {
+          //border-style: solid;
+          //border-width: 0;
+          //border-bottom-width: rem-calc(2);
+          //border-bottom-color: $dark-green;
+          a {
+            text-align: center;
+          //  line-height: 1; // menu for small screens
+          //  i {
+          //    font-size: rem-calc(25);
+          //  }
+          }
+        }
+
+        @media #{$small-only}{
+          border-style: solid;
+          border-width: 0;
+          border-top-width: rem-calc(2);
+          border-top-color: $dark-green;
+          a {
+            text-align: center;
+            line-height: 1; // menu for small screens
+            i {
+              font-size: rem-calc(25);
+            }
+          }
         }
       }
-    }
   }
 }
+
+
+$include-html-reveal-classes: $include-html-classes;
+
+$reveal-overlay-bg: rgba($black, .45);
+$reveal-overlay-bg-old: $black;
+$reveal-modal-bg: $white;
+$reveal-position-top: rem-calc(100);
+$reveal-default-width: 100%;
+$reveal-max-width: $row-width;
+$reveal-box-shadow: 0 0 0px rgba($black,.4);
+$reveal-border-width: 0px;
+@import "foundation/components/reveal";
 
 .font-oxygen-bold {
   font-family: 'oxygenbold', serif;
@@ -80,6 +118,12 @@ $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint
 }
 
 .font-source-sans-pro-regular {
+  font-family: 'source_sans_proregular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-lato-regular {
   font-family: 'source_sans_proregular', sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -189,6 +233,34 @@ section {
     display: block;
     text-align: center;
     margin: -1rem 0 2rem 0;
+  }
+}
+
+section#registration {
+  padding: 2rem 0;
+  padding-bottom: 1rem;
+  p {
+    font-size: 24px;
+    margin-bottom: rem-calc(5);
+  }
+  .columns {
+    text-align: center;
+  }
+  button {
+    background-color: $green;
+    margin-top: rem-calc(30);
+    margin-bottom: rem-calc(0);
+  }
+  @media #{$small-only} {
+    padding-top: 0px;
+    button, input {
+      width: 80%;
+    }
+  }
+  @media #{$medium-up} {
+    button, input {
+      width: 60%;
+    }
   }
 }
 
@@ -305,6 +377,58 @@ section#tutors {
   }
 }
 
+.reveal-modal {
+  .img {
+    @media #{$medium-up} {
+      img {
+        min-width: rem-calc(260);
+      }
+    }
+    @media #{$small-only} {
+      margin-top: rem-calc(15);
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @extend .font-lato-regular;
+    font-size: rem-calc(24);
+    .icons {
+      padding-right: rem-calc(15);
+      a {
+        margin-right: rem-calc(4);
+        i {
+          color: $black;
+          font-size: rem-calc(24);
+        }
+      }
+    }
+    .name {
+      margin-top: rem-calc(-7);
+      span {
+        font-weight: bold !important;
+      }
+    }
+  }
+  .tagline {
+    @extend .font-lato-light;
+    font-size: rem-calc(16);
+  }
+  .bioInMd {
+    @extend .font-lato-light;
+    font-size: rem-calc(18);
+  }
+  div.inline {
+    float: left;
+  }
+  .clearBoth {
+    clear: both;
+  }
+}
+
 section#agenda {
   h2 {
     @extend .font-source-sans-pro-regular;
@@ -369,6 +493,7 @@ section#agenda {
     }
   }
 }
+
 
 section#sponsor-us, section#contact, section#subscribe {
   .center {
