@@ -544,6 +544,32 @@
   websiteUrl:
   bioInMd: Jacek Kunicki is a full stack software engineer and one of the numeorus CEOs at SoftwareMill - a great remote workplace with no bosses. He contributes to some open source projects (Spring Boot, swagger2raml, Codebrag) and, apart from programming, plays a lot with hardware (Arduino and others). Jacek hates boilerplate and loves automation of everything, so that he has less to do.
 
+- publish: true
+  firstName: Dariusz
+  lastName: Aniszewski
+  tagline: Senior Software Engineer @ Polidea
+  pictureUrl: public/img/people/dariusz-aniszewski.jpg
+  twitterUsername: aniszewski_eu
+  githubUsername: DariuszAniszewski
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Backendowiec z Androidowymi zapędami, piwowar domowy, rowerowy entuzjasta.
+
+- publish: true
+  firstName: Jakub
+  lastName: Siwek
+  tagline: Unity Developer @ Gamedev House, KNTG Polygon
+  pictureUrl: public/img/people/jakub-siwek.jpg
+  twitterUsername: 
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/jakub-siwek/86/b16/6a9
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Jestem programistą Unity od 2,5 roku. Pracowałem dla firm: Fuero Games, Kerris Technology, Custom. Jestem również aktywnym członkiem Koła Naukowego Twórców Gier Polygon oraz prezesem Stowarzyszenia Twórców Gier Polygon. Jestem również założycielem grupy Gamedev House, która zajmuje się prowadzeniem szkoleń, wykładów i warsztatów. Pojedyncze spotkania otwarte organizujemy pod nazwą Unity Training Day. Pierwsza płatna seria warsztatów startuje od następnego tygodnia. Wszystkie szczegóły są dostępne na naszej stronie internetowej www.gamedevhouse.pl
+
 - publish: false
   firstName: George
   lastName: Babey
@@ -563,32 +589,6 @@
   tagline: Sr. Software Engineer @ Applause.com
   pictureUrl: public/img/people/louis-sivillo.jpg
   twitterUsername: sivillo
-  githubUsername:
-  linkedInProfileUrl:
-  stackoverflowId: 
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd:
-
-- publish: false
-  firstName:
-  lastName:
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername:
-  githubUsername:
-  linkedInProfileUrl:
-  stackoverflowId: 
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd:
-
-- publish: false
-  firstName:
-  lastName:
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername:
   githubUsername:
   linkedInProfileUrl:
   stackoverflowId: 
