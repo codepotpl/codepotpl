@@ -386,7 +386,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: Hybrid systems and software engineer (still looking for a sweetspot in between of those) currently working at Applause, Inc. Strong believer in DevOps attitude when getting things done. Apart from dealing with code, deployments and automation - an avid guitar player.
 
 - publish: true
   firstName: Robert
@@ -563,6 +563,45 @@
   tagline: Sr. Software Engineer @ Applause.com
   pictureUrl: public/img/people/louis-sivillo.jpg
   twitterUsername: sivillo
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
   githubUsername:
   linkedInProfileUrl:
   stackoverflowId: 
