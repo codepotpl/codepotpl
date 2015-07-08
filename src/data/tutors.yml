@@ -22,7 +22,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)
+  bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer.
 
 - publish: true
   firstName: Chris
@@ -94,9 +94,9 @@
   lastName: Nabrdalik
   tagline: Head of Software Development in PL @ 4financeIT
   pictureUrl: public/img/people/jakub-nabrdalik.jpg
-  twitterUsername:
+  twitterUsername: jnabrdalik
   githubUsername:
-  linkedInProfileUrl:
+  linkedInProfileUrl: https://pl.linkedin.com/in/jnabrdalik
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
