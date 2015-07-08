@@ -596,6 +596,84 @@
   websiteUrl:
   bioInMd: Louis is a Senior Software Engineer who increases developer productivity through code quality, modularity and software reuse.  He enjoys building full-stack web applications that are robust yet scalable, and is currently focused on building a SOA architecture with his team using Node.js, AngularJS, AMQP, and Docker.
 
+- publish: true
+  firstName: Paweł
+  lastName: Szymczyk
+  tagline: Software Enginere @ Grupa Allegro
+  pictureUrl: public/img/people/pawel-szymczyk.jpg
+  twitterUsername: p_szymczyk
+  githubUsername: pawelszymczyk
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Software Enginere w Grupie Allegro, pracuje w zespole zajmującym się narzędziami ułatwiającymi tworzenie mikrousług. Core developer w projektach open source: <a href=https://github.com/allegro/hermes”>Hermes</a>, <a href=https://github.com/javers/javers”>Javers</a>.
+
+- publish: true
+  firstName: Dariusz
+  lastName: Kalbarczyk
+  tagline: Współautor książki "AngularJS. Pierwsze kroki"
+  pictureUrl: public/img/people/dariusz-kalbarczyk.jpg
+  twitterUsername: ngKalbarczyk
+  githubUsername: kalbarczyk
+  linkedInProfileUrl: https://www.linkedin.com/in/ngkalbarczyk
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Doświadczony programista, od ponad 15 lat związany z rynkiem IT. Fascynat nowych technologii, social mediów, współautor książki „AngularJS. Pierwsze kroki”. Współtwórca warszawskiej grupy AngularJS Warsaw, przez lata współpracujący z największymi firmami na rynku finansowym i telekomunikacyjnym. < /br>< /br>Z AngularJS związany od 3 lat. W czasie tym brał udział w tworzeniu między innymi, opartego o najnowsze technologie, bankowego systemu transakcyjnego, przeznaczonego na urządzenia mobilne. Zdobyte doświadczenie, oraz entuzjazm pracy z AngularJS zostały dość szeroko opisane przez autora we wspomnianej już książce wydawnictwa Helion „AngularJS. Pierwsze kroki”.
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName:
   lastName:
