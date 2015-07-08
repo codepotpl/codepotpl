@@ -22,7 +22,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)
+  bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer.
 
 - publish: true
   firstName: Chris
@@ -94,9 +94,9 @@
   lastName: Nabrdalik
   tagline: Head of Software Development in PL @ 4financeIT
   pictureUrl: public/img/people/jakub-nabrdalik.jpg
-  twitterUsername:
+  twitterUsername: jnabrdalik
   githubUsername:
-  linkedInProfileUrl:
+  linkedInProfileUrl: https://pl.linkedin.com/in/jnabrdalik
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
@@ -570,10 +570,10 @@
   websiteUrl:
   bioInMd: Jestem programistą Unity od 2,5 roku. Pracowałem dla firm: Fuero Games, Kerris Technology, Custom. Jestem również aktywnym członkiem Koła Naukowego Twórców Gier Polygon oraz prezesem Stowarzyszenia Twórców Gier Polygon. Jestem również założycielem grupy Gamedev House, która zajmuje się prowadzeniem szkoleń, wykładów i warsztatów. Pojedyncze spotkania otwarte organizujemy pod nazwą Unity Training Day. Pierwsza płatna seria warsztatów startuje od następnego tygodnia. Wszystkie szczegóły są dostępne na naszej stronie internetowej www.gamedevhouse.pl
 
-- publish: false
+- publish: true
   firstName: George
   lastName: Babey
-  tagline: Lead Software Engineer @ Applause
+  tagline: Lead Software Engineer @ Applause.com
   pictureUrl: public/img/people/george-babey.jpg
   twitterUsername: georgebabey
   githubUsername: georgebabey
@@ -583,7 +583,7 @@
   websiteUrl:
   bioInMd: George is a Lead Engineer at Applause where he is focused on improving the crowd testing platform. He spends his days mainly in Javascript, both on the frontend with Angular and server-side with NodeJS. Prior to Applause he worked at Carbonite where he developed the UI for their first server appliance. A former C# / .net developer, he still helps run the local Boston Azure User Group.
 
-- publish: false
+- publish: true
   firstName: Louis
   lastName: Sivillo
   tagline: Sr. Software Engineer @ Applause.com
@@ -594,7 +594,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: Louis is a Senior Software Engineer who increases developer productivity through code quality, modularity and software reuse.  He enjoys building full-stack web applications that are robust yet scalable, and is currently focused on building a SOA architecture with his team using Node.js, AngularJS, AMQP, and Docker.
 
 - publish: false
   firstName:
