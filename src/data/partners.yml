@@ -150,3 +150,15 @@
   country: "Poland"
   pictureUrl: public/img/organizations/jday-logo.png
   url: http://www.jday.com.ua/
+
+- name: "Łódź JUG"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/juglodz-logo.png
+  url: http://www.juglodz.pl/
+
+- name: "JDay"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/mobilization-logo.png
+  url: http://2015.mobilization.pl/
