@@ -62,4 +62,8 @@
   pictureUrl: public/img/organizations/cyfrowy-polsat.png
   url: http://www.grupapolsat.pl/pl/praca
 
-
+- name: "Samsung"
+  description: "Samsung"
+  country: "Poland"
+  pictureUrl: public/img/organizations/samsung-logo.png
+  url: http://rd.samsung.pl
