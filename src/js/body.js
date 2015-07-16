@@ -117,14 +117,16 @@ function hasScrolled() {
 /**END HIDE/SHOW NAV BAR ON SCROLL*/
 
 /**CAROUSEL for partners and media*/
-$(document).ready(function() {
-    $('.your-class').slick({
-        dots: true,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [{
+$('.slick-carousel-run').slick({
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    useCSS: true,
+    responsive: [
+        {
             breakpoint: 1024,
             settings: {
                 slidesToShow: 3,
@@ -132,19 +134,24 @@ $(document).ready(function() {
                 infinite: true,
                 dots: true
             }
-        }, {
+        },
+        {
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2
             }
-        }, {
+        },
+        {
             breakpoint: 480,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToShow: 2,
+                slidesToScroll: 2
             }
-        }]
-    });
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
 });
 /**END CAROUSEL for partners and media*/

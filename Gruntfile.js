@@ -3,7 +3,10 @@ module.exports = function (grunt) {
         sass: {
             dist: {
                 options: {
-                    includePaths: ['bower_components/foundation/scss']
+                    includePaths: [
+                        'bower_components/foundation/scss',
+                        'bower_components/slick-carousel/slick/'
+                    ]
                 },
                 files: {
                     'public/style.css': 'src/sass/style.scss'
@@ -22,6 +25,7 @@ module.exports = function (grunt) {
                         'bower_components/jquery/dist/jquery.js',
                         'bower_components/foundation/js/foundation/foundation.js',
                         'bower_components/foundation/js/foundation/foundation.topbar.js',
+                        'bower_components/slick-carousel/slick/slick.js',
                         'src/js/body.js'
                     ]
                 }

@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "foundation": "~5.5.1",
-    "yepnope": "~2.0.0"
+    "yepnope": "~2.0.0",
+    "slick-carousel": "~1.5.0"
   }
 }
