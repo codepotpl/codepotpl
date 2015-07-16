@@ -71,13 +71,13 @@
   description: "Django"
   country: "Poland"
   pictureUrl: public/img/organizations/django-girls.png
-  url: http://pyladies-waw.weebly.com/
+  url: http://djangogirls.org/
 
 - name: "Spotkania Entuzjastów R"
   description: "R"
   country: "Poland"
   pictureUrl: public/img/organizations/smarter-poland.png
-  url: http://mi2.mini.pw.edu.pl/
+  url: http://smarterpoland.pl/
 
 - name: "Enterprise Search Warsaw Meetup"
   description: "Search"
@@ -127,6 +127,12 @@
   pictureUrl: public/img/organizations/cocoaheads-logo.png
   url: http://www.meetup.com/CocoaHeads-Krakow/
 
+- name: "Mobile Warsaw"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/mobilewarsaw-logo.png
+  url: http://mobile-warsaw.pl/
+
 - name: "Techsoup"
   description: "IT"
   country: "Poland"
@@ -145,4 +151,14 @@
   pictureUrl: public/img/organizations/jday-logo.png
   url: http://www.jday.com.ua/
 
+- name: "Łódź JUG"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/juglodz-logo.png
+  url: http://www.juglodz.pl/
 
+- name: "JDay"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/mobilization-logo.png
+  url: http://2015.mobilization.pl/

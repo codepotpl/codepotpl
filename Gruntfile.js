@@ -26,6 +26,7 @@ module.exports = function (grunt) {
                         'bower_components/foundation/js/foundation/foundation.js',
                         'bower_components/foundation/js/foundation/foundation.topbar.js',
                         'bower_components/slick-carousel/slick/slick.js',
+                        'bower_components/foundation/js/foundation/foundation.reveal.js',
                         'src/js/body.js'
                     ]
                 }

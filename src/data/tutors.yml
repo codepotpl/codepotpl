@@ -22,7 +22,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)
+  bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer.
 
 - publish: true
   firstName: Chris
@@ -94,9 +94,9 @@
   lastName: Nabrdalik
   tagline: Head of Software Development in PL @ 4financeIT
   pictureUrl: public/img/people/jakub-nabrdalik.jpg
-  twitterUsername:
+  twitterUsername: jnabrdalik
   githubUsername:
-  linkedInProfileUrl:
+  linkedInProfileUrl: https://pl.linkedin.com/in/jnabrdalik
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
@@ -282,7 +282,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl: http://adam-bien.com/
-  bioInMd:
+  bioInMd: Consultant and author Adam Bien is an Expert Group member for the Java EE 6 and 7, EJB 3.X, JAX-RS, and JPA 2.X JSRs. He has worked with Java technology since JDK 1.0 and with Servlets/EJB 1.0 and is now an architect and developer for Java SE and Java EE projects. He has edited several books about JavaFX, J2EE, and Java EE, and he is the author of Real World Java EE Patterns—Rethinking Best Practices and Real World Java EE Night Hacks—Dissecting the Business Tier. Adam is also a Java Champion, Top Java Ambassador 2012, and JavaOne 2009, 2011, 2012, 2013 and 2014 Rock Star. Adam occasionally organizes Java EE workshops at Munich’s airport (http://airhacks.com).
 
 - publish: true
   firstName: Maciej
@@ -386,7 +386,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: Hybrid systems and software engineer (still looking for a sweetspot in between of those) currently working at Applause, Inc. Strong believer in DevOps attitude when getting things done. Apart from dealing with code, deployments and automation - an avid guitar player.
 
 - publish: true
   firstName: Robert
@@ -503,7 +503,150 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl: http://dalton.gd/
-  bioInMd:
+  bioInMd: IT student, vice president of Game Developers' Society "Polygon", game dev enthusiast. He has provided several workshops and lectures about gamedev for various groups of interest (such as children or developers) on different topics (e.g. writing shaders, UE4 editor, UE4 animations).
+
+- publish: true
+  firstName: Jarosław
+  lastName: Pałka
+  tagline: Code mangler @Allegro.pl
+  pictureUrl: public/img/people/jaroslaw-palka.jpg
+  twitterUsername: j_palka
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/in/jpalka
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I have spent last 15 years of my life in IT working as database and system administrator, developer, architect, manager and "on site disaster engineer ". At the moment I work as code mangler at Allegro, recovering from long journey as chief architect of a large SaaS platform for HR solutions. I was involved in small, medium and horribly and nonsense large systems, from "waterfall" through Agile to "no methodology" methodology. It all lead me to conclusion that it doesn't matter what you do as long as you do it right, keep it simple and use the right tool to do the job for you. In the meantime I fell in love it TDD and Software Craftmanship, explored architectures and design of legacy systems and was trapped inside JVM, till death do as apart. I also spent a lot of time exploring ideas like system thinking, system dynamics, strange attractor and complexity theory. From time to time you can hear my low quality jokes about architecture at conferences in Poland. I am also trying to make a world a better place as blog author at http://geekyprimitives.wordpress.com and trainer at http://symentis.pl/.
+
+- publish: true
+  firstName: Jarek
+  lastName: Potiuk
+  tagline: CTO @ Polidea
+  pictureUrl: public/img/people/jarek-potiuk.jpg
+  twitterUsername: higrys
+  githubUsername: potiuk
+  linkedInProfileUrl: https://pl.linkedin.com/in/jarekpotiuk
+  stackoverflowId: http://stackoverflow.com/users/516701/jarek-potiuk
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Enthusiastic and pragmatic CTO, Technology Evangelist, Software Gardener, geek and gadget lover, who tries keep sane while helping to build business and at the same time stay in touch with one of his true passions - programming. Other passions include singing in choir and - recently - running and being fit.
+
+- publish: true
+  firstName: Jacek
+  lastName: Kunicki
+  tagline: Full Stack Software Engineer @ SoftwareMill
+  pictureUrl: public/img/people/jacek-kunicki.jpg
+  twitterUsername: rucek
+  githubUsername: rucek
+  linkedInProfileUrl: https://pl.linkedin.com/in/jacekkunicki
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Jacek Kunicki is a full stack software engineer and one of the numeorus CEOs at SoftwareMill - a great remote workplace with no bosses. He contributes to some open source projects (Spring Boot, swagger2raml, Codebrag) and, apart from programming, plays a lot with hardware (Arduino and others). Jacek hates boilerplate and loves automation of everything, so that he has less to do.
+
+- publish: true
+  firstName: Dariusz
+  lastName: Aniszewski
+  tagline: Senior Software Engineer @ Polidea
+  pictureUrl: public/img/people/dariusz-aniszewski.jpg
+  twitterUsername: aniszewski_eu
+  githubUsername: DariuszAniszewski
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Backendowiec z Androidowymi zapędami, piwowar domowy, rowerowy entuzjasta.
+
+- publish: true
+  firstName: Jakub
+  lastName: Siwek
+  tagline: Unity Developer @ Gamedev House, KNTG Polygon
+  pictureUrl: public/img/people/jakub-siwek.jpg
+  twitterUsername: 
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/jakub-siwek/86/b16/6a9
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Jestem programistą Unity od 2,5 roku. Pracowałem dla firm: Fuero Games, Kerris Technology, Custom. Jestem również aktywnym członkiem Koła Naukowego Twórców Gier Polygon oraz prezesem Stowarzyszenia Twórców Gier Polygon. Jestem również założycielem grupy Gamedev House, która zajmuje się prowadzeniem szkoleń, wykładów i warsztatów. Pojedyncze spotkania otwarte organizujemy pod nazwą Unity Training Day. Pierwsza płatna seria warsztatów startuje od następnego tygodnia. Wszystkie szczegóły są dostępne na naszej stronie internetowej www.gamedevhouse.pl
+
+- publish: true
+  firstName: George
+  lastName: Babey
+  tagline: Lead Software Engineer @ Applause.com
+  pictureUrl: public/img/people/george-babey.jpg
+  twitterUsername: georgebabey
+  githubUsername: georgebabey
+  linkedInProfileUrl: https://www.linkedin.com/pub/george-babey/2/5b9/a73
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: George is a Lead Engineer at Applause where he is focused on improving the crowd testing platform. He spends his days mainly in Javascript, both on the frontend with Angular and server-side with NodeJS. Prior to Applause he worked at Carbonite where he developed the UI for their first server appliance. A former C# / .net developer, he still helps run the local Boston Azure User Group.
+
+- publish: true
+  firstName: Louis
+  lastName: Sivillo
+  tagline: Sr. Software Engineer @ Applause.com
+  pictureUrl: public/img/people/louis-sivillo.jpg
+  twitterUsername: sivillo
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Louis is a Senior Software Engineer who increases developer productivity through code quality, modularity and software reuse.  He enjoys building full-stack web applications that are robust yet scalable, and is currently focused on building a SOA architecture with his team using Node.js, AngularJS, AMQP, and Docker.
+
+- publish: true
+  firstName: Paweł
+  lastName: Szymczyk
+  tagline: Software Enginere @ Grupa Allegro
+  pictureUrl: public/img/people/pawel-szymczyk.jpg
+  twitterUsername: p_szymczyk
+  githubUsername: pawelszymczyk
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Software Enginere w Grupie Allegro, pracuje w zespole zajmującym się narzędziami ułatwiającymi tworzenie mikrousług. Core developer w projektach open source: <a href=https://github.com/allegro/hermes”>Hermes</a>, <a href=https://github.com/javers/javers”>Javers</a>.
+
+- publish: true
+  firstName: Dariusz
+  lastName: Kalbarczyk
+  tagline: Współautor książki "AngularJS. Pierwsze kroki"
+  pictureUrl: public/img/people/dariusz-kalbarczyk.jpg
+  twitterUsername: ngKalbarczyk
+  githubUsername: kalbarczyk
+  linkedInProfileUrl: https://www.linkedin.com/in/ngkalbarczyk
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Doświadczony programista, od ponad 15 lat związany z rynkiem IT. Fascynat nowych technologii, social mediów, współautor książki „AngularJS. Pierwsze kroki”. Współtwórca warszawskiej grupy AngularJS Warsaw, przez lata współpracujący z największymi firmami na rynku finansowym i telekomunikacyjnym. Z AngularJS związany od 3 lat. W czasie tym brał udział w tworzeniu między innymi, opartego o najnowsze technologie, bankowego systemu transakcyjnego, przeznaczonego na urządzenia mobilne. Zdobyte doświadczenie, oraz entuzjazm pracy z AngularJS zostały dość szeroko opisane przez autora we wspomnianej już książce wydawnictwa Helion „AngularJS. Pierwsze kroki”.
+
+- publish: true
+  firstName: Radosław
+  lastName: Stankiewicz
+  tagline: Expert @ Bank Zachodni WBK S.A
+  pictureUrl: public/img/people/radoslaw-stankiewicz.jpg
+  twitterUsername: rrydziu
+  githubUsername: stankiewicz
+  linkedInProfileUrl: https://pl.linkedin.com/in/stankiewicz
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Radosław Stankiewicz jest specjalistą IT z szerokim zapleczem teoretycznym i praktycznym. Od 2006 roku zdobywa doświadczenia w różnych dziedzinach - od technologii mobilnych do JEE - a wszystko to w całej różnorodności projektów i środowisk m.in. bankowości, telekomunikacji, sektorze publicznym. Aktualnie pracuje na stanowisku IT Expert w Banku Zachodnim WBK S.A., gdzie rozwija frontend Bankowości Elektronicznej oraz platformę Big Data.
+
+- publish: true
+  firstName: Bartłomiej
+  lastName: Tarnaus
+  tagline: Developer @ OSA | Data Scientist @ LOWE Media
+  pictureUrl: public/img/people/bartlomiej-tarnaus.jpg
+  twitterUsername: bartektartanus
+  githubUsername: bartektartanus
+  linkedInProfileUrl: https://pl.linkedin.com/in/bartlomiejtartanus
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Programista z pasji, matematyk z wykształcenia. Taka mieszanka znalazła do tej pory zastosowanie w projekcie badawczym NEKST - współtworzył polską wyszukiwarkę internetową, gdzie był odpowiedzialnym.in. za moduł odpowiadający na pytania w języku naturalnym. Tam poznał czym jest Big Data i jak z pomocą żółtego słonia o imieniu Hadoop można ten temat ujarzmić. Obecnie jako deweloper Java EE tworzy Otwarty System Antyplagiatowy - OSA oraz pracuje jako data scientist w domu mediowym. Dodatkowo udziela się dydaktycznie na wydziale MiNI Politechniki Warszawskiej, gdzie prowadzi zajęcia ze studentami z programowania z językach C/C++ oraz R. Prywatnie amator perkusji.
 
 - publish: false
   firstName:
