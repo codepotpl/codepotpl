@@ -674,6 +674,32 @@
   websiteUrl:
   bioInMd: CTO of Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales. Pragmatic software engineer and system architect who likes challenges. Experienced in building distributed systems processing big amount of data (systems with 200+ servers). Also team builder who tries to engage some of the best people to his team(s) - great software engineers, tech leads, architects who create great atmosphere at work at the same time. Dedicated to co-creating startup. In free time (not too much recently) likes running, karting and squash. "Suchary" lover ;)
 
+- publish: true
+  firstName: Jakub
+  lastName: Wasielak
+  tagline: Senior Python Developer @ Grand Parade
+  pictureUrl: public/img/people/jakub-wasielak.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=278472640
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Python Programmer with experience in developing web services - especially using Django. Currently Senior Developer in Grand Parade, where spent countless hours on introducing workflow based on Gitflow, Vagrant and Ansible. In free time fantasy lover, organizer of larp convention Fornost.
+
+- publish: true
+  firstName: Krzysztof
+  lastName: Romanowski
+  tagline: Scala developer @ Virtuslab
+  pictureUrl: public/img/people/krzysztof-romanowski.jpg
+  twitterUsername: RomanowskiKr
+  githubUsername: Romanowski
+  linkedInProfileUrl: https://pl.linkedin.com/in/romanowskikr/pl
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Scala developer at Virtuslab. I am a passionate about scala internlas (compiler, build tools, IDEs) and debugging stuff. I am one of creators of ScalaIDE expression evaluation engine. Mountains, bikes trips freak.
+
 - publish: false
   firstName:
   lastName:
