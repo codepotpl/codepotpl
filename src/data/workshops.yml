@@ -1,45 +1,45 @@
 - publish: true
   tutors:
-    - firstName: Micha�
+    - firstName: Micha³
       lastName: Tajchert
     - firstName: Aleksander
       lastName: Piotrowski
-  topic: Entrepreneur @ 12hours.io, GDG Warszawa1 󳿟�
+  topic: Entrepreneur @ 12hours.io, GDG Warszawa1 ó³¿Ÿæ
   tags:
-    - tagName: Testing1 ��
+    - tagName: Testing1 ó³Ÿæ
     - tagName: JAVA1
     - tagName: SCALA1
     - tagName: Ruby1
   whenDay:
   timeStart:
   timeEnd:
-  description: --->1<----GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
+  description: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
   requirement: computer, telephone, head, yourself
 
 - publish: true
   tutors:
-    - firstName: Micha�
+    - firstName: Micha³
       lastName: Tajchert
     - firstName: Aleksander
       lastName: Piotrowski
-    - firstName: Micha�
+    - firstName: Micha³
       lastName: Tajchert
     - firstName: Aleksander
       lastName: Piotrowski
-  topic: Entrepreneur @ 12hours.io, GDG Warszawa1 󳿟�
+  topic: Entrepreneur @ 12hours.io, GDG Warszawa1 ó³¿Ÿæ
   tags:
-    - tagName: Testing1 ��
+    - tagName: Testing1 ó³Ÿæ
     - tagName: JAVA1
     - tagName: SCALA1
     - tagName: Ruby1
   whenDay:
   timeStart:
   timeEnd:
-  description: --->1<----GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
+  description: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
 
 - publish: true
   tutors:
-    - firstName: Micha�
+    - firstName: Micha³
       lastName: Tajchert
   topic: Entrepreneur @ 12hours.io, GDG Warszawa2 Entrepreneur @ 12hours.io, GDG Warszawa1 Entrepreneur @ 12hours.io, GDG Warszawa1 Entrepreneur @ 12hours.io, GDG Warszawa1
   tags:
@@ -53,11 +53,11 @@
   whenDay:
   timeStart:
   timeEnd:
-  description: -->2<---GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
+  description: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
 
 - publish: true
   tutors:
-    - firstName: Micha�3
+    - firstName: Micha³3
       lastName: Tajchert3
     - firstName: Aleksander3
       lastName: Piotrowski3
@@ -70,5 +70,5 @@
   whenDay:
   timeStart:
   timeEnd:
-  description: --->3<---GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
+  description: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
   requirement: computer, telephone, head
