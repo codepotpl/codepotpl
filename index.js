@@ -71,9 +71,6 @@ data.workshops.forEach(function (workshop) {
     });
 });
 
-//console.log(data.tutors);
-console.log(data.workshops);
-
 var metaTagsData = {
     siteName: "Codepot",
     title: "Codepot - 100% workshop conference!",
