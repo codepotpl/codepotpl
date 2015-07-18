@@ -19,3 +19,14 @@
    - tag1
    - tag2
    - tag3
+
+- publish: false
+  tutors:
+   - Pan_którego nie_ma_w_tutors.yml
+   - Aleksander Piotrowski
+  title: Workshop Title 2
+  description: Workshop Description 2
+  tags:
+   - tag1
+   - tag2
+   - tag3
