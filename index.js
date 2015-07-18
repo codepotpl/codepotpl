@@ -31,6 +31,9 @@ var data = {
     tutors: YAML.load('src/data/tutors.yml').filter(function (tutor) {
         return tutor.publish;
     }),
+    workshops: YAML.load('src/data/workshops.yml').filter(function (workshop) {
+        return workshop.publish;
+    }),
     sponsors: YAML.load('src/data/sponsors.yml'),
     partners: YAML.load('src/data/partners.yml'),
     media: YAML.load('src/data/media.yml')
@@ -54,6 +57,7 @@ app.get('/', function (req, res) {
         host: process.env['CDPT_HOST'],
         organizers: data.organizers,
         tutors: data.tutors,
+        workshops: data.workshops,
         sponsors: data.sponsors,
         partners: data.partners,
         media: data.media,
