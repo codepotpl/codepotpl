@@ -33,8 +33,46 @@ var data = {
     }),
     sponsors: YAML.load('src/data/sponsors.yml'),
     partners: YAML.load('src/data/partners.yml'),
-    media: YAML.load('src/data/media.yml')
+    media: YAML.load('src/data/media.yml'),
+    workshops: YAML.load('src/data/workshops.yml')
 };
+
+if (!Array.prototype.find) {
+    Array.prototype.find = function (predicate) {
+        if (this == null) {
+            throw new TypeError('Array.prototype.find called on null or undefined');
+        }
+        if (typeof predicate !== 'function') {
+            throw new TypeError('predicate must be a function');
+        }
+        var list = Object(this);
+        var length = list.length >>> 0;
+        var thisArg = arguments[1];
+        var value;
+
+        for (var i = 0; i < length; i++) {
+            value = list[i];
+            if (predicate.call(thisArg, value, i, list)) {
+                return value;
+            }
+        }
+        return undefined;
+    };
+}
+
+data.workshops.forEach(function (workshop) {
+    workshop.tutors = workshop.tutors.map(function (workshopTutor) {
+        var firstName = workshopTutor.split(' ')[0];
+        var lastName = workshopTutor.split(' ')[1];
+        var tutor = data.tutors.find(function (tutorFromDb) {
+            return tutorFromDb.firstName === firstName && tutorFromDb.lastName === lastName;
+        });
+        return tutor ? tutor : {firstName: firstName, lastName: lastName};
+    });
+});
+
+//console.log(data.tutors);
+console.log(data.workshops);
 
 var metaTagsData = {
     siteName: "Codepot",
@@ -57,6 +95,7 @@ app.get('/', function (req, res) {
         sponsors: data.sponsors,
         partners: data.partners,
         media: data.media,
+        workshops: data.workshops,
         metaTags: metaTagsData
     });
 });
@@ -72,6 +111,18 @@ app.get('/', function (req, res) {
 //        metaTags: metaTagsData
 //    });
 //});
+
+app.get('/workshops-wip', function (req, res) {
+    res.render('workshops-wip', {
+        host: process.env['CDPT_HOST'],
+        organizers: data.organizers,
+        tutors: data.tutors,
+        sponsors: data.sponsors,
+        partners: data.partners,
+        workshops: data.workshops,
+        metaTags: metaTagsData
+    });
+});
 
 var server = app.listen(8080, function () {
     var host = server.address().address;
