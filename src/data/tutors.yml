@@ -648,6 +648,58 @@
   websiteUrl:
   bioInMd: Programista z pasji, matematyk z wykształcenia. Taka mieszanka znalazła do tej pory zastosowanie w projekcie badawczym NEKST - współtworzył polską wyszukiwarkę internetową, gdzie był odpowiedzialnym.in. za moduł odpowiadający na pytania w języku naturalnym. Tam poznał czym jest Big Data i jak z pomocą żółtego słonia o imieniu Hadoop można ten temat ujarzmić. Obecnie jako deweloper Java EE tworzy Otwarty System Antyplagiatowy - OSA oraz pracuje jako data scientist w domu mediowym. Dodatkowo udziela się dydaktycznie na wydziale MiNI Politechniki Warszawskiej, gdzie prowadzi zajęcia ze studentami z programowania z językach C/C++ oraz R. Prywatnie amator perkusji.
 
+- publish: true
+  firstName: Michał
+  lastName: Parkoła
+  tagline: Founder @ People Skills for Geeks
+  pictureUrl: public/img/people/michal-parkola.jpg
+  twitterUsername: michalparkola
+  githubUsername: michalparkola
+  linkedInProfileUrl: https://pl.linkedin.com/in/parkola
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Michał is the founder of People Skills for Geeks, Agile Coach at Fluid Circle and Tinkerer at Sandbenders.io. As an Agile Coach he has helped dozens of teams become happier and more effective and as a Product Owner he led the development of an international payments platform for a multinational corporation in the financial sector.
+
+- publish: true
+  firstName: Tomasz
+  lastName: Roda
+  tagline: CTO @ Growbots
+  pictureUrl: public/img/people/tomasz-roda.jpg
+  twitterUsername: Tom_Roda
+  githubUsername: 
+  linkedInProfileUrl: https://www.linkedin.com/in/troda
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: CTO of Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales. Pragmatic software engineer and system architect who likes challenges. Experienced in building distributed systems processing big amount of data (systems with 200+ servers). Also team builder who tries to engage some of the best people to his team(s) - great software engineers, tech leads, architects who create great atmosphere at work at the same time. Dedicated to co-creating startup. In free time (not too much recently) likes running, karting and squash. "Suchary" lover ;)
+
+- publish: true
+  firstName: Jakub
+  lastName: Wasielak
+  tagline: Senior Python Developer @ Grand Parade
+  pictureUrl: public/img/people/jakub-wasielak.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=278472640
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Python Programmer with experience in developing web services - especially using Django. Currently Senior Developer in Grand Parade, where spent countless hours on introducing workflow based on Gitflow, Vagrant and Ansible. In free time fantasy lover, organizer of larp convention Fornost.
+
+- publish: true
+  firstName: Krzysztof
+  lastName: Romanowski
+  tagline: Scala developer @ Virtuslab
+  pictureUrl: public/img/people/krzysztof-romanowski.jpg
+  twitterUsername: RomanowskiKr
+  githubUsername: Romanowski
+  linkedInProfileUrl: https://pl.linkedin.com/in/romanowskikr/pl
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Scala developer at Virtuslab. I am a passionate about scala internlas (compiler, build tools, IDEs) and debugging stuff. I am one of creators of ScalaIDE expression evaluation engine. Mountains, bikes trips freak.
+
 - publish: false
   firstName:
   lastName:
