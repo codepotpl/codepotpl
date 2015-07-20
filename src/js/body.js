@@ -132,7 +132,7 @@ $('.slick-carousel-run').slick({
     useCSS: true,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 780,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 3,
