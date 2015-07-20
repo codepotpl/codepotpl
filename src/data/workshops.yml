@@ -3,7 +3,12 @@
    - Michał Tajchert
    - Aleksander Piotrowski
   title: Workshop Title 1
-  descriptionInMd: Workshop Description 1
+  descriptionInMd: >
+    Workshop Description 1
+    Workshop Description 1
+
+
+    *Workshop Description 1*
   tags:
    - tag1
    - tag2

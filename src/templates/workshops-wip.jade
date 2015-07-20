@@ -5,7 +5,7 @@ each workshop in workshops
             div
                 img(src=tutor.pictureUrl style='height:20px;')
                 span!=tutor.firstName + ' ' + tutor.lastName
-        h2!=workshop.description
+        !=markdown(workshop.descriptionInMd)
         each tag in workshop.tags
             strong!=tag
     hr
