@@ -3,7 +3,7 @@
    - Michał Tajchert
    - Aleksander Piotrowski
   title: Workshop Title 1
-  description: Workshop Description 1
+  descriptionInMd: Workshop Description 1
   tags:
    - tag1
    - tag2
@@ -14,7 +14,7 @@
    - Pan_którego nie_ma_w_tutors.yml
    - Aleksander Piotrowski
   title: Workshop Title 2
-  description: Workshop Description 2
+  descriptionInMd: Workshop Description 2
   tags:
    - tag1
    - tag2
@@ -25,7 +25,7 @@
    - Pan_którego nie_ma_w_tutors.yml
    - Aleksander Piotrowski
   title: Workshop Title 2
-  description: Workshop Description 2
+  descriptionInMd: Workshop Description 2
   tags:
    - tag1
    - tag2
