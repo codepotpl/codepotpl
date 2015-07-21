@@ -3,6 +3,15 @@
 @import "fonts";
 @import "codepot-icons";
 @import "flexbox";
+@import "foundation/components/labels";
+
+$bg: orange;
+  // Sets the panel padding amount. Default: $panel-padding
+$padding: rem-calc(0);
+  // Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust
+$adjust: true;
+@import "foundation/components/panels";
+@import "foundation/components/thumbs";
 
 $green: #2CB588;
 $dark-green: #219B6F;
@@ -489,11 +498,47 @@ section#agenda {
         }
       }
     }
-    .name {
-    }
   }
 }
 
+.workshop-tag {
+  @extend .font-lato-regular;
+  font-size: rem-calc(18);
+  margin: 0 1rem 1rem 0;
+  @extend .label;
+  @extend .success;
+}
+
+section#workshops {
+  .my-row {
+    padding-top: rem-calc(10);
+    padding-bottom: rem-calc(10);
+    .content {
+      div.tutors {
+        span {
+          @extend .font-lato-regular;
+          font-size: rem-calc(20);
+        }
+      }
+      div.topic {
+        span {
+          @extend .font-lato-regular;
+          font-size: rem-calc(22);
+          font-weight: bold;
+        }
+      }
+      div.tags {
+        span {
+          @extend .font-lato-regular;
+          font-size: rem-calc(18);
+        }
+      }
+    }
+    &:hover {
+      background-color: gainsboro;
+    }
+  }
+}
 
 section#sponsor-us, section#contact, section#subscribe {
   .center {

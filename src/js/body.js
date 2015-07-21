@@ -47,6 +47,9 @@ lies.find("a[href='#tutors']").click(function() {
 lies.find("a[href='#agenda']").click(function() {
     goToId('agenda');
 });
+lies.find("a[href='#workshops']").click(function() {
+    goToId('workshops');
+});
 lies.find("a[href='#sponsor-us']").click(function() {
     goToId('sponsor-us');
 });

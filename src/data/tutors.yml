@@ -217,7 +217,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: ''
 
 - publish: true
   firstName: Przemysław
@@ -464,7 +464,7 @@
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: ''
 
 - publish: true
   firstName: Ewa

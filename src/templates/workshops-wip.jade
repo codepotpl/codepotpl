@@ -1,0 +1,11 @@
+each workshop in workshops
+    div
+        h1!=workshop.title
+        each tutor in workshop.tutors
+            div
+                img(src=tutor.pictureUrl style='height:20px;')
+                span!=tutor.firstName + ' ' + tutor.lastName
+        !=markdown(workshop.descriptionInMd)
+        each tag in workshop.tags
+            strong!=tag
+    hr
