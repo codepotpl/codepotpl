@@ -645,8 +645,7 @@
   tutors:
    - Krzysztof Szumny
   title: Docker - Easy Containerization
-  descriptionInMd: >
-    
+  descriptionInMd: TBA
   tags:
    - Docker 
    - Deployment
