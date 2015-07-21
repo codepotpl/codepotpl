@@ -306,12 +306,8 @@ html
                                     if tutor.pictureUrl
                                         - columnsContentNumber = columnsContentNumber - 2
                                 each tutor, indexTutor in workshop.tutors
-                                    if( tutor )
-                                        div.columns.medium-2.small-4
-                                            img(src=tutor.pictureUrl)
-                                    else
-                                        div.columns
-                                            span.error.label ERROR! No found tutor #{tutor.firstName} #{tutor.lastName} in tutors.yml
+                                    div.columns.medium-2.small-4
+                                        img(src=tutor.pictureUrl)
                                 if columnsContentNumber < 6
                                     - columnsContentNumber = 12
                                 div.columns.content.small-12(class = 'medium-' + columnsContentNumber)
@@ -324,77 +320,75 @@ html
                                         span!=workshop.title
                                     div.tags
                                         each tag, indexTags in workshop.tags
-                                            span.success.label!=tag
-                                            |&#32;
+                                            span.workshop-tag!=tag
                             hr
+
+
                             div.reveal-modal(id="workshop" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
                                 div.row.topic
-                                    h3!=workshop.title
+                                    div.small-12.columns
+                                        h3!=workshop.title
                                 div.row.description
-                                    span!= workshop.description
-                                div.row.tags
-                                    each tag, indexTags in workshop.tags
-                                        span.medium-1.success.label!=tag
-                                        |&#32;
-                                if workshop.requirement
-                                    div.row.requirement
-                                    span Reqierements:&#32;
-                                    span!= workshop.requirement
-                                |<br/>
-                                |<br/>
+                                    div.small-12.columns
+                                        !=markdown(workshop.descriptionInMd)
+                                div.row
+                                    div.small-12.columns
+                                        each tag, indexTags in workshop.tags
+                                            span.workshop-tag!=tag
                                 div.row.tutors
-                                    - var indexUnknownTutors = 0
-                                    - var indexKnownTutors = 0
-                                    div.unknown-tutors
+                                    div.small-12.columns
+                                        - var indexUnknownTutors = 0
+                                        - var indexKnownTutors = 0
+                                        div.unknown-tutors
+                                            each tutor, tutorIndex in workshop.tutors
+                                                if !tutor.pictureUrl
+                                                    if indexUnknownTutors > 0
+                                                        |,&#32;
+                                                    - indexUnknownTutors++
+                                                    span!=[tutor.firstName, tutor.lastName].join(' ')
+                                        - var columnTutorNumber
+                                        if workshop.tutors.length - indexUnknownTutors >= 2
+                                            - columnTutorNumber = 6
+                                        else
+                                            - columnTutorNumber = 12
                                         each tutor, tutorIndex in workshop.tutors
                                             if !tutor.pictureUrl
-                                                if indexUnknownTutors > 0
-                                                    |,&#32;
-                                                - indexUnknownTutors++
-                                                span!=[tutor.firstName, tutor.lastName].join(' ')
-                                    - var columnTutorNumber
-                                    if workshop.tutors.length - indexUnknownTutors >= 2
-                                        - columnTutorNumber = 6
-                                    else
-                                        - columnTutorNumber = 12
-                                    each tutor, tutorIndex in workshop.tutors
-                                        if !tutor.pictureUrl
-                                            - continue
-                                        if workshop.tutors.length - indexUnknownTutors - 1 == indexKnownTutors && (workshop.tutors.length - indexUnknownTutors) % 2
-                                            - columnTutorNumber = 12
-                                        - indexKnownTutors++
-                                        div.small-12.columns.tutor(class = 'medium-' + columnTutorNumber)
-                                            div.row.img
-                                                div.medium-3
-                                                    img(src=tutor.pictureUrl)
-                                            div.row.contact
-                                                div.icons.inline
-                                                    if tutor.linkedInProfileUrl
-                                                        a(href!=tutor.linkedInProfileUrl target='_blank')
-                                                            i.icon-linkedin
-                                                    if tutor.githubUsername
-                                                        a(href='https://www.github.com/' + tutor.githubUsername target='_blank')
-                                                            i.icon-github-circled-alt2
-                                                    if tutor.twitterUsername
-                                                        a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
-                                                            i.icon-twitter
-                                                    //if tutor.stackoverflowId
-                                                    //    a(href!=tutor.stackoverflowId target='_blank') stack
-                                                    //        i.icon-twitter
-                                                    //if tutor.facebookUrl
-                                                    //    a(href!=tutor.facebookUrl target='_blank') fb
-                                                    //        i.icon-twitter
-                                                div.name.inline
-                                                    if tutor.websiteUrl
-                                                        a(href!=tutor.websiteUrl target='_blank')
+                                                - continue
+                                            if workshop.tutors.length - indexUnknownTutors - 1 == indexKnownTutors && (workshop.tutors.length - indexUnknownTutors) % 2
+                                                - columnTutorNumber = 12
+                                            - indexKnownTutors++
+                                            div.small-12.columns.tutor(class = 'medium-' + columnTutorNumber)
+                                                div.row.img
+                                                    div.medium-3
+                                                        img(src=tutor.pictureUrl)
+                                                div.row.contact
+                                                    div.icons.inline
+                                                        if tutor.linkedInProfileUrl
+                                                            a(href!=tutor.linkedInProfileUrl target='_blank')
+                                                                i.icon-linkedin
+                                                        if tutor.githubUsername
+                                                            a(href='https://www.github.com/' + tutor.githubUsername target='_blank')
+                                                                i.icon-github-circled-alt2
+                                                        if tutor.twitterUsername
+                                                            a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
+                                                                i.icon-twitter
+                                                        //if tutor.stackoverflowId
+                                                        //    a(href!=tutor.stackoverflowId target='_blank') stack
+                                                        //        i.icon-twitter
+                                                        //if tutor.facebookUrl
+                                                        //    a(href!=tutor.facebookUrl target='_blank') fb
+                                                        //        i.icon-twitter
+                                                    div.name.inline
+                                                        if tutor.websiteUrl
+                                                            a(href!=tutor.websiteUrl target='_blank')
+                                                                span.name!=[tutor.firstName, tutor.lastName].join(' ')
+                                                        else
                                                             span.name!=[tutor.firstName, tutor.lastName].join(' ')
-                                                    else
-                                                        span.name!=[tutor.firstName, tutor.lastName].join(' ')
-                                                div.clearBoth
-                                            div.row.tagline
-                                                span.bottom-line!=tutor.tagline
-                                            div.row.bioInMd
-                                                p!=tutor.bioInMd
+                                                    div.clearBoth
+                                                div.row.tagline
+                                                    span.bottom-line!=tutor.tagline
+                                                div.row.bioInMd
+                                                    !=markdown(tutor.bioInMd)
                                 a.close-reveal-modal(aria-label="Close") &#215;
 
         section#sponsor-us

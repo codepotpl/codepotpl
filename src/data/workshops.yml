@@ -4,8 +4,8 @@
   title: Runtime Permissions in practical use.
   descriptionInMd: Jedną z większych nowości szczególnie dla deweloperów z tegorocznego Google I/O było wprowadzenie stopniowych uprawnień (Runtime Permissions). Powoduje to że musimy (a raczej powinniśmy) sprawdzać je przed każdym użyciem a także być przygotowani na odmowę dostępu np. do kontaktów użytkownika. W tym warsztacie krótko omówimy Runtime Permissions, skupiając się na tym jak pisać na "stare" Androidy z użyciem nowych uprawnień, a następnie przejdziemy do kodowania przykładów sprawdzania uprawnień, prośby o dostęp do wybranych a także jak można to sobie uprościć. Wymaganiem jest posiadanie skonfigurowanego emulatora Android M lub telefonu z tą wersją Androida.
   tags: 
-   - #Android 
-   - #Mobile
+   - Android 
+   - Mobile
 
 - publish: true
   tutors:
@@ -15,14 +15,14 @@
   title: Xamarin platform for Android Developers
   descriptionInMd: TBA
   tags: 
-   - #Mobile 
-   - #Android
+   - Mobile 
+   - Android
 
 - publish: true
   tutors:
    - Aleksander Piotrowski
   title: Workshop Title 2
-  description: Workshop Description 2
+  descriptionInMd: Workshop Description 2
   tags:
    - tag1
    - tag2
@@ -33,7 +33,7 @@
    - Pan_którego nie_ma_w_tutors.yml
    - Aleksander Piotrowski
   title: Workshop Title 2
-  description: Workshop Description 2
+  descriptionInMd: Workshop Description 2
   tags:
    - tag1
    - tag2
@@ -45,7 +45,7 @@
    - Aleksander Piotrowski
    - Aleksander Piotrowski
   title: Workshop Title 2
-  description: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass - lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
+  descriptionInMd: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass - lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
   tags:
    - tag1
    - tag2
@@ -59,7 +59,7 @@
    - Pan_którego nie_ma_w_tutors.yml
    - Aleksander Piotrowski
   title: Workshop Title 2
-  description: Workshop Description 2
+  descriptionInMd: Workshop Description 2
   tags:
    - tag1
    - tag2
@@ -71,9 +71,9 @@
   title: Functional Programming with Swift
   descriptionInMd: In this workshop, we'll look at functional programming concepts in Swift, mostly using playgrounds. We'll look at how to write programs in a functional way, and explore the concepts of functional programming.
   tags: 
-   - #iOS 
-   - #Mobile
-   - #Swift
+   - iOS 
+   - Mobile
+   - Swift
 
 - publish: true 
   tutors: 
@@ -81,5 +81,5 @@
   title: Let's play with tests! - introduction to Unity Test Tools
   descriptionInMd: During this workshop we will talk a bit about test automation in general and  we will focus on Unity Test Tools, free assets available at Unity Asset Store that allow creating runnable test cases everybody in the team, not only coders.
   tags: 
-   - #Testing
-   - #Unity
+   - Testing
+   - Unity
