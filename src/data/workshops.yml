@@ -43,9 +43,13 @@
     Everyone who ever tried/did a multiplayer game knows how much pain it is to implement both backend and mobile application layer that'll handle desired behavior. Fortunately - Google Play Services - recently a solid standard in the Android developers community - comes here to the rescue. During this workshop we'll work on a codepot-themed application that'll put a gaming experience to the conference.
 
 
-        So, if you:
+    So, if you:
+
+
     - Want to learn what the hell Google Play Game Services are
+
     - Want to solidify your current knowledge about it
+
     - Simply want to get some Google-branded swag I'll have with me
 
 
@@ -118,7 +122,7 @@
 - publish: true
   tutors:
    - Paweł Dudek
-   - Oczko Maciek
+   - Maciej Oczko
   title: Successfully working with Core Data
   descriptionInMd: >
     Core Data. One of the most popular and yet most dreaded Apple frameworks. It's a powerful data storage tool, however as always with great power comes great responsibility.
@@ -185,7 +189,7 @@
 
 - publish: true
   tutors:
-   - Przemek Piotrowski
+   - Przemysław Piotrowski
   title: For-comprehension MacGyver
   descriptionInMd: Syntactic sugar dla języka Scala, który potrafi uczynić kod prostrzym i bardziej czytelnym. W trakcie warsztatów nauczymy się używać go z Option, Try, Future i Either. Zaprezentuję podstawowe techniki oraz potencjalne pułapki.
   tags:
@@ -245,7 +249,7 @@
 
 - publish: true
   tutors:
-   - Maciek Górski
+   - Maciej Górski
   title: Groovy on Android - there is no going back.
   descriptionInMd: >
     New languages push their limits to support our favourite mobile platform. Groovy is one of them. It's a very mature language, used to write servers for financial institutions, among others. So why not try it for our awesome apps?
@@ -366,7 +370,7 @@
 
 - publish: true
   tutors:
-   - Wojtek Łukaszuk
+   - Wojciech Łukaszuk
   title: Building WatchKit apps
   descriptionInMd: "Wearables matters. Learn how to build a Watch app for watchOS 2 from scratch. Beyond that, learn about all new support for fluid animations, Digital Crown and more."
   tags:
