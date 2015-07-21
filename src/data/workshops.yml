@@ -59,7 +59,7 @@
    - Design
    - Mobile
 
-- publish: true
+- publish: false
   tutors:
    - Przemysław Jakubczyk
   title: TBA
@@ -68,7 +68,7 @@
    - Android
    - Java
 
-- publish: true
+- publish: false
   tutors:
    - Martin Skurla
   title: Understanding ClassLoaders
