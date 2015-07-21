@@ -777,6 +777,19 @@
   websiteUrl:
   bioInMd: Alicja is a social innovator interested in how technology translates into social reality. A Communications Specialist at TechSoup Europe, Warsaw NetWtorek meet-ups organizer and a blogger. She also sings.
 
+- publish: true
+  firstName: Jakub
+  lastName: Strojewski
+  tagline: Developer @ Evojam
+  pictureUrl: public/img/people/jakub-strojewski.jpg
+  twitterUsername: ulfryk
+  githubUsername: ulfryk
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=163128310
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName:
   lastName:
