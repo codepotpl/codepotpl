@@ -59,7 +59,7 @@
    - Design
    - Mobile
 
-- publish: true
+- publish: false
   tutors:
    - Przemysław Jakubczyk
   title: TBA
@@ -68,7 +68,7 @@
    - Android
    - Java
 
-- publish: true
+- publish: false
   tutors:
    - Martin Skurla
   title: Understanding ClassLoaders
@@ -191,7 +191,7 @@
   tutors:
    - Przemysław Piotrowski
   title: For-comprehension MacGyver
-  descriptionInMd: Syntactic sugar dla języka Scala, który potrafi uczynić kod prostrzym i bardziej czytelnym. W trakcie warsztatów nauczymy się używać go z Option, Try, Future i Either. Zaprezentuję podstawowe techniki oraz potencjalne pułapki.
+  descriptionInMd: Syntactic sugar dla języka Scala, który potrafi uczynić kod prostszym i bardziej czytelnym. W trakcie warsztatów nauczymy się używać go z Option, Try, Future i Either. Zaprezentuję podstawowe techniki oraz potencjalne pułapki.
   tags:
    - Scala
    - SyntacticSugar
