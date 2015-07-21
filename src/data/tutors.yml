@@ -764,6 +764,19 @@
 
     I help solving problems with Agile Software Engineering and embracing Scrum, Kanban, Lean, XP, Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT. Currently I am in the Air Force Academy studying "Aviation and Astronautics" and pursuing my life-long hobby, that is flying and my the ultimate dream - go to space.
 
+- publish: true
+  firstName: Alicja
+  lastName: Peszkowska
+  tagline: Communications specialist @ TechSoup Europe
+  pictureUrl: public/img/people/alicja-peszkowska.jpg
+  twitterUsername: alicjapeas
+  githubUsername: 
+  linkedInProfileUrl: https://www.linkedin.com/pub/alicja-peszkowska/30/219/5b2/pl
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Alicja is a social innovator interested in how technology translates into social reality. A Communications Specialist at TechSoup Europe, Warsaw NetWtorek meet-ups organizer and a blogger. She also sings.
+
 - publish: false
   firstName:
   lastName:
