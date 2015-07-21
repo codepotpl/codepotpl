@@ -492,7 +492,7 @@
     I want to introduce Heroku platform to others. Will describe it briefly and then will show how to create and manage apps, how to add and use addons and efficiently use this platform. We will work on simple Python application.
 
 
-    * one of requirement to fully experience workshop will be to have validated Heroku account (with billing info provided). Heroku offers free plans but requires account validation to use most of add-ons. I've tried to get some promo-codes from them or figure a way to bypass this but no luck. For those who won't validate account I will invite them to collaborate with mine app so they can also at least use and see some add-ons.
+    \* Heroku requires account validation via providing billing information to use even free plans of add-ons. But relax - credit card is not required to fully experience this workshop.
   tags:
    - Platform
    - Workflow
