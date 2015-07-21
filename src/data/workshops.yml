@@ -59,11 +59,11 @@
    - Design
    - Mobile
 
-- publish: false
+- publish: true
   tutors:
    - Przemysław Jakubczyk
-  title: TBA
-  descriptionInMd: TBA
+  title: Use less Robolectric
+  descriptionInMd: I will show some tricks how Robolectric can be replaced with RoboSpock and Dagger
   tags:
    - Android
    - Java
@@ -191,7 +191,7 @@
   tutors:
    - Przemysław Piotrowski
   title: For-comprehension MacGyver
-  descriptionInMd: Syntactic sugar dla języka Scala, który potrafi uczynić kod prostszym i bardziej czytelnym. W trakcie warsztatów nauczymy się używać go z Option, Try, Future i Either. Zaprezentuję podstawowe techniki oraz potencjalne pułapki.
+  descriptionInMd: MacGyver przy pomocy srebrnej taśmy, sznurka i noża mógł zbudować wszystko. Zostań MacGyver'em świata programowania. Odkryj możliwości map, flatMap i filter a to wszystko dostępne pod wszechstronnym lukrem składniowym for-comprehension. W trakcie warsztatów dowiesz się jak używać go z typami Option, Try, Future i Either. Zaprezentuję standardowe techniki oraz potencjalne pułapki.
   tags:
    - Scala
    - SyntacticSugar
@@ -618,3 +618,43 @@
     Later on I want to show usages of on a fly scala compiler (scala toolbox).
   tags:
    - Scala
+
+- publish: true
+  tutors: 
+   - Mariusz Sieraczkiewicz
+  title: Difficult conversations - 4 steps of clear communication
+  descriptionInMd: >
+    Difficult conversations cannot be avoided. More important is what you would do then. In most cases we tend to use two strategies: being agressive so that we can protect what is important for us or being passive to not worsen the situation. It rarely works. You need another way.
+
+
+    We will discuss and practice particular technique that will help you to
+
+    - have more understanding of your own and others needs
+
+    - use language that will not unnecessarily rise emotional response
+
+    - have more undersanding of your own and others motivation
+
+    - define your borders not attacking others
+
+    If you find anything curious about it or just want to learn a little bit, come to the workshop.
+  tags:
+   - Soft 
+
+- publish: true
+  tutors:
+   - Krzysztof Szumny
+  title: Docker - Easy Containerization
+  descriptionInMd: >
+    
+  tags:
+   - Docker 
+   - Deployment
+
+- publish: false
+  tutors:
+   - 
+  title: 
+  descriptionInMd: 
+  tags:
+   - 

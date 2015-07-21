@@ -790,6 +790,45 @@
   websiteUrl:
   bioInMd:
 
+- publish: true
+  firstName: Adam
+  lastName: Smolnik
+  tagline: AWS Certified Solutions Architect/Java Enthusiast
+  pictureUrl: public/img/people/adam-smolnik.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/adam-smolnik/43/874/653
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Adam is a Principal Software Engineer at Pitney Bowes. Prior to PB, Adam worked as an application developer, consultant, designer for companies like Kroll Ontrack, IBM and EDS. He supports and contributes to developing Chmurowisko.pl, the most recognized Polish website revolving around Cloud technology. Adam is also co-founder of AWS User Group Poland, an active speaker at Cloud conferences, instructor at Cloud and Software workshops, Java/JEE trainer at Altkom, Cloud Computing Architect & Trainer at CloudPeak.pl as well as co-organizer Cloudyna conference (cloudyna.org).
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName:
   lastName:
