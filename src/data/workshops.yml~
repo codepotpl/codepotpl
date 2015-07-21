@@ -1,0 +1,302 @@
+- publish: true 
+  tutors: 
+   - Michał Tajchert
+  title: Runtime Permissions in practical use.
+  descriptionInMd: Jedną z większych nowości szczególnie dla deweloperów z tegorocznego Google I/O było wprowadzenie stopniowych uprawnień (Runtime Permissions). Powoduje to że musimy (a raczej powinniśmy) sprawdzać je przed każdym użyciem a także być przygotowani na odmowę dostępu np. do kontaktów użytkownika. W tym warsztacie krótko omówimy Runtime Permissions, skupiając się na tym jak pisać na "stare" Androidy z użyciem nowych uprawnień, a następnie przejdziemy do kodowania przykładów sprawdzania uprawnień, prośby o dostęp do wybranych a także jak można to sobie uprościć. Wymaganiem jest posiadanie skonfigurowanego emulatora Android M lub telefonu z tą wersją Androida.
+  tags: 
+   - #Android 
+   - #Mobile
+
+- publish: true 
+  tutors: 
+   - Aleksander Piotrowski
+  title: Xamarin platform for Android Developers
+  descriptionInMd: TBA
+  tags: 
+   - #Mobile 
+   - #Android
+
+- publish: true 
+  tutors: 
+   - Chris Eidhof
+  title: Functional Programming with Swift
+  descriptionInMd: In this workshop, we'll look at functional programming concepts in Swift, mostly using playgrounds. We'll look at how to write programs in a functional way, and explore the concepts of functional programming.
+  tags: 
+   - #iOS 
+   - #Mobile
+   - #Swift
+
+- publish: true 
+  tutors: 
+   - Konrad Gadzina
+  title: Let's play with tests! - introduction to Unity Test Tools
+  descriptionInMd: During this workshop we will talk a bit about test automation in general and  we will focus on Unity Test Tools, free assets available at Unity Asset Store that allow creating runnable test cases everybody in the team, not only coders.
+  tags: 
+   - #Testing
+   - #Unity
+
+- publish: true 
+  tutors: 
+   - Mateusz Herych
+  title: Google Play Game Services
+  descriptionInMd: >
+    Everyone who ever tried/did a multiplayer game knows how much pain it is to implement both backend and mobile application layer that'll handle desired behavior. Fortunately - Google Play Services - recently a solid standard in the Android developers community - comes here to the rescue. During this workshop we'll work on a codepot-themed application that'll put a gaming experience to the conference.
+
+
+    So, if you:
+- Want to learn what the hell Google Play Game Services are
+- Want to solidify your current knowledge about it
+- Simply want to get some Google-branded swag I'll have with me
+
+
+YOU HAVE NO OTHER CHOICE, YOU REALLY NEED TO ATTEND THAT WORKSHOP!!!
+  tags: 
+   - #Android 
+   - #Design
+   - #Mobile
+
+- publish: true 
+  tutors: 
+   - Przemysław Jakubczyk
+  title: TBA
+  descriptionInMd: TBA
+  tags: 
+   - #Android 
+   - #Java
+
+- publish: true 
+  tutors: 
+   - Martin Skurla
+  title: Understanding ClassLoaders
+  descriptionInMd: TBA
+  tags: 
+   - #JVM 
+   - #Java
+
+- publish: true 
+  tutors: 
+   - Jakub Nabrdalik
+  title: Spring Boot & Cloud - showcase of T/BDD, Domain Driven Design, and distributed microservices - the easy way.
+  descriptionInMd: >
+    We’ll take a simple set of requirements, and build a Spring app using TDD/    BDD, but with modeling based on aggregate roots and bounded contexts from DDD. Then we will turn this into a distributed system, with microservices, using some of the Spring Cloud tools.
+
+
+    This partially live coding session is aimed at people for whom Spring Boot, Cloud, DDD and microservices are new. There’ll be no rocket science, instead we will talk about and explain all the steps, to understand what’s the difference between the old style of modeling, and how DDD brings us to microservices. We will look at what Spring has to offer for our case, and hopefully, we will see, that while microservices are much more difficult on operation side, they are not that hard in normal development, even on a small scale[*].
+
+
+    (* Don’t do microservices on a small scale though. This architecture is for solving problems emerging from Conway’s Law, so if you don’t have them, or do not expect to have them, don’t touch microservices)
+
+
+    Difficulty level: basic Java knowledge
+    Requirements: if you want to hack around: JDK8, IDE, Gradle, Git. If you want just to look&listen - nothing.
+  tags: 
+   - #Java 
+   - #Architecture
+   - #Spring
+   - #Design
+
+- publish: true 
+  tutors: 
+   - Sławomir Sobótka
+  title: Jak dogadywać się z obcymi formami inteligencji
+  descriptionInMd: >
+Biznes: "Ile Ci to zajmie?"
+Ty: "Nie wiem, jeszcze nigdy tego nie robiłem!"
+Biznes: "A kiedy będziesz wiedział ile Ci to zajmie"
+
+Podczas warsztatu:
+- zdebugujemy tą i podobne i sytuacje,
+- uświadomisz sobie z czego wynika różnica w postrzeganiu czasu, wartości i wewnętrznych wyobrażeń
+- poznasz techniki dopasowywania protokołu komunikacyjnego
+
+Prawdopodobnie    to    wrodzona    dociekliwość    oraz    zamiłowanie    do    poszukiwania    modeli,    struktur    i    wzorców    spowodowały,    że    zajmujesz    się    projektowaniem    i    programowaniem    systemów.    Chcemy    zaprosić    Cię    do podróży    po    kolejnym    systemie,    który    jest znacznie    bardziej    złożony    niż    te,    z    którymi    spotykasz    się    na    co    dzień    – Twój    mózg.
+
+Na    podstawie    tej    „technicznej”    wiedzy    opracowano    wiele    skutecznych    technik,    które    rozwiązują    konkretne    problemy polegające na niedopasowaniu "protokołów komunikacyjnych" w zespole lub pomiędzy biznesem a IT.
+  tags: 
+   - #Soft
+
+- publish: true 
+  tutors: 
+   - Paweł Dudek 
+   - Oczko Maciek
+  title: Successfully working with Core Data
+  descriptionInMd: >
+Core Data. One of the most popular and yet most dreaded Apple frameworks. It's a powerful data storage tool, however as always with great power comes great responsibility.
+
+If you want to learn how to use Core Data successfully and avoid many pitfalls that await within its roots you should come visit our workshop. You'll learn how Core Data is actually built, what components does it consist of and how they work together. Moreover you'll find out how to use multithreading with Core Data without random crashes and, last but not least, you'll learn how to deal with performance issues and to do about them.
+  tags: 
+   - #Swift 
+   - #iOS 
+   - #Mobile
+
+- publish: true 
+  tutors: 
+   - Anna Józwik
+  title: Być jak Steve Jobs i Martin Luther King, czyli sztuka wystąpień publicznych
+  descriptionInMd: Co zrobić, aby Twoje wystąpienie było wyjątkowe i zapamiętane przez wszystkich słuchaczy? Czy faktycznie w prezentacjach najważniejsza jest merytoryka? Jak dotrzeć ze swoim przekazem zarówno do programistów jak i ludzi biznesu? Podczas warsztatów otrzymasz w pigułce najważniejsze i mające największy wpływ na jakość wystąpienia wskazówki. Z kolei analiza wystąpień praktyków oraz praca z kamerą, pozwolą Ci się przekonać o tym, co decyduje o sukcesie prezentacji.
+  tags: 
+   - #Soft
+
+- publish: true 
+  tutors: 
+   - Sylwester Madej
+  title: Selling your product - basics of marketing for developers.
+  descriptionInMd: >
+Devs love to create stuff. Yes, we do. Most times it is the easier part of the product lifecycle. In this short workshop, I will take you to the other side. The side of "personas", "landing pages", "sales funnels" and all of this marketing mumbo jumbo.
+Spoiler alert! I will not show you the "how to get rich" tactics, only how to introduce your product to the world.
+  tags: 
+   - #Soft 
+   - #Business
+
+- publish: true 
+  tutors: 
+   - Konrad Malawski
+  title: Akka in Action - Actors, Clusters, Streams
+  descriptionInMd: During this session for intermediate Scala and Akka devs we'll dive into implementing distributed systems using Akka Cluster and some of the interesting features relating to it. First we'll simply connect multiple nodes in a cluster, but then we'll add Persistence in order to make our systems resilient against failure. We'll also talk about distributed systems and partitions in general and learn to understand and make the right trade-offs when designing distributed applications. All this will be implemented as part of a simple demo-application we'll be working together on as a group (each contributing a node in the cluster).
+  tags: 
+   - #Scala 
+   - #Akka
+
+- publish: true 
+  tutors: 
+   - Grzegorz Nosek
+  title: Ansible - zarządzanie konfiguracją w końcu zrobione jak trzeba
+  descriptionInMd: Poznaj Ansible - narzędzie do automatyzacji zadań i zarządzania konfiguracją lżejsze i łatwiejsze niż Puppet i Chef razem wzięte. Szkolenie składa się z krótkiego wstępu merytorycznego oraz częście praktycznej. W efekcie stworzysz samodzielnie uproszczone, ale realistyczne środowisko serwerowe. Zajęcia powadzi znany ewangelista Ansible w Polsce, administrator i programista systemowy Grzegorz Nosek.
+  tags: 
+   - #Ansible 
+   - #Deployment
+
+- publish: true 
+  tutors: 
+   - Alper Çugun
+  title: Improving your app by using engagement loops
+  descriptionInMd: We use a game design model called ‘engagement loops’ to design products and services that are awesome and interesting. This model revolves around identifying a meaningful challenge, something that your users actually want to become better at (like learning a language, becoming healthier etc.). We then help them improve on the challenge by adding game-like structures and rich feedback around that challenge. This way we create a feedback loop that keeps users coming back because they want to.
+  tags: 
+   - #Design
+   - #Business
+
+- publish: true 
+  tutors: 
+   - Mateusz Górski
+  title: From zero to hero with Akka
+  descriptionInMd: The workshop will cover a lot of ground starting with basic understanding of Actor model and its implementation in Akka framework. Then we would move into more practical topics like how Akka solves problem with failovers, asynchronous message passing, concurrency, consuming messages from different endpoints ( database, HTTP clients ), persistance etc.
+  tags: 
+   - #Akka
+
+- publish: true 
+  tutors: 
+   - Przemek Piotrowski
+  title: For-comprehension MacGyver
+  descriptionInMd: Syntactic sugar dla języka Scala, który potrafi uczynić kod prostrzym i bardziej czytelnym. W trakcie warsztatów nauczymy się używać go z Option, Try, Future i Either. Zaprezentuję podstawowe techniki oraz potencjalne pułapki.
+  tags: 
+   - #Scala
+   - #SyntacticSugar
+
+- publish: true 
+  tutors: 
+   - Marcin Brański
+  title: Deploying microservices to mesos
+  descriptionInMd: >
+    It's easier to deploy monolithic application but it's not as easy when it comes to microservices.
+
+
+    To start we need to think about deployment pipeline, service discovery, proper monitoring, method of provisioning and tests.
+
+
+    During workshop I will present successful deployment of an application to mesos cluster using new and cool technology stack.
+  tags: 
+   - #Microservices
+   - #Deployment
+
+- publish: true 
+  tutors: 
+   - Wojtek Erbetowski
+  title: API design process
+  descriptionInMd: >
+    Don't let your tools take over and decide on your API for you!
+API is the first class citizen and we will learn together how to design it up-front instead of creating an accidental one.
+
+
+    During this workshop we will focus on creating HTTP REST (or REST-like) API for a simple service. We will encounter several difficulties and try to handle them. No specific backend technology knowledge is required, but attendee should have an understanding of what API, HTTP and JSON are.
+  tags: 
+   - #REST
+   - #API
+   - #Design
+
+- publish: true 
+  tutors: 
+   - Dawid Pytel
+  title: Be proud of your code - the Software Design Workshop
+  descriptionInMd: Challenge yourself in tackling software design problems. Solve design riddles in small teams. Confront your solutions with other team members. Learn from them and teach them something new. Present design solutions to wider audience. See how to make your solutions simpler, apply design patterns, discuss software design, present and defend your point of view. After all, a conference is a great opportunity to see various perspectives, exchange experience and share knowledge, isn't it?
+  tags: 
+   - #Design
+   - #Architecture
+   - #Soft
+
+- publish: true 
+  tutors: 
+   - Adam Bien
+  title: A Note On Java EE Testing
+  descriptionInMd: Online session - Answers for the most frequently asked questions about unit-, integration-, system and stress testing.
+  tags: 
+   - #Java 
+   - #Enterprise
+   - #Testing
+
+- publish: true 
+  tutors: 
+   - Maciek Górski
+  title: Groovy on Android - there is no going back.
+  descriptionInMd: >
+    New languages push their limits to support our favourite mobile platform. Groovy is one of them. It's a very mature language, used to write servers for financial institutions, among others. So why not try it for our awesome apps?
+
+
+    During the workshop we will explore possibilities this language gives us, compared to its older brother - Java. I will show you, that you already know this language and can start using it for professional development. There will be plenty of tricks to save you from writing boilerplate code, but also some nuisances you are likely to encounter. Join this session to learn if you are ready for Groovy.
+  tags: 
+   - #Android
+   - #Groovy
+
+- publish: true 
+  tutors: 
+   - Marcin Karkocha
+  title: Multi-model Databases
+  descriptionInMd: >
+    Warsztaty z nieco odwróconą logiką - zaczynamy od tego jakich danych potrzebujesz a na tej podstawie modelujemy ich schemat i wybieramy odpowiednią bazę danych, a być może nawet kilka.
+
+
+    W warsztatach nauczysz się, jak myśleć o potrzebnych lub niepotrzebnych danych. Dowiesz się jak twoje wyobrażenie przekuć na właściwy model. Następnie na bazie kilku przykładów nauczysz się krok po kroku jak wykorzystując tą wiedzę zbudować solidny system bazodanowy dla twojego projektu!
+  tags: 
+   - #Design
+   - #Databases
+
+- publish: true 
+  tutors: 
+   - Anton Sarov
+  title: Enhance your IDE - write a plugin for Eclipse, IntelliJ and NetBeans!
+  descriptionInMd: What is 3 hours long and includes the 3 major IDEs? This workshop! It does not matter if you use Eclipse, IntelliJ or NetBeans - we will learn how to extend these IDEs by writing plugins for them. After this, the only limit will be the sky ... and your heap space.
+  tags: 
+   - #IDE
+   - #Workflow
+
+- publish: true 
+  tutors: 
+   - Beata Nowakowska
+  title: Clean code and money - hot to talk about technical depth
+  descriptionInMd: >
+    This code is horrible but we have no time to fix it' Ever heard this one said? Or: 'This is pain in the ass but Mr X won't let me fix it.' Or maybe you don't really think it's worth it?
+
+
+    During this workshop we shall discuss how to work with legacy code so you are sure that the time spent is worth the effort and finally how to convince others that you really know what you're doing.
+  tags: 
+   - #Soft
+   - #Business
+
+- publish: true 
+  tutors: 
+   - Piotr Jagielski
+  title: Dubstep developer - how to use open source code/hardware for music production
+  descriptionInMd: I'll give a short introduction to functional sound synthesis, sequencing and midi interop using Overtone and Arduino-based open source hardware. Prepare for live music coding!
+  tags: 
+   - #Arduino
+   - #Sound
+   - #Hardware

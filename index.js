@@ -99,7 +99,8 @@ app.get('/', function (req, res) {
         partners: data.partners,
         media: data.media,
         workshops: data.workshops,
-        metaTags: metaTagsData
+        metaTags: metaTagsData,
+        markdown:markdown.markdown.toHTML
     });
 });
 
@@ -123,7 +124,8 @@ app.get('/workshops-wip', function (req, res) {
         sponsors: data.sponsors,
         partners: data.partners,
         workshops: data.workshops,
-        metaTags: metaTagsData
+        metaTags: metaTagsData,
+        markdown:markdown.markdown.toHTML
     });
 });
 
