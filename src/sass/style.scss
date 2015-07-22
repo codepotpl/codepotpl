@@ -423,18 +423,30 @@ section#tutors {
     }
   }
   .tagline {
-    @extend .font-lato-light;
-    font-size: rem-calc(16);
+    @extend .font-lato-regular;
+    font-size: rem-calc(18);
   }
   .bioInMd {
-    @extend .font-lato-light;
-    font-size: rem-calc(18);
+    @extend .font-lato-regular;
+    font-size: rem-calc(20);
   }
   div.inline {
     float: left;
   }
   .clearBoth {
     clear: both;
+  }
+  .topic-modal{
+    @extend .font-lato-regular;
+    font-size: rem-calc(22);
+  }
+  .description {
+    @extend .font-lato-regular;
+    font-size: rem-calc(20);
+  }
+  .tags-modal{
+    @extend .font-lato-regular;
+    font-size: rem-calc(20);
   }
 }
 

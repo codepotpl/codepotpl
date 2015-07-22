@@ -325,14 +325,14 @@ html
                             hr
 
 
-                            div.reveal-modal(id="workshop" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
-                                div.row.topic
+                            div.reveal-modal.workshop(id="workshop" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
+                                div.row.topic.topic-modal
                                     div.small-12.columns
                                         h3!=workshop.title
                                 div.row.description
                                     div.small-12.columns
                                         !=markdown(workshop.descriptionInMd)
-                                div.row
+                                div.row.tags-modal
                                     div.small-12.columns
                                         each tag, indexTags in workshop.tags
                                             span.workshop-tag!=tag
