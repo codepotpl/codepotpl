@@ -217,7 +217,8 @@ html
                                         div.row.tagline
                                             span.bottom-line!=tutor.tagline
                                         div.row.bioInMd
-                                            !=markdown(tutor.bioInMd)
+                                            if tutor.bioInMd
+                                                !=markdown(tutor.bioInMd)
 
                                         a.close-reveal-modal(aria-label="Close") &#215;
 
@@ -388,7 +389,8 @@ html
                                                 div.row.tagline
                                                     span.bottom-line!=tutor.tagline
                                                 div.row.bioInMd
-                                                    !=markdown(tutor.bioInMd)
+                                                    if tutor.bioInMd
+                                                        !=markdown(tutor.bioInMd)
                                 a.close-reveal-modal(aria-label="Close") &#215;
 
         section#sponsor-us
