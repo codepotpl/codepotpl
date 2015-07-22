@@ -46,8 +46,8 @@ html
                             a(href='https://www.facebook.com/codepotpl' target='_blank') &nbsp;
                                 i.icon-facebook-1 &nbsp;
                         li.name
-                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank') &nbsp;
-                                i.icon-meetup &nbsp;
+                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank')
+                                i.icon-codepot-icon-meetup &nbsp;
                         li.name
                             a(href='mailto:contact@codepot.pl') &nbsp;
                                 i.icon-mail &nbsp;
@@ -201,12 +201,15 @@ html
                                                 if tutor.twitterUsername
                                                     a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
                                                         i.icon-twitter
-                                                //if tutor.stackoverflowId
-                                                //    a(href!=tutor.stackoverflowId target='_blank') stack
-                                                //        i.icon-twitter
-                                                //if tutor.facebookUrl
-                                                //    a(href!=tutor.facebookUrl target='_blank') fb
-                                                //        i.icon-twitter
+                                                if tutor.stackoverflowId
+                                                    a(href!=tutor.stackoverflowId target='_blank')
+                                                        i.icon-stackoverflow
+                                                if tutor.googlePlusHandler
+                                                    a(href='https://plus.google.com/' + tutor.googlePlusHandler target='_blank')
+                                                        i.icon-gplus
+                                                if tutor.facebookUrl
+                                                    a(href!=tutor.facebookUrl target='_blank')
+                                                        i.icon-facebook-1
                                             div.name.inline
                                                 if tutor.websiteUrl
                                                     a(href!=tutor.websiteUrl target='_blank')
@@ -373,12 +376,15 @@ html
                                                         if tutor.twitterUsername
                                                             a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
                                                                 i.icon-twitter
-                                                        //if tutor.stackoverflowId
-                                                        //    a(href!=tutor.stackoverflowId target='_blank') stack
-                                                        //        i.icon-twitter
-                                                        //if tutor.facebookUrl
-                                                        //    a(href!=tutor.facebookUrl target='_blank') fb
-                                                        //        i.icon-twitter
+                                                        if tutor.stackoverflowId
+                                                            a(href!=tutor.stackoverflowId target='_blank')
+                                                                i.icon-stackoverflow
+                                                        if tutor.googlePlusHandler
+                                                            a(href='https://plus.google.com/' + tutor.googlePlusHandler target='_blank')
+                                                                i.icon-gplus
+                                                        if tutor.facebookUrl
+                                                            a(href!=tutor.facebookUrl target='_blank')
+                                                                i.icon-facebook-1
                                                     div.name.inline
                                                         if tutor.websiteUrl
                                                             a(href!=tutor.websiteUrl target='_blank')
