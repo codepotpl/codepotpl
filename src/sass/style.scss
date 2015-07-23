@@ -181,19 +181,10 @@ button {
 }
 
 header {
-  min-height: 100%;
   color: $black;
   background-color: #F4F4F4;
   padding: 2rem 0 0 0;
   margin: 0 0 2rem 0;
-  .small-start-img{
-    position: absolute;
-    bottom: 0px;
-  }
-  .big-start-img{
-    position: absolute;
-    bottom: 0px;
-  }
   h1, h2, span {
     text-align: center;
   }
@@ -239,13 +230,6 @@ header {
   @media #{$small-only} {
     margin-bottom: 0px;
   }
-}
-
-section#headerSmallScreenCredentials {
-  @extend header;
-  min-height: rem-calc(0);
-  background-color: white;
-  padding-top: rem-calc(0);
 }
 
 section {
