@@ -46,8 +46,8 @@ html
                             a(href='https://www.facebook.com/codepotpl' target='_blank') &nbsp;
                                 i.icon-facebook-1 &nbsp;
                         li.name
-                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank') &nbsp;
-                                i.icon-meetup &nbsp;
+                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank')
+                                i.icon-codepot-icon-meetup &nbsp;
                         li.name
                             a(href='mailto:contact@codepot.pl') &nbsp;
                                 i.icon-mail &nbsp;
@@ -201,12 +201,15 @@ html
                                                 if tutor.twitterUsername
                                                     a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
                                                         i.icon-twitter
-                                                //if tutor.stackoverflowId
-                                                //    a(href!=tutor.stackoverflowId target='_blank') stack
-                                                //        i.icon-twitter
-                                                //if tutor.facebookUrl
-                                                //    a(href!=tutor.facebookUrl target='_blank') fb
-                                                //        i.icon-twitter
+                                                if tutor.stackoverflowId
+                                                    a(href!=tutor.stackoverflowId target='_blank')
+                                                        i.icon-stackoverflow
+                                                if tutor.googlePlusHandler
+                                                    a(href='https://plus.google.com/' + tutor.googlePlusHandler target='_blank')
+                                                        i.icon-gplus
+                                                if tutor.facebookUrl
+                                                    a(href!=tutor.facebookUrl target='_blank')
+                                                        i.icon-facebook-1
                                             div.name.inline
                                                 if tutor.websiteUrl
                                                     a(href!=tutor.websiteUrl target='_blank')
@@ -217,7 +220,8 @@ html
                                         div.row.tagline
                                             span.bottom-line!=tutor.tagline
                                         div.row.bioInMd
-                                            !=markdown(tutor.bioInMd)
+                                            if tutor.bioInMd
+                                                !=markdown(tutor.bioInMd)
 
                                         a.close-reveal-modal(aria-label="Close") &#215;
 
@@ -324,14 +328,14 @@ html
                             hr
 
 
-                            div.reveal-modal(id="workshop" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
-                                div.row.topic
+                            div.reveal-modal.workshop(id="workshop" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
+                                div.row.topic.topic-modal
                                     div.small-12.columns
                                         h3!=workshop.title
                                 div.row.description
                                     div.small-12.columns
                                         !=markdown(workshop.descriptionInMd)
-                                div.row
+                                div.row.tags-modal
                                     div.small-12.columns
                                         each tag, indexTags in workshop.tags
                                             span.workshop-tag!=tag
@@ -372,12 +376,15 @@ html
                                                         if tutor.twitterUsername
                                                             a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
                                                                 i.icon-twitter
-                                                        //if tutor.stackoverflowId
-                                                        //    a(href!=tutor.stackoverflowId target='_blank') stack
-                                                        //        i.icon-twitter
-                                                        //if tutor.facebookUrl
-                                                        //    a(href!=tutor.facebookUrl target='_blank') fb
-                                                        //        i.icon-twitter
+                                                        if tutor.stackoverflowId
+                                                            a(href!=tutor.stackoverflowId target='_blank')
+                                                                i.icon-stackoverflow
+                                                        if tutor.googlePlusHandler
+                                                            a(href='https://plus.google.com/' + tutor.googlePlusHandler target='_blank')
+                                                                i.icon-gplus
+                                                        if tutor.facebookUrl
+                                                            a(href!=tutor.facebookUrl target='_blank')
+                                                                i.icon-facebook-1
                                                     div.name.inline
                                                         if tutor.websiteUrl
                                                             a(href!=tutor.websiteUrl target='_blank')
@@ -388,7 +395,8 @@ html
                                                 div.row.tagline
                                                     span.bottom-line!=tutor.tagline
                                                 div.row.bioInMd
-                                                    !=markdown(tutor.bioInMd)
+                                                    if tutor.bioInMd
+                                                        !=markdown(tutor.bioInMd)
                                 a.close-reveal-modal(aria-label="Close") &#215;
 
         section#sponsor-us

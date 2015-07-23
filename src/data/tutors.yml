@@ -700,6 +700,135 @@
   websiteUrl:
   bioInMd: Scala developer at Virtuslab. I am a passionate about scala internlas (compiler, build tools, IDEs) and debugging stuff. I am one of creators of ScalaIDE expression evaluation engine. Mountains, bikes trips freak.
 
+- publish: true
+  firstName: Mariusz
+  lastName: Sieraczkiewicz
+  tagline: Software Development Team Coach @ BNS IT
+  pictureUrl: public/img/people/mariusz-sieraczkiewicz.jpg
+  twitterUsername: ms_bnsit_pl
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl: http://msieraczkiewicz.blogspot.com
+  bioInMd: >
+    Has been a software professional for more than 11 years. Passionate about learning from experience especially when dealing with real-life software projects. As a trainer and consultant works with top teams on technical leadership, process agility and clean code. Co-conducts in-depth researches on critical success factors in software development. At top of that Mariusz has published dozens of articles in Software Developer Journal and Polish “The Programist” magazine.
+
+
+    His motto is “In most cases it’s all about people” what drives his focus towards communication and team members cooperation. Domain experience: Telco, Finances, Insurance, Manufacturing, E-commerce. His thoughts can be followed on twitter @ms_bnsit_pl or his blog http://msieraczkiewicz.blogspot.com
+
+- publish: true
+  firstName: Krzysztof
+  lastName: Szumny
+  tagline: Python Developer @ STX Next
+  pictureUrl: public/img/people/krzysztof-szumny.jpg
+  twitterUsername: noisypl
+  githubUsername: noisy
+  linkedInProfileUrl: https://www.linkedin.com/in/krzysztofszumny
+  stackoverflowId: noisy 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Obecnie Python Developer w STXnext, niegdyś przez ponad 5 lat piszący w C/C++/Javie w Operze Software. Jako autor bloga o eczytnikach eKundelek.pl, w 2013 roku rzuciłem pracę by spróbować własnych sił tworząc własny startup SpisTresci.pl. Prywatnie miłośnik biegania i pływania. Co ważne w kontekście tematu warsztatów, osoba nienawidząca jakiejkolwiek administracji serwerami :)
+
+- publish: false
+  firstName: Mateusz
+  lastName: Krupa
+  tagline: Software Engineer @ ProData Consult
+  pictureUrl: public/img/people/mateusz-krupa.jpg
+  twitterUsername: treestram
+  githubUsername: Mateusz-Krupa
+  linkedInProfileUrl: https://pl.linkedin.com/pub/mateusz-krupa/46/636/993
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: >
+    Mateusz Krupa is a Software Engineer with six years of commercial experience. He specializes in frontend development, building high-performance, scalable and maintainable applications in various environments; web, desktop, mobile and smartTV.
+
+
+    His expertise also covers Web Design, Usability and User Experience (UX). Mateusz Krupa has worked extensively with HTML/HTML5, CSS/CSS 3, JavaScript, Bootstrap, Axure RP, SASS and Angular.
+
+- publish: false
+  firstName: Mateusz
+  lastName: Harasymczuk
+  tagline: Agile Coach, Software Engineer, Speaker and Pilot
+  pictureUrl: public/img/people/mateusz-harasymczuk.jpg
+  twitterUsername: MattAgile
+  githubUsername: MattAgile
+  linkedInProfileUrl: https://www.linkedin.com/in/mattharasymczuk
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl: http://www.slideshare.net/mattharasymczuk/presentations
+  bioInMd: >
+    Hi, my name is Matt and I am a Agile Coach, Software Engineer, Speaker and Pilot. I have been trusted to lead an Agile transformation for Polish government IT projects at the Center for Information Technology with the Ministry of the Interior. This is the first government unit in Poland that gone Agile.
+
+
+    I help solving problems with Agile Software Engineering and embracing Scrum, Kanban, Lean, XP, Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT. Currently I am in the Air Force Academy studying "Aviation and Astronautics" and pursuing my life-long hobby, that is flying and my the ultimate dream - go to space.
+
+- publish: false
+  firstName: Alicja
+  lastName: Peszkowska
+  tagline: Communications specialist @ TechSoup Europe
+  pictureUrl: public/img/people/alicja-peszkowska.jpg
+  twitterUsername: alicjapeas
+  githubUsername: 
+  linkedInProfileUrl: https://www.linkedin.com/pub/alicja-peszkowska/30/219/5b2/pl
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Alicja is a social innovator interested in how technology translates into social reality. A Communications Specialist at TechSoup Europe, Warsaw NetWtorek meet-ups organizer and a blogger. She also sings.
+
+- publish: false
+  firstName: Jakub
+  lastName: Strojewski
+  tagline: Developer @ Evojam
+  pictureUrl: public/img/people/jakub-strojewski.jpg
+  twitterUsername: ulfryk
+  githubUsername: ulfryk
+  linkedInProfileUrl: https://www.linkedin.com/profile/view?id=163128310
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName: Adam
+  lastName: Smolnik
+  tagline: AWS Certified Solutions Architect/Java Enthusiast
+  pictureUrl: public/img/people/adam-smolnik.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/adam-smolnik/43/874/653
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Adam is a Principal Software Engineer at Pitney Bowes. Prior to PB, Adam worked as an application developer, consultant, designer for companies like Kroll Ontrack, IBM and EDS. He supports and contributes to developing Chmurowisko.pl, the most recognized Polish website revolving around Cloud technology. Adam is also co-founder of AWS User Group Poland, an active speaker at Cloud conferences, instructor at Cloud and Software workshops, Java/JEE trainer at Altkom, Cloud Computing Architect & Trainer at CloudPeak.pl as well as co-organizer Cloudyna conference (cloudyna.org).
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+
 - publish: false
   firstName:
   lastName:
