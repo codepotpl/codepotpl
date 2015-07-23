@@ -193,7 +193,11 @@
   tutors:
    - Przemysław Piotrowski
   title: For-comprehension MacGyver
-  descriptionInMd: MacGyver przy pomocy srebrnej taśmy, sznurka i noża mógł zbudować wszystko. Zostań MacGyver'em świata programowania. Odkryj możliwości map, flatMap i filter a to wszystko dostępne pod wszechstronnym lukrem składniowym for-comprehension. W trakcie warsztatów dowiesz się jak używać go z typami Option, Try, Future i Either. Zaprezentuję standardowe techniki oraz potencjalne pułapki.
+  descriptionInMd: >
+    MacGyver przy pomocy srebrnej taśmy, sznurka i noża mógł zbudować wszystko. Zostań MacGyver'em świata programowania. Odkryj możliwości map, flatMap i filter a to wszystko dostępne pod wszechstronnym lukrem składniowym for-comprehension. 
+
+
+    W trakcie warsztatów dowiesz się jak używać go z typami Option, Try, Future i Either. Zaprezentuję standardowe techniki oraz potencjalne pułapki.
   tags:
    - Scala
    - SyntacticSugar
@@ -652,21 +656,35 @@
    - Docker 
    - Deployment
 
-- publish: false
+- publish: true
   tutors:
    - Mateusz Krupa
-  title: 
-  descriptionInMd: 
-  tags:
-   - 
+  title: Angular Materials in use 
+  descriptionInMd: >
+    Angular Materials is a set of reusable, well-tested, and accessible UI components designed for Angular framework. It helps to build a user-friendly interface very fast. During this workshop we will take a look at different UI components shipped with Angular Materials. Each attendee will build a small Angular application using AM components.
 
-- publish: false
-  tutors:
-   - 
-  title: 
-  descriptionInMd: 
+
+    Requirements: basic knowledge of Angular is nice to have (but not a must-have)
   tags:
-   - 
+   - AngularJS
+   - Frontend
+   - Javascript
+
+- publish: true
+  tutors:
+   - Mateusz Harasymczuk
+  title: Developer Tools Ecosystem
+  descriptionInMd: >
+    The IT systems has become more and more complex. Fortunately we have now a set of utilities and tools that helps us in the development process. Project management (Jira, Jira Agile, Redmine), collaboration platforms (Confluence, Wiki), build (Continuous Integration and Delivery) systems (Jenkins, Travis, Bamboo, Team City), source code management (GIThub, BitBucket, Stash, Gitlab) and quality (Sonar, Clover, PMD, Checkstyle, Sputnik, Findbugs, JaCoCo) has become a standard part of our workflow. Here's a talk on how to connect the dots and set up the development tools ecosystem. Moreover we will cover GIT Flow in depth.
+
+
+    Please bring your laptop with Vagrant (>= 1.7) and Virtualbox (>= 4.3) installed. Preferred machine with at least 2 CPU Core and more than 4 GB of RAM. 
+
+
+    All workshop files will be published at: [Github](https://github.com/MattAgile/ecosystem-workshop)
+  tags:
+   - Team
+   - Workflow
 
 - publish: false
   tutors:

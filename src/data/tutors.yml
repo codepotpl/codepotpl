@@ -730,7 +730,7 @@
   websiteUrl:
   bioInMd: Obecnie Python Developer w STXnext, niegdyś przez ponad 5 lat piszący w C/C++/Javie w Operze Software. Jako autor bloga o eczytnikach eKundelek.pl, w 2013 roku rzuciłem pracę by spróbować własnych sił tworząc własny startup SpisTresci.pl. Prywatnie miłośnik biegania i pływania. Co ważne w kontekście tematu warsztatów, osoba nienawidząca jakiejkolwiek administracji serwerami :)
 
-- publish: false
+- publish: true
   firstName: Mateusz
   lastName: Krupa
   tagline: Software Engineer @ ProData Consult
@@ -747,7 +747,7 @@
 
     His expertise also covers Web Design, Usability and User Experience (UX). Mateusz Krupa has worked extensively with HTML/HTML5, CSS/CSS 3, JavaScript, Bootstrap, Axure RP, SASS and Angular.
 
-- publish: false
+- publish: true
   firstName: Mateusz
   lastName: Harasymczuk
   tagline: Agile Coach, Software Engineer, Speaker and Pilot
