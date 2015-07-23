@@ -730,7 +730,7 @@
   websiteUrl:
   bioInMd: Obecnie Python Developer w STXnext, niegdyś przez ponad 5 lat piszący w C/C++/Javie w Operze Software. Jako autor bloga o eczytnikach eKundelek.pl, w 2013 roku rzuciłem pracę by spróbować własnych sił tworząc własny startup SpisTresci.pl. Prywatnie miłośnik biegania i pływania. Co ważne w kontekście tematu warsztatów, osoba nienawidząca jakiejkolwiek administracji serwerami :)
 
-- publish: true
+- publish: false
   firstName: Mateusz
   lastName: Krupa
   tagline: Software Engineer @ ProData Consult
@@ -747,7 +747,7 @@
 
     His expertise also covers Web Design, Usability and User Experience (UX). Mateusz Krupa has worked extensively with HTML/HTML5, CSS/CSS 3, JavaScript, Bootstrap, Axure RP, SASS and Angular.
 
-- publish: true
+- publish: false
   firstName: Mateusz
   lastName: Harasymczuk
   tagline: Agile Coach, Software Engineer, Speaker and Pilot
@@ -764,7 +764,7 @@
 
     I help solving problems with Agile Software Engineering and embracing Scrum, Kanban, Lean, XP, Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT. Currently I am in the Air Force Academy studying "Aviation and Astronautics" and pursuing my life-long hobby, that is flying and my the ultimate dream - go to space.
 
-- publish: true
+- publish: false
   firstName: Alicja
   lastName: Peszkowska
   tagline: Communications specialist @ TechSoup Europe
@@ -777,7 +777,7 @@
   websiteUrl:
   bioInMd: Alicja is a social innovator interested in how technology translates into social reality. A Communications Specialist at TechSoup Europe, Warsaw NetWtorek meet-ups organizer and a blogger. She also sings.
 
-- publish: true
+- publish: false
   firstName: Jakub
   lastName: Strojewski
   tagline: Developer @ Evojam
@@ -790,7 +790,7 @@
   websiteUrl:
   bioInMd:
 
-- publish: true
+- publish: false
   firstName: Adam
   lastName: Smolnik
   tagline: AWS Certified Solutions Architect/Java Enthusiast

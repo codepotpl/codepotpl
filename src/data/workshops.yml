@@ -66,7 +66,9 @@
   descriptionInMd: I will show some tricks how Robolectric can be replaced with RoboSpock and Dagger
   tags:
    - Android
-   - Java
+   - Dagger
+   - Robospock
+   - Robolectric
 
 - publish: false
   tutors:
@@ -649,6 +651,22 @@
   tags:
    - Docker 
    - Deployment
+
+- publish: false
+  tutors:
+   - Mateusz Krupa
+  title: 
+  descriptionInMd: 
+  tags:
+   - 
+
+- publish: false
+  tutors:
+   - 
+  title: 
+  descriptionInMd: 
+  tags:
+   - 
 
 - publish: false
   tutors:
