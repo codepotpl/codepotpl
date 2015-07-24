@@ -688,6 +688,46 @@
 
 - publish: false
   tutors:
+   - Alicja Peszkowska
+  title: Technology for social causes - working with the nonprofit sector
+  descriptionInMd: The session will focus on WHY to volunteer your skills to help non-profit or activists or WHY to go work in one.  We will speak to WHAT are the examples of good social tech tools. We will talk about HOW to do it well and present various approaches we used in our work before (NetWtorek, SocHack, Dane po warszawsku). We will also be seeking feedback on how to do it more effectively. 
+  tags:
+   - Social
+
+- publish: false
+  tutors:
+   - Jakub Strojewski
+  title: How TypeScript saved web application
+  descriptionInMd: >
+    JavaScript sucks.
+
+
+    Even though it’s the best language to make your first “HelloWorld” example in matter of seconds, it makes it really hard to create or maintain large applications without lots of silly errors and hours of debugging.
+
+
+    After 2 years of struggle with a quite large front-end app made in JavaScript (ES5) and wounds gained from CoffeeScript I found a path of hope. The path cobbled with types, function literals and classes.
+
+
+    Verily I say unto you, follow the path of TypeScript.
+
+
+    (Intro to TypeScript in web applications)
+  tags:
+   - JavaScript 
+   - Frontend 
+   - AngularJS
+
+- publish: false
+  tutors:
+   - Adam Smolnik
+  title: Reactive Cloud - leverage AWS Lambda & AWS API Gateway to develop event-driven, serverless solutions
+  descriptionInMd: Let's build fast, reactive applications harnessing the power of Java and AWS Lambda. In addition, get familiar with AWS Cloud and AWS SDK for Java to turn computing infrastructure into entirely programmable components. Find out more about other AWS services like EC2, SQS, SNS, Kinesis. During our hands-on workshop we will give it a shot so as to check in real-time how AWS Lambda service works in practice by implementing AWS Lambda Functions written in Java and then deploying them into the real AWS Cloud environment.
+As a bonus for (active!) workshop attendees I will hand out a number of coupons of $25-value for further experiments with AWS Cloud services.
+  tags:
+   - 
+
+- publish: false
+  tutors:
    - 
   title: 
   descriptionInMd: 
