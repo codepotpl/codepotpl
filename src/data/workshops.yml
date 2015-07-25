@@ -729,6 +729,46 @@
 
 - publish: false
   tutors:
+   - Agnieszka Biernacka
+  title: O miękkiej części pracy scrum mastera...
+  descriptionInMd: >
+    ... czyli odrobina teorii, dużo przykładów i jeszcze więcej praktycznych pomysłów na rozwiązanie problemów w zespołach. W czasie kilku godzin pokażemy nasz warsztat scrum mastera i podzielimy się swoimi doświadczeniami z dwóch dużych organizacji. Dodatkowo będziemy się starali się pokazać każdy problem z różnych perspektyw – deweloperskiej, biznesowej i psychologicznej.
+ 
+
+    Zakres warsztatu:
+
+
+    Relacje w zespole –  o tym, co może być trudnego w rozwoju samego zespołu i jak sobie z tym radzić.
+
+
+    Kompetencje – jak stworzyć pętle informacji zwrotnej, pozwalające zespołowi się rozwijać. W tej części będzie dużo o testach i biznesie.
+
+
+    Autonomia zespołu czyli o takich ramach pracy w Scrumie, które dają zarówno wsparcie, jak i wolność nie niszcząc przy okazji przyjemności z pracy.
+  tags:
+   - Soft
+   - Scrum
+
+- publish: false
+  tutors:
+   - Łukasz Kobyliński 
+   - Radosław Szmit
+  title: Data Mining z Weką: pierwsze kroki / First steps in Data Mining with Weka
+  descriptionInMd: >
+    The aim of this workshop is to show the very first steps needed to start mining data for knowledge: non-trivial relationships, associations and patterns. We will grab a set of numeric and ordinal data, perform some simple data preparation steps and try to find the pot of gold hidden behind the numbers. No programming skills are necessary to participate in this workshop.
+  tags:
+   - 
+
+- publish: false
+  tutors:
+   - 
+  title: 
+  descriptionInMd: 
+  tags:
+   - 
+
+- publish: false
+  tutors:
    - 
   title: 
   descriptionInMd: 
