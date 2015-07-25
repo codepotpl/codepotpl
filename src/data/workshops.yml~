@@ -754,17 +754,25 @@
    - Łukasz Kobyliński 
    - Radosław Szmit
   title: Data Mining z Weką: pierwsze kroki / First steps in Data Mining with Weka
-  descriptionInMd: 
+  descriptionInMd: >
+    The aim of this workshop is to show the very first steps needed to start mining data for knowledge: non-trivial relationships, associations and patterns. We will grab a set of numeric and ordinal data, perform some simple data preparation steps and try to find the pot of gold hidden behind the numbers. No programming skills are necessary to participate in this workshop.
   tags:
-   - 
+   - DataMining
 
 - publish: false
   tutors:
-   - 
-  title: 
-  descriptionInMd: 
+   - Tomasz Bartczak
+   - Marcin Cylke
+  title: Dive into data with Apache Spark
+  descriptionInMd: >
+    Enjoy the blazing speed of Apache Spark! Analyse all your data and do it fast. Be ready to submerge yourself in the world of functional data
+processing using Scala. Have a taste of the most trendy big data tool of the moment.
+
+
+    This workshop is intended as an introduction to the basics of Spark,
+with examples of its different subsystems (MLlib, SparkSql).
   tags:
-   - 
+   - Scala
 
 - publish: false
   tutors:

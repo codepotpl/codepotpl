@@ -834,26 +834,49 @@
   lastName: Szmit
   tagline: Trener @ Sages
   pictureUrl: public/img/people/radoslaw-szmit.jpg
-  twitterUsername:
-  githubUsername:
-  linkedInProfileUrl:
+  twitterUsername: RadoslawSzmit
+  githubUsername:  radoslawszmit
+  linkedInProfileUrl: https://pl.linkedin.com/pub/rados%C5%82aw-szmit/16/22/4b8
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: >
+    Inżynier oprogramowania, specjalista Big Data, trener IT.
+
+
+    Absolwent Politechniki Warszawskiej aktualnie pracujący nad rozprawą doktorską z zakresu Big Data. Związany z Instytutem Podstaw Informatyki Polskiej Akademii Nauk pracujący między innymi w projekcie Adaptacyjny system wspomagający rozwiązywanie problemów w oparciu o analizę treści dostępnych źródeł elektronicznych oraz Otwarty System Antyplagiatowy realizowanego pod patronatem Międzyuniwersyteckiego Centrum Informatyzacji.
+
+
+    Zawodowo konsultant IT specjalizujący się w rozwiązaniach Java Enterprise Edition, trener IT w firmie Sages, zwolennik Agile oraz Software Craftsmanship, członek Warsaw Java User Group, Warsaw Hadoop User Group, Warszawskiej Grupy Wzorców Projektowych oraz Stowarzyszenia Software Engineering Professionals Polska.
+
+
+    Prywatnie miłośnik tanga argentyńskiego, adept Israeli Krav Maga, entuzjasta nowoczesnych technologii, zapaleniec gry w koszykówkę, hobbysta savoir-vivre, wielbiciel thrillerów psychologicznych, amator gotowania oraz pasjonat fizyki teoretycznej.
 
 - publish: false
-  firstName:
-  lastName:
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername:
-  githubUsername:
+  firstName: Tomasz
+  lastName: Bartczak
+  tagline: Scala Developer @ Allegro
+  pictureUrl: public/img/people/tomasz-bartczak.jpg
+  twitterUsername: bartczakt
+  githubUsername: kretes
+  linkedInProfileUrl: https://www.linkedin.com/in/tomaszbartczak
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: I am a Java-retired Scala developer, now a Data Enginner wannabe
+
+- publish: false
+  firstName: Marcin
+  lastName: Cylke
+  tagline: Scala Developer @ TouK
+  pictureUrl: public/img/people/marcin-cylke.jpg
+  twitterUsername: zygm0nt
+  githubUsername: zygm0nt
   linkedInProfileUrl:
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: Scala and Big Data developer
 
 - publish: false
   firstName:
