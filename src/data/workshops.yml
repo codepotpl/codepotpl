@@ -721,8 +721,9 @@
   tutors:
    - Adam Smolnik
   title: Reactive Cloud - leverage AWS Lambda & AWS API Gateway to develop event-driven, serverless solutions
-  descriptionInMd: Let's build fast, reactive applications harnessing the power of Java and AWS Lambda. In addition, get familiar with AWS Cloud and AWS SDK for Java to turn computing infrastructure into entirely programmable components. Find out more about other AWS services like EC2, SQS, SNS, Kinesis. During our hands-on workshop we will give it a shot so as to check in real-time how AWS Lambda service works in practice by implementing AWS Lambda Functions written in Java and then deploying them into the real AWS Cloud environment.
-As a bonus for (active!) workshop attendees I will hand out a number of coupons of $25-value for further experiments with AWS Cloud services.
+  descriptionInMd: >
+    Let's build fast, reactive applications harnessing the power of Java and AWS Lambda. In addition, get familiar with AWS Cloud and AWS SDK for Java to turn computing infrastructure into entirely programmable components. Find out more about other AWS services like EC2, SQS, SNS, Kinesis. During our hands-on workshop we will give it a shot so as to check in real-time how AWS Lambda service works in practice by implementing AWS Lambda Functions written in Java and then deploying them into the real AWS Cloud environment.
+    As a bonus for (active!) workshop attendees I will hand out a number of coupons of $25-value for further experiments with AWS Cloud services.
   tags:
    - 
 
