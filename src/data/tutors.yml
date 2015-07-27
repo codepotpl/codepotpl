@@ -803,33 +803,20 @@
   websiteUrl:
   bioInMd: Adam is a Principal Software Engineer at Pitney Bowes. Prior to PB, Adam worked as an application developer, consultant, designer for companies like Kroll Ontrack, IBM and EDS. He supports and contributes to developing Chmurowisko.pl, the most recognized Polish website revolving around Cloud technology. Adam is also co-founder of AWS User Group Poland, an active speaker at Cloud conferences, instructor at Cloud and Software workshops, Java/JEE trainer at Altkom, Cloud Computing Architect & Trainer at CloudPeak.pl as well as co-organizer Cloudyna conference (cloudyna.org).
 
-- publish: false
-  firstName: Agnieszka
-  lastName: Biernacka
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername: JagaBiernacka
-  githubUsername:
-  linkedInProfileUrl: https://pl.linkedin.com/pub/agnieszka-biernacka/16/292/608
-  stackoverflowId: 
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
-
-- publish: false
+- publish: true
   firstName: Łukasz
   lastName: Kobyliński
   tagline: Co-founder @ Sages, Researcher @ IPI PAN
   pictureUrl: public/img/people/lukasz-kobylinski.jpg
-  twitterUsername:
-  githubUsername:
-  linkedInProfileUrl:
+  twitterUsername: lkobylinski
+  githubUsername: lkobylinski
+  linkedInProfileUrl: https://pl.linkedin.com/pub/lukasz-kobylinski/0/43a/470
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: Łukasz Kobyliński posiada zarówno wieloletnią praktykę programistyczną, związaną z językiem Java i platformą Java Enterprise Edition, doświadczenie trenerskie w prowadzeniu szkoleń z tego obszaru, jak i doświadczenie związane z analizą danych i uczeniem maszynowym. Pracę doradczą i szkoleniową łączy z działalnością naukową - zajmuje się zagadnieniami związanymi z inżynierią lingwistyczną i przetwarzaniem obrazów.
 
-- publish: false
+- publish: true
   firstName: Radosław
   lastName: Szmit
   tagline: Trener @ Sages
@@ -851,6 +838,19 @@
 
 
     Prywatnie miłośnik tanga argentyńskiego, adept Israeli Krav Maga, entuzjasta nowoczesnych technologii, zapaleniec gry w koszykówkę, hobbysta savoir-vivre, wielbiciel thrillerów psychologicznych, amator gotowania oraz pasjonat fizyki teoretycznej.
+
+- publish: false
+  firstName: Agnieszka
+  lastName: Biernacka
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername: JagaBiernacka
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/agnieszka-biernacka/16/292/608
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
 
 - publish: false
   firstName: Tomasz
