@@ -686,7 +686,7 @@
    - Team
    - Workflow
 
-- publish: false
+- publish: true
   tutors:
    - Alicja Peszkowska
   title: Technology for social causes - working with the nonprofit sector
@@ -694,7 +694,7 @@
   tags:
    - Social
 
-- publish: false
+- publish: true
   tutors:
    - Jakub Strojewski
   title: How TypeScript saved web application
