@@ -194,7 +194,7 @@
    - Przemysław Piotrowski
   title: For-comprehension MacGyver
   descriptionInMd: >
-    MacGyver przy pomocy srebrnej taśmy, sznurka i noża mógł zbudować wszystko. Zostań MacGyver'em świata programowania. Odkryj możliwości map, flatMap i filter a to wszystko dostępne pod wszechstronnym lukrem składniowym for-comprehension. 
+    MacGyver przy pomocy srebrnej taśmy, sznurka i noża mógł zbudować wszystko. Zostań MacGyver'em świata programowania. Odkryj możliwości map, flatMap i filter a to wszystko dostępne pod wszechstronnym lukrem składniowym for-comprehension.
 
 
     W trakcie warsztatów dowiesz się jak używać go z typami Option, Try, Future i Either. Zaprezentuję standardowe techniki oraz potencjalne pułapki.
@@ -626,7 +626,7 @@
    - Scala
 
 - publish: true
-  tutors: 
+  tutors:
    - Mariusz Sieraczkiewicz
   title: Difficult conversations - 4 steps of clear communication
   descriptionInMd: >
@@ -645,7 +645,7 @@
 
     If you find anything curious about it or just want to learn a little bit, come to the workshop.
   tags:
-   - Soft 
+   - Soft
 
 - publish: true
   tutors:
@@ -653,13 +653,13 @@
   title: Docker - Easy Containerization
   descriptionInMd: TBA
   tags:
-   - Docker 
+   - Docker
    - Deployment
 
 - publish: true
   tutors:
    - Mateusz Krupa
-  title: Angular Materials in use 
+  title: Angular Materials in use
   descriptionInMd: >
     Angular Materials is a set of reusable, well-tested, and accessible UI components designed for Angular framework. It helps to build a user-friendly interface very fast. During this workshop we will take a look at different UI components shipped with Angular Materials. Each attendee will build a small Angular application using AM components.
 
@@ -678,7 +678,7 @@
     The IT systems has become more and more complex. Fortunately we have now a set of utilities and tools that helps us in the development process. Project management (Jira, Jira Agile, Redmine), collaboration platforms (Confluence, Wiki), build (Continuous Integration and Delivery) systems (Jenkins, Travis, Bamboo, Team City), source code management (GIThub, BitBucket, Stash, Gitlab) and quality (Sonar, Clover, PMD, Checkstyle, Sputnik, Findbugs, JaCoCo) has become a standard part of our workflow. Here's a talk on how to connect the dots and set up the development tools ecosystem. Moreover we will cover GIT Flow in depth.
 
 
-    Please bring your laptop with Vagrant (>= 1.7) and Virtualbox (>= 4.3) installed. Preferred machine with at least 2 CPU Core and more than 4 GB of RAM. 
+    Please bring your laptop with Vagrant (>= 1.7) and Virtualbox (>= 4.3) installed. Preferred machine with at least 2 CPU Core and more than 4 GB of RAM.
 
 
     All workshop files will be published at: [Github](https://github.com/MattAgile/ecosystem-workshop)
@@ -686,10 +686,97 @@
    - Team
    - Workflow
 
+- publish: true
+  tutors:
+   - Alicja Peszkowska
+  title: Technology for social causes - working with the nonprofit sector
+  descriptionInMd: The session will focus on WHY to volunteer your skills to help non-profit or activists or WHY to go work in one.  We will speak to WHAT are the examples of good social tech tools. We will talk about HOW to do it well and present various approaches we used in our work before (NetWtorek, SocHack, Dane po warszawsku). We will also be seeking feedback on how to do it more effectively.
+  tags:
+   - Social
+
+- publish: true
+  tutors:
+   - Jakub Strojewski
+  title: How TypeScript saved web application
+  descriptionInMd: >
+    JavaScript sucks.
+
+
+    Even though it’s the best language to make your first “HelloWorld” example in matter of seconds, it makes it really hard to create or maintain large applications without lots of silly errors and hours of debugging.
+
+
+    After 2 years of struggle with a quite large front-end app made in JavaScript (ES5) and wounds gained from CoffeeScript I found a path of hope. The path cobbled with types, function literals and classes.
+
+
+    Verily I say unto you, follow the path of TypeScript.
+
+
+    (Intro to TypeScript in web applications)
+  tags:
+   - JavaScript
+   - Frontend
+   - AngularJS
+
 - publish: false
   tutors:
-   - 
-  title: 
-  descriptionInMd: 
+   - Adam Smolnik
+  title: Reactive Cloud - leverage AWS Lambda & AWS API Gateway to develop event-driven, serverless solutions
+  descriptionInMd: >
+    Let's build fast, reactive applications harnessing the power of Java and AWS Lambda. In addition, get familiar with AWS Cloud and AWS SDK for Java to turn computing infrastructure into entirely programmable components. Find out more about other AWS services like EC2, SQS, SNS, Kinesis. During our hands-on workshop we will give it a shot so as to check in real-time how AWS Lambda service works in practice by implementing AWS Lambda Functions written in Java and then deploying them into the real AWS Cloud environment.
+    As a bonus for (active!) workshop attendees I will hand out a number of coupons of $25-value for further experiments with AWS Cloud services.
   tags:
-   - 
+   -
+
+- publish: false
+  tutors:
+   - Agnieszka Biernacka
+  title: O miękkiej części pracy scrum mastera...
+  descriptionInMd: >
+    ... czyli odrobina teorii, dużo przykładów i jeszcze więcej praktycznych pomysłów na rozwiązanie problemów w zespołach. W czasie kilku godzin pokażemy nasz warsztat scrum mastera i podzielimy się swoimi doświadczeniami z dwóch dużych organizacji. Dodatkowo będziemy się starali się pokazać każdy problem z różnych perspektyw – deweloperskiej, biznesowej i psychologicznej.
+
+
+    Zakres warsztatu:
+
+
+    Relacje w zespole –  o tym, co może być trudnego w rozwoju samego zespołu i jak sobie z tym radzić.
+
+
+    Kompetencje – jak stworzyć pętle informacji zwrotnej, pozwalające zespołowi się rozwijać. W tej części będzie dużo o testach i biznesie.
+
+
+    Autonomia zespołu czyli o takich ramach pracy w Scrumie, które dają zarówno wsparcie, jak i wolność nie niszcząc przy okazji przyjemności z pracy.
+  tags:
+   - Soft
+   - Scrum
+
+- publish: false
+  tutors:
+   - Łukasz Kobyliński
+   - Radosław Szmit
+  title: Data Mining z Weką: pierwsze kroki / First steps in Data Mining with Weka
+  descriptionInMd: >
+    The aim of this workshop is to show the very first steps needed to start mining data for knowledge: non-trivial relationships, associations and patterns. We will grab a set of numeric and ordinal data, perform some simple data preparation steps and try to find the pot of gold hidden behind the numbers. No programming skills are necessary to participate in this workshop.
+  tags:
+   - DataMining
+
+- publish: false
+  tutors:
+   - Tomasz Bartczak
+   - Marcin Cylke
+  title: Dive into data with Apache Spark
+  descriptionInMd: >
+    Enjoy the blazing speed of Apache Spark! Analyse all your data and do it fast. Be ready to submerge yourself in the world of functional data processing using Scala. Have a taste of the most trendy big data tool of the moment.
+
+    This workshop is intended as an introduction to the basics of Spark, with examples of its different subsystems (MLlib, SparkSql).
+  tags:
+   - Scala
+   - Apache
+   - BigData
+
+- publish: false
+  tutors:
+   -
+  title:
+  descriptionInMd:
+  tags:
+   -
