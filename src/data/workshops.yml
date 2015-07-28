@@ -727,6 +727,20 @@
   tags:
    - DataMining
 
+- publish: true
+  tutors:
+   - Tomasz Bartczak
+   - Marcin Cylke
+  title: Dive into data with Apache Spark
+  descriptionInMd: >
+    Enjoy the blazing speed of Apache Spark! Analyse all your data and do it fast. Be ready to submerge yourself in the world of functional data processing using Scala. Have a taste of the most trendy big data tool of the moment.
+
+    This workshop is intended as an introduction to the basics of Spark, with examples of its different subsystems (MLlib, SparkSql).
+  tags:
+   - Scala
+   - Apache
+   - BigData
+
 - publish: false
   tutors:
    - Adam Smolnik
@@ -758,20 +772,6 @@
   tags:
    - Soft
    - Scrum
-
-- publish: false
-  tutors:
-   - Tomasz Bartczak
-   - Marcin Cylke
-  title: Dive into data with Apache Spark
-  descriptionInMd: >
-    Enjoy the blazing speed of Apache Spark! Analyse all your data and do it fast. Be ready to submerge yourself in the world of functional data processing using Scala. Have a taste of the most trendy big data tool of the moment.
-
-    This workshop is intended as an introduction to the basics of Spark, with examples of its different subsystems (MLlib, SparkSql).
-  tags:
-   - Scala
-   - Apache
-   - BigData
 
 - publish: false
   tutors:

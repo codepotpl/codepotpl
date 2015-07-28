@@ -790,19 +790,6 @@
   websiteUrl:
   bioInMd: Developer w [Evojam](http://evojam.com/). Niegdyś entuzjasta vanilla JavScript. Od prawie 3 lat pracuje w AngularJS, a od pół roku skutecznie usuwa zło statycznym typowaniem. Rowerzysta, uwielbia papierowe książki.
 
-- publish: false
-  firstName: Adam
-  lastName: Smolnik
-  tagline: AWS Certified Solutions Architect/Java Enthusiast
-  pictureUrl: public/img/people/adam-smolnik.jpg
-  twitterUsername:
-  githubUsername:
-  linkedInProfileUrl: https://pl.linkedin.com/pub/adam-smolnik/43/874/653
-  stackoverflowId: 
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd: Adam is a Principal Software Engineer at Pitney Bowes. Prior to PB, Adam worked as an application developer, consultant, designer for companies like Kroll Ontrack, IBM and EDS. He supports and contributes to developing Chmurowisko.pl, the most recognized Polish website revolving around Cloud technology. Adam is also co-founder of AWS User Group Poland, an active speaker at Cloud conferences, instructor at Cloud and Software workshops, Java/JEE trainer at Altkom, Cloud Computing Architect & Trainer at CloudPeak.pl as well as co-organizer Cloudyna conference (cloudyna.org).
-
 - publish: true
   firstName: Łukasz
   lastName: Kobyliński
@@ -839,20 +826,7 @@
 
     Prywatnie miłośnik tanga argentyńskiego, adept Israeli Krav Maga, entuzjasta nowoczesnych technologii, zapaleniec gry w koszykówkę, hobbysta savoir-vivre, wielbiciel thrillerów psychologicznych, amator gotowania oraz pasjonat fizyki teoretycznej.
 
-- publish: false
-  firstName: Agnieszka
-  lastName: Biernacka
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername: JagaBiernacka
-  githubUsername:
-  linkedInProfileUrl: https://pl.linkedin.com/pub/agnieszka-biernacka/16/292/608
-  stackoverflowId: 
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
-
-- publish: false
+- publish: true
   firstName: Tomasz
   lastName: Bartczak
   tagline: Scala Developer @ Allegro
@@ -865,7 +839,7 @@
   websiteUrl:
   bioInMd: I am a Java-retired Scala developer, now a Data Enginner wannabe
 
-- publish: false
+- publish: true
   firstName: Marcin
   lastName: Cylke
   tagline: Scala Developer @ TouK
@@ -877,6 +851,32 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Scala and Big Data developer
+
+- publish: false
+  firstName: Adam
+  lastName: Smolnik
+  tagline: AWS Certified Solutions Architect/Java Enthusiast
+  pictureUrl: public/img/people/adam-smolnik.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/adam-smolnik/43/874/653
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Adam is a Principal Software Engineer at Pitney Bowes. Prior to PB, Adam worked as an application developer, consultant, designer for companies like Kroll Ontrack, IBM and EDS. He supports and contributes to developing Chmurowisko.pl, the most recognized Polish website revolving around Cloud technology. Adam is also co-founder of AWS User Group Poland, an active speaker at Cloud conferences, instructor at Cloud and Software workshops, Java/JEE trainer at Altkom, Cloud Computing Architect & Trainer at CloudPeak.pl as well as co-organizer Cloudyna conference (cloudyna.org).
+
+- publish: false
+  firstName: Agnieszka
+  lastName: Biernacka
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername: JagaBiernacka
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/agnieszka-biernacka/16/292/608
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
 
 - publish: false
   firstName:
