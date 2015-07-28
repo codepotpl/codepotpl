@@ -773,6 +773,36 @@
    - Soft
    - Scrum
 
+- publish: true
+  tutors:
+   - Radosław Szmit
+   - Bartłomiej Tartanus
+  title: Podstawy Hadoop i MapReduce / Introduction to Hadoop and MapReduce
+  descriptionInMd: >
+    The aim of this workshop is introduction to Apache Hadoop application development. We will learn how to design and develop basic MapReduce applications for Hadoop cluster. There will be also presented parts of Hadoop ecosystem and basic information about main components like HDFS or YARN.
+
+
+    Students should have basic experience developing Java applications and using a Java IDE. No prior Hadoop knowledge is required.
+  tags:
+   - Hadoop
+   - BigData
+
+- publish: false
+  tutors:
+   -
+  title:
+  descriptionInMd:
+  tags:
+   -
+
+- publish: false
+  tutors:
+   -
+  title:
+  descriptionInMd:
+  tags:
+   -
+
 - publish: false
   tutors:
    -
