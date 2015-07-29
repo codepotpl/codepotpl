@@ -758,7 +758,7 @@
 - publish: true
   tutors:
    - Marcin Grzejszczak
-   - Tomek Szymański
+   - Tomasz Szymański
   title: Microservices - enough with theory, let's code some
   descriptionInMd: >
     We have been on many talks about the (not so) new software design approach which is - "Microservices".

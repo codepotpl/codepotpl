@@ -777,7 +777,7 @@
    - Java
    - Groovy
    - Ansible
-   
+
 - publish: false
   tutors:
    - Adam Smolnik
