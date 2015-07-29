@@ -741,6 +741,43 @@
    - Apache
    - BigData
 
+- publish: true
+  tutors:
+   - Radosław Szmit
+   - Bartłomiej Tartanus
+  title: Podstawy Hadoop i MapReduce / Introduction to Hadoop and MapReduce
+  descriptionInMd: >
+    The aim of this workshop is introduction to Apache Hadoop application development. We will learn how to design and develop basic MapReduce applications for Hadoop cluster. There will be also presented parts of Hadoop ecosystem and basic information about main components like HDFS or YARN.
+
+
+    Students should have basic experience developing Java applications and using a Java IDE. No prior Hadoop knowledge is required.
+  tags:
+   - Hadoop
+   - BigData
+
+- publish: true
+  tutors:
+   - Marcin Grzejszczak
+   - Tomek Szymański
+  title: Microservices - enough with theory, let's code some
+  descriptionInMd: >
+    We have been on many talks about the (not so) new software design approach which is - "Microservices".
+
+
+    Having organized few Microservice Hackathons (both public and internal) and developing applications for the last 7 months using that approach, we would like to show you what are the BUTs of the idea. Rarely can you hear about the challenges and issues related to this architectural approach and we’ll tell nothing but the truth about it. Also we’ll show how you can quickly start creating your own apps using the tools we have created at 4finance / SoftwareMill.
+
+
+    Just a glimpse of what will you see in action: zookeeper for service discovery; Kibana / Graphana for monitoring; client code in Java and Groovy; Ansible for provisioning. And the best part is that everything is opensourced and ready to use.
+
+
+    Expect nothing but live coding and may the Demo Gods have mercy on us ;-)
+  tags:
+   - Microservices
+   - Design
+   - Java
+   - Groovy
+   - Ansible
+
 - publish: false
   tutors:
    - Adam Smolnik
@@ -772,28 +809,6 @@
   tags:
    - Soft
    - Scrum
-
-- publish: true
-  tutors:
-   - Radosław Szmit
-   - Bartłomiej Tartanus
-  title: Podstawy Hadoop i MapReduce / Introduction to Hadoop and MapReduce
-  descriptionInMd: >
-    The aim of this workshop is introduction to Apache Hadoop application development. We will learn how to design and develop basic MapReduce applications for Hadoop cluster. There will be also presented parts of Hadoop ecosystem and basic information about main components like HDFS or YARN.
-
-
-    Students should have basic experience developing Java applications and using a Java IDE. No prior Hadoop knowledge is required.
-  tags:
-   - Hadoop
-   - BigData
-
-- publish: false
-  tutors:
-   -
-  title:
-  descriptionInMd:
-  tags:
-   -
 
 - publish: false
   tutors:
