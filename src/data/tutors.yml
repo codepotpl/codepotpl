@@ -885,7 +885,7 @@
 
     Active member and leader of Warsaw Java User Group, Warsaw Groovy User Group, organiser and speaker at conferences and dev events. Privately trying to match Tiger Woods in golf ;)
   
-- publish: false
+- publish: true
   firstName: Adam
   lastName: Smolnik
   tagline: AWS Certified Solutions Architect/Java Enthusiast
@@ -898,6 +898,19 @@
   websiteUrl:
   bioInMd: Adam is a Principal Software Engineer at Pitney Bowes. Prior to PB, Adam worked as an application developer, consultant, designer for companies like Kroll Ontrack, IBM and EDS. He supports and contributes to developing Chmurowisko.pl, the most recognized Polish website revolving around Cloud technology. Adam is also co-founder of AWS User Group Poland, an active speaker at Cloud conferences, instructor at Cloud and Software workshops, Java/JEE trainer at Altkom, Cloud Computing Architect & Trainer at CloudPeak.pl as well as co-organizer Cloudyna conference (cloudyna.org).
 
+- publish: true
+  firstName: Aleksander 
+  lastName: Kijek
+  tagline: Project owner & developer @ BrainTech
+  pictureUrl: public/img/people/aleksander-kijek.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Python coder and Linux enthusiast, fascinated by the brain machinery. Combines his knowledge of Neuropsychology and Neuroinformatics in coordination of project [PISAK](http://pisak.org/) which he manages for the last two years. Trainer in informal education and team-building for past several years.
+  
 - publish: false
   firstName: Agnieszka
   lastName: Biernacka
@@ -911,6 +924,19 @@
   websiteUrl:
   bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
 
+- publish: false
+  firstName:
+  lastName:
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd:
+  
 - publish: false
   firstName:
   lastName:
