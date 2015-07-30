@@ -15,7 +15,7 @@
     During this workshop we'll play with Xamarin framework and try to find the answer if it's really a tool to write app once and run it anywhere. The idea is to write simple todo list app aiming at Android platform and if all goes well run it on iOS as well.
 
 
-  If you already know Xamarin, then this workshop is probably not for you.
+    If you already know Xamarin, then this workshop is probably not for you.
   tags:
    - Xamarin
    - Android
