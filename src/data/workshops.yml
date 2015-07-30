@@ -778,16 +778,27 @@
    - Groovy
    - Ansible
 
-- publish: false
+- publish: true
   tutors:
    - Adam Smolnik
   title: Reactive Cloud - leverage AWS Lambda & AWS API Gateway to develop event-driven, serverless solutions
   descriptionInMd: >
     Let's build fast, reactive applications harnessing the power of Java and AWS Lambda. In addition, get familiar with AWS Cloud and AWS SDK for Java to turn computing infrastructure into entirely programmable components. Find out more about other AWS services like EC2, SQS, SNS, Kinesis. During our hands-on workshop we will give it a shot so as to check in real-time how AWS Lambda service works in practice by implementing AWS Lambda Functions written in Java and then deploying them into the real AWS Cloud environment.
+    
+    
     As a bonus for (active!) workshop attendees I will hand out a number of coupons of $25-value for further experiments with AWS Cloud services.
   tags:
-   -
+   - Cloud
+   - Java
 
+- publish: true
+  tutors:
+   - Aleksander Kijek
+  title: How to develop applications for disabled people using PISAK libraries
+  descriptionInMd: PISAK is an open-source, mainly Python platform for disabled people. It allows them to communicate and  entertain themselves by using a singular input (puffing, clicking, moving a muscle) or free-choice (eyetracker or headtracker). Easy to use, highly customisable, with a library that allows to fast prototype an application suitable for a disabled person in a couple of hours. You can check out the code at [Github](https://github.com/BrainTech/pisak) and read more about the project at [PISAK](http://pisak.org/)
+  tags:
+   - Python
+   
 - publish: false
   tutors:
    - Agnieszka Biernacka
@@ -810,13 +821,7 @@
    - Soft
    - Scrum
 
-- publish: false
-  tutors:
-   -
-  title:
-  descriptionInMd:
-  tags:
-   -
+
 
 - publish: false
   tutors:
