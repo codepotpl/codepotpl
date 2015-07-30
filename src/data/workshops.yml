@@ -11,10 +11,16 @@
   tutors:
    - Aleksander Piotrowski
   title: Xamarin platform for Android Developers
-  descriptionInMd: TBA
+  descriptionInMd: >
+    During this workshop we'll play with Xamarin framework and try to find the answer if it's really a tool to write app once and run it anywhere.
+The idea is to write simple todo list app aiming at Android platform and if all goes well run it on iOS as well.
+
+
+  If you already know Xamarin, then this workshop is probably not for you.
   tags:
-   - Mobile
+   - Xamarin
    - Android
+   - iOS
 
 - publish: true
   tutors:
@@ -515,10 +521,10 @@
 
 - publish: true
   tutors:
-   - Louis Sivillo
+   - Bojiang Jin
    - George Babey
   title: Full stack javascript development - AngularJS + NodeJS
-  descriptionInMd: "This workshop will take you from nothing to a fully implemented frontend single page application wired up to a RESTful backend service. The frontend will be written in AngularJS utilizing the common tooling such as gulp, bower, npm, etc. For the backend we will be using NodeJS + Express for the middleware. Along the way we will look at some language features in javascript such as callbacks and closures, best practices like linting and unit testing and common pitfalls like the pyramid of doom."
+  descriptionInMd: This workshop will take you from nothing to a fully implemented frontend single page application wired up to a RESTful backend service. The frontend will be written in AngularJS utilizing the common tooling such as gulp, bower, npm, etc. For the backend we will be using NodeJS + Express for the middleware. Along the way we will look at some language features in javascript such as callbacks and closures, best practices like linting and unit testing and common pitfalls like the pyramid of doom.
   tags:
    - AngularJS
    - NodeJS
@@ -821,8 +827,76 @@
    - Soft
    - Scrum
 
+- publish: false
+  tutors:
+   - Krzyszof Jelski
+  title: User Story Mapping: Backlog Evolved
+  descriptionInMd: >
+    Come to learn what User Story was intended to be and why it should rather be told than written down. You'll practice User Story Mapping, a technique that helps to build a shared understanding between business stakeholders and delivery team. This results in smoother and faster collaboration.
 
 
+    By visualising activities and tasks your users try to complete it's much easier to link your efforts in software development with their jobs & needs. Visualising releases and their goals helps to cut down scope and focus on most important things first.
+
+
+    During the workshop, you'll take part in a simulated User Story Mapping workshop. You'll learn how to use the technique to plan releases, cut down scope and build better understanding between all project participants.
+  tags:
+   - Scrum
+   - Soft
+   
+- publish: false
+  tutors:
+   - Maciej Próchniak
+  title: Searching for answers in dumps
+  descriptionInMd: >
+    I'd like to show how to read thread and heap dumps.
+
+
+    Nothing fancy, rather for beginners, however I noticed that not everybody can:
+
+
+    - find simple and more tangled deadlocks looking at stacktraces
+
+    - do rough profiling just by using jstack
+
+    - see where memory leaks by analyzing heap dump
+
+    - and similar stuff
+
+
+    And of course - how to retrieve them ;)
+
+
+    No special experience or equipment is required, just basic Java knowledge and laptop
+  tags:
+   - Java
+   - Analyze
+   
+- publish: false
+  tutors:
+   - Mateusz Chrzonstowski
+   - Jakub Król
+  title: Add types - reduce bugs. Transition from Javascript to TypeScript.
+  descriptionInMd: > 
+    TypeScript is continuously gaining popularity and recognition in recent years, with Angular 2 using TypeScript being an important manifestation of the trend. Its advantages, such as static type checking and possibilities of better code structuring, have been appreciated by developers and proved to significantly reduce the amount of bugs.
+
+
+    During the workshop, we’ll introduce you to the dead-simple TypeScript syntax, show its main strong points working in practice and create a small AngularJS app.
+
+
+    Next, we’ll cover the main architectural challenges in AngularJS and show how TypeScript aids to overcome them. Last but not least, we’ll refactor an existing application (using external libraries) in order to gradually introduce types and use TypeScript capabilities to full extent.
+  tags:
+   - Frontend 
+   - AngularJS
+   - TypeScript
+   
+- publish: false
+  tutors:
+   -
+  title:
+  descriptionInMd:
+  tags:
+   -
+   
 - publish: false
   tutors:
    -
