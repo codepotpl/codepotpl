@@ -911,20 +911,7 @@
   websiteUrl:
   bioInMd: Python coder and Linux enthusiast, fascinated by the brain machinery. Combines his knowledge of Neuropsychology and Neuroinformatics in coordination of project [PISAK](http://pisak.org/) which he manages for the last two years. Trainer in informal education and team-building for past several years.
   
-- publish: false
-  firstName: Agnieszka
-  lastName: Biernacka
-  tagline: Scrum Master & Agile Coach @ PZU
-  pictureUrl: public/img/people/agnieszka-biernacka.jpg
-  twitterUsername: JagaBiernacka
-  githubUsername:
-  linkedInProfileUrl: https://pl.linkedin.com/pub/agnieszka-biernacka/16/292/608
-  stackoverflowId: 
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
-
-- publish: false
+- publish: true
   firstName: Krzyszof
   lastName: Jelski
   tagline: Agile Coach @ Pragmatists
@@ -938,7 +925,7 @@
   bioInMd: >
     Krzysztof is a software developer and an agile coach working at Pragmatists. He both keeps his technical abilities sharp and leans towards business side of software development to see the bigger picture. Passionately helps teams improve the way they collaborate and deliver. The vision he strives for is that of developers regarding themselves as professionals, writing clean code, communicating well with business and feeling confident at work. He also runs a business of reselling great e-learnings on agile development practices at [agile-elearning.pl](http://agile-elearning.pl/).
   
-- publish: false
+- publish: true
   firstName: Maciej
   lastName: Próchniak
   tagline: Developer @ TouK
@@ -950,7 +937,20 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Maciek Próchniak is algebraic topologist, for more than 8 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently trying hard to code more functionally, preferably in Scala. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to noSQL databases. For 6 years happy @ TouK, and even more happy husband and father.
-  
+
+- publish: false
+  firstName: Agnieszka
+  lastName: Biernacka
+  tagline: Scrum Master & Agile Coach @ PZU
+  pictureUrl: public/img/people/agnieszka-biernacka.jpg
+  twitterUsername: JagaBiernacka
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/pub/agnieszka-biernacka/16/292/608
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
+
 - publish: false
   firstName: Mateusz
   lastName: Chrzonstowski

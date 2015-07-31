@@ -803,30 +803,8 @@
   descriptionInMd: PISAK is an open-source, mainly Python platform for disabled people. It allows them to communicate and  entertain themselves by using a singular input (puffing, clicking, moving a muscle) or free-choice (eyetracker or headtracker). Easy to use, highly customisable, with a library that allows to fast prototype an application suitable for a disabled person in a couple of hours. You can check out the code at [Github](https://github.com/BrainTech/pisak) and read more about the project at [PISAK](http://pisak.org/)
   tags:
    - Python
-   
-- publish: false
-  tutors:
-   - Agnieszka Biernacka
-  title: O miękkiej części pracy scrum mastera...
-  descriptionInMd: >
-    ... czyli odrobina teorii, dużo przykładów i jeszcze więcej praktycznych pomysłów na rozwiązanie problemów w zespołach. W czasie kilku godzin pokażemy nasz warsztat scrum mastera i podzielimy się swoimi doświadczeniami z dwóch dużych organizacji. Dodatkowo będziemy się starali się pokazać każdy problem z różnych perspektyw – deweloperskiej, biznesowej i psychologicznej.
 
-
-    Zakres warsztatu:
-
-
-    Relacje w zespole –  o tym, co może być trudnego w rozwoju samego zespołu i jak sobie z tym radzić.
-
-
-    Kompetencje – jak stworzyć pętle informacji zwrotnej, pozwalające zespołowi się rozwijać. W tej części będzie dużo o testach i biznesie.
-
-
-    Autonomia zespołu czyli o takich ramach pracy w Scrumie, które dają zarówno wsparcie, jak i wolność nie niszcząc przy okazji przyjemności z pracy.
-  tags:
-   - Soft
-   - Scrum
-
-- publish: false
+- publish: true
   tutors:
    - Krzyszof Jelski
   title: User Story Mapping: Backlog Evolved
@@ -842,7 +820,7 @@
    - Scrum
    - Soft
    
-- publish: false
+- publish: true
   tutors:
    - Maciej Próchniak
   title: Searching for answers in dumps
@@ -869,6 +847,28 @@
   tags:
    - Java
    - Analyze
+
+- publish: false
+  tutors:
+   - Agnieszka Biernacka
+  title: O miękkiej części pracy scrum mastera...
+  descriptionInMd: >
+    ... czyli odrobina teorii, dużo przykładów i jeszcze więcej praktycznych pomysłów na rozwiązanie problemów w zespołach. W czasie kilku godzin pokażemy nasz warsztat scrum mastera i podzielimy się swoimi doświadczeniami z dwóch dużych organizacji. Dodatkowo będziemy się starali się pokazać każdy problem z różnych perspektyw – deweloperskiej, biznesowej i psychologicznej.
+
+
+    Zakres warsztatu:
+
+
+    Relacje w zespole –  o tym, co może być trudnego w rozwoju samego zespołu i jak sobie z tym radzić.
+
+
+    Kompetencje – jak stworzyć pętle informacji zwrotnej, pozwalające zespołowi się rozwijać. W tej części będzie dużo o testach i biznesie.
+
+
+    Autonomia zespołu czyli o takich ramach pracy w Scrumie, które dają zarówno wsparcie, jak i wolność nie niszcząc przy okazji przyjemności z pracy.
+  tags:
+   - Soft
+   - Scrum
    
 - publish: false
   tutors:
