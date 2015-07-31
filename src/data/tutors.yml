@@ -584,17 +584,17 @@
   bioInMd: George is a Lead Engineer at Applause where he is focused on improving the crowd testing platform. He spends his days mainly in Javascript, both on the frontend with Angular and server-side with NodeJS. Prior to Applause he worked at Carbonite where he developed the UI for their first server appliance. A former C# / .net developer, he still helps run the local Boston Azure User Group.
 
 - publish: true
-  firstName: Louis
-  lastName: Sivillo
-  tagline: Sr. Software Engineer @ Applause.com
-  pictureUrl: public/img/people/louis-sivillo.jpg
-  twitterUsername: sivillo
+  firstName: Bojiang
+  lastName: Jin
+  tagline: Software Engineer @ Applause.com
+  pictureUrl: public/img/people/bojiang-jin.jpg
+  twitterUsername: 
   githubUsername:
-  linkedInProfileUrl:
+  linkedInProfileUrl: https://www.linkedin.com/in/bojiangjin
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd: Louis is a Senior Software Engineer who increases developer productivity through code quality, modularity and software reuse.  He enjoys building full-stack web applications that are robust yet scalable, and is currently focused on building a SOA architecture with his team using Node.js, AngularJS, AMQP, and Docker.
+  bioInMd: Grown in China, studied aboard in US. Joined Applause as a software engineer. Very into web development. Experienced with Javascript, Python and Java.
 
 - publish: true
   firstName: Paweł
@@ -914,8 +914,8 @@
 - publish: false
   firstName: Agnieszka
   lastName: Biernacka
-  tagline:
-  pictureUrl: public/img/people/
+  tagline: Scrum Master & Agile Coach @ PZU
+  pictureUrl: public/img/people/agnieszka-biernacka.jpg
   twitterUsername: JagaBiernacka
   githubUsername:
   linkedInProfileUrl: https://pl.linkedin.com/pub/agnieszka-biernacka/16/292/608
@@ -925,17 +925,57 @@
   bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
 
 - publish: false
-  firstName:
-  lastName:
-  tagline:
-  pictureUrl: public/img/people/
+  firstName: Krzyszof
+  lastName: Jelski
+  tagline: Agile Coach @ Pragmatists
+  pictureUrl: public/img/people/krzysztof-jelski.jpg
+  twitterUsername: krzysztofjelski
+  githubUsername: krzysztof-jelski
+  linkedInProfileUrl: https://pl.linkedin.com/in/krzysztofjelski
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: >
+    Krzysztof is a software developer and an agile coach working at Pragmatists. He both keeps his technical abilities sharp and leans towards business side of software development to see the bigger picture. Passionately helps teams improve the way they collaborate and deliver. The vision he strives for is that of developers regarding themselves as professionals, writing clean code, communicating well with business and feeling confident at work. He also runs a business of reselling great e-learnings on agile development practices at [agile-elearning.pl](http://agile-elearning.pl/).
+  
+- publish: false
+  firstName: Maciej
+  lastName: Próchniak
+  tagline: Developer @ TouK
+  pictureUrl: public/img/people/maciej-prochniak.jpg
+  twitterUsername: mpproch
+  githubUsername: mproch
+  linkedInProfileUrl: https://www.linkedin.com/pub/maciej-pr%C3%B3chniak/10/b31/139
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Maciek Próchniak is algebraic topologist, for more than 8 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently trying hard to code more functionally, preferably in Scala. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to noSQL databases. For 6 years happy @ TouK, and even more happy husband and father.
+  
+- publish: false
+  firstName: Mateusz
+  lastName: Chrzonstowski
+  tagline: Developer @ SollersConsulting
+  pictureUrl: public/img/people/mateusz-chrzonstowski.jpg
   twitterUsername:
   githubUsername:
   linkedInProfileUrl:
   stackoverflowId: 
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: Starszy programista w zespole IT Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Entuzjasta frontendowych nowinek technologicznych, żywo zainteresowany Angularem i TypeScriptem.
+  
+- publish: false
+  firstName: Jakub
+  lastName: Król
+  tagline: Developer @ SollersConsulting
+  pictureUrl: public/img/people/jakub-krol.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Programista w zespole IT w Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Zwolennik pisania reużywalnego kodu front-endowego i wykorzystania zwinnych metodyk w wytwarzaniu oprogramowania.
   
 - publish: false
   firstName:
