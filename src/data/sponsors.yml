@@ -67,3 +67,15 @@
   country: "Poland"
   pictureUrl: public/img/organizations/samsung-logo.png
   url: http://rd.samsung.pl
+
+- name: "Sollers"
+  description: "Sollers"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sollers-logo.png
+  url: http://www.sollers.pl
+
+- name: "Viacom"
+  description: "Viacom"
+  country: "Poland"
+  pictureUrl: public/img/organizations/viacom-logo.png
+  url: http://www.vimn.pl/
