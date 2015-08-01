@@ -134,3 +134,52 @@ $(document).on('opened.fndtn.reveal', '[data-reveal]', function () {
     }
 });
 //END TUTORS MODAL WINDOW
+
+/**WORKSHOP TAG BUTTONS*/
+function tagButtons()
+{
+    var workshops = $("#workshops .workshop-row");
+    var uniqueTags = {};
+    $.each(workshops, function (key, workshop) {
+        var tags = $(workshop).find("div.tags span");
+        $.each(tags, function (key, tag) {
+            tag = $(tag).text();
+            var howMany = uniqueTags[tag];
+            if (!howMany) {
+                howMany = 0;
+            }
+            howMany++;
+            uniqueTags[tag] = howMany;
+        });
+    });
+    var tagButtons = $("#workshops .tagButtons .tags-select");
+    //sort key by name
+    var keys = [];
+    for (var key in uniqueTags) {
+            keys.push(key);
+    }
+    keys.sort(function(a, b) {
+        if (a.toLowerCase() < b.toLowerCase()) return -1;
+        if (a.toLowerCase() > b.toLowerCase()) return 1;
+        return 0;
+    });
+
+    $.each(keys, function(index, key){
+        //jQuery('<input/>', {
+        //    id: key,
+        //    type: 'checkbox'
+        //}).appendTo(tagButtons);
+        jQuery('<option/>', {
+            id: key,
+            value: key,
+            text: key + ' (' + uniqueTags[key] + ')'
+        }).appendTo(tagButtons);
+    });
+}
+tagButtons();
+$("#workshops .tagButtons .tags-select").select2();
+//history.pushState({
+//    par1 : 'par1',
+//    par2 : 2
+//}, '', 'url');
+/**END WORKSHOP TAG BUTTONS*/
