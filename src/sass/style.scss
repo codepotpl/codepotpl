@@ -13,6 +13,10 @@ $adjust: true;
 @import "foundation/components/panels";
 @import "foundation/components/thumbs";
 
+$slick-font-path: "public/font/";
+@import "slick";
+@import "slick-theme";
+
 $green: #2CB588;
 $dark-green: #219B6F;
 $light-green: #2BC187;
@@ -662,40 +666,58 @@ section#sponsors {
 }
 
 section#partners {
-  ul {
-    margin-bottom: 2rem;
+  .slick-slide
+  {
+    height: auto;
   }
-  .wrapper {
-    div.box {
-      position: relative;
-      width: 100%;
-      div.partners {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background-color: #F4F4F4;
-        img {
-          margin: 5%;
-          width: 90%;
-          height: 90%;
+  .slick-dots li button {
+    margin-top: rem-calc(30);
+  }
+  .partners-body{
+    ul {
+      margin-bottom: 2rem;
+      .wrapper {
+        padding: rem-calc(5);
+        div.box {
+          position: relative;
+          width: 100%;
+          div.partners {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: #F4F4F4;
+            img {
+              margin: 5%;
+              width: 90%;
+              height: 90%;
+            }
+          }
+        }
+        div.box:before {
+          content: "";
+          display: block;
+          padding-top: 100%;
         }
       }
-    }
-    div.box:before {
-      content: "";
-      display: block;
-      padding-top: 100%;
     }
   }
 }
 
 section#media {
+  .slick-slide
+  {
+    height: auto;
+  }
+  .slick-dots li button {
+    margin-top: rem-calc(30);
+  }
   ul {
     margin-bottom: 2rem;
   }
   .wrapper {
+    padding: rem-calc(5);
     div.box {
       position: relative;
       width: 100%;
