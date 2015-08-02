@@ -58,8 +58,7 @@ html
                     div.small-12.medium-10.medium-centered.columns
                         h1 WORKSHOPS
                     div.small-12.medium-10.medium-centered.columns.tagButtons
-                        select.tags-select(multiple="multiple")
-                            option(value="All") All
+                        select.tags-select(multiple="multiple")(hidden data-placeholder="Find by tag")
                     div.small-12.medium-10.medium-centered.columns
                         each workshop, index in workshops
                             div.workshop-row
@@ -156,7 +155,5 @@ html
                                                             !=markdown(tutor.bioInMd)
                                     a.close-reveal-modal(aria-label="Close") &#215;
         button#show_map(hidden) //error js, quick and certain solution
+        link(rel='stylesheet' href='public/select2/select2.min.css')
         script(src='public/body.js' defer)
-        //TODO delete select 2, make locak
-        link(href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet")
-        script(src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js")

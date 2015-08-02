@@ -538,6 +538,19 @@ section#workshops {
       text-align: center;
     }
   }
+  .select2-selection--multiple {
+    border: none;
+    .select2-selection__choice {
+      @extend .font-lato-regular;
+      font-size: rem-calc(18);
+      margin: 0 1rem 1rem 0;
+      @extend .label;
+      @extend .success;
+      .select2-selection__choice__remove{
+        color: inherit;
+      }
+    }
+  }
   .my-row {
     padding-top: rem-calc(10);
     padding-bottom: rem-calc(10);
