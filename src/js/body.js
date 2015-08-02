@@ -279,7 +279,6 @@ function startTagButtonWorkshops() {
         }
         tagsSelected = $(this).val();
         lastSelectedTags = tagsSelected;
-        console.log("change val=" + tagsSelected);
         var workshops = $("#workshops .workshop-row");
         $.each(workshops, function (key, workshop) {
             var tags = $(workshop).find("div.tags span");
@@ -294,7 +293,7 @@ function startTagButtonWorkshops() {
             else
                 $(workshop).closest('.workshop-row').show();
         });
-        $("#workshops .tagButtons input.select2-search__field").attr("placeholder","Filtr by tags"); // set placeholder 
+        $("#workshops .tagButtons input.select2-search__field").attr("placeholder","Filtr by tags"); // set placeholder
         //reloadUrlParametersTagSelected(tagsSelected);
     });
 
