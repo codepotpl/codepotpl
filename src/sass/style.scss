@@ -550,6 +550,13 @@ section#workshops {
         color: inherit;
       }
     }
+    .select2-search__field{
+      margin-top: 0;
+      background-color: #43AC6A;
+      min-width: rem-calc(200);
+      height: 25px;
+      color: white;
+    }
   }
   .my-row {
     padding-top: rem-calc(10);
