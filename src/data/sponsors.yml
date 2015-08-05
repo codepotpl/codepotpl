@@ -18,12 +18,6 @@
   pictureUrl: public/img/organizations/allegro-logo.png
   url: http://www.allegrotech.io
 
-- name: "Viacom"
-  description: "Viacom"
-  country: "Poland"
-  pictureUrl: public/img/organizations/viacom-logo.png
-  url: http://www.vimn.pl/
-
 - name: "TouK"
   description: "Software company"
   country: "Poland"
