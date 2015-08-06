@@ -16,7 +16,7 @@
   country: "Poland"
   city: "Warsaw"
   pictureUrl: public/img/organizations/allegro-logo.png
-  url: http://www.allegrotech.io
+  url: http://allegro.tech/
 
 - name: "TouK"
   description: "Software company"
