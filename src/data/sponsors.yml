@@ -79,3 +79,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/sollers-logo.png
   url: http://www.sollers.pl
+
+- name: "Javeo"
+  description: "Javeo"
+  country: "Poland"
+  pictureUrl: public/img/organizations/javeo-logo.png
+  url: http://www.javeo.pl

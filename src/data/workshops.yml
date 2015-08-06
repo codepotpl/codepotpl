@@ -407,6 +407,9 @@
   descriptionInMd: "Data Science is hot topic, but very often smart people don't know how to start. Reading books or doing online courses really is good thing, but not enough for applying knowledge. My idea is solve one practical problem from kaggle.com in order to show how to easy start participate. You can trait it like introduction to data science, and after this meeting you can participate with others competitions on the kaggle (or other sites). Note, this experience will not include big picture data science (you need spent months/years to be expert - well as any other area), but show you few very important parts from data science by the line of least resistance."
   tags:
    - DataScience
+   - Kaggle
+   - Python
+   - MachineLearning
 
 - publish: true
   tutors:
