@@ -938,7 +938,7 @@
   websiteUrl:
   bioInMd: Maciek Próchniak is algebraic topologist, for more than 8 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently trying hard to code more functionally, preferably in Scala. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to noSQL databases. For 6 years happy @ TouK, and even more happy husband and father.
 
-- publish: true
+- publish: false
   firstName: Mateusz
   lastName: Chrzonstowski
   tagline: Developer @ SollersConsulting
@@ -951,7 +951,7 @@
   websiteUrl:
   bioInMd: Starszy programista w zespole IT Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Entuzjasta frontendowych nowinek technologicznych, żywo zainteresowany Angularem i TypeScriptem.
   
-- publish: true
+- publish: false
   firstName: Jakub
   lastName: Król
   tagline: Developer @ SollersConsulting
@@ -964,7 +964,7 @@
   websiteUrl:
   bioInMd: Programista w zespole IT w Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Zwolennik pisania reużywalnego kodu front-endowego i wykorzystania zwinnych metodyk w wytwarzaniu oprogramowania.
 
-- publish: true
+- publish: false
   firstName: Agnieszka
   lastName: Biernacka
   tagline: Scrum Master & Agile Coach @ PZU
@@ -977,7 +977,7 @@
   websiteUrl:
   bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
 
-- publish: true
+- publish: false
   firstName: Hubert 
   lastName: Liberadzki
   tagline: Scrum Master/QA @ PZU
@@ -990,7 +990,7 @@
   websiteUrl:
   bioInMd: Scrum Master/QA w PZU (dawniej Test Leader w LG Electronics). Tester oprogramowania z bogatą wiedzą techniczną. Zainteresowany zwinnymi metodykami wytwarzania oprogramowania.
 
-- publish: true
+- publish: false
   firstName: Alicja
   lastName: Raszkowska
   tagline: Quant @ Ministry of Health
@@ -1003,7 +1003,7 @@
   websiteUrl:
   bioInMd: Alicja has been exploring data science since 2008. An incurable optimist, she has been working in the Polish public sector as an analyst-turned-technology-translator. She tends to munge and wrangle data until it shows the right, yet not necessarily the expected outcomes, constantly emphasizing the difference between the two to decision-makers. In her free time she enjoys board games and learning languages.
 
-- publish: true
+- publish: false
   firstName: Michał
   lastName: Suchecki
   tagline: Fullstack developer @ Javeo
@@ -1016,7 +1016,7 @@
   websiteUrl:
   bioInMd: Od 10 lat pracuję w @javeo_eu jako fullstack developer, obecnie w randze architekta. W bio wszyscy piszą jakie technologie lubią - ja lubię jak oprogramowanie działa a satysfakcję zawodową osiągam widząc uśmiech na twarzach pań Halinek z księgowości.
 
-- publish: true
+- publish: false
   firstName: Daniel 
   lastName: Chruściak
   tagline: Team Leader @ Javeo
@@ -1029,7 +1029,7 @@
   websiteUrl:
   bioInMd: Software Developer with over 10 years experience. Currently Team Leader in Javeo where he builds next-generation applications. The enthusiast of Scala and functional programming, also follower of simplicity and clean code.
 
-- publish: true
+- publish: false
   firstName: Bartosz 
   lastName: Bąbol
   tagline: Software engineer @ Javeo
