@@ -964,7 +964,7 @@
   websiteUrl:
   bioInMd: Programista w zespole IT w Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Zwolennik pisania reużywalnego kodu front-endowego i wykorzystania zwinnych metodyk w wytwarzaniu oprogramowania.
 
-- publish: false
+- publish: true
   firstName: Agnieszka
   lastName: Biernacka
   tagline: Scrum Master & Agile Coach @ PZU
@@ -977,7 +977,7 @@
   websiteUrl:
   bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
 
-- publish: false
+- publish: true
   firstName: Hubert 
   lastName: Liberadzki
   tagline: Scrum Master/QA @ PZU

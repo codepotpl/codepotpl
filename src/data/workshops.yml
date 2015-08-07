@@ -869,7 +869,7 @@
    - AngularJS
    - TypeScript
 
-- publish: false
+- publish: true
   tutors:
    - Agnieszka Biernacka
    - Hubert Liberadzki
