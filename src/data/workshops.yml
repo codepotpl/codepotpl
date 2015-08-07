@@ -851,7 +851,7 @@
    - Java
    - Analyze
 
-- publish: false
+- publish: true
   tutors:
    - Mateusz Chrzonstowski
    - Jakub Król

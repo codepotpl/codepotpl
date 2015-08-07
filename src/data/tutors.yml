@@ -938,7 +938,7 @@
   websiteUrl:
   bioInMd: Maciek Próchniak is algebraic topologist, for more than 8 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently trying hard to code more functionally, preferably in Scala. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to noSQL databases. For 6 years happy @ TouK, and even more happy husband and father.
 
-- publish: false
+- publish: true
   firstName: Mateusz
   lastName: Chrzonstowski
   tagline: Developer @ SollersConsulting
@@ -951,7 +951,7 @@
   websiteUrl:
   bioInMd: Starszy programista w zespole IT Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Entuzjasta frontendowych nowinek technologicznych, żywo zainteresowany Angularem i TypeScriptem.
   
-- publish: false
+- publish: true
   firstName: Jakub
   lastName: Król
   tagline: Developer @ SollersConsulting
