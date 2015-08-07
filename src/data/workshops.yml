@@ -892,19 +892,7 @@
    - Soft
    - Scrum
 
-- publish: false
-  tutors:
-   - Alicja Raszkowska
-  title: Data marketing
-  descriptionInMd: >
-    Munging and analyzing data is loads of fun, especially when you communicate with people who understand you - quants, researchers, analysts, programmers. But usually they are not the decision makers. And when it comes to selling data, nobody will care about your beautiful analyses and visualizations, they will most probably want just one number. 
-
-
-    The workshop is about choosing the first right number (the one that is demanded from you) and selling other ideas (the ones they should demand) to decision makers. It's based on WHO-approach of evidence briefs for policy and my two-years experience as a quant in public administration.
-  tags:
-   - Soft
-
-- publish: false
+- publish: true
   tutors:
    - Michał Suchecki
    - Daniel Chruściak
@@ -919,6 +907,18 @@
    - Frontend
    - Polymer
    
+- publish: false
+  tutors:
+   - Alicja Raszkowska
+  title: Data marketing
+  descriptionInMd: >
+    Munging and analyzing data is loads of fun, especially when you communicate with people who understand you - quants, researchers, analysts, programmers. But usually they are not the decision makers. And when it comes to selling data, nobody will care about your beautiful analyses and visualizations, they will most probably want just one number. 
+
+
+    The workshop is about choosing the first right number (the one that is demanded from you) and selling other ideas (the ones they should demand) to decision makers. It's based on WHO-approach of evidence briefs for policy and my two-years experience as a quant in public administration.
+  tags:
+   - Soft
+
 - publish: false
   tutors:
    -

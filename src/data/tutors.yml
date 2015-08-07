@@ -990,20 +990,7 @@
   websiteUrl:
   bioInMd: Scrum Master/QA w PZU (dawniej Test Leader w LG Electronics). Tester oprogramowania z bogatą wiedzą techniczną. Zainteresowany zwinnymi metodykami wytwarzania oprogramowania.
 
-- publish: false
-  firstName: Alicja
-  lastName: Raszkowska
-  tagline: Quant @ Ministry of Health
-  pictureUrl: public/img/people/alicja-raszkowska.jpg
-  twitterUsername: mamrotynka
-  githubUsername: mamrotynka
-  linkedInProfileUrl: https://pl.linkedin.com/in/alicjaraszkowska
-  stackoverflowId: 
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd: Alicja has been exploring data science since 2008. An incurable optimist, she has been working in the Polish public sector as an analyst-turned-technology-translator. She tends to munge and wrangle data until it shows the right, yet not necessarily the expected outcomes, constantly emphasizing the difference between the two to decision-makers. In her free time she enjoys board games and learning languages.
-
-- publish: false
+- publish: true
   firstName: Michał
   lastName: Suchecki
   tagline: Fullstack developer @ Javeo
@@ -1016,7 +1003,7 @@
   websiteUrl:
   bioInMd: Od 10 lat pracuję w @javeo_eu jako fullstack developer, obecnie w randze architekta. W bio wszyscy piszą jakie technologie lubią - ja lubię jak oprogramowanie działa a satysfakcję zawodową osiągam widząc uśmiech na twarzach pań Halinek z księgowości.
 
-- publish: false
+- publish: true
   firstName: Daniel 
   lastName: Chruściak
   tagline: Team Leader @ Javeo
@@ -1029,7 +1016,7 @@
   websiteUrl:
   bioInMd: Software Developer with over 10 years experience. Currently Team Leader in Javeo where he builds next-generation applications. The enthusiast of Scala and functional programming, also follower of simplicity and clean code.
 
-- publish: false
+- publish: true
   firstName: Bartosz 
   lastName: Bąbol
   tagline: Software engineer @ Javeo
@@ -1041,6 +1028,19 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Software engineer in Javeo, programming enthusiast,  particularly interested in functional and reactive programming.
+
+- publish: false
+  firstName: Alicja
+  lastName: Raszkowska
+  tagline: Quant @ Ministry of Health
+  pictureUrl: public/img/people/alicja-raszkowska.jpg
+  twitterUsername: mamrotynka
+  githubUsername: mamrotynka
+  linkedInProfileUrl: https://pl.linkedin.com/in/alicjaraszkowska
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Alicja has been exploring data science since 2008. An incurable optimist, she has been working in the Polish public sector as an analyst-turned-technology-translator. She tends to munge and wrangle data until it shows the right, yet not necessarily the expected outcomes, constantly emphasizing the difference between the two to decision-makers. In her free time she enjoys board games and learning languages.
 
 - publish: false
   firstName:
