@@ -851,9 +851,28 @@
    - Java
    - Analyze
 
+- publish: true
+  tutors:
+   - Mateusz Chrzonstowski
+   - Jakub Król
+  title: Add types - reduce bugs. Transition from Javascript to TypeScript.
+  descriptionInMd: > 
+    TypeScript is continuously gaining popularity and recognition in recent years, with Angular 2 using TypeScript being an important manifestation of the trend. Its advantages, such as static type checking and possibilities of better code structuring, have been appreciated by developers and proved to significantly reduce the amount of bugs.
+
+
+    During the workshop, we’ll introduce you to the dead-simple TypeScript syntax, show its main strong points working in practice and create a small AngularJS app.
+
+
+    Next, we’ll cover the main architectural challenges in AngularJS and show how TypeScript aids to overcome them. Last but not least, we’ll refactor an existing application (using external libraries) in order to gradually introduce types and use TypeScript capabilities to full extent.
+  tags:
+   - Frontend 
+   - AngularJS
+   - TypeScript
+
 - publish: false
   tutors:
    - Agnieszka Biernacka
+   - Hubert Liberadzki
   title: O miękkiej części pracy scrum mastera...
   descriptionInMd: >
     ... czyli odrobina teorii, dużo przykładów i jeszcze więcej praktycznych pomysłów na rozwiązanie problemów w zespołach. W czasie kilku godzin pokażemy nasz warsztat scrum mastera i podzielimy się swoimi doświadczeniami z dwóch dużych organizacji. Dodatkowo będziemy się starali się pokazać każdy problem z różnych perspektyw – deweloperskiej, biznesowej i psychologicznej.
@@ -872,32 +891,33 @@
   tags:
    - Soft
    - Scrum
-   
+
 - publish: false
   tutors:
-   - Mateusz Chrzonstowski
-   - Jakub Król
-  title: Add types - reduce bugs. Transition from Javascript to TypeScript.
-  descriptionInMd: > 
-    TypeScript is continuously gaining popularity and recognition in recent years, with Angular 2 using TypeScript being an important manifestation of the trend. Its advantages, such as static type checking and possibilities of better code structuring, have been appreciated by developers and proved to significantly reduce the amount of bugs.
+   - Alicja Raszkowska
+  title: Data marketing
+  descriptionInMd: >
+    Munging and analyzing data is loads of fun, especially when you communicate with people who understand you - quants, researchers, analysts, programmers. But usually they are not the decision makers. And when it comes to selling data, nobody will care about your beautiful analyses and visualizations, they will most probably want just one number. 
 
 
-    During the workshop, we’ll introduce you to the dead-simple TypeScript syntax, show its main strong points working in practice and create a small AngularJS app.
-
-
-    Next, we’ll cover the main architectural challenges in AngularJS and show how TypeScript aids to overcome them. Last but not least, we’ll refactor an existing application (using external libraries) in order to gradually introduce types and use TypeScript capabilities to full extent.
+    The workshop is about choosing the first right number (the one that is demanded from you) and selling other ideas (the ones they should demand) to decision makers. It's based on WHO-approach of evidence briefs for policy and my two-years experience as a quant in public administration.
   tags:
-   - Frontend 
-   - AngularJS
-   - TypeScript
-   
+   - Soft
+
 - publish: false
   tutors:
-   -
-  title:
-  descriptionInMd:
+   - Michał Suchecki
+   - Daniel Chruściak
+   - Bartosz Bąbol
+  title: Polymer and Firebase. Welcome to the future of web development.
+  descriptionInMd: >
+    Polymer to największa rewolucja web developmetu od czasu pojawienia się HTML'a. Zmienia on sposób myślenia i daje nowe możliwości tworzenia komponentowych aplikacji webowych.
+
+
+    Podczas warsztatów poznasz ideę tworzenia aplikacji webowych z wykorzystaniem komponentów Polymer, poznasz praktyczne zastosowanie popularnych komponentów, dowiesz się jak stworzyć własny komponent i pochwalić się nim światu. Weźmiesz też udział we wspólnym tworzeniu nowoczesnej aplikacji dla uczestników konferencji.
   tags:
-   -
+   - Frontend
+   - Polymer
    
 - publish: false
   tutors:
