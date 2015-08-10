@@ -260,6 +260,7 @@
 - publish: true
   tutors:
    - Maciej Górski
+   - Karol Kowalski
   title: Groovy on Android - there is no going back.
   descriptionInMd: >
     New languages push their limits to support our favourite mobile platform. Groovy is one of them. It's a very mature language, used to write servers for financial institutions, among others. So why not try it for our awesome apps?
