@@ -136,7 +136,6 @@
 
     If you want to learn how to use Core Data successfully and avoid many pitfalls that await within its roots you should come visit our workshop. You'll learn how Core Data is actually built, what components does it consist of and how they work together. Moreover you'll find out how to use multithreading with Core Data without random crashes and, last but not least, you'll learn how to deal with performance issues and to do about them.
   tags:
-   - Swift
    - iOS
    - Mobile
 
