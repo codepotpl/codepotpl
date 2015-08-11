@@ -178,15 +178,6 @@
 
 - publish: true
   tutors:
-   - Alper Çugun
-  title: Improving your app by using engagement loops
-  descriptionInMd: We use a game design model called ‘engagement loops’ to design products and services that are awesome and interesting. This model revolves around identifying a meaningful challenge, something that your users actually want to become better at (like learning a language, becoming healthier etc.). We then help them improve on the challenge by adding game-like structures and rich feedback around that challenge. This way we create a feedback loop that keeps users coming back because they want to.
-  tags:
-   - Design
-   - Business
-
-- publish: true
-  tutors:
    - Mateusz Górski
   title: From zero to hero with Akka
   descriptionInMd: The workshop will cover a lot of ground starting with basic understanding of Actor model and its implementation in Akka framework. Then we would move into more practical topics like how Akka solves problem with failovers, asynchronous message passing, concurrency, consuming messages from different endpoints ( database, HTTP clients ), persistance etc.
@@ -822,7 +813,7 @@
   tags:
    - Scrum
    - Soft
-   
+
 - publish: true
   tutors:
    - Maciej Próchniak
@@ -856,7 +847,7 @@
    - Mateusz Chrzonstowski
    - Jakub Król
   title: Add types - reduce bugs. Transition from Javascript to TypeScript.
-  descriptionInMd: > 
+  descriptionInMd: >
     TypeScript is continuously gaining popularity and recognition in recent years, with Angular 2 using TypeScript being an important manifestation of the trend. Its advantages, such as static type checking and possibilities of better code structuring, have been appreciated by developers and proved to significantly reduce the amount of bugs.
 
 
@@ -865,7 +856,7 @@
 
     Next, we’ll cover the main architectural challenges in AngularJS and show how TypeScript aids to overcome them. Last but not least, we’ll refactor an existing application (using external libraries) in order to gradually introduce types and use TypeScript capabilities to full extent.
   tags:
-   - Frontend 
+   - Frontend
    - AngularJS
    - TypeScript
 
@@ -906,13 +897,13 @@
   tags:
    - Frontend
    - Polymer
-   
+
 - publish: false
   tutors:
    - Alicja Raszkowska
   title: Data marketing
   descriptionInMd: >
-    Munging and analyzing data is loads of fun, especially when you communicate with people who understand you - quants, researchers, analysts, programmers. But usually they are not the decision makers. And when it comes to selling data, nobody will care about your beautiful analyses and visualizations, they will most probably want just one number. 
+    Munging and analyzing data is loads of fun, especially when you communicate with people who understand you - quants, researchers, analysts, programmers. But usually they are not the decision makers. And when it comes to selling data, nobody will care about your beautiful analyses and visualizations, they will most probably want just one number.
 
 
     The workshop is about choosing the first right number (the one that is demanded from you) and selling other ideas (the ones they should demand) to decision makers. It's based on WHO-approach of evidence briefs for policy and my two-years experience as a quant in public administration.
