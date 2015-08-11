@@ -1029,6 +1029,19 @@
   websiteUrl:
   bioInMd: Software engineer in Javeo, programming enthusiast,  particularly interested in functional and reactive programming.
 
+- publish: true
+  firstName: Karol 
+  lastName: Kowalski
+  tagline: Android-Groovy Developer @ ElPassion
+  pictureUrl: public/img/people/karol-kowalski.jpg
+  twitterUsername: ordon1313
+  githubUsername: OrdonTeam
+  linkedInProfileUrl:
+  stackoverflowId: 
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Karol began his journey into the world of developers two years ago. From the very first day he learned best practices from Uncle Bob and after one year in Impaq, he took a fancy to Groovy and Android development. Since march he combined both these interests in ElPassion as Android-Groovy Dev.
+
 - publish: false
   firstName: Alicja
   lastName: Raszkowska
