@@ -176,7 +176,7 @@
    - Ansible
    - Deployment
 
-- publish: true
+- publish: false
   tutors:
    - Mateusz Górski
   title: From zero to hero with Akka
