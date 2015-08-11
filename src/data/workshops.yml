@@ -1254,7 +1254,7 @@
   timetire:
    - 2?3
 
-- publish: false
+- publish: true
   tutors:
    - Paweł Ptaszyński
    - Damian Leszczyński
@@ -1289,7 +1289,7 @@
   timetire: 
    - 4
 
-- publish: false
+- publish: true
   tutors:
    - Paweł Jakubas
   title: The hands-on introduction to probabilistic programming in Figaro
