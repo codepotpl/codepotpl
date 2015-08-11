@@ -895,6 +895,7 @@
 
     - define your borders not attacking others
 
+
     If you find anything curious about it or just want to learn a little bit, come to the workshop.
   tags:
    - Soft
@@ -1252,6 +1253,56 @@
   day: SATURDAY
   timetire:
    - 2?3
+
+- publish: false
+  tutors:
+   - Paweł Ptaszyński
+   - Damian Leszczyński
+  title: Reactive Programming on Android
+  descriptionInMd: >
+    During this workshop we will demonstrate API and techniques which can be applied to develop a reactive application for highly concurrent Android Environment. This workshop will not be focused on the Reactive Manifesto academic aspects, but on how to apply the concepts in real life application. Beginning with standard Android SDK, moving to 3rd party libraries, we will explore various methods of asynchronous computation based on event communication. This will allow you to learn the pros and cons of various approaches to develop Android apps. Instead of going deep into technical aspects how those mechanisms work, we will present how to use those APIs.
+
+
+    Within the scope we will develop an application using Android Rx, different methods to implement event bus pattern. To create more concise code we will employ Retrolambda plugin.
+
+
+    The attendee for this workshop should have basic knowledge of Android platform.
+
+
+    Requirements:
+
+
+     - Bring your laptop with stable release of Android Studio.
+    
+     - Mobile device with Android operating system.
+    
+     - USB cable to connect device to your machine.
+    
+     - Installed Java SDK version 7 and 8.
+  tags:
+   - Reactive
+   - Android
+   - Mobile
+  room: S226
+  capacity: 30
+  day: SATURDAY
+  timetire: 
+   - 4
+
+- publish: false
+  tutors:
+   - Paweł Jakubas
+  title: The hands-on introduction to probabilistic programming in Figaro
+  descriptionInMd: During workshop the fundamentals of probabilistic programming will be explained. Probabilistic programming has a considerable chance to democratize machine learning (ML) and artificial intelligence among non programmers and spread ML techniques across many disciplines and industries, and thus be the next big thing in data science. The concepts of probabilistic programming are to be demonstrated in Figaro, Scala library. A selected examples leading step by step to a nontrivial probabilistic programming system will be done during the workshop. The knowledge of Scala is advised but not strictly required (although in this case the knowledge of any modern programming language (c++, java, python, haskell,..) is strongly recommended in order to follow and comprehend the material). Functional nature of Scala is also to be embraced in the last parts of the workshop. The participants are asked to bring laptops with themselves. More details about the final setup are to be available later. The workshop is to be held in English.
+  tags:
+   - ProbabilityTheory
+   - Scala
+   - Figaro
+  room: S226
+  capacity: 30
+  day: FRIDAY
+  timetire:
+   - 1
 
 - publish: false
   tutors:

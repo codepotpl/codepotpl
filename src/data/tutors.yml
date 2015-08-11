@@ -1043,17 +1043,43 @@
   bioInMd: Alicja has been exploring data science since 2008. An incurable optimist, she has been working in the Polish public sector as an analyst-turned-technology-translator. She tends to munge and wrangle data until it shows the right, yet not necessarily the expected outcomes, constantly emphasizing the difference between the two to decision-makers. In her free time she enjoys board games and learning languages.
 
 - publish: false
-  firstName:
-  lastName:
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername:
+  firstName: Damian
+  lastName: Leszczyński
+  tagline: Solutions Architect/Developer @ Samsung R&D Institute Poland
+  pictureUrl: public/img/people/damian-leszczynski.jpg
+  twitterUsername: D_Leszczynski
   githubUsername:
-  linkedInProfileUrl:
+  linkedInProfileUrl: https://pl.linkedin.com/in/dleszczynski
   stackoverflowId:
   googlePlusHandler:
   websiteUrl:
-  bioInMd:
+  bioInMd: Damian Leszczyński works as Solutions Architect / Developer for Samsung Business. Currently his daily basis is to bring value on mobile devices to business customer. Before this opportunity he was responsible for architecture analysis provided to development teams. Enforcing the clean, decoupled and sustainable design, for open and complex production realities. All this would not have been possible without the dedication of several years of work on the ERP system for international production company, his passion to Software Engineering, JVM environment, lean methodologies and surround community of people willing to introduce change.  
+
+- publish: false
+  firstName: Paweł
+  lastName: Ptaszyński
+  tagline: Software Engineer @ Samsung R&D Institute Poland
+  pictureUrl: public/img/people/pawel-ptaszynski.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl: https://pl.linkedin.com/in/pawelptaszynski
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Solution Architect and Developer working on new B2B solutions based on mobile devices powered by Android platform. He has been working in various roles covering full software development lifecycle - as analyst, developer, tester, dev team leader or even software process engineer, but has always been enthusiast of code. Part time agile evangelist and a fan of great dev tools. Recently passionate about Scala, reactive design & programming and PaaS solutions.
+
+- publish: false
+  firstName: Paweł
+  lastName: Jakubas
+  tagline: Software Engineer @ Samsung R&D Institute Poland
+  pictureUrl: public/img/people/pawel-jakubas.jpg
+  twitterUsername:
+  githubUsername: https://github.com/paweljakubas
+  linkedInProfileUrl: https://pl.linkedin.com/pub/pawel-jakubas-phd/1/720/5a0
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Pawel Jakubas is a software engineer interested in full stack development, big data and data science. He works with a number of technologies, eg., scala, hadoop, spark, aws, mesos, mongodb, angularJS.. . He is passionate about harnessing distributed systems in the context of big data analytics. He holds MSc in finance and banking, MSc Eng in mechatronics, and PhD in physics. He can be contacted via: jakubas dot pawel at gmail dot com.
 
 - publish: false
   firstName:
