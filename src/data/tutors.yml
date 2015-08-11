@@ -193,7 +193,7 @@
   websiteUrl:
   bioInMd: Zbyt doświadczony admin Linuksów i programista systemowy, Chief Tinkering Officer w MegiTeam. Leniwy do szpiku kości, automatyzuje wszystko, co musi zrobić trzeci raz.
 
-- publish: true
+- publish: false
   firstName: Mateusz
   lastName: Górski
   tagline: Developer @ TouK
