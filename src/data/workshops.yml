@@ -427,31 +427,11 @@
    - Marcin Kosiński
   title: Data Mining + dplyr = przetwarzanie i analiza danych w R
   descriptionInMd: >
-    When working with data you must:
-
-
-    - Figure out what you want to do.
-
-
-    - Precisely describe what you want in the form of a computer program.
-
-
-    - Execute the code.
-
-
-    The dplyr package makes each of these steps as fast and easy as possible by:
-
-
-    - Elucidating the most common data manipulation operations, so that your options are helpfully constrained when thinking about how to tackle a problem.
-
-
-    - Providing simple functions that correspond to the most common data manipulation verbs, so that you can easily translate your thoughts into code.
-
-
-    - Using efficient data storage backends, so that you spend as little time waiting for the computer as possible.
-
-
-    The goal of this workshop is to introduce you to the basic tools that dplyr provides, and show how you to apply them to data frames.
+    Na warszatacie przedstawię światową opinię wielkich korporacji na temat R. Następnie po miękkim wstępie odnośnie potrzeby i zastosowań analizy danych przejdziemy do praktycznego
+    warsztatu z wykorzystania R w przetwarzaniu danych i data miningu (eksploracji danych). Obecnie R posiada wiele pakietów ułatwiających pracę z danymi. Osobiście przedstawię dość popularne
+    rozwiązanie jakim jest pakiet dplyr, który został stworzony w duchu "Grammar of Data Manipulation". Pokażę jak R może łatwo łączyć się z relacyjnymi bazami danych oraz jak można przyspieszać
+    obliczenia poprzez dodawanie wstawek z C++ oraz poprzez rozpraszanie obliczeń na wiele wątków. Warsztat zakończymy wykorzystaniem kilku najpopularniejszych metod klasyfikacji, które mogą z powodzeniem
+    być wykorzystywane w codziennych praktycznych problemach, a wszystko przypieczętujemy (jeśli starczy czasu) raportem z analizy danych w formacie HTML, dzięki integracji R z markdownem i pandoc'iem.
   tags:
    - R
    - DataMining
