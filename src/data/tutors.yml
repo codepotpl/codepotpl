@@ -1081,6 +1081,19 @@
   websiteUrl:
   bioInMd: Pawel Jakubas is a software engineer interested in full stack development, big data and data science. He works with a number of technologies, eg., scala, hadoop, spark, aws, mesos, mongodb, angularJS.. . He is passionate about harnessing distributed systems in the context of big data analytics. He holds MSc in finance and banking, MSc Eng in mechatronics, and PhD in physics. He can be contacted via: jakubas dot pawel at gmail dot com.
 
+- publish: true
+  firstName: Krzysztof
+  lastName: Szabelski
+  tagline: Technical Advisor @ Future Processing 
+  pictureUrl: public/img/people/krzysztof-szabelski.jpg
+  twitterUsername: kszabelski
+  githubUsername: https://github.com/szabl
+  linkedInProfileUrl:https://pl.linkedin.com/pub/krzysztof-szabelski/1b/a75/21a
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Na co dzień doradca i konsultant techniczny w gliwickiej firmie Future Processing. Zajmuje się przede wszystkim architekturą systemów, optymalizowaniem procesów wytwarzania oprogramowania i programowaniem w C#. Zawsze jednak stara się wychodzić daleko poza świat technologii Microsoft, aby czerpać inspirację i poszerzać swoją wiedzę. Prywatnie motocyklista, skialpinista i pasjonat wszelkich sportów ekstremalnych.
+
 - publish: false
   firstName:
   lastName:
