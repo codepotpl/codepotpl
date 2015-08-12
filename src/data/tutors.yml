@@ -10,6 +10,7 @@
   googlePlusHandler: +MichalTajchert
   websiteUrl:
   bioInMd: GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more.
+  emailHash: c99e03dffd35785380a7eb26b68a58724c272500
 
 - publish: true
   firstName: Aleksander
@@ -23,6 +24,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer.
+  emailHash: bf3f5e68516a2104098846378a369630fb49946b
 
 - publish: true
   firstName: Chris
@@ -36,6 +38,7 @@
   googlePlusHandler:
   websiteUrl: http://chris.eidhof.nl
   bioInMd: Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as [Deckset](http://decksetapp.com) and [Scenery](http://www.getscenery.com). He started [UIKonf](http://www.uikonf.com), [objc.io](http://www.objc.io), and wrote a book about [Functional Programming in Swift](http://www.objc.io/books/).
+  emailHash: 33dfcf7ccd4ca71167e3b9245c403641dd971741
 
 - publish: true
   firstName: Konrad
@@ -49,6 +52,7 @@
   googlePlusHandler:
   websiteUrl: http://enklawa-tworcza.blogspot.com/
   bioInMd: Senior Software Engineer at Ganymede. Leading coding dojo and sharing his interest in test automation. Working in gamedev since the end of 2014, but he's been creating games as a hobby and because of studying Vudei Game Development at Jagiellonian University. He's a big fan of Behaviour-Driven Development and automation in general. He's passionate about table-top games, loves to play on ukulele, harmonica and any other instruments he can get.
+  emailHash: 343528f870e3f84947d3ddf342118494cecc725f
 
 - publish: true
   firstName: Mateusz
@@ -62,6 +66,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Heniek works at Base where he uses his android-abracadabras to make his users' work more efficient. Apart from that he's a Google Developer Expert for Android and GDG Kraków co-organizer where together with his friends he organized several things like KrakDroid (later known as a Droidcon), dizygotic twins, DevFest, Android Tech Talks and more.
+  emailHash: fa2d174e27406d125ea95d5f60914745294082f7
 
 - publish: true
   firstName: Przemysław
@@ -75,6 +80,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Active member of Warsaw developers community. As the author of RoboSpock is a strong believer in TDD. Person who really cares about code quality. Currently working for Applause creating Android SDK library and auto instrumentation service.
+  emailHash: a97b88b6b4b9d394ebe22f08c6c36edd044ad2a3
 
 - publish: true
   firstName: Martin
@@ -88,6 +94,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Java Developer, Technology Enthusiastic, OpenSource Committer, Trainer, Technical Reviewer, Community/Conference/JUG speaker, Java Community Leader, JCP member.
+  emailHash: 53110f234a352709715b5aad6e8e01e8ac1e7fd8  
 
 - publish: true
   firstName: Jakub
@@ -101,6 +108,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Jakub Nabrdalik is the Head of Software Development in Poland at 4FinanceIT. 12 years of hands on experience as a developer, architect, analyst and  everything in between. You can find all the details here: solidcraft.eu
+  emailHash: a77286f69312c00475fc12742cc3b4e688df2335
 
 - publish: true
   firstName: Sławomir
@@ -114,6 +122,7 @@
   googlePlusHandler:
   websiteUrl: http://art-of-software.blogspot.com/
   bioInMd: Jestem trenerem i konsultantem w firmie Bottega IT Solutions, specjalizuję się w technologiach Java EE. W codziennej pracy integruję Domain Driven Design, wzorce, style architektoniczne, zwinne procesy wytwórcze i zdrowy rozsądek. Stosuję nadrzędną zasadę: rozpoznać klasę problemu z jaką mamy do czynienia i dobrać do niej odpowiednią klasę narzędzia. Hobbystycznie interesuję się psychologią pozytywną i kognitywistyką. Lubię myśleć o sobie jako entuzjaście Software Craftsmanship.
+  emailHash: 09c0faea59336dbf7c9346ffd02af8fce1fa7909
 
 - publish: true
   firstName: Maciej
@@ -127,6 +136,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: I'm a software engineer, in love with iOS. I'm passionate about clean code, so things like testing, architecture and model design are my points of interest. Equally, I care a lot about user experience and I enjoy making responsive, beautiful and clear UI. Interacting with others is so inspiring that I'm big agile evangelist and I love team work.
+  emailHash: 00de1b78966a00c4e759132df486590e161cce7e
 
 - publish: true
   firstName: Paweł
@@ -140,6 +150,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Software engineering that has been on the iOS platform for over 6 years. Build beautiful apps for enterprises at [Taptera](http://www.taptera.com). Organiser of [Mobile Warsaw](http://www.mobile-warsaw.pl). Loves clean, testable code, Chemex coffee and craft beers.
+  emailHash: 98112d564ba0b9fdfcbfe005c98f09a0c34d0d56
 
 - publish: true
   firstName: Anna
@@ -153,6 +164,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: HR Manager w firmie CodiLime Sp. z o.o. W latach 2007-2014 związana z firmą technologiczno-doradczą Gemius SA, w której odpowiadała za budowę i realizację polityki personalnej. Wcześniej jako doradca zawodowy i trener zdobywała doświadczenie w sektorze publicznym w Polsce i Wielkiej Brytanii, specjalizując się w szkoleniach z zakresu rozwoju umiejętności miękkich. Z wykształcenia pedagog specjalny, absolwentka Akademii Pedagogiki Specjalnej w Warszawie. Ukończyła także studia podyplomowe z zakresu Zarządzania Zasobami Pracy w Szkole Głównej Handlowej oraz Polish Open University.
+  emailHash: e69273d225911b3dbdc0f9b5aee253bf62f6aeb5
 
 - publish: true
   firstName: Sylwester
@@ -166,6 +178,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Co-founder of Outline (http://byoutline.com) - team of Android experts, crafting beautiful apps. Experienced Java (8 yrs) and Android (4 yrs) developer - created both enterprise systems in TouK and multiplayer games in Gadu Gadu. Currently focused on optimizing development speed. Likes to share knowlege by blogging on http://soldiersofmobile.com, training developers at http://szkoleniaandroid.pl and speaking on events e.g. Droidcon, Mobilization, Warsjawa, MobileWarsaw.
+  emailHash: 26495e5a686bfdae36a0e248a3f47de3f87f98de
 
 - publish: true
   firstName: Konrad
@@ -179,6 +192,7 @@
   googlePlusHandler:
   websiteUrl: http://akka.io/
   bioInMd: Akka hakker @ Typesafe, where he also participated in the Reactive Streams initiative and implemented it's Technology Compatibility Kit. Konrad is a late-night passionate dev living by the motto "Life is Study!". His favourite discussion topics range from distributed systems to capybaras. He has founded and run multiple user groups (Java, Scala, Computer Science, ...), and has is leading the awesome GeeCON conference and participates as program committee member of JavaOne SF. Other than that, he's a frequent speaker on distributed systems and concurrency topics, at conferences all around the world. In those rare times he's not coding, he spreads the joy of computer science, through helping local user groups and whitepaper reading clubs.
+  emailHash: 988543ffd2e8849664f4090f4b03b5570b4ccf58
 
 - publish: true
   firstName: Grzegorz
@@ -192,6 +206,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Zbyt doświadczony admin Linuksów i programista systemowy, Chief Tinkering Officer w MegiTeam. Leniwy do szpiku kości, automatyzuje wszystko, co musi zrobić trzeci raz.
+  emailHash: 6332f3281a74662fc697db424988dd1bf5f90e5b
 
 - publish: true
   firstName: Przemysław
@@ -205,6 +220,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Entuzjasta języka Scala zainteresowany tematyką skalowalności aplikacji.
+  emailHash: 640361abebb19546fc684ecbc5208ea7297a304c
 
 - publish: true
   firstName: Marcin
@@ -218,6 +234,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Recently I’ve been devopsing in TouK and now I'm extreme developer in DaftCode. I want to show how new technologies can help you and your team!
+  emailHash: 233d321fc180dd65fa8993890476a3ae859a40c7
 
 - publish: true
   firstName: Wojtek
@@ -231,6 +248,7 @@
   googlePlusHandler:
   websiteUrl: http://erbetowski.pl/
   bioInMd: Wojtek is Head of Engineering at Polidea – mobile/hardware software-house. That’s an unusual environment for a backend dev – here it’s the mobile app, that is the center of universe. Backend is the one that has to fit best, so that the app remains simple and robust. Thanks to that he has gathered many interesting tips and tricks, that he will gladly share. Wojtek invented MobileWarsaw, GitKata and Mobile Central Europe. He’s also co-leader of Warsaw JUG and Warsjawa conference. Worked on Apphance Flow – an OS build tool for mobile and co-created a library for unit testing Android apps – RoboSpock.
+  emailHash: db6f7677165a34621de388b0ce04f6310d9e28f0
 
 - publish: true
   firstName: Dawid
@@ -244,6 +262,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Java Developer and Team Leader interested mainly in server-side programming, clean and well designed code, automated tests and agile processes. Dawid has been doing projects for public sector and banking industry for over 8 years, during which he has been striving to train, share knowledge and coach others in order to make himself redundant. Personally he loves spending time with his family, learning languages and contributing to open source projects.
+  emailHash: 43949f03dd04feebb468579e8d03bc10e1001b28
 
 - publish: true
   firstName: Adam
@@ -257,6 +276,7 @@
   googlePlusHandler:
   websiteUrl: http://adam-bien.com/
   bioInMd: Consultant and author Adam Bien is an Expert Group member for the Java EE 6 and 7, EJB 3.X, JAX-RS, and JPA 2.X JSRs. He has worked with Java technology since JDK 1.0 and with Servlets/EJB 1.0 and is now an architect and developer for Java SE and Java EE projects. He has edited several books about JavaFX, J2EE, and Java EE, and he is the author of Real World Java EE Patterns—Rethinking Best Practices and Real World Java EE Night Hacks—Dissecting the Business Tier. Adam is also a Java Champion, Top Java Ambassador 2012, and JavaOne 2009, 2011, 2012, 2013 and 2014 Rock Star. Adam occasionally organizes Java EE workshops at Munich’s airport (http://airhacks.com).
+  emailHash: d4226036e098857b7ccb17e2b35c505ccaa8a7eb
 
 - publish: true
   firstName: Maciej
@@ -270,6 +290,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Maciej is a passionate Android developer. He cares about writing cleaner code and less amount of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables.
+  emailHash: 094467f9268729a3b10c1755e73628c99728916c
 
 - publish: true
   firstName: Marcin
@@ -283,6 +304,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Marcin jest programistą Pythona który kocha zasadę jednej drogi do celu. Na co dzień perfekcjonista zakochany w zasadach projektowych i refaktoryzacji. Z szerokim doświadczeniem w tworzeniu API dla projektów dużej skali. Od czasu do czasu pracuje nad projektami Open Source. Prelegent na wielu konferencjach i warsztatach. Twórca Trójmiejskiej Grupy miłośników Pythona - PyGDA. W wolnej chwili teoretyzuje nad stworzeniem własnego języka programowania pozbawionego wad. Aktualnie współpracuje z firmą Intel, pracując nad OpenStackiem.
+  emailHash: 6f25ee3ecb7fda06377f0924e351697cc3a93681
 
 - publish: true
   firstName: Anton
@@ -296,6 +318,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: A Java coder. Anton is able to pay his rent thanks to a position as a Java Software Engineer in a Berlin-based company, working with rich client technologies. He can be found on the streets of Berlin riding his Honda (and thinking about Java). Oh, and he loves the Play Framework.
+  emailHash: 0f1ddeed438eb2b7628e8e0550418a4270e5af7e
 
 - publish: true
   firstName: Beata
@@ -309,6 +332,7 @@
   googlePlusHandler:
   websiteUrl: https://glowkapracuje.wordpress.com/
   bioInMd: Beata is a developer, Scrum Master, agile and business coach. She started as a developer and quickly became the refactoring-guy-on-duty for the team and the teacher of all the quality stuff. At some point she realized that there is something even more important then clean code. Something that creates environment where writing clean code is easy and natural. She got interested in agile and scrum and soon started spreading that knowledge together with clean code. But it wasn't enough - she became a Scrum Master and learned classic coaching from the best coaches in Poland. Now she's three in one: Developer, Scrum Master and a Proffessional Coach. She shares the knowledge all over the country with her classes. She belives that knowledge about human brain can make software development easy. It can make working a happier and even the world a better place.
+  emailHash: 42ef663cee00c44b27e58a42b44a9c667f462421
 
 - publish: true
   firstName: Piotr
@@ -322,6 +346,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: I make Java backends for almost 9 years, recently exploring the container-less distributed service architecture. In my spare time I do some Clojure and learn sound synthesis. I wrote "Instant Spring Security Starter" and commit to hermes.allegrotech.io
+  emailHash: d72d79624a285b915507c3a74c151d51469b2fcd
 
 - publish: true
   firstName: Marcin
@@ -335,6 +360,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Data Scientist w Grupie Wirtualna Polska. Kończy ostatni rok studiów na specjalności Statystyka Matematyczna i Analiza Danych na Politechnice Warszawskiej. Na co dzień pasjonat pakietu statystycznego R i ogromny entuzjasta wyzwań. Pomaga organizować warszawskie Spotkania Entuzjastów R i Maratony Analizy Danych. Zgadza się ze stwierdzeniem, że jeśli dostatecznie długo dręczy się dane, to w końcu powiedzą to co chciało się usłyszeć, jednak nie praktykuje tej zasady.
+  emailHash: fffdcad6ee6359256fb8330e115feca2e5de37a6
 
 - publish: true
   firstName: Konrad
@@ -348,6 +374,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: I have almost 6 years experience in programming, of which 5 years as an Android developer. I attended in development of many projects from the beginning (planning, design) to the end (release). I want to show you how you can create a professional application in a easy way via Android Libraries.
+  emailHash: ea57f32bac65f4458c8e1021959dfae71ae1b1c0
 
 - publish: true
   firstName: Przemysław
@@ -361,6 +388,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Hybrid systems and software engineer (still looking for a sweetspot in between of those) currently working at Applause, Inc. Strong believer in DevOps attitude when getting things done. Apart from dealing with code, deployments and automation - an avid guitar player.
+  emailHash: bfafd8388c8aa8fbe9db9b4c313a1c6fefbd1d97
 
 - publish: true
   firstName: Robert
@@ -374,6 +402,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: I am front-end developer and trainer. Currently I collaborate with companies such as Javatech and Eduweb. I also lead my own training business under the brand "helloword" (helloworld.edu.pl).
+  emailHash: 608be0d233f9973f09edff4b7d804491bcc458c6
 
 - publish: true
   firstName: Wojciech
@@ -387,6 +416,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Swift and WatchKit enthusiast. Currently works as an iOS engineer at mBank
+  emailHash: 9ca98a81295a3710026c1904d6562af48345afb8
 
 - publish: true
   firstName: Kate
@@ -400,6 +430,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Kate is a consultant, a Scrum.org-licensed trainer and a coach with broad experience spanning from hardware corporations to small privately owned software companies. She concentrates her efforts on market in Poland, helping companies foster self-organization and return more value than they did before. Her main forcus are people - she is intersted in anthropology, sociology and psychology - how humans learn, interact, grow and create amazing things. She wants to change something in the way people in Poland make software, so she foounded Brass Willow, which is bringing together experienced trainers, coaches and technical experts who together want to make a true difference.
+  emailHash: e5ae26a54273fdb373dfe9ed64b0d0e21fc71c8e
 
 - publish: true
   firstName: Vladimir
@@ -413,6 +444,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: I like to think and travel. I love discovering this world and try to find some patterns and understand them. I have experience in  different areas, tools and programming languages, but the most interesting thing for me is analyze data.
+  emailHash: c9e2f6c3ba76fc7247973538b3b6f403d834ec79
 
 - publish: true
   firstName: Łukasz
@@ -426,6 +458,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Lukasz is a Scrum Master, Agile Coach, certified individual and group coach. Agile Software Development methods practitioner for the past 2 years, building effective teams in different companies. Formerly a project manager working on initiatives led according to PRINCE2 and PMI methods. Currently works as a Scrum Master at STX Next, actively involved in company's transition to Agile and mentoring inexperienced Scrum Masters.
+  emailHash: 4e883116cb79544a377a8cf05756452dd6a172c1
 
 - publish: true
   firstName: Andrzej
@@ -439,6 +472,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: ''
+  emailHash: 7cb781fa9b376e071006dab1905daa440ffd2b00
 
 - publish: true
   firstName: Ewa
@@ -452,6 +486,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Product and Process Development Team Lead at Grupa Allegro with 9 years of product and project management experience. For last four years Ewa has been working as a Lean Agile Coach and Scrum Master. In this time she was supporting transformation in Allegro and PayU, coaching at least a dozen of teams that just begun to work with scrum, and at the same time working as a Scrum Master in one of Allegro’s teams. Since year and a half she is supporting IT Operations improving work with Kanban. Ewa is certified product owner and scrum master. Co-founder of agile247.pl mostly interested in people and interactions in agile for she believes there’s nothing impossible for well-knit team.
+  emailHash: 2860ae99f7105bbe8f7ce632b4b4d6ac7026709d
 
 - publish: true
   firstName: Radosław
@@ -465,6 +500,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Radosław Ganczarek discovered Python and Linux during studies and from that time haven't stopped using it. In Linux his preference gone from Slackware to ArchLinux, which gave him strong console and scripting skills (vim FTW!). In Python most of his experience is about using Django web framework, but he also spent some time developing automation and deployment scripts with fabric. Recently interested in strengthening his JavaScript skills, but Python still remains his weapon of choice for performing any task.
+  emailHash: 630305ca8a163b23e3fea2404ecb0b54f98cd2fe
 
 - publish: true
   firstName: Krzysztof
@@ -478,6 +514,7 @@
   googlePlusHandler:
   websiteUrl: http://dalton.gd/
   bioInMd: IT student, vice president of Game Developers' Society "Polygon", game dev enthusiast. He has provided several workshops and lectures about gamedev for various groups of interest (such as children or developers) on different topics (e.g. writing shaders, UE4 editor, UE4 animations).
+  emailHash: b9f2aaddf8522205dc6be8d31cdc3c28a97dbfe6
 
 - publish: true
   firstName: Jarosław
@@ -491,6 +528,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: I have spent last 15 years of my life in IT working as database and system administrator, developer, architect, manager and "on site disaster engineer ". At the moment I work as code mangler at Allegro, recovering from long journey as chief architect of a large SaaS platform for HR solutions. I was involved in small, medium and horribly and nonsense large systems, from "waterfall" through Agile to "no methodology" methodology. It all lead me to conclusion that it doesn't matter what you do as long as you do it right, keep it simple and use the right tool to do the job for you. In the meantime I fell in love it TDD and Software Craftmanship, explored architectures and design of legacy systems and was trapped inside JVM, till death do as apart. I also spent a lot of time exploring ideas like system thinking, system dynamics, strange attractor and complexity theory. From time to time you can hear my low quality jokes about architecture at conferences in Poland. I am also trying to make a world a better place as blog author at http://geekyprimitives.wordpress.com and trainer at http://symentis.pl/.
+  emailHash: 15b44bd6bccd0a8435514899420c2dae2fee55d9
 
 - publish: true
   firstName: Jarek
@@ -504,6 +542,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Enthusiastic and pragmatic CTO, Technology Evangelist, Software Gardener, geek and gadget lover, who tries keep sane while helping to build business and at the same time stay in touch with one of his true passions - programming. Other passions include singing in choir and - recently - running and being fit.
+  emailHash: 2cd674a7ab0547cfd96f2f3e513d1f01fc37a4b6
 
 - publish: true
   firstName: Jacek
@@ -517,6 +556,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Jacek Kunicki is a full stack software engineer and one of the numeorus CEOs at SoftwareMill - a great remote workplace with no bosses. He contributes to some open source projects (Spring Boot, swagger2raml, Codebrag) and, apart from programming, plays a lot with hardware (Arduino and others). Jacek hates boilerplate and loves automation of everything, so that he has less to do.
+  emailHash: 106c2d8177259d4acf8c12b9db6d99d938f7b68a
 
 - publish: true
   firstName: Dariusz
@@ -530,6 +570,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Backendowiec z Androidowymi zapędami, piwowar domowy, rowerowy entuzjasta.
+  emailHash: f51ed1714447443ea99b2498cd4a936a582ff02c
 
 - publish: true
   firstName: Jakub
@@ -543,6 +584,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Jestem programistą Unity od 2,5 roku. Pracowałem dla firm: Fuero Games, Kerris Technology, Custom. Jestem również aktywnym członkiem Koła Naukowego Twórców Gier Polygon oraz prezesem Stowarzyszenia Twórców Gier Polygon. Jestem również założycielem grupy Gamedev House, która zajmuje się prowadzeniem szkoleń, wykładów i warsztatów. Pojedyncze spotkania otwarte organizujemy pod nazwą Unity Training Day. Pierwsza płatna seria warsztatów startuje od następnego tygodnia. Wszystkie szczegóły są dostępne na naszej stronie internetowej www.gamedevhouse.pl
+  emailHash: cfd0b4710299835efc848499ca2bff70e00a4f0c
 
 - publish: true
   firstName: George
@@ -556,6 +598,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: George is a Lead Engineer at Applause where he is focused on improving the crowd testing platform. He spends his days mainly in Javascript, both on the frontend with Angular and server-side with NodeJS. Prior to Applause he worked at Carbonite where he developed the UI for their first server appliance. A former C# / .net developer, he still helps run the local Boston Azure User Group.
+  emailHash: 5b77465314efa2315f0713a0a262c078087ec02c
 
 - publish: true
   firstName: Bojiang
@@ -569,6 +612,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Grown in China, studied aboard in US. Joined Applause as a software engineer. Very into web development. Experienced with Javascript, Python and Java.
+  emailHash: 7cdbbcea509b69eac55bab7b80fb76812224885c
 
 - publish: true
   firstName: Paweł
@@ -581,7 +625,8 @@
   stackoverflowId:
   googlePlusHandler:
   websiteUrl:
-  bioInMd: Software Enginere w Grupie Allegro, pracuje w zespole zajmującym się narzędziami ułatwiającymi tworzenie mikrousług. Core developer w projektach open source: <a href=https://github.com/allegro/hermes”>Hermes</a>, <a href=https://github.com/javers/javers”>Javers</a>.
+  bioInMd: Software Engineer w Grupie Allegro, pracuje w zespole zajmującym się narzędziami ułatwiającymi tworzenie mikrousług. Core developer w projektach open source: <a href=https://github.com/allegro/hermes”>Hermes</a>, <a href=https://github.com/javers/javers”>Javers</a>.
+  emailHash: 5d91064a5d843b78039a24333703506b237e42a7
 
 - publish: true
   firstName: Dariusz
@@ -595,6 +640,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Doświadczony programista, od ponad 15 lat związany z rynkiem IT. Fascynat nowych technologii, social mediów, współautor książki „AngularJS. Pierwsze kroki”. Współtwórca warszawskiej grupy AngularJS Warsaw, przez lata współpracujący z największymi firmami na rynku finansowym i telekomunikacyjnym. Z AngularJS związany od 3 lat. W czasie tym brał udział w tworzeniu między innymi, opartego o najnowsze technologie, bankowego systemu transakcyjnego, przeznaczonego na urządzenia mobilne. Zdobyte doświadczenie, oraz entuzjazm pracy z AngularJS zostały dość szeroko opisane przez autora we wspomnianej już książce wydawnictwa Helion „AngularJS. Pierwsze kroki”.
+  emailHash: 70fdbc54efc0dcd7b1d55467495c1fff7f938155
 
 - publish: true
   firstName: Radosław
@@ -608,6 +654,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Radosław Stankiewicz jest specjalistą IT z szerokim zapleczem teoretycznym i praktycznym. Od 2006 roku zdobywa doświadczenia w różnych dziedzinach - od technologii mobilnych do JEE - a wszystko to w całej różnorodności projektów i środowisk m.in. bankowości, telekomunikacji, sektorze publicznym. Aktualnie pracuje na stanowisku IT Expert w Banku Zachodnim WBK S.A., gdzie rozwija frontend Bankowości Elektronicznej oraz platformę Big Data.
+  emailHash: 520a2be640b8abe571fa66bf6cfff2fc42156540
 
 - publish: true
   firstName: Bartłomiej
@@ -621,6 +668,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Programista z pasji, matematyk z wykształcenia. Taka mieszanka znalazła do tej pory zastosowanie w projekcie badawczym NEKST - współtworzył polską wyszukiwarkę internetową, gdzie był odpowiedzialnym.in. za moduł odpowiadający na pytania w języku naturalnym. Tam poznał czym jest Big Data i jak z pomocą żółtego słonia o imieniu Hadoop można ten temat ujarzmić. Obecnie jako deweloper Java EE tworzy Otwarty System Antyplagiatowy - OSA oraz pracuje jako data scientist w domu mediowym. Dodatkowo udziela się dydaktycznie na wydziale MiNI Politechniki Warszawskiej, gdzie prowadzi zajęcia ze studentami z programowania z językach C/C++ oraz R. Prywatnie amator perkusji.
+  emailHash: 34d8fb2580483107569b816b8bbe13139515b236
 
 - publish: true
   firstName: Michał
@@ -673,6 +721,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Scala developer at Virtuslab. I am a passionate about scala internlas (compiler, build tools, IDEs) and debugging stuff. I am one of creators of ScalaIDE expression evaluation engine. Mountains, bikes trips freak.
+  emailHash: ffd4e130d92d4f8f980b7d72d5466959422e5777
 
 - publish: true
   firstName: Mariusz
@@ -690,6 +739,7 @@
 
 
     His motto is “In most cases it’s all about people” what drives his focus towards communication and team members cooperation. Domain experience: Telco, Finances, Insurance, Manufacturing, E-commerce. His thoughts can be followed on twitter @ms_bnsit_pl or his blog http://msieraczkiewicz.blogspot.com
+  emailHash: 19f35857032fa580262b93472c97f13f22ef7ece
 
 - publish: true
   firstName: Krzysztof
@@ -703,6 +753,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Obecnie Python Developer w STXnext, niegdyś przez ponad 5 lat piszący w C/C++/Javie w Operze Software. Jako autor bloga o eczytnikach eKundelek.pl, w 2013 roku rzuciłem pracę by spróbować własnych sił tworząc własny startup SpisTresci.pl. Prywatnie miłośnik biegania i pływania. Co ważne w kontekście tematu warsztatów, osoba nienawidząca jakiejkolwiek administracji serwerami :)
+  emailHash: 779fb534113d3346adea707143c649502c3d94a6
 
 - publish: true
   firstName: Mateusz
@@ -720,6 +771,7 @@
 
 
     His expertise also covers Web Design, Usability and User Experience (UX). Mateusz Krupa has worked extensively with HTML/HTML5, CSS/CSS 3, JavaScript, Bootstrap, Axure RP, SASS and Angular.
+  emailHash: d7d260374ff24caf2b72d9aa80793da49f22c38e
 
 - publish: true
   firstName: Matt
@@ -737,6 +789,7 @@
 
 
     I help solving problems with Agile Software Engineering and embracing Scrum, Kanban, Lean, XP, Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT. Currently I am in the Air Force Academy studying "Aviation and Astronautics" and pursuing my life-long hobby, that is flying and my the ultimate dream - go to space.
+  emailHash: c3a49cae5ff886364625618b9adc2a1dd579d13e
 
 - publish: true
   firstName: Alicja
@@ -750,6 +803,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Alicja is a social innovator interested in how technology translates into social reality. A Communications Specialist at TechSoup Europe, Warsaw NetWtorek meet-ups organizer and a blogger. She also sings.
+  emailHash: 85541b07e0710c374d3c80262bfe66010b77dff3
 
 - publish: true
   firstName: Jakub
@@ -763,6 +817,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Developer w [Evojam](http://evojam.com/). Niegdyś entuzjasta vanilla JavScript. Od prawie 3 lat pracuje w AngularJS, a od pół roku skutecznie usuwa zło statycznym typowaniem. Rowerzysta, uwielbia papierowe książki.
+  emailHash: f881280afb4ef05aa7cf5ae15cc2f8c7e78755ca
 
 - publish: true
   firstName: Łukasz
@@ -776,6 +831,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Łukasz Kobyliński posiada zarówno wieloletnią praktykę programistyczną, związaną z językiem Java i platformą Java Enterprise Edition, doświadczenie trenerskie w prowadzeniu szkoleń z tego obszaru, jak i doświadczenie związane z analizą danych i uczeniem maszynowym. Pracę doradczą i szkoleniową łączy z działalnością naukową - zajmuje się zagadnieniami związanymi z inżynierią lingwistyczną i przetwarzaniem obrazów.
+  emailHash: 48542a88dfddec1e7e4319bbb518b1b3b7cf0063
 
 - publish: true
   firstName: Radosław
@@ -799,6 +855,7 @@
 
 
     Prywatnie miłośnik tanga argentyńskiego, adept Israeli Krav Maga, entuzjasta nowoczesnych technologii, zapaleniec gry w koszykówkę, hobbysta savoir-vivre, wielbiciel thrillerów psychologicznych, amator gotowania oraz pasjonat fizyki teoretycznej.
+  emailHash: 370905d667c886dd051a4fa8be2f6a9006b140a7
 
 - publish: true
   firstName: Tomasz
@@ -812,6 +869,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: I am a Java-retired Scala developer, now a Data Enginner wannabe
+  emailHash: bbd622d401d538820240df11c89a99d682ee2507
 
 - publish: true
   firstName: Marcin
@@ -825,6 +883,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Scala and Big Data developer
+  emailHash: 85140a198c084d94d85e6cefed904a9021bf074d
 
 - publish: true
   firstName: Marcin
@@ -838,6 +897,7 @@
   googlePlusHandler:
   websiteUrl: http://marcin.grzejszczak.pl
   bioInMd: Enthusiast of clean coding and good design. Author of "Mockito Instant" and "Mockito Cookbook" books. Contributor to several open source projects (including Groovy, Mockito, Spring-Cloud-Zookeeper, Spring-Cloud-Sleuth, Rest-assured, Drools, Moco). Co-author of the Groovy @Builder and "micro-infra-spring" microservices open source solution. Author of Uptodate Gradle plugin and Spock subjects-collaborators extension open source projects. Co-founder of the Warsaw Groovy User Group. A member of the Most Valuable Blogger program at DZone and Java Code Geeks.
+  emailHash: 98c3732b57bb456f33712c9f2e5280741f440d8b
 
 - publish: true
   firstName: Tomasz
@@ -858,6 +918,7 @@
 
 
     Active member and leader of Warsaw Java User Group, Warsaw Groovy User Group, organiser and speaker at conferences and dev events. Privately trying to match Tiger Woods in golf ;)
+  emailHash: 621b1ee54856b0c747060cf51b479bcd1f857e1e
 
 - publish: true
   firstName: Adam
@@ -871,6 +932,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Adam is a Principal Software Engineer at Pitney Bowes. Prior to PB, Adam worked as an application developer, consultant, designer for companies like Kroll Ontrack, IBM and EDS. He supports and contributes to developing Chmurowisko.pl, the most recognized Polish website revolving around Cloud technology. Adam is also co-founder of AWS User Group Poland, an active speaker at Cloud conferences, instructor at Cloud and Software workshops, Java/JEE trainer at Altkom, Cloud Computing Architect & Trainer at CloudPeak.pl as well as co-organizer Cloudyna conference (cloudyna.org).
+  emailHash: 675d5ce7f4c18120c6ec7f99802b0d0b1a34545f
 
 - publish: true
   firstName: Aleksander
@@ -884,6 +946,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Python coder and Linux enthusiast, fascinated by the brain machinery. Combines his knowledge of Neuropsychology and Neuroinformatics in coordination of project [PISAK](http://pisak.org/) which he manages for the last two years. Trainer in informal education and team-building for past several years.
+  emailHash: ccd232a445f1323550f853a85d5ae18bd9d4c6b7
 
 - publish: true
   firstName: Krzysztof
@@ -898,6 +961,7 @@
   websiteUrl:
   bioInMd: >
     Krzysztof is a software developer and an agile coach working at Pragmatists. He both keeps his technical abilities sharp and leans towards business side of software development to see the bigger picture. Passionately helps teams improve the way they collaborate and deliver. The vision he strives for is that of developers regarding themselves as professionals, writing clean code, communicating well with business and feeling confident at work. He also runs a business of reselling great e-learnings on agile development practices at [agile-elearning.pl](http://agile-elearning.pl/).
+  emailHash: 54eec0d8b0d6752d31b84f3db566558829017ffd
 
 - publish: true
   firstName: Maciej
@@ -911,6 +975,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Maciek Próchniak is algebraic topologist, for more than 8 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently trying hard to code more functionally, preferably in Scala. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to noSQL databases. For 6 years happy @ TouK, and even more happy husband and father.
+  emailHash: c7b14fdc9cefdfb27e8b16b03a08c534ee600668
 
 - publish: true
   firstName: Mateusz
@@ -924,6 +989,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Starszy programista w zespole IT Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Entuzjasta frontendowych nowinek technologicznych, żywo zainteresowany Angularem i TypeScriptem.
+  emailHash: c16d5f470befb05cc3970ba13ec34a3f4ffcd6d3
 
 - publish: true
   firstName: Jakub
@@ -937,6 +1003,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Programista w zespole IT w Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Zwolennik pisania reużywalnego kodu front-endowego i wykorzystania zwinnych metodyk w wytwarzaniu oprogramowania.
+  emailHash: 4bf7f3bf141407ebc6b5230b644752ee7f4ca28a
 
 - publish: true
   firstName: Agnieszka
@@ -950,6 +1017,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile.
+  emailHash: af03dcecfddbe4e1689326c922016ba0f59f4091
 
 - publish: true
   firstName: Hubert
@@ -963,6 +1031,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Scrum Master/QA w PZU (dawniej Test Leader w LG Electronics). Tester oprogramowania z bogatą wiedzą techniczną. Zainteresowany zwinnymi metodykami wytwarzania oprogramowania.
+  emailHash: 5dfd16a98ccdb604996e7053d29d8b0442e3ea68
 
 - publish: true
   firstName: Michał
@@ -976,6 +1045,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Od 10 lat pracuję w @javeo_eu jako fullstack developer, obecnie w randze architekta. W bio wszyscy piszą jakie technologie lubią - ja lubię jak oprogramowanie działa a satysfakcję zawodową osiągam widząc uśmiech na twarzach pań Halinek z księgowości.
+  emailHash: 62d8999494cb13f7a9f2ed48d95fa1f22b006b34
 
 - publish: true
   firstName: Daniel
@@ -989,6 +1059,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Software Developer with over 10 years experience. Currently Team Leader in Javeo where he builds next-generation applications. The enthusiast of Scala and functional programming, also follower of simplicity and clean code.
+  emailHash: 3681c35b1910d2d131dbb92ee20d0d1297dcfa29
 
 - publish: true
   firstName: Bartosz
@@ -1002,6 +1073,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Software engineer in Javeo, programming enthusiast,  particularly interested in functional and reactive programming.
+  emailHash: cd34c3c8f88796ae7d9f75b8569c419272ee71cf
 
 - publish: true
   firstName: Karol
@@ -1015,6 +1087,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Karol began his journey into the world of developers two years ago. From the very first day he learned best practices from Uncle Bob and after one year in Impaq, he took a fancy to Groovy and Android development. Since march he combined both these interests in ElPassion as Android-Groovy Dev.
+  emailHash: b212324d95f33d18e129b46e6b76052d31aa62d4
 
 - publish: false
   firstName: Alicja
@@ -1028,6 +1101,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Alicja has been exploring data science since 2008. An incurable optimist, she has been working in the Polish public sector as an analyst-turned-technology-translator. She tends to munge and wrangle data until it shows the right, yet not necessarily the expected outcomes, constantly emphasizing the difference between the two to decision-makers. In her free time she enjoys board games and learning languages.
+  emailHash: 85a40b26f1d4fcbed68b72a6051f99af29220431
 
 - publish: true
   firstName: Damian
@@ -1041,6 +1115,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Damian Leszczyński works as Solutions Architect / Developer for Samsung Business. Currently his daily basis is to bring value on mobile devices to business customer. Before this opportunity he was responsible for architecture analysis provided to development teams. Enforcing the clean, decoupled and sustainable design, for open and complex production realities. All this would not have been possible without the dedication of several years of work on the ERP system for international production company, his passion to Software Engineering, JVM environment, lean methodologies and surround community of people willing to introduce change.  
+  emailHash: 93a722e1f474076e5928ee4b9836d18da00a256f
 
 - publish: true
   firstName: Paweł
@@ -1054,6 +1129,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Solution Architect and Developer working on new B2B solutions based on mobile devices powered by Android platform. He has been working in various roles covering full software development lifecycle - as analyst, developer, tester, dev team leader or even software process engineer, but has always been enthusiast of code. Part time agile evangelist and a fan of great dev tools. Recently passionate about Scala, reactive design & programming and PaaS solutions.
+  emailHash: 2d5031406a18e510b1bd038c1eeb1fd5d8382151
 
 - publish: true
   firstName: Paweł
@@ -1067,6 +1143,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Pawel Jakubas is a software engineer interested in full stack development, big data and data science. He works with a number of technologies, eg., scala, hadoop, spark, aws, mesos, mongodb, angularJS.. . He is passionate about harnessing distributed systems in the context of big data analytics. He holds MSc in finance and banking, MSc Eng in mechatronics, and PhD in physics. He can be contacted via: jakubas dot pawel at gmail dot com.
+  emailHash: 98c9d87d0451c287bdfd477a92a5064b54593ff1
 
 - publish: true
   firstName: Gosia
@@ -1080,6 +1157,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: "Gosia Dzierżewicz is a UI Designer at Polidea. During her studies at the Design Faculty of the Academy of Fine Arts in Warsaw she focused on graphic design. That’s why Gosia sees typography as a powerful tool for effective visual communication and uses its principles to create clear and understandable interfaces. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences."
+  emailHash: 454254dc70584dd52b6b9d48dc05fe33b209f6cb
 
 - publish: true
   firstName: Magda
@@ -1093,6 +1171,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Magda Zadara studied product design at Central Saint Martins and the Academy of Fine Arts in Warsaw and decided to mix her passion for technology with the traditional craft she learned to work on digital products. Currently, she works as a UI Designer at Polidea, where she’s part of developer-designer teams who create mobile apps. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences.
+  emailHash: c8e25ad49d0330b1ff6175834c1b1144ee77dd65
 
 - publish: true
   firstName: Konrad
@@ -1106,6 +1185,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Telecommunications specialist, born in Vienna, graduated Warsaw University of Technology. Working with lab evaluation of new technologies and preparing prototypes of innovative telco solutions. Also - Python programmer and hobby electronics developer.
+  emailHash: 7e39ff2760e9b813d3cc861d0f270689dd4ea002
 
 - publish: true
   firstName: Michał
@@ -1119,6 +1199,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Graduated from Warsaw University of Technology, telecommunication network engineer. Main area of work includes programmable networks (SDN) and network function virtualization (NFV).
+  emailHash: edeead25d1aef9985ab3bf2fef7b3308621a24b7
 
 - publish: true
   firstName: Michał
@@ -1132,6 +1213,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Telecommunications specialist, graduated from Warsaw University of Technology. Working with new telco solutions: preparing prototypes and concepts of the innovative solutions. Python developer concerned in network and application security. Personally interested in photography, electronics and gliding.
+  emailHash: dfbc8ce189b729af8cb5f1633d05764bad5e98cb
 
 - publish: true
   firstName: Krzysztof
@@ -1145,6 +1227,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Na co dzień doradca i konsultant techniczny w gliwickiej firmie Future Processing. Zajmuje się przede wszystkim architekturą systemów, optymalizowaniem procesów wytwarzania oprogramowania i programowaniem w C#. Zawsze jednak stara się wychodzić daleko poza świat technologii Microsoft, aby czerpać inspirację i poszerzać swoją wiedzę. Prywatnie motocyklista, skialpinista i pasjonat wszelkich sportów ekstremalnych.
+  emailHash: cd9350c811a6ae2ddb9610399650d326473d1167
 
 - publish: false
   firstName:
