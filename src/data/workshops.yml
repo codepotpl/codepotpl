@@ -247,19 +247,6 @@
   timetire:
    - 2?3
 
-- publish: false
-  tutors:
-   - Mateusz Górski
-  title: From zero to hero with Akka
-  descriptionInMd: The workshop will cover a lot of ground starting with basic understanding of Actor model and its implementation in Akka framework. Then we would move into more practical topics like how Akka solves problem with failovers, asynchronous message passing, concurrency, consuming messages from different endpoints ( database, HTTP clients ), persistance etc.
-  tags:
-   - Akka
-  room: S214
-  capacity: 15
-  day: FRIDAY
-  timetire:
-   - 4
-
 - publish: true
   tutors:
    - Przemysław Piotrowski
