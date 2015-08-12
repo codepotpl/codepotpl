@@ -1080,6 +1080,7 @@
   day: FRIDAY
   timetire:
    - 2?3
+   - 4
 
 - publish: true
   tutors:
