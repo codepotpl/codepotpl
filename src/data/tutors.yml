@@ -1082,23 +1082,10 @@
   bioInMd: Pawel Jakubas is a software engineer interested in full stack development, big data and data science. He works with a number of technologies, eg., scala, hadoop, spark, aws, mesos, mongodb, angularJS.. . He is passionate about harnessing distributed systems in the context of big data analytics. He holds MSc in finance and banking, MSc Eng in mechatronics, and PhD in physics. He can be contacted via: jakubas dot pawel at gmail dot com.
 
 - publish: true
-  firstName: Krzysztof
-  lastName: Szabelski
-  tagline: Technical Advisor @ Future Processing 
-  pictureUrl: public/img/people/krzysztof-szabelski.jpg
-  twitterUsername: kszabelski
-  githubUsername: https://github.com/szabl
-  linkedInProfileUrl:https://pl.linkedin.com/pub/krzysztof-szabelski/1b/a75/21a
-  stackoverflowId:
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd: Na co dzień doradca i konsultant techniczny w gliwickiej firmie Future Processing. Zajmuje się przede wszystkim architekturą systemów, optymalizowaniem procesów wytwarzania oprogramowania i programowaniem w C#. Zawsze jednak stara się wychodzić daleko poza świat technologii Microsoft, aby czerpać inspirację i poszerzać swoją wiedzę. Prywatnie motocyklista, skialpinista i pasjonat wszelkich sportów ekstremalnych.
-
-- publish: false
   firstName: Gosia
   lastName: Dzierżewicz
-  tagline:
-  pictureUrl: public/img/people/
+  tagline: UI Designer @ Polidea
+  pictureUrl: public/img/people/gosia-dzierzewicz.jpg
   twitterUsername:
   githubUsername:
   linkedInProfileUrl:
@@ -1107,11 +1094,11 @@
   websiteUrl:
   bioInMd: "Gosia Dzierżewicz is a UI Designer at Polidea. During her studies at the Design Faculty of the Academy of Fine Arts in Warsaw she focused on graphic design. That’s why Gosia sees typography as a powerful tool for effective visual communication and uses its principles to create clear and understandable interfaces. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences."
 
-- publish: false
+- publish: true
   firstName: Magda
   lastName: Zadara
-  tagline:
-  pictureUrl: public/img/people/
+  tagline: UI Designer @ Polidea
+  pictureUrl: public/img/people/magda-zadara.jpg
   twitterUsername:
   githubUsername:
   linkedInProfileUrl:
@@ -1119,6 +1106,45 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Magda Zadara studied product design at Central Saint Martins and the Academy of Fine Arts in Warsaw and decided to mix her passion for technology with the traditional craft she learned to work on digital products. Currently, she works as a UI Designer at Polidea, where she’s part of developer-designer teams who create mobile apps. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences.
+
+- publish: true
+  firstName: Konrad
+  lastName: Gawda
+  tagline: Network Specialist
+  pictureUrl: public/img/people/konrad-gawda.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Telecommunications specialist, born in Vienna, graduated Warsaw University of Technology. Working with lab evaluation of new technologies and preparing prototypes of innovative telco solutions. Also - Python programmer and hobby electronics developer.
+
+- publish: true
+  firstName: Michał
+  lastName: Pawłowski
+  tagline: Network Specialist
+  pictureUrl: public/img/people/michal-pawlowski.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Graduated from Warsaw University of Technology, telecommunication network engineer. Main area of work includes programmable networks (SDN) and network function virtualization (NFV).
+
+- publish: true
+  firstName: Michał
+  lastName: Muszalski
+  tagline: System Architect
+  pictureUrl: public/img/people/michal-muszalski.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Telecommunications specialist, graduated from Warsaw University of Technology. Working with new telco solutions: preparing prototypes and concepts of the innovative solutions. Python developer concerned in network and application security. Personally interested in photography, electronics and gliding.
 
 - publish: false
   firstName:
