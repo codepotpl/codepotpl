@@ -10,7 +10,7 @@
   capacity: 20
   day: FRIDAY
   timetire:
-   - 2?3
+   - 2
 
 - publish: true
   tutors:
@@ -169,7 +169,8 @@
   capacity: 15
   day: FRIDAY
   timetire:
-   - 2?3
+   - 3
+   - 4
 
 - publish: true
   tutors:
@@ -187,7 +188,8 @@
   capacity: 15
   day: FRIDAY
   timetire:
-   - 2?3
+   - 3
+   - 4
 
 - publish: true
   tutors:
@@ -230,7 +232,7 @@
   capacity: 24
   day: SATURDAY
   timetire:
-   - 2?3
+   - 3
    - 4
 
 - publish: true
@@ -245,20 +247,7 @@
   capacity: 15
   day: FRIDAY
   timetire:
-   - 2?3
-
-- publish: false
-  tutors:
-   - Mateusz Górski
-  title: From zero to hero with Akka
-  descriptionInMd: The workshop will cover a lot of ground starting with basic understanding of Actor model and its implementation in Akka framework. Then we would move into more practical topics like how Akka solves problem with failovers, asynchronous message passing, concurrency, consuming messages from different endpoints ( database, HTTP clients ), persistance etc.
-  tags:
-   - Akka
-  room: S214
-  capacity: 15
-  day: FRIDAY
-  timetire:
-   - 4
+   - 3
 
 - publish: true
   tutors:
@@ -347,7 +336,7 @@
   capacity: 100
   day: FRIDAY
   timetire:
-   - 2?3
+   - 2
 
 - publish: true
   tutors:
@@ -362,11 +351,11 @@
   tags:
    - Android
    - Groovy
-  room: ?
-  capacity: ?
-  day: ?
+  room: S213
+  capacity: 30
+  day: FRIDAY
   timetire:
-   - ?
+   - 4
 
 - publish: true
   tutors:
@@ -416,7 +405,7 @@
   capacity: 20
   day: SATURDAY
   timetire:
-   - 2?3
+   - 2
 
 - publish: true
   tutors:
@@ -431,38 +420,18 @@
   capacity: 30
   day: FRIDAY
   timetire:
-   - 2?3
+   - 2
 
 - publish: true
   tutors:
    - Marcin Kosiński
   title: Data Mining + dplyr = przetwarzanie i analiza danych w R
   descriptionInMd: >
-    When working with data you must:
-
-
-    - Figure out what you want to do.
-
-
-    - Precisely describe what you want in the form of a computer program.
-
-
-    - Execute the code.
-
-
-    The dplyr package makes each of these steps as fast and easy as possible by:
-
-
-    - Elucidating the most common data manipulation operations, so that your options are helpfully constrained when thinking about how to tackle a problem.
-
-
-    - Providing simple functions that correspond to the most common data manipulation verbs, so that you can easily translate your thoughts into code.
-
-
-    - Using efficient data storage backends, so that you spend as little time waiting for the computer as possible.
-
-
-    The goal of this workshop is to introduce you to the basic tools that dplyr provides, and show how you to apply them to data frames.
+    Na warszatacie przedstawię światową opinię wielkich korporacji na temat R. Następnie po miękkim wstępie odnośnie potrzeby i zastosowań analizy danych przejdziemy do praktycznego
+    warsztatu z wykorzystania R w przetwarzaniu danych i data miningu (eksploracji danych). Obecnie R posiada wiele pakietów ułatwiających pracę z danymi. Osobiście przedstawię dość popularne
+    rozwiązanie jakim jest pakiet dplyr, który został stworzony w duchu "Grammar of Data Manipulation". Pokażę jak R może łatwo łączyć się z relacyjnymi bazami danych oraz jak można przyspieszać
+    obliczenia poprzez dodawanie wstawek z C++ oraz poprzez rozpraszanie obliczeń na wiele wątków. Warsztat zakończymy wykorzystaniem kilku najpopularniejszych metod klasyfikacji, które mogą z powodzeniem
+    być wykorzystywane w codziennych praktycznych problemach, a wszystko przypieczętujemy (jeśli starczy czasu) raportem z analizy danych w formacie HTML, dzięki integracji R z markdownem i pandoc'iem.
   tags:
    - R
    - DataMining
@@ -470,7 +439,7 @@
   capacity: 30
   day: FRIDAY
   timetire:
-   - 2?3
+   - 3
    - 4
 
 - publish: true
@@ -546,7 +515,7 @@
   capacity: 30
   day: FRIDAY
   timetire:
-   - 2?3
+   - 3
    - 4
 
 - publish: true
@@ -577,7 +546,7 @@
   capacity: 21
   day: FRIDAY
   timetire:
-   - 2?3
+   - 2
 
 - publish: true
   tutors:
@@ -834,7 +803,7 @@
    - Databases
    - ElasticSearch
   room: S217
-  capacity: 15
+  capacity: 18
   day: SATURDAY
   timetire:
    - 4
@@ -970,7 +939,7 @@
   capacity: 50
   day: SATURDAY
   timetire:
-   - 2?3
+   - 3
 
 - publish: true
   tutors:
@@ -1013,7 +982,7 @@
   capacity: 25
   day: SATURDAY
   timetire:
-   - 2?3
+   - 3
 
 - publish: true
   tutors:
@@ -1079,7 +1048,8 @@
   capacity: 16
   day: FRIDAY
   timetire:
-   - 2?3
+   - 3
+   - 4
 
 - publish: true
   tutors:
@@ -1097,7 +1067,7 @@
   capacity: 20
   day: SATURDAY
   timetire:
-   - 2?3
+   - 2
 
 - publish: true
   tutors:
@@ -1110,7 +1080,7 @@
   capacity: 20
   day: SATURDAY
   timetire:
-   - 2&3
+   - 3
    - 4
 
 - publish: true
@@ -1165,7 +1135,7 @@
   capacity: 30
   day: FRIDAY
   timetire:
-   - 2?3
+   - 3
 
 - publish: true
   tutors:
@@ -1253,7 +1223,7 @@
   capacity: ?
   day: SATURDAY
   timetire:
-   - 2?3
+   - 2
 
 - publish: true
   tutors:
@@ -1304,6 +1274,65 @@
   day: FRIDAY
   timetire:
    - 1
+
+- publish: true
+  tutors:
+   - Krzysztof Szabelski
+  title: Wykorzystaj serwisy Azure i skup się na tym, co ważne. 
+  descriptionInMd: W trakcie krótkiego warsztatu pokażę, jak wykorzystać usługi poziomu Platform as a Service dostępne na Microsoft Azure, aby skrócić czas dostarczenia systemu na rynek, oraz zminimalizować ogólne koszty związane z jego utrzymaniem tzw "produkcji". Wyjaśnię, jak dzięki dobremu wykorzystaniu narzędzi możemy skoncentrować się na tym, co tworzymy i zepchnąć problem deploymentu na drugi plan. 
+  tags:
+   - Azure
+   - PaaS
+   - ProductiveDevelopment
+  room: 226
+  capacity: 56
+  day: FRIDAY
+  timetire:
+   - 2
+
+- publish: false
+  tutors:
+   - Gosia Dzierżewicz
+   - Magda Zadara
+  title: "Tasting Typography: Make Your Own Letters"
+  descriptionInMd: Have you ever wondered why there are so many different fonts? Where did they come from? What differentiates them? Are you able to design your own letters? Come to our workshop to try your hand at lettering craftsmanship.
+  tags:
+   - Fonts
+   - Design
+  room: S227
+  capacity: 20
+  day: SATURDAY
+  timetire:
+   - 1
+
+- publish: true
+  tutors:
+   - Konrad Gawda
+   - Michał Pawłowski
+   - Michał Muszalski
+  title: Software Defined Networking and OpenStack
+  descriptionInMd: >
+    Deep dive into Software Defined Networking (SDN) and Cloud.
+
+
+    First we will remind some networking concepts and introduce SDN.
+
+
+    You will write own SDN controller in POX/Ryu.
+
+
+    Then we will get OpenStack Networking insight, to finally explore how SDN can be used for OpenStack.
+
+
+    Some minimum knowledge of IP networks is needed. Most of coding will be done in Python.
+  tags:
+   - Python
+   - Networks
+  room: S227
+  capacity: 25
+  day: SATURDAY
+  timetire:
+   - 4
 
 - publish: false
   tutors:
