@@ -1095,6 +1095,32 @@
   bioInMd: Na co dzień doradca i konsultant techniczny w gliwickiej firmie Future Processing. Zajmuje się przede wszystkim architekturą systemów, optymalizowaniem procesów wytwarzania oprogramowania i programowaniem w C#. Zawsze jednak stara się wychodzić daleko poza świat technologii Microsoft, aby czerpać inspirację i poszerzać swoją wiedzę. Prywatnie motocyklista, skialpinista i pasjonat wszelkich sportów ekstremalnych.
 
 - publish: false
+  firstName: Gosia
+  lastName: Dzierżewicz
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: "Gosia Dzierżewicz is a UI Designer at Polidea. During her studies at the Design Faculty of the Academy of Fine Arts in Warsaw she focused on graphic design. That’s why Gosia sees typography as a powerful tool for effective visual communication and uses its principles to create clear and understandable interfaces. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences."
+
+- publish: false
+  firstName: Magda
+  lastName: Zadara
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Magda Zadara studied product design at Central Saint Martins and the Academy of Fine Arts in Warsaw and decided to mix her passion for technology with the traditional craft she learned to work on digital products. Currently, she works as a UI Designer at Polidea, where she’s part of developer-designer teams who create mobile apps. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences.
+
+- publish: false
   firstName:
   lastName:
   tagline:
