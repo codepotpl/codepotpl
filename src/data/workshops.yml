@@ -803,7 +803,7 @@
    - Databases
    - ElasticSearch
   room: S217
-  capacity: 15
+  capacity: 18
   day: SATURDAY
   timetire:
    - 4
