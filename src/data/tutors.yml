@@ -1082,6 +1082,32 @@
   bioInMd: Pawel Jakubas is a software engineer interested in full stack development, big data and data science. He works with a number of technologies, eg., scala, hadoop, spark, aws, mesos, mongodb, angularJS.. . He is passionate about harnessing distributed systems in the context of big data analytics. He holds MSc in finance and banking, MSc Eng in mechatronics, and PhD in physics. He can be contacted via: jakubas dot pawel at gmail dot com.
 
 - publish: false
+  firstName: Gosia
+  lastName: Dzierżewicz
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: "Gosia Dzierżewicz is a UI Designer at Polidea. During her studies at the Design Faculty of the Academy of Fine Arts in Warsaw she focused on graphic design. That’s why Gosia sees typography as a powerful tool for effective visual communication and uses its principles to create clear and understandable interfaces. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences."
+
+- publish: false
+  firstName: Magda
+  lastName: Zadara
+  tagline:
+  pictureUrl: public/img/people/
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Magda Zadara studied product design at Central Saint Martins and the Academy of Fine Arts in Warsaw and decided to mix her passion for technology with the traditional craft she learned to work on digital products. Currently, she works as a UI Designer at Polidea, where she’s part of developer-designer teams who create mobile apps. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences.
+
+- publish: false
   firstName:
   lastName:
   tagline:

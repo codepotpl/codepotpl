@@ -1110,6 +1110,7 @@
   capacity: 20
   day: SATURDAY
   timetire:
+   - 2&3
    - 4
 
 - publish: true
@@ -1306,13 +1307,44 @@
 
 - publish: false
   tutors:
-   -
-  title:
-  descriptionInMd:
+   - Gosia Dzierżewicz
+   - Magda Zadara
+  title: "Tasting Typography: Make Your Own Letters"
+  descriptionInMd: Have you ever wondered why there are so many different fonts? Where did they come from? What differentiates them? Are you able to design your own letters? Come to our workshop to try your hand at lettering craftsmanship.
   tags:
-   -
-  room:
-  capacity:
-  day:
+   - Fonts
+   - Design
+  room: S227
+  capacity: 20
+  day: SATURDAY
   timetire:
-   -
+   - 1
+
+- publish: true
+  tutors:
+   - Konrad Gawda
+   - Michał Pawłowski
+   - Michał Muszalski
+  title: Software Defined Networking and OpenStack
+  descriptionInMd: >
+    Deep dive into Software Defined Networking (SDN) and Cloud.
+
+
+    First we will remind some networking concepts and introduce SDN.
+
+
+    You will write own SDN controller in POX/Ryu.
+
+
+    Then we will get OpenStack Networking insight, to finally explore how SDN can be used for OpenStack.
+
+
+    Some minimum knowledge of IP networks is needed. Most of coding will be done in Python.
+  tags:
+   - Python
+   - Networks
+  room: S227
+  capacity: 25
+  day: SATURDAY
+  timetire:
+   - 4
