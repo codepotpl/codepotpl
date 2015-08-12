@@ -1146,6 +1146,19 @@
   websiteUrl:
   bioInMd: Telecommunications specialist, graduated from Warsaw University of Technology. Working with new telco solutions: preparing prototypes and concepts of the innovative solutions. Python developer concerned in network and application security. Personally interested in photography, electronics and gliding.
 
+- publish: true
+  firstName: Krzysztof
+  lastName: Szabelski
+  tagline: Technical Advisor @ Future Processing 
+  pictureUrl: public/img/people/krzysztof-szabelski.jpg
+  twitterUsername: kszabelski
+  githubUsername: https://github.com/szabl
+  linkedInProfileUrl:https://pl.linkedin.com/pub/krzysztof-szabelski/1b/a75/21a
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Na co dzień doradca i konsultant techniczny w gliwickiej firmie Future Processing. Zajmuje się przede wszystkim architekturą systemów, optymalizowaniem procesów wytwarzania oprogramowania i programowaniem w C#. Zawsze jednak stara się wychodzić daleko poza świat technologii Microsoft, aby czerpać inspirację i poszerzać swoją wiedzę. Prywatnie motocyklista, skialpinista i pasjonat wszelkich sportów ekstremalnych.
+
 - publish: false
   firstName:
   lastName:
