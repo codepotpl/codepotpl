@@ -162,3 +162,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/mobilization-logo.png
   url: http://2015.mobilization.pl/
+
+- name: "AWS User Group Poland"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/aws-ug-poland.png
+  url: http://www.meetup.com/AWSUGPL/

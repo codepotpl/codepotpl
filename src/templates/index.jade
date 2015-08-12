@@ -30,6 +30,9 @@ html
                             a(href='#venue') VENUE
                         li.name
                             a(href='#tutors') TUTORS
+                        if workshops.length > 0
+                            li.name
+                                a(href='/workshops-wip') WORKSHOPS
                         li.name
                             a(href='#agenda') AGENDA
                         li.name
@@ -43,8 +46,8 @@ html
                             a(href='https://www.facebook.com/codepotpl' target='_blank') &nbsp;
                                 i.icon-facebook-1 &nbsp;
                         li.name
-                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank') &nbsp;
-                                i.icon-meetup &nbsp;
+                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank')
+                                i.icon-codepot-icon-meetup &nbsp;
                         li.name
                             a(href='mailto:contact@codepot.pl') &nbsp;
                                 i.icon-mail &nbsp;
@@ -198,12 +201,15 @@ html
                                                 if tutor.twitterUsername
                                                     a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
                                                         i.icon-twitter
-                                                //if tutor.stackoverflowId
-                                                //    a(href!=tutor.stackoverflowId target='_blank') stack
-                                                //        i.icon-twitter
-                                                //if tutor.facebookUrl
-                                                //    a(href!=tutor.facebookUrl target='_blank') fb
-                                                //        i.icon-twitter
+                                                if tutor.stackoverflowId
+                                                    a(href!=tutor.stackoverflowId target='_blank')
+                                                        i.icon-stackoverflow
+                                                if tutor.googlePlusHandler
+                                                    a(href='https://plus.google.com/' + tutor.googlePlusHandler target='_blank')
+                                                        i.icon-gplus
+                                                if tutor.facebookUrl
+                                                    a(href!=tutor.facebookUrl target='_blank')
+                                                        i.icon-facebook-1
                                             div.name.inline
                                                 if tutor.websiteUrl
                                                     a(href!=tutor.websiteUrl target='_blank')
@@ -214,8 +220,22 @@ html
                                         div.row.tagline
                                             span.bottom-line!=tutor.tagline
                                         div.row.bioInMd
-                                            p!=tutor.bioInMd
+                                            if tutor.bioInMd
+                                                !=markdown(tutor.bioInMd)
+
                                         a.close-reveal-modal(aria-label="Close") &#215;
+
+        if workshops && workshops.length > 0
+            section#workshops
+                div.row.header
+                    div.small-12.medium-10.medium-centered.columns
+                        h1 WORKSHOPS
+                        span.tagline Here are amazing workshops that will be on CODEPOT.
+                div.row.button-section
+                    div.small-12.medium-10.medium-centered.columns
+                        div.center
+                            a(href='/workshops-wip')
+                                button LIST OF WORKSHOPS
 
         section#agenda
             div.row
@@ -325,9 +345,9 @@ html
                     div.small-12.medium-10.medium-centered.columns
                         h1 PARTNERS
                         span.tagline Codepot is supported by the following organisations!
-                div.row
+                div.row.partners-body
                     div.small-12.medium-10.medium-centered.columns
-                        ul.small-block-grid-2.medium-block-grid-4
+                        ul.small-block-grid-2.medium-block-grid-4.slick-carousel-run
                             each partner, index in partners
                                 li.wrapper
                                     div.box(itemscope itemtype='http://schema.org/Organization')
@@ -349,7 +369,7 @@ html
                         span.tagline Our befriended portals!
                 div.row
                     div.small-12.medium-10.medium-centered.columns
-                        ul.small-block-grid-2.medium-block-grid-4
+                        ul.small-block-grid-2.medium-block-grid-4.slick-carousel-run
                             each med, index in media
                                 li.wrapper
                                     div.box(itemscope itemtype='http://schema.org/Organization')

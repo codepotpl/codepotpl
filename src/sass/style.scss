@@ -3,6 +3,19 @@
 @import "fonts";
 @import "codepot-icons";
 @import "flexbox";
+@import "foundation/components/labels";
+
+$bg: orange;
+  // Sets the panel padding amount. Default: $panel-padding
+$padding: rem-calc(0);
+  // Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust
+$adjust: true;
+@import "foundation/components/panels";
+@import "foundation/components/thumbs";
+
+$slick-font-path: "public/font/";
+@import "slick";
+@import "slick-theme";
 
 $green: #2CB588;
 $dark-green: #219B6F;
@@ -351,8 +364,8 @@ section#tutors {
       bottom: 0px;
       right: 0px;
       left: 0px;
-      margin-right: 8px;
-      margin-left: 8px;
+      margin-right: 6px;
+      margin-left: 6px;
       background-color: $green;
       .description-wrapper {
         display: inline-block;
@@ -414,18 +427,30 @@ section#tutors {
     }
   }
   .tagline {
-    @extend .font-lato-light;
-    font-size: rem-calc(16);
+    @extend .font-lato-regular;
+    font-size: rem-calc(20);
   }
   .bioInMd {
-    @extend .font-lato-light;
-    font-size: rem-calc(18);
+    @extend .font-lato-regular;
+    font-size: rem-calc(22);
   }
   div.inline {
     float: left;
   }
   .clearBoth {
     clear: both;
+  }
+  .topic-modal{
+    @extend .font-lato-regular;
+    font-size: rem-calc(24);
+  }
+  .description {
+    @extend .font-lato-regular;
+    font-size: rem-calc(22);
+  }
+  .tags-modal{
+    @extend .font-lato-regular;
+    font-size: rem-calc(22);
   }
 }
 
@@ -489,11 +514,79 @@ section#agenda {
         }
       }
     }
-    .name {
-    }
   }
 }
 
+.workshop-tag {
+  @extend .font-lato-regular;
+  font-size: rem-calc(18);
+  margin: 0 1rem 1rem 0;
+  @extend .label;
+  @extend .success;
+}
+
+section#workshops {
+  padding-top: rem-calc(38);
+  padding-bottom: rem-calc(38);
+  .header {
+    .tagline{
+      margin-bottom: rem-calc(10);
+    }
+  }
+  .button-section{
+    .columns {
+      text-align: center;
+    }
+  }
+  .select2-selection--multiple {
+    border: none;
+    .select2-selection__choice {
+      @extend .font-lato-regular;
+      font-size: rem-calc(18);
+      margin: 0 1rem 1rem 0;
+      @extend .label;
+      @extend .success;
+      .select2-selection__choice__remove{
+        color: inherit;
+      }
+    }
+    .select2-search__field{
+      margin-top: 0;
+      background-color: #43AC6A;
+      min-width: rem-calc(200);
+      height: 25px;
+      color: white;
+    }
+  }
+  .my-row {
+    padding-top: rem-calc(10);
+    padding-bottom: rem-calc(10);
+    .content {
+      div.tutors {
+        span {
+          @extend .font-lato-regular;
+          font-size: rem-calc(20);
+        }
+      }
+      div.topic {
+        span {
+          @extend .font-lato-regular;
+          font-size: rem-calc(22);
+          font-weight: bold;
+        }
+      }
+      div.tags {
+        span {
+          @extend .font-lato-regular;
+          font-size: rem-calc(18);
+        }
+      }
+    }
+    &:hover {
+      background-color: gainsboro;
+    }
+  }
+}
 
 section#sponsor-us, section#contact, section#subscribe {
   .center {
@@ -593,40 +686,58 @@ section#sponsors {
 }
 
 section#partners {
-  ul {
-    margin-bottom: 2rem;
+  .slick-slide
+  {
+    height: auto;
   }
-  .wrapper {
-    div.box {
-      position: relative;
-      width: 100%;
-      div.partners {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background-color: #F4F4F4;
-        img {
-          margin: 5%;
-          width: 90%;
-          height: 90%;
+  .slick-dots li button {
+    margin-top: rem-calc(30);
+  }
+  .partners-body{
+    ul {
+      margin-bottom: 2rem;
+      .wrapper {
+        padding: rem-calc(5);
+        div.box {
+          position: relative;
+          width: 100%;
+          div.partners {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: #F4F4F4;
+            img {
+              margin: 5%;
+              width: 90%;
+              height: 90%;
+            }
+          }
+        }
+        div.box:before {
+          content: "";
+          display: block;
+          padding-top: 100%;
         }
       }
-    }
-    div.box:before {
-      content: "";
-      display: block;
-      padding-top: 100%;
     }
   }
 }
 
 section#media {
+  .slick-slide
+  {
+    height: auto;
+  }
+  .slick-dots li button {
+    margin-top: rem-calc(30);
+  }
   ul {
     margin-bottom: 2rem;
   }
   .wrapper {
+    padding: rem-calc(5);
     div.box {
       position: relative;
       width: 100%;

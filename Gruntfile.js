@@ -3,7 +3,10 @@ module.exports = function (grunt) {
         sass: {
             dist: {
                 options: {
-                    includePaths: ['bower_components/foundation/scss']
+                    includePaths: [
+                        'bower_components/foundation/scss',
+                        'bower_components/slick-carousel/slick/'
+                    ]
                 },
                 files: {
                     'public/style.css': 'src/sass/style.scss'
@@ -23,6 +26,8 @@ module.exports = function (grunt) {
                         'bower_components/foundation/js/foundation/foundation.js',
                         'bower_components/foundation/js/foundation/foundation.topbar.js',
                         'bower_components/foundation/js/foundation/foundation.reveal.js',
+                        'bower_components/slick-carousel/slick/slick.js',
+                        'bower_components/select2/dist/js/select2.min.js',
                         'src/js/body.js'
                     ]
                 }
@@ -35,6 +40,7 @@ module.exports = function (grunt) {
                     {expand: true, cwd: 'src/font/', src: ['**'], dest: 'public/font/'},
                     {expand: true, cwd: 'src/img/', src: ['**'], dest: 'public/img/'},
                     {expand: true, cwd: 'src/static/', src: ['**'], dest: 'public/'},
+                    {expand: true, cwd: 'bower_components/select2/dist/css/', src: ['select2.min.css'], dest: 'public/select2/'},
                     {src: 'src/js/call-for-papers.js', dest: 'public/call-for-papers.js'},
                     {src: 'src/js/google-analytics.js', dest: 'public/google-analytics.js'}
                 ]
