@@ -1364,3 +1364,31 @@
   day: SATURDAY
   timetire:
    - 4
+
+- publish: true
+  tutors:
+   - Krzysztof Szabelski
+  title: Wykorzystaj serwisy Azure i skup się na tym, co ważne. 
+  descriptionInMd: W trakcie krótkiego warsztatu pokażę, jak wykorzystać usługi poziomu Platform as a Service dostępne na Microsoft Azure, aby skrócić czas dostarczenia systemu na rynek, oraz zminimalizować ogólne koszty związane z jego utrzymaniem tzw "produkcji". Wyjaśnię, jak dzięki dobremu wykorzystaniu narzędzi możemy skoncentrować się na tym, co tworzymy i zepchnąć problem deploymentu na drugi plan. 
+  tags:
+   - Azure
+   - PaaS
+   - ProductiveDevelopment
+  room: 226
+  capacity: 56
+  day: FRIDAY
+  timetire:
+   - 2&3
+
+- publish: false
+  tutors:
+   -
+  title:
+  descriptionInMd:
+  tags:
+   -
+  room:
+  capacity:
+  day:
+  timetire:
+   -
