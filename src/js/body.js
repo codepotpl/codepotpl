@@ -293,7 +293,7 @@ function startTagButtonWorkshops() {
             else
                 $(workshop).closest('.workshop-row').show();
         });
-        $("#workshops .tagButtons input.select2-search__field").attr("placeholder","Filtr by tags"); // set placeholder
+        $("#workshops .tagButtons input.select2-search__field").attr("placeholder","Filter by tags"); // set placeholder
         //reloadUrlParametersTagSelected(tagsSelected);
     });
 
