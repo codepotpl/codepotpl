@@ -1110,6 +1110,7 @@
   capacity: 20
   day: SATURDAY
   timetire:
+   - 2&3
    - 4
 
 - publish: true
