@@ -32,12 +32,6 @@
   pictureUrl: public/img/organizations/pragmatists-logo.png
   url: http://www.pragmatists.pl
 
-- name: "Barclays"
-  description: "Banking"
-  country: "United Kingdom"
-  pictureUrl: public/img/organizations/barclays-logo.png
-  url: http://www.barclays.co.uk
-
 - name: "Codilime"
   description: "Software company"
   country: "Poland"
