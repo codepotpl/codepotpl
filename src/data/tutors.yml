@@ -1,4 +1,18 @@
 - publish: true
+  firstName: Adrian
+  lastName: Soja
+  tagline: Database Developer @ Touk
+  pictureUrl: public/img/people/adrian_soja.jpg
+  twitterUsername: 
+  githubUsername:
+  linkedInProfileUrl: 
+  stackoverflowId:
+  googlePlusHandler: 
+  websiteUrl:
+  bioInMd: Na co dzień Developer Danych i wszystkiego co się z tym je w firmie TOUK.Moim hobby i pasją, oprócz trudnych zagadnień bazodanowych od strony analizy biznesowej i technicznej, są kwestie związane z kompetencjami miękkim. Na codzień wykorzystuję wiedzę i doświadczenie Coacha oraz Praktyka Komunikacji Transformującej™ w kontaktach z klientami, a także w organizacji i zarządzaniu zespołem developerskim.
+  emailHash: adrian_soja@o2.pl
+
+- publish: true
   firstName: Michał
   lastName: Tajchert
   tagline: Entrepreneur @ 12hours.io, GDG Warszawa
