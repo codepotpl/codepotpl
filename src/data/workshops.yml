@@ -793,9 +793,12 @@
 - publish: true
   tutors:
    - Tomasz Roda
+   - Jakub Kucharski
+   - Przemysław Łyszczarz
+   - Tomasz Marmołowski
   title: Elasticsearch - the ultimate tutorial - from basics to creating clusters and common tricks
   descriptionInMd: >
-    Elasticsearch - the ultimate tutorial: basics (what is Elasticsearch, what is NoSQL), how to run/install,  query language, Python/Java API, indices configuration, clusterization, logs gathering, tips & tricks.
+    Elasticsearch - the ultimate tutorial: basics (what is Elasticsearch, what is NoSQL), how to run/install, query language, Python/Java API, indices configuration, clusterization, logs gathering, tips & tricks.
 
 
     We will play with sample data prepared by us (about 100,000 records), we will prepare sample OS images and, probably, AWS instances for each person to play with clusterization.
@@ -803,7 +806,7 @@
    - Databases
    - ElasticSearch
   room: S217
-  capacity: 18
+  capacity: 24
   day: SATURDAY
   timetire:
    - 4

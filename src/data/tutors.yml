@@ -1229,6 +1229,45 @@
   bioInMd: Na co dzień doradca i konsultant techniczny w gliwickiej firmie Future Processing. Zajmuje się przede wszystkim architekturą systemów, optymalizowaniem procesów wytwarzania oprogramowania i programowaniem w C#. Zawsze jednak stara się wychodzić daleko poza świat technologii Microsoft, aby czerpać inspirację i poszerzać swoją wiedzę. Prywatnie motocyklista, skialpinista i pasjonat wszelkich sportów ekstremalnych.
   emailHash: cd9350c811a6ae2ddb9610399650d326473d1167
 
+- publish: true
+  firstName: Jakub
+  lastName: Kucharski
+  tagline: Team Lead @ Growbots
+  pictureUrl: public/img/people/jakub-kucharski.jpg
+  twitterUsername: 83TB
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/in/kubakucharski
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Team Lead at Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales. Builder, minimalist, founder of Orsi Project and Makerland. Cryptocurrency/De-centralization enthusiast and Python Software Enginner.
+
+- publish: true
+  firstName: Przemysław
+  lastName: Łyszczarz
+  tagline: Software Engineer @ Growbots
+  pictureUrl: public/img/people/przemyslaw-lyszczarz.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Software Engineer at Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales.
+
+- publish: true
+  firstName: Tomasz
+  lastName: Marmołowski
+  tagline: Software Engineer @ Growbots
+  pictureUrl: public/img/people/tomasz-marmolowski.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Software Engineer at Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales.
+
 - publish: false
   firstName:
   lastName:
