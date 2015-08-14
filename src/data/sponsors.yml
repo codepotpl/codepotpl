@@ -85,3 +85,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/coconet-logo.png
   url: http://www.coconet.de/
+
+- name: "Egnyte"
+  description: "Egnyte"
+  country: "Poland"
+  pictureUrl: public/img/organizations/egnyte-logo.png
+  url: http://www.egnyte.com/jobs/
