@@ -27,3 +27,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/spotkaniait-logo.png
   url: http://spotkania-it.pl/
+
+- name: "Sekurak"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sekurak-logo.png
+  url: http://sekurak.pl/
+  
