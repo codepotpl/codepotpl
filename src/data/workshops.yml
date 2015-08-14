@@ -10,11 +10,11 @@
    - Rapport
    - SłuchanieOdzwierciadlające
 
-  room: 
-  capacity: 20
-  day: FRIDAY
-  timetire:
-   
+  room: S226
+  capacity: 25
+  day: SATURDAY
+  timetire: 
+  - 2
 
 - publish: true
   tutors:
