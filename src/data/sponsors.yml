@@ -1,15 +1,15 @@
-- name: "Viacom"
-  description: "Viacom"
-  country: "Poland"
-  pictureUrl: public/img/organizations/viacom-logo.png
-  url: http://tech.viacom.com
-
 - name: "4Finance"
   description: "Banking"
   country: "Poland"
   city: "Warsaw"
   pictureUrl: public/img/organizations/4finance-logo.png
   url: http://www.4financeit.com
+
+- name: "Viacom"
+  description: "Viacom"
+  country: "Poland"
+  pictureUrl: public/img/organizations/viacom-logo.png
+  url: http://tech.viacom.com
 
 - name: "Allegro Tech"
   description: "Software company"
