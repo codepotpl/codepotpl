@@ -32,4 +32,8 @@
   country: "Poland"
   pictureUrl: public/img/organizations/sekurak-logo.png
   url: http://sekurak.pl/
-  
+
+- name: "Vipwakat"
+  country: "Poland"
+  pictureUrl: public/img/organizations/vipwakat-logo.png
+  url: http://vipwakat.pl/
