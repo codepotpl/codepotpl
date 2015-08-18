@@ -91,3 +91,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/egnyte-logo.png
   url: http://www.egnyte.com/jobs/
+
+- name: "Comp"
+  description: "Comp"
+  country: "Poland"
+  pictureUrl: public/img/organizations/comp-logo.png
+  url: http://www.comp.com.pl
