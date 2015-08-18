@@ -1,0 +1,35 @@
+- title: HEY
+  body: >
+      Konferencja warsztatowa Codepot rozpoczyna się już za {{day_count}} dni! Przesyłamy kilka istotnych informacji:
+
+- title: AGENDA
+  body: >
+    Pełna agenda konferencji jest dostępna pod adresem https://registration.codepot.pl/agenda. Każdego dnia konferencji przewidziane są trzy okienka warsztatowe: ranne (I), południowe (podzielone na 2 części: II/Lunch oraz III/Lunch, patrz niżej) i wieczorne (IV). Zapoznajcie się z dniami/godzinami, kiedy odbędą się warsztaty, które Was interesują.
+
+- title: DINNER
+  body: >
+    Z uwagi na dużą liczbę uczestników konferencji, obiad będzie serwowany w dwóch turach (trwających 1h), na zmianę. Podczas pierwszej tury (II/Lunch) połowa uczestników weźmie udział w warsztatach południowych, zaś druga połowa będzie jeść obiad. W drugiej turze (III/Lunch) - na odwrót.
+
+    O tym, kiedy Ty zjesz obiad, zdecydujesz sam, wybierając konkretny warsztat południowy. Jeśli zapiszesz się na warsztat odbywający się w okienku II/Lunch, zjesz obiad w III/Lunch. Lub na odwrót ;)
+
+- title: Sing up for workshops
+  body: >
+    W piątek 21 sierpnia o godzinie {{hour}} zostanie otwarty system zapisów na warsztaty, dostępny pod adresem https://registration.codepot.pl. Wszyscy zarejestrowani uczestnicy konferencji powinni wybrać jeden warsztat dla każdego okienka dla każdego dnia (w sumie można zapisać się należy się zapisać na 6 warsztatów).
+
+    Zasady zapisów:
+
+    - każdy warsztat ma ograniczoną liczbę miejsc
+
+    - można się zapisać na dowolny warsztat, o ile są w nim jeszcze wolne miejsca
+
+    - w danym okienku można zapisać się maksymalnie na 1 warsztat
+
+    - można zapisać się tylko na jeden warsztat południowy. Innymi słowy, jeśli zapiszesz się na warsztat w okienku II/Lunch, to zapis na warsztat III/Lunch tego samego dnia zostanie zablokowany.
+
+    Jeśli nie uda Wam się zapisać na warsztat, na który Wam zależy, śledźcie sytuację - rotacja uczestników warsztatów po wstępnej rejestracji jest duża i istnieje spora szansa, że miejsce na Waszym wymarzonym warsztacie się zwolni i będziecie mogli się dopisać.
+
+    Niektóre warsztaty trwają 4 godziny, czyli zajmują długi (I lub IV) slot czasowy oraz 1 godzinny (II lub III) slot czasowy).
+
+- title: Opieka nad dziećmi
+  body: >
+    Podczas konferencji można skorzystać z opieki nad dziećmi... {{czekam na szczegóły, na czym to polega}}.

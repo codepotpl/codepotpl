@@ -1,0 +1,72 @@
+html
+    head
+        title Codepot
+        meta(charset='utf-8')
+        link(rel='icon' type='image/png' href='public/img/favicon-32.png' sizes='32x32')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
+        link(type='text/plain' rel='author' href=host + 'humans.txt')
+        include socialmetatags
+        style
+            include ../../public/style.css
+        script
+            include ../../public/head.js
+        //link(rel='stylesheet' type='text/css' href='public/style.css')
+        //script(src='public/head.js')
+        //TODO add environment variable to control inlining mechanism
+    body(itemtype='http://schema.org/EducationEvent', itemscope)
+        div#navbar.fixed
+            nav.top-bar(data-topbar role='navigation')
+                ul.title-area
+                    li.name
+                        h1
+                    li.toggle-topbar.menu-icon
+                        a(href='#')
+                            span
+                section.top-bar-section
+                    ul.right
+                        li.name
+                            a(href='../#about') ABOUT
+                        li.name
+                            a(href='../#venue') VENUE
+                        li.name
+                            a(href='../#tutors') TUTORS
+                        li.name
+                            a(href='https://registration.codepot.pl/agenda') WORKSHOPS & AGENDA
+                        li.name
+                            a(href='../#sponsor-us') SPONSORS
+                        li.name
+                            a(href='../#organizers') TEAM
+                        li.name
+                            a(href='https://twitter.com/codepot_pl' target='_blank') &nbsp;
+                                i.icon-twitter &nbsp;
+                        li.name
+                            a(href='https://www.facebook.com/codepotpl' target='_blank') &nbsp;
+                                i.icon-facebook-1 &nbsp;
+                        li.name
+                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank')
+                                i.icon-codepot-icon-meetup &nbsp;
+                        li.name
+                            a(href='mailto:contact@codepot.pl') &nbsp;
+                                i.icon-mail &nbsp;
+
+        section#map(style='display: none;')
+            div#map-canvas
+
+        each info, index in information
+            section#about
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        h1!=info.title
+                        div.small-12.medium-12.columns
+                            p!=info.body
+
+
+        button#show_map(hidden) //error js, quick and certain solution
+        link(rel='stylesheet' href='public/select2/select2.min.css')
+        //| <script>
+        //|    yepnope.injectJs('https://maps.googleapis.com/maps/api/js?callback=initialize', function () {
+        //|        document.getElementById("map").style.display = 'inline';
+        //|        document.getElementById("show_map").style.display = 'none';
+        //|    });
+        //| </script>
+        script(src='public/body.js' defer)

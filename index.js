@@ -39,7 +39,8 @@ var data = {
     media: YAML.load('src/data/media.yml'),
     workshops: YAML.load('src/data/workshops.yml').filter(function (workshop) {
         return workshop.publish;
-    })
+    }),
+    information: YAML.load('src/data/information.yml')
 };
 
 if (!Array.prototype.find) {
@@ -101,6 +102,13 @@ app.get('/', function (req, res) {
         workshops: data.workshops,
         metaTags: metaTagsData,
         markdown:markdown.markdown.toHTML
+    });
+});
+
+app.get('/information', function (req, res) {
+    res.render('information', {
+        metaTags: metaTagsData,
+        information: data.information
     });
 });
 
