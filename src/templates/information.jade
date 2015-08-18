@@ -63,10 +63,10 @@ html
 
         button#show_map(hidden) //error js, quick and certain solution
         link(rel='stylesheet' href='public/select2/select2.min.css')
-        //| <script>
-        //|    yepnope.injectJs('https://maps.googleapis.com/maps/api/js?callback=initialize', function () {
-        //|        document.getElementById("map").style.display = 'inline';
-        //|        document.getElementById("show_map").style.display = 'none';
-        //|    });
-        //| </script>
+        | <script>
+        |    yepnope.injectJs('https://maps.googleapis.com/maps/api/js?callback=initialize', function () {
+        |        document.getElementById("map").style.display = 'inline';
+        |        document.getElementById("show_map").style.display = 'none';
+        |    });
+        | </script>
         script(src='public/body.js' defer)
