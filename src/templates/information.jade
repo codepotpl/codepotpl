@@ -52,14 +52,72 @@ html
         section#map(style='display: none;')
             div#map-canvas
 
-        each info, index in information
-            section#about
-                div.row
-                    div.small-12.medium-10.medium-centered.columns
-                        h1!=info.title
-                        div.small-12.medium-12.columns
-                            p!=info.body
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Agenda
+                    div.small-12.medium-12.columns(itemprop='description')
+                        p Pe³na agenda konferencji jest dostêpna pod adresem
+                            a(href='https://registration.codepot.pl/agenda' target='_blank') https://registration.codepot.pl/agenda
+                        p Ka¿dego dnia konferencji przewidziane s¹ trzy okienka warsztatowe:
+                        ul
+                            li poranne (I),
+                            li po³udniowe (podzielone na 2 czêœci: II/Lunch oraz III/Lunch, patrz ni¿ej)
+                            li wieczorne (IV).
+                        p Zapoznajcie siê z dniami/godzinami, kiedy odbêd¹ siê warsztaty, które Was interesuj¹.
 
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Obiady
+                    div.small-12.medium-6.columns(itemprop='description')
+                        p
+                        | Z uwagi na du¿¹ liczbê uczestników konferencji, obiad bêdzie serwowany w dwóch turach (trwaj¹cych 1h), na zmianê.
+                        | Podczas pierwszej tury (II/Lunch) po³owa uczestników weŸmie udzia³ w warsztatach po³udniowych,
+                        | zaœ druga po³owa bêdzie jeœæ obiad. W drugiej turze (III/Lunch) - na odwrót.
+                    div.small-12.medium-6.columns(itemprop='description')
+                        p
+                        | O tym, kiedy Ty zjesz obiad, zdecydujesz sam, wybieraj¹c konkretny warsztat po³udniowy.
+                        | Jeœli zapiszesz siê na warsztat odbywaj¹cy siê w okienku II/Lunch, zjesz obiad w III/Lunch. Lub na odwrót ;)
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Rejestracja na warsztaty
+                    div.small-12.medium-12.columns(itemprop='description')
+                        p
+                        | W pi¹tek 21 sierpnia o godzinie 19.00 zostanie otwarty system zapisów na warsztaty,
+                        | dostêpny pod adresem https://registration.codepot.pl. Wszyscy zarejestrowani uczestnicy konferencji
+                        | powinni wybraæ jeden warsztat dla ka¿dego okienka dla ka¿dego dnia (w sumie mo¿na zapisaæ siê na 6 warsztatów).
+                        p Zasady zapisów:
+                        ul
+                            li ka¿dy warsztat ma ograniczon¹ liczbê miejsc
+                            li mo¿na siê zapisaæ na dowolny warsztat, o ile s¹ w nim jeszcze wolne miejsca
+                            li w danym okienku mo¿na zapisaæ siê maksymalnie na 1 warsztat
+                            li mo¿na zapisaæ siê tylko na jeden warsztat po³udniowy.
+                            | Innymi s³owy, jeœli zapiszesz siê na warsztat w okienku II/Lunch, to zapis na warsztat III/Lunch tego samego dnia zostanie zablokowany.
+                            li niektóre warsztaty trwaj¹ a¿ 4h i zajmuj¹ 2 s¹siednie okienka warsztatowe,
+                            | np. poranny i po³udniowy (I i II) lub po³udniowy i wieczorny (III i IV) - te warsztaty bêd¹ odpowiednio oznaczone
+                        p Jeœli nie uda Wam siê zapisaæ na warsztat, na który Wam zale¿y, œledŸcie sytuacjê - rotacja uczestników warsztatów po wstêpnej rejestracji jest
+                        | du¿a i istnieje spora szansa, ¿e miejsce na Waszym wymarzonym warsztacie siê zwolni i bêdziecie mogli siê dopisaæ.
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Komunikacja z mentorami
+                    div.small-12.medium-12.columns(itemprop='description')
+                        p
+                        | Na stronie https://registration.codepot.pl/ dla ka¿dego warsztatem uczestnicy i mentorzy bêd¹
+                        | mogli wymieniaæ siê informacjami w formie komentarzy.
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Opieka nad dzieæmi
+                    div.small-12.medium-12.columns(itemprop='description')
+                        p
+                        | Podczas konferencji mo¿na skorzystaæ z opieki nad dzieæmi - konferencja zapewnia wydzielon¹ salê wraz z
+                        | profesjonaln¹ opiek¹ nad dzieæmi miêdzy godzinami 9 i 19.
 
         button#show_map(hidden) //error js, quick and certain solution
         link(rel='stylesheet' href='public/select2/select2.min.css')
