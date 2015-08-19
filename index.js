@@ -106,7 +106,8 @@ app.get('/', function (req, res) {
 
 app.get('/information', function (req, res) {
     res.render('information', {
-        metaTags: metaTagsData
+        metaTags: metaTagsData,
+        sponsors: data.sponsors
     });
 });
 
