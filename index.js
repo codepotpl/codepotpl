@@ -104,6 +104,13 @@ app.get('/', function (req, res) {
     });
 });
 
+app.get('/information', function (req, res) {
+    res.render('information', {
+        metaTags: metaTagsData,
+        sponsors: data.sponsors
+    });
+});
+
 //app.get('/call-for-papers', function (req, res) {
 //    res.render('call-for-papers', {
 //        metaTags: metaTagsData

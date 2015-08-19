@@ -1,0 +1,144 @@
+html
+    head
+        title Codepot
+        meta(charset='utf-8')
+        link(rel='icon' type='image/png' href='public/img/favicon-32.png' sizes='32x32')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
+        link(type='text/plain' rel='author' href=host + 'humans.txt')
+        include socialmetatags
+        style
+            include ../../public/style.css
+        script
+            include ../../public/head.js
+        //link(rel='stylesheet' type='text/css' href='public/style.css')
+        //script(src='public/head.js')
+        //TODO add environment variable to control inlining mechanism
+    body(itemtype='http://schema.org/EducationEvent', itemscope)
+        div#navbar.fixed
+            nav.top-bar(data-topbar role='navigation')
+                ul.title-area
+                    li.name
+                        h1
+                    li.toggle-topbar.menu-icon
+                        a(href='#')
+                            span
+                section.top-bar-section
+                    ul.right
+                        li.name
+                            a(href='../#about') ABOUT
+                        li.name
+                            a(href='../#venue') VENUE
+                        li.name
+                            a(href='../#tutors') TUTORS
+                        li.name
+                            a(href='https://registration.codepot.pl/agenda') WORKSHOPS & AGENDA
+                        li.name
+                            a(href='../#sponsor-us') SPONSORS
+                        li.name
+                            a(href='../#organizers') TEAM
+                        li.name
+                            a(href='https://twitter.com/codepot_pl' target='_blank') &nbsp;
+                                i.icon-twitter &nbsp;
+                        li.name
+                            a(href='https://www.facebook.com/codepotpl' target='_blank') &nbsp;
+                                i.icon-facebook-1 &nbsp;
+                        li.name
+                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank')
+                                i.icon-codepot-icon-meetup &nbsp;
+                        li.name
+                            a(href='mailto:contact@codepot.pl') &nbsp;
+                                i.icon-mail &nbsp;
+
+        section#map(style='display: none;')
+            div#map-canvas
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Agenda
+                    div.small-12.medium-12.columns(itemprop='description')
+                        p The full agenda for the conference is available at&nbsp;
+                            a(href='https://registration.codepot.pl/agenda' target='_blank') https://registration.codepot.pl/agenda.
+                        p Each day there will be three workshop slots available:
+                        ul
+                            li morning (I),
+                            li afternoon (divided into 2 turns: II/Lunch and III/Lunch, see below)
+                            li evening (IV).
+                        p Please take your time to check day/time of the workshops you are interested in.
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Lunch
+                    div.small-12.medium-6.columns(itemprop='description')
+                        p
+                        | Due to the large number of participants of the conference, lunch will be served in two rounds (lasting 1h),
+                        |in turns. During the first turn (II/Lunch) the first half of the participants will attend the afternoon slot workshops,
+                        |while the second half will eat lunch. And the second turn (III/Lunch) will be just the opposite.
+                    div.small-12.medium-6.columns(itemprop='description')
+                        p
+                        | So when will you eat your lunch? You'll decide that on your own, when choosing the afternoon slot workshop.
+                        |If you attend the II/Lunch slot workshop, you'll eat during the III/Lunch slot. Or the opposite ;)
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Workshop registration
+                    div.small-12.medium-12.columns(itemprop='description')
+                        p
+                        | The workshop registration platform will be opened at 7pm on Friday, 21st August. It will be available at:&nbsp;
+                        a(href='https://registration.codepot.pl' target='_blank') https://registration.codepot.pl.
+                        |&nbsp;All registered conference attendees should choose one workshop for each slot each day (you can attend to  6 workshops in total).
+                        ul
+                            li each workshop has limited attendee capacity
+                            li you can register to any workshop as long as it has free space
+                            li in each slot you can register to 1 workshop at most
+                            li you can register only to one afternoon workshop. In other words,
+                            |if you register to II/Lunch slot workshop, then registering to III/Lunch on the same day will be disabled.
+                            li some of the workshops last 4h and use 2 adjacent slots,
+                            |e.g. morning and afternoon (I and II) or afternoon and evening (III and IV) - this information will be emphasized
+                        p If you don't manage to register to a workshop you'd like to attend,
+                        |don't worry. The attendee rotation is quite big right after the initial registration has started. There is a big chance that there will be free space on your beloved workshop and you will register afterall - just follow the situation.
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Contacting mentors
+                    div.small-12.medium-12.columns(itemprop='description')
+                        p
+                        | Attendees and mentors will communicate by submitting comments to each workshop at&nbsp;
+                        a(href='https://registration.codepot.pl/' target='_blank') https://registration.codepot.pl.
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 Childcare
+                    div.small-12.medium-12.columns(itemprop='description')
+                        p
+                        | During the conference you can use the
+                        |childcare service - the conference provides a separate room with a professional babysitter between 9am and 7pm.
+
+        section#contact
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 &nbsp;
+                    span.tagline
+                        a(href='mailto:contact@codepot.pl') contact@codepot.pl
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    hr
+                    div.small-12.medium-12.columns
+                        a(href='/')
+                            img(src='public/img/codepot-logo-rectangle.png' style='width: 100px;')
+
+        button#show_map(hidden) //error js, quick and certain solution
+        link(rel='stylesheet' href='public/select2/select2.min.css')
+        | <script>
+        |    yepnope.injectJs('https://maps.googleapis.com/maps/api/js?callback=initialize', function () {
+        |        document.getElementById("map").style.display = 'inline';
+        |        document.getElementById("show_map").style.display = 'none';
+        |    });
+        | </script>
+        script(src='public/body.js' defer)
