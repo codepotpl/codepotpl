@@ -96,7 +96,7 @@
   bioInMd: Active member of Warsaw developers community. As the author of RoboSpock is a strong believer in TDD. Person who really cares about code quality. Currently working for Applause creating Android SDK library and auto instrumentation service.
   emailHash: a97b88b6b4b9d394ebe22f08c6c36edd044ad2a3
 
-- publish: true
+- publish: false
   firstName: Martin
   lastName: Skurla
   tagline: Software Engineer @ Barclays
@@ -236,7 +236,7 @@
   bioInMd: Entuzjasta języka Scala zainteresowany tematyką skalowalności aplikacji.
   emailHash: 640361abebb19546fc684ecbc5208ea7297a304c
 
-- publish: true
+- publish: false
   firstName: Marcin
   lastName: Brański
   tagline: Python Developer @ DaftCode
@@ -962,7 +962,7 @@
   bioInMd: Python coder and Linux enthusiast, fascinated by the brain machinery. Combines his knowledge of Neuropsychology and Neuroinformatics in coordination of project [PISAK](http://pisak.org/) which he manages for the last two years. Trainer in informal education and team-building for past several years.
   emailHash: ccd232a445f1323550f853a85d5ae18bd9d4c6b7
 
-- publish: true
+- publish: false
   firstName: Krzysztof
   lastName: Jelski
   tagline: Agile Coach @ Pragmatists
