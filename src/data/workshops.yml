@@ -1355,6 +1355,19 @@
   timetire:
    - 4
 
+- publish: true
+  tutors:
+   - Michał Sajdak
+  title: Hackowanie konsol webowych urządzeń sieciowych - Hands on
+  descriptionInMd: TODO
+  tags:
+   - security
+  room: S204 - Allegro
+  capacity: 40
+  day: SATURDAY
+  timetire:
+   - 1
+
 - publish: false
   tutors:
    -
