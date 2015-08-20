@@ -1282,6 +1282,22 @@
   websiteUrl:
   bioInMd: Software Engineer at Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales.
 
+- publish: true
+  firstName: Michał
+  lastName: Sajdak
+  tagline: pentester @ securitum
+  pictureUrl: public/img/people/michal_sajdak.jpg
+  twitterUsername:
+  githubUsername:
+  linkedInProfileUrl: https://www.linkedin.com/in/sekurak
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: >
+    Michał Sajdak posiada dziesięcioletnie doświadczenie w zagadnieniach związanych z technicznym bezpieczeństwem IT. Realizuje testy penetracyjne oraz audyty bezpieczeństwa. Prowadzi szkolenia z zakresu bezpieczeństwa. Posiadacz certyfikatów: CISSP, CEH, CTT+.
+    Założyciel serwisu sekurak.pl
+  emailHash: f6ba64160e48dcbd1ffbebfae5a65a29d1e1a470
+
 - publish: false
   firstName:
   lastName:
