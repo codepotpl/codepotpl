@@ -18,6 +18,12 @@
   pictureUrl: public/img/organizations/allegro-logo.png
   url: http://allegro.tech/
 
+- name: "Scalac"
+  description: "Scalac"
+  country: "Poland"
+  pictureUrl: public/img/organizations/scalac-logo.png
+  url: http://www.scalac.io
+
 - name: "TouK"
   description: "Software company"
   country: "Poland"
