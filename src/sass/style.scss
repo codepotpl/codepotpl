@@ -798,5 +798,40 @@ section#call-for-papers-form {
   }
 }
 
+body.information{
+  section#information {
+    .graphics {
+      margin-top: 50px;
+      i {
+        color: $green;
+        font-size: rem-calc(50);
+      }
+      text-align: center;
+      .description {
+
+      }
+    }
+    font-size: rem-calc(22);
+  }
+
+  section#contact-in-information {
+    a {
+      i {
+        color: $green;
+        font-size: (43);
+      }
+    }
+  }
+
+  section#footer {
+    div {
+      text-align: center;
+      img{
+        width: rem-calc(400);
+      }
+    }
+  }
+}
+
 @import "call-for-papers";
 

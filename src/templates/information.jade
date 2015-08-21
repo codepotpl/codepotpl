@@ -13,7 +13,7 @@ html
         //link(rel='stylesheet' type='text/css' href='public/style.css')
         //script(src='public/head.js')
         //TODO add environment variable to control inlining mechanism
-    body(itemtype='http://schema.org/EducationEvent', itemscope)
+    body.information(itemtype='http://schema.org/EducationEvent', itemscope)
         div#navbar.fixed
             nav.top-bar(data-topbar role='navigation')
                 ul.title-area
@@ -52,12 +52,12 @@ html
         section#map(style='display: none;')
             div#map-canvas
 
-        section#about
+        section#information
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 Agenda
                     div.small-12.medium-12.columns(itemprop='description')
-                        p The full agenda for the conference is available at&nbsp;
+                        p The full agenda for the conference is available at &nbsp;
                             a(href='https://registration.codepot.pl/agenda' target='_blank') https://registration.codepot.pl/agenda.
                         p Each day there will be three workshop slots available:
                         ul
@@ -66,7 +66,7 @@ html
                             li evening (IV).
                         p Please take your time to check day/time of the workshops you are interested in.
 
-        section#about
+        section#information
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 Lunch
@@ -80,7 +80,7 @@ html
                         | So when will you eat your lunch? You'll decide that on your own, when choosing the afternoon slot workshop.
                         |If you attend the II/Lunch slot workshop, you'll eat during the III/Lunch slot. Or the opposite ;)
 
-        section#about
+        section#information
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 Workshop registration
@@ -93,14 +93,13 @@ html
                             li each workshop has limited attendee capacity
                             li you can register to any workshop as long as it has free space
                             li in each slot you can register to 1 workshop at most
-                            li you can register only to one afternoon workshop. In other words,
-                            |if you register to II/Lunch slot workshop, then registering to III/Lunch on the same day will be disabled.
-                            li some of the workshops last 4h and use 2 adjacent slots,
-                            |e.g. morning and afternoon (I and II) or afternoon and evening (III and IV) - this information will be emphasized
-                        p If you don't manage to register to a workshop you'd like to attend,
+                            li you can register only to one afternoon workshop. In other words, if you register to II/Lunch slot workshop, then registering to III/Lunch on the same day will be disabled.
+                            li some of the workshops last 4h and use 2 adjacent slots, e.g. morning and afternoon (I and II) or afternoon and evening (III and IV) - this information will be emphasized
+                        p
+                        | If you don't manage to register to a workshop you'd like to attend,
                         |don't worry. The attendee rotation is quite big right after the initial registration has started. There is a big chance that there will be free space on your beloved workshop and you will register afterall - just follow the situation.
 
-        section#about
+        section#information
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 Contacting mentors
@@ -109,7 +108,7 @@ html
                         | Attendees and mentors will communicate by submitting comments to each workshop at&nbsp;
                         a(href='https://registration.codepot.pl/' target='_blank') https://registration.codepot.pl.
 
-        section#about
+        section#information
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 Childcare
@@ -118,20 +117,21 @@ html
                         | During the conference you can use the
                         |childcare service - the conference provides a separate room with a professional babysitter between 9am and 7pm.
 
-        section#contact
+        section#contact-in-information
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     h1 &nbsp;
                     span.tagline
-                        a(href='mailto:contact@codepot.pl') contact@codepot.pl
-
-        section#about
+                        //a(href='mailto:contact@codepot.pl') contact@codepot.pl
+                        a(href='mailto:contact@codepot.pl') &nbsp;
+                            i.icon-mail
+        section#footer
             div.row
                 div.small-12.medium-10.medium-centered.columns
                     hr
                     div.small-12.medium-12.columns
                         a(href='/')
-                            img(src='public/img/codepot-logo-rectangle.png' style='width: 100px;')
+                            img(src='public/img/codepot-logo-rectangle.png')
 
         button#show_map(hidden) //error js, quick and certain solution
         link(rel='stylesheet' href='public/select2/select2.min.css')
