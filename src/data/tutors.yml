@@ -1298,11 +1298,11 @@
     Założyciel serwisu sekurak.pl
   emailHash: f6ba64160e48dcbd1ffbebfae5a65a29d1e1a470
 
-- publish: false
+- publish: true
   firstName: Katarzyna
   lastName: Jastrzębska
   tagline: Frontend Developer @ Scalac
-  pictureUrl: public/img/people/katarzyna-jastrzebska.jpeg
+  pictureUrl: public/img/people/katarzyna-jastrzebska.jpg
   twitterUsername: kejt_bw
   githubUsername: kajas90
   linkedInProfileUrl: https://www.linkedin.com/pub/kasia-jastrz%C4%99bska/64/9a6/836

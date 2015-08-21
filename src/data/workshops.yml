@@ -1359,7 +1359,18 @@
   tutors:
    - Michał Sajdak
   title: Hackowanie konsol webowych urządzeń sieciowych - Hands on
-  descriptionInMd: TODO
+  descriptionInMd: >
+    W trakcie warsztatów na żywo zaprezentowane zostaną wybrane problemy w bezpieczeństwie urządzeń sieciowych (podatności w konsolach webowych). W wielu przypadkach zaprezentowaną zostaną metody nieuwierzytelnionego dostępu na uprawnieniach administracyjnych.
+
+    W drugiej części warsztatów uczestnicy będą również mogli przetestować zdobytą wiedzę samodzielnie podłączając się do podatnych urządzeń dostępnych w LAB.
+
+    Wymagania:
+    - Laptop z przewodową kartą sieciową, kabel sieciowy.
+    - Zainstalowane oprogramowanie burp suite pro.
+
+    W warsztatach też można uczestniczyć jako obserwator (bez laptopa).
+
+    Uczestnicy będą musieli podpisać oświadczenie o wykorzystaniu zdobytej wiedzy tylko w sposób legalny i etyczny.
   tags:
    - security
   room: S204 - Allegro
