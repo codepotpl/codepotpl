@@ -3,11 +3,11 @@
   lastName: Soja
   tagline: Database Developer @ Touk
   pictureUrl: public/img/people/adrian_soja.jpg
-  twitterUsername: 
+  twitterUsername:
   githubUsername:
-  linkedInProfileUrl: 
+  linkedInProfileUrl:
   stackoverflowId:
-  googlePlusHandler: 
+  googlePlusHandler:
   websiteUrl:
   bioInMd: Na co dzień Developer Danych i wszystkiego co się z tym je w firmie TOUK.Moim hobby i pasją, oprócz trudnych zagadnień bazodanowych od strony analizy biznesowej i technicznej, są kwestie związane z kompetencjami miękkim. Na codzień wykorzystuję wiedzę i doświadczenie Coacha oraz Praktyka Komunikacji Transformującej™ w kontaktach z klientami, a także w organizacji i zarządzaniu zespołem developerskim.
   emailHash: adrian_soja@o2.pl
@@ -108,7 +108,7 @@
   googlePlusHandler:
   websiteUrl:
   bioInMd: Java Developer, Technology Enthusiastic, OpenSource Committer, Trainer, Technical Reviewer, Community/Conference/JUG speaker, Java Community Leader, JCP member.
-  emailHash: 53110f234a352709715b5aad6e8e01e8ac1e7fd8  
+  emailHash: 53110f234a352709715b5aad6e8e01e8ac1e7fd8
 
 - publish: true
   firstName: Jakub
@@ -1128,7 +1128,7 @@
   stackoverflowId:
   googlePlusHandler:
   websiteUrl:
-  bioInMd: Damian Leszczyński works as Solutions Architect / Developer for Samsung Business. Currently his daily basis is to bring value on mobile devices to business customer. Before this opportunity he was responsible for architecture analysis provided to development teams. Enforcing the clean, decoupled and sustainable design, for open and complex production realities. All this would not have been possible without the dedication of several years of work on the ERP system for international production company, his passion to Software Engineering, JVM environment, lean methodologies and surround community of people willing to introduce change.  
+  bioInMd: Damian Leszczyński works as Solutions Architect / Developer for Samsung Business. Currently his daily basis is to bring value on mobile devices to business customer. Before this opportunity he was responsible for architecture analysis provided to development teams. Enforcing the clean, decoupled and sustainable design, for open and complex production realities. All this would not have been possible without the dedication of several years of work on the ERP system for international production company, his passion to Software Engineering, JVM environment, lean methodologies and surround community of people willing to introduce change.
   emailHash: 93a722e1f474076e5928ee4b9836d18da00a256f
 
 - publish: true
@@ -1232,7 +1232,7 @@
 - publish: true
   firstName: Krzysztof
   lastName: Szabelski
-  tagline: Technical Advisor @ Future Processing 
+  tagline: Technical Advisor @ Future Processing
   pictureUrl: public/img/people/krzysztof-szabelski.jpg
   twitterUsername: kszabelski
   githubUsername: https://github.com/szabl
@@ -1297,6 +1297,19 @@
     Michał Sajdak posiada dziesięcioletnie doświadczenie w zagadnieniach związanych z technicznym bezpieczeństwem IT. Realizuje testy penetracyjne oraz audyty bezpieczeństwa. Prowadzi szkolenia z zakresu bezpieczeństwa. Posiadacz certyfikatów: CISSP, CEH, CTT+.
     Założyciel serwisu sekurak.pl
   emailHash: f6ba64160e48dcbd1ffbebfae5a65a29d1e1a470
+
+- publish: false
+  firstName: Katarzyna
+  lastName: Jastrzębska
+  tagline: Frontend Developer @ Scalac
+  pictureUrl: public/img/people/katarzyna-jastrzebska.jpeg
+  twitterUsername: kejt_bw
+  githubUsername: kajas90
+  linkedInProfileUrl: https://www.linkedin.com/pub/kasia-jastrz%C4%99bska/64/9a6/836
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl: http://scalac.io
+  bioInMd: I believe that passion for work is the key to do something better and better. Frontend development is my passion, this is something I want to improve not only when I'm working, but all the time.  Sight is the most important human sense and my goal is to give user the best experience with applications I'm preparing.  At the moment I'm improving my design and Adobe Illustrator Skills, I love to work with JavaScript and every variation of this language.
 
 - publish: false
   firstName:
