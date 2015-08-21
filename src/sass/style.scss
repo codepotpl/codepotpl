@@ -821,10 +821,13 @@ body.information{
   }
 
   section#contact-in-information {
-    a {
-      i {
-        color: $green;
-        font-size: (29);
+    div {
+      text-align: center;
+      a {
+        i {
+          color: $green;
+          font-size: (29);
+        }
       }
     }
   }
