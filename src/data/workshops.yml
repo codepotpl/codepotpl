@@ -13,7 +13,7 @@
   room: S226
   capacity: 25
   day: SATURDAY
-  timetire: 
+  timetire:
   - 2
 
 - publish: true
@@ -1265,11 +1265,11 @@
 
 
      - Bring your laptop with stable release of Android Studio.
-    
+
      - Mobile device with Android operating system.
-    
+
      - USB cable to connect device to your machine.
-    
+
      - Installed Java SDK version 7 and 8.
   tags:
    - Reactive
@@ -1278,7 +1278,7 @@
   room: S226
   capacity: 30
   day: SATURDAY
-  timetire: 
+  timetire:
    - 4
 
 - publish: true
@@ -1299,8 +1299,8 @@
 - publish: true
   tutors:
    - Krzysztof Szabelski
-  title: Wykorzystaj serwisy Azure i skup się na tym, co ważne. 
-  descriptionInMd: W trakcie krótkiego warsztatu pokażę, jak wykorzystać usługi poziomu Platform as a Service dostępne na Microsoft Azure, aby skrócić czas dostarczenia systemu na rynek, oraz zminimalizować ogólne koszty związane z jego utrzymaniem tzw "produkcji". Wyjaśnię, jak dzięki dobremu wykorzystaniu narzędzi możemy skoncentrować się na tym, co tworzymy i zepchnąć problem deploymentu na drugi plan. 
+  title: Wykorzystaj serwisy Azure i skup się na tym, co ważne.
+  descriptionInMd: W trakcie krótkiego warsztatu pokażę, jak wykorzystać usługi poziomu Platform as a Service dostępne na Microsoft Azure, aby skrócić czas dostarczenia systemu na rynek, oraz zminimalizować ogólne koszty związane z jego utrzymaniem tzw "produkcji". Wyjaśnię, jak dzięki dobremu wykorzystaniu narzędzi możemy skoncentrować się na tym, co tworzymy i zepchnąć problem deploymentu na drugi plan.
   tags:
    - Azure
    - PaaS
@@ -1365,6 +1365,21 @@
   room: S204 - Allegro
   capacity: 40
   day: SATURDAY
+  timetire:
+   - 1
+
+- publish: false
+  tutors:
+   - Katarzyna Jastrzębska
+  title: Make it smooth and easy - frontend application with Ember CLI
+  descriptionInMd: Move your programming life to the next level of simplicity with Ember CLI. The command line tool for creating ambitious web applications. At our workshop we will check, how much fun brings using this simple solution with creating more or less complicated web applications.
+  tags:
+   - javascript
+   - ember
+   - embercli
+  room: TODO!
+  capacity: 25
+  day: FRIDAY
   timetire:
    - 1
 
