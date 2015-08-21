@@ -799,7 +799,13 @@ section#call-for-papers-form {
 }
 
 body.information{
-  section#information {
+  section#information{
+    p {
+      margin-bottom: rem-calc(0);
+    }
+    ul {
+      margin-top: rem-calc(0);
+    }
     .graphics {
       margin-top: 50px;
       i {
@@ -818,7 +824,7 @@ body.information{
     a {
       i {
         color: $green;
-        font-size: (43);
+        font-size: (23);
       }
     }
   }
@@ -827,7 +833,7 @@ body.information{
     div {
       text-align: center;
       img{
-        width: rem-calc(400);
+        width: rem-calc(200);
       }
     }
   }
