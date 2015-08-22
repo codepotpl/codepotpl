@@ -1285,7 +1285,7 @@
 - publish: true
   firstName: Michał
   lastName: Sajdak
-  tagline: pentester @ securitum
+  tagline: Pentester @ Securitum
   pictureUrl: public/img/people/michal_sajdak.jpg
   twitterUsername:
   githubUsername:
@@ -1310,6 +1310,31 @@
   googlePlusHandler:
   websiteUrl: http://scalac.io
   bioInMd: I believe that passion for work is the key to do something better and better. Frontend development is my passion, this is something I want to improve not only when I'm working, but all the time.  Sight is the most important human sense and my goal is to give user the best experience with applications I'm preparing.  At the moment I'm improving my design and Adobe Illustrator Skills, I love to work with JavaScript and every variation of this language.
+
+- publish: true
+  firstName: Tomasz
+  lastName: Borek
+  tagline: Continuous learner @ Symentis
+  pictureUrl: public/img/people/tomasz-borek.jpg
+  twitterUsername: LAFK_pl
+  githubUsername: LIttleAncientForestKami
+  linkedInProfileUrl: https://www.linkedin.com/in/tjborek
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl: https://lafkblogs.wordpress.com/
+  bioInMd: >
+    Coder from Poland*. Hoping to learn something new every day.
+
+    Thankful to everybody who helps me while I hop along. Proud of: http://sckrk.com and http://geecon.org.
+    Co-leads: SCKRK, Polish JUG, Lambda Lounge Kraków.
+
+    I’m a flawed human, and unafraid to say so.
+
+    Into: people, software, music, role-playing, honesty, learning.
+    Dislikes: doing unnecessary things, doing “because I can”.
+
+    * I got it from me parents. They coded and so do I.
+
 
 - publish: false
   firstName:
