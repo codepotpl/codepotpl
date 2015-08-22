@@ -1335,16 +1335,28 @@
 
     * I got it from me parents. They coded and so do I.
 
-
-- publish: false
-  firstName:
-  lastName:
-  tagline:
-  pictureUrl: public/img/people/
-  twitterUsername:
+- publish: true
+  firstName: Szymon
+  lastName: Pruszyński
+  tagline: Akademia koderów szytych na miarę
+  pictureUrl: public/img/people/szymon-pruszynski.jpg
+  twitterUsername: SimonPruszynski
   githubUsername:
   linkedInProfileUrl:
   stackoverflowId:
   googlePlusHandler:
-  websiteUrl:
-  bioInMd:
+  websiteUrl: sdacademy.pl
+  bioInMd: Pracowałem przez dwa lata w dużej niemieckiej kompanii shippingowej. Następnie współpracowałem ze startupem Ocean CleanUp z Holandii po czym uświadomiłem sobie, że moje miejsce jest pośród polskiej społeczności startupowej i w ramach tego organu zawiązałem współpracę z SDA - akademią programistów, która dostarcza gotowe rozwiązanie na problemy kadrowe branży i pomaga ambitnym młodym ludziom wchodzić na rynek i stanowić na nim konkurencję.
+
+- publish: true
+  firstName: Tomasz
+  lastName: Chaciński
+  tagline: Akademia koderów szytych na miarę
+  pictureUrl: public/img/people/tomasz-chacinski.jpg
+  twitterUsername: tomasz.chaciski1
+  githubUsername:
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl: sdacademy.pl
+  bioInMd: Posiadam 7 lat doświadczenia w sprzedaży. Większość swoich lat pracy spędziłem w Grupie Pracuj, gdzie aktualnie jestem odpowiedzialny za kluczowych klientów. Zebrane doświadczenie uświadomiło mnie jak wiele problemów posiadają firmy oraz ich działy HR- stąd też powstał pomysł na startup FitCompany, którym mam przyjemność zarządzać. Od wczesnych lat mojego życia jestem pasjonatem sportu, który uprawiam codziennie. Wiem, że to właśnie sport wykształtował mnie jako człowieka i dobrego pracownika. Swoją pasję do sportu przekładam na biznes, który tworzę.
