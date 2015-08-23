@@ -1338,7 +1338,7 @@
 - publish: true
   firstName: Szymon
   lastName: Pruszyński
-  tagline: Akademia koderów szytych na miarę
+  tagline: CEO - FitCompany
   pictureUrl: public/img/people/szymon-pruszynski.jpg
   twitterUsername: SimonPruszynski
   githubUsername:
@@ -1351,11 +1351,11 @@
 - publish: true
   firstName: Tomasz
   lastName: Chaciński
-  tagline: Akademia koderów szytych na miarę
+  tagline: Coordinator, Business Developer - Software Development Academy
   pictureUrl: public/img/people/tomasz-chacinski.jpg
   twitterUsername: tomasz.chaciski1
   githubUsername:
-  linkedInProfileUrl:
+  linkedInProfileUrl: https://www.linkedin.com/pub/tomasz-chaci%C5%84ski/52/4a1/796
   stackoverflowId:
   googlePlusHandler:
   websiteUrl: sdacademy.pl
