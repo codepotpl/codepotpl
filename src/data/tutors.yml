@@ -69,20 +69,6 @@
   emailHash: 343528f870e3f84947d3ddf342118494cecc725f
 
 - publish: true
-  firstName: Mateusz
-  lastName: Herych
-  tagline: Software Developer @ BaseCRM
-  pictureUrl: public/img/people/mateusz-herych.jpg
-  twitterUsername: mherych
-  githubUsername: partition
-  linkedInProfileUrl: https://www.linkedin.com/in/herych
-  stackoverflowId:
-  googlePlusHandler:
-  websiteUrl:
-  bioInMd: Heniek works at Base where he uses his android-abracadabras to make his users' work more efficient. Apart from that he's a Google Developer Expert for Android and GDG Kraków co-organizer where together with his friends he organized several things like KrakDroid (later known as a Droidcon), dizygotic twins, DevFest, Android Tech Talks and more.
-  emailHash: fa2d174e27406d125ea95d5f60914745294082f7
-
-- publish: true
   firstName: Przemysław
   lastName: Jakubczyk
   tagline: Android Technical Lead @ Applause.com
