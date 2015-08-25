@@ -35,9 +35,7 @@ var data = {
     sponsors: YAML.load('src/data/sponsors.yml'),
     partners: YAML.load('src/data/partners.yml'),
     media: YAML.load('src/data/media.yml'),
-    workshops: YAML.load('src/data/workshops.yml').filter(function (workshop) {
-        return workshop.publish;
-    }),
+    workshops: [],
     volunteers: YAML.load('src/data/volunteers.yml')
 };
 
