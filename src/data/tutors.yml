@@ -1,4 +1,17 @@
 - publish: true
+  firstName: Karolina
+  lastName: Moraczewska
+  tagline: TProgram Coordinator @ TechSoup Polska
+  pictureUrl: 
+  twitterUsername:
+  githubUsername: 
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: 
+
+- publish: true
   firstName: Kamil
   lastName: Chmielewski
   tagline: Technical PO @ Allegro
