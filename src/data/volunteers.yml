@@ -1,0 +1,26 @@
+- firstName: Joanna
+  lastName: Sitkowska
+  pictureUrl: public/img/people/joanna-sitkowska.jpg
+  facebookUrl: https://www.facebook.com/joanna.sitkowska.5
+
+- firstName: Natalia
+  lastName: Kędziora
+  pictureUrl: public/img/people/natalia-kedziora.jpg
+  githubUsername: nmkedziora
+  linkedInProfileUrl: https://pl.linkedin.com/in/nataliakedziora
+
+- firstName: Michał
+  lastName: Niczyporuk
+  pictureUrl: public/img/people/michal-niczyporuk.jpg
+  githubUsername: mihn
+  twitterUsername: mihn
+
+- firstName: Anna
+  lastName: Mazińska-Nielepkowicz
+  pictureUrl: public/img/people/anna-mazinska-nielepkowicz.jpg
+  facebookUrl: https://www.facebook.com/Photogosiek
+  websiteUrl: www.fotomilo.pl
+
+- firstName: more +9
+  lastName:
+  pictureUrl: public/img/placeholder-codepot.png
