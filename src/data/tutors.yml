@@ -1,4 +1,17 @@
 - publish: true
+  firstName: Kamil
+  lastName: Chmielewski
+  tagline: Technical PO @ Allegro
+  pictureUrl: public/img/people/kamil-chmielewski.jpg
+  twitterUsername:
+  githubUsername: kamilchm
+  linkedInProfileUrl:
+  stackoverflowId:
+  googlePlusHandler:
+  websiteUrl:
+  bioInMd: Looking for Open Source solutions that provide value. States that job was done only when users says so. Devotee of the Zen of Python and Unix Philosophy. Developer, tester, scrum master, team leader, architect, product owner or just someone who deliver working software.
+
+- publish: true
   firstName: Adrian
   lastName: Soja
   tagline: Database Developer @ Touk
