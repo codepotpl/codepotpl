@@ -39,7 +39,8 @@ var data = {
     media: YAML.load('src/data/media.yml'),
     workshops: YAML.load('src/data/workshops.yml').filter(function (workshop) {
         return workshop.publish;
-    })
+    }),
+    volunteers: YAML.load('src/data/volunteers.yml')
 };
 
 if (!Array.prototype.find) {
@@ -100,7 +101,8 @@ app.get('/', function (req, res) {
         media: data.media,
         workshops: data.workshops,
         metaTags: metaTagsData,
-        markdown:markdown.markdown.toHTML
+        markdown:markdown.markdown.toHTML,
+        volunteers: data.volunteers
     });
 });
 
@@ -132,7 +134,7 @@ app.get('/workshops-wip', function (req, res) {
         partners: data.partners,
         workshops: data.workshops,
         metaTags: metaTagsData,
-        markdown:markdown.markdown.toHTML
+        markdown:markdown.markdown.toHTML,
     });
 });
 

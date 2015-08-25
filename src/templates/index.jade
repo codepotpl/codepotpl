@@ -41,6 +41,8 @@ html
                         li.name
                             a(href='#sponsor-us') SPONSORS
                         li.name
+                            a(href='#volunteers') VOLUNTEERS
+                        li.name
                             a(href='#organizers') TEAM
                         li.name
                             a(href='https://twitter.com/codepot_pl' target='_blank') &nbsp;
@@ -386,6 +388,45 @@ html
                                                 span(itemprop='addressCountry')!=med.country
                                                 span(itemprop='addressLocality')!=med.city
 
+        section#volunteers
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 VOLUNTEERS
+                    span.tagline The team that make Codepot possible!
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    ul.small-block-grid-2.medium-block-grid-5
+                        each volunteer, index in volunteers
+                            li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
+                                img(src=volunteer.pictureUrl)
+                                div.information
+                                    div.center-holder(itemprop='organizer' itemscope itemtype='http://schema.org/Person')
+                                        div.name-wrapper
+                                            span(itemprop='givenName').first-name!=volunteer.firstName
+                                            hr
+                                            span(itemprop='familyName').last-name!=volunteer.lastName
+                                    if volunteer.twitterUsername || volunteer.githubUsername || volunteer.linkedInProfileUrl || volunteer.facebookUrl
+                                        div.center-holder-social
+                                            div.social
+                                                if volunteer.linkedInProfileUrl
+                                                    a(href!=volunteer.linkedInProfileUrl target='_blank')
+                                                        i.icon-linkedin
+                                                if volunteer.githubUsername
+                                                    a(href='https://www.github.com/' + volunteer.githubUsername target='_blank')
+                                                        i.icon-github-circled-alt2
+                                                if volunteer.twitterUsername
+                                                    a(href='https://twitter.com/' + volunteer.twitterUsername target='_blank')
+                                                        i.icon-twitter
+                                                if volunteer.stackoverflowId
+                                                    a(href!=volunteer.stackoverflowId target='_blank')
+                                                        i.icon-stackoverflow
+                                                if volunteer.googlePlusHandler
+                                                    a(href='https://plus.google.com/' + volunteer.googlePlusHandler target='_blank')
+                                                        i.icon-gplus
+                                                if volunteer.facebookUrl
+                                                    a(href!=volunteer.facebookUrl target='_blank')
+                                                        i.icon-facebook-1
+
         section#organizers
             div.row
                 div.small-12.medium-10.medium-centered.columns
@@ -393,15 +434,16 @@ html
                     span.tagline Meet the Team!
             div.row
                 div.small-12.medium-10.medium-centered.columns
-                    ul.small-block-grid-2.medium-block-grid-4
+                    ul.small-block-grid-2.medium-block-grid-5
                         each organizer, index in organizers
                             li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
                                 img(src=organizer.pictureUrl)
-                                div.center-holder(itemprop='organizer' itemscope itemtype='http://schema.org/Person')
-                                    div.name-wrapper
-                                        span(itemprop='givenName').first-name!=organizer.firstName
-                                        hr
-                                        span(itemprop='familyName').last-name!=organizer.lastName
+                                div.information
+                                    div.center-holder(itemprop='organizer' itemscope itemtype='http://schema.org/Person')
+                                        div.name-wrapper
+                                            span(itemprop='givenName').first-name!=organizer.firstName
+                                            hr
+                                            span(itemprop='familyName').last-name!=organizer.lastName
 
         section#contact
             div.row
