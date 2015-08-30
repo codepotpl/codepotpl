@@ -42,19 +42,3 @@
   lastName: Gajowy
   pictureUrl: public/img/people/lukasz-gajowy.jpg
 
-- firstName:
-  lastName:
-  pictureUrl: public/img/placeholder-codepot.png
-
-- firstName: &nbsp;
-  lastName: &nbsp;
-  pictureUrl: public/img/placeholder-codepot.png
-
-- firstName:
-  lastName:
-  pictureUrl: public/img/placeholder-codepot.png
-
-- firstName:
-  lastName:
-  pictureUrl: public/img/placeholder-codepot.png
-
