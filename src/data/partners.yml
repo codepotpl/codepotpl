@@ -168,3 +168,9 @@
   country: "Poland"
   pictureUrl: public/img/organizations/aws-ug-poland.png
   url: http://www.meetup.com/AWSUGPL/
+
+- name: "Lublin JUG"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/ljug-logo.png
+  url: http://www.meetup.com/Lublin-Java-User-Group/
