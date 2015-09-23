@@ -45,6 +45,11 @@ html
                         li.name
                             a(href='#organizers') TEAM
                         li.name
+                            a(href = 'https://registration.codepot.pl/' target='_blank') LOG IN
+                        li.name
+                            a(href='https://plus.google.com/+CodepotPlCodepot/videos' target='_blank') &nbsp;
+                                i.icon-gplus &nbsp;
+                        li.name
                             a(href='https://twitter.com/codepot_pl' target='_blank') &nbsp;
                                 i.icon-twitter &nbsp;
                         li.name
@@ -99,13 +104,8 @@ html
                                         span SWPS, Warsaw
                                         | <br/> Chodakowska 19/31
 
-        section#registration
-            div.row
-                div.small-12.medium-10.medium-centered.columns
-                    p We’ve just sold out all the tickets.
-                    span Sign up for workshops will be allowed a week before event.
-                    a(href='https://registration.codepot.pl/')
-                        button Log in
+        //section#video
+        //    div.row
 
         section#about
             div.row
@@ -123,7 +123,6 @@ html
                         | product design, IoT and hardware renaissance, agile practices and many, many more.
                         |Instead of just
                         | talking about great new tools - Codepot will show you how to actually use them.
-
             div.row.graphics
                 div.small-12.medium-10.medium-centered.columns
                     ul.small-block-grid-2.medium-block-grid-6
@@ -157,6 +156,19 @@ html
                             div.center-holder
                                 h1.number 16
                                 span.discription parallel sessions
+            div.row.video.show-for-medium-up
+                | <iframe width="640" height="360" src="https://www.youtube.com/embed/VtdqLJ7bwFo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+        section#video
+            div.row.video.show-for-small
+                | <iframe width="320" height="180" src="https://www.youtube.com/embed/VtdqLJ7bwFo?rel=0" frameborder="0" allowfullscreen></iframe>
+        section#registration
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    p
+                    span Log in and leave feedback for workshops and CODE<b>POT</b>.
+                    a(href='https://registration.codepot.pl/')
+                        button Log in
 
         section#venue
             div.row
