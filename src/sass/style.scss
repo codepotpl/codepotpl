@@ -252,6 +252,7 @@ section {
 section#registration {
   padding: 2rem 0;
   padding-bottom: 1rem;
+  padding-top: 0;
   p {
     font-size: 24px;
     margin-bottom: rem-calc(5);
@@ -319,6 +320,15 @@ section#about {
 
     }
   }
+
+  .video {
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+section#video{
+  text-align: center;
 }
 
 section#venue {
