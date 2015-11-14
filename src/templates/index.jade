@@ -45,8 +45,6 @@ html
                         li.name
                             a(href='#organizers') TEAM
                         li.name
-                            a(href = 'https://registration.codepot.pl/' target='_blank') LOG IN
-                        li.name
                             a(href='https://plus.google.com/+CodepotPlCodepot/videos' target='_blank') &nbsp;
                                 i.icon-gplus &nbsp;
                         li.name
@@ -162,13 +160,6 @@ html
         section#video
             div.row.video.show-for-small
                 | <iframe width="320" height="180" src="https://www.youtube.com/embed/VtdqLJ7bwFo?rel=0" frameborder="0" allowfullscreen></iframe>
-        section#registration
-            div.row
-                div.small-12.medium-10.medium-centered.columns
-                    p
-                    span Log in and leave feedback for workshops and CODE<b>POT</b>.
-                    a(href='https://registration.codepot.pl/')
-                        button Log in
 
         section#venue
             div.row
@@ -325,15 +316,6 @@ html
                             div.dot
                             span.name Workshops
 
-        section#sponsor-us
-            div.row
-                div.small-12.medium-10.medium-centered.columns
-                    h1 SPONSOR US
-                    span.tagline Be the part of the only one workshop conference in Poland.
-                    div.center
-                        a(href='public/codepot-sponsor-offer.pdf' target='blank')
-                            button SPONSOR OFFER
-
         if sponsors && sponsors.length > 0
             section#sponsors
                 div.row
@@ -463,15 +445,5 @@ html
                     h1 CONTACT
                     span.tagline
                         a(href='mailto:contact@codepot.pl') contact@codepot.pl
-
-        section#subscribe
-            div.row
-                div.small-12.medium-10.medium-centered.columns
-                    form(method="post" action="//codepot.us10.list-manage.com/subscribe/post?u=e3b6b208ec2b30c8e9827973f&amp;id=d26e38382d")
-                        h1 SUBSCRIBE
-                        span.tagline Subscribe to our mailing list to find out about new workshops and tutors first.
-                        div.center
-                            input(type='email' required='required' placeholder='Your e-mail address' name='EMAIL' id='mce-EMAIL')
-                            button SUBSCRIBE
 
         script(src='public/body.js' defer)
