@@ -1,0 +1,105 @@
+- name: "4Finance"
+  description: "Banking"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/4finance-logo.png
+  url: http://www.4financeit.com
+
+- name: "Viacom"
+  description: "Viacom"
+  country: "Poland"
+  pictureUrl: public/img/organizations/viacom-logo.png
+  url: http://tech.viacom.com
+
+- name: "Allegro Tech"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/allegro-logo.png
+  url: http://allegro.tech/
+
+- name: "Scalac"
+  description: "Scalac"
+  country: "Poland"
+  pictureUrl: public/img/organizations/scalac-logo.png
+  url: http://www.scalac.io
+
+- name: "TouK"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/touk-logo.png
+  url: http://www.touk.pl
+
+- name: "Pragmatists"
+  description: "Software company"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/pragmatists-logo.png
+  url: http://www.pragmatists.pl
+
+- name: "Codilime"
+  description: "Software company"
+  country: "Poland"
+  pictureUrl: public/img/organizations/codilime-logo.png
+  url: http://www.codilime.com
+
+- name: "Applause"
+  description: "Mobile and web test automation"
+  country: "Poland"
+  pictureUrl: public/img/organizations/applause-logo.png
+  url: http://www.applause.com/
+
+- name: "Sii"
+  description: "Passion for technology"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sii-logo.png
+  url: http://sii.pl/
+
+- name: "DaftCode"
+  description: "DaftCode"
+  country: "Poland"
+  pictureUrl: public/img/organizations/daftcode-logo.png
+  url: http://daftcode.com/
+
+- name: "Cyfrowy Polsat"
+  description: "Cyfrowy Polsat"
+  country: "Poland"
+  pictureUrl: public/img/organizations/cyfrowy-polsat.png
+  url: http://www.grupapolsat.pl/pl/praca
+
+- name: "Samsung"
+  description: "Samsung"
+  country: "Poland"
+  pictureUrl: public/img/organizations/samsung-logo.png
+  url: http://rd.samsung.pl
+
+- name: "Sollers"
+  description: "Sollers"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sollers-logo.png
+  url: http://www.sollers.pl
+
+- name: "Javeo"
+  description: "Javeo"
+  country: "Poland"
+  pictureUrl: public/img/organizations/javeo-logo.png
+  url: http://www.javeo.pl
+
+- name: "Coconet"
+  description: "Coconet"
+  country: "Poland"
+  pictureUrl: public/img/organizations/coconet-logo.png
+  url: http://www.coconet.de/
+
+- name: "Egnyte"
+  description: "Egnyte"
+  country: "Poland"
+  pictureUrl: public/img/organizations/egnyte-logo.png
+  url: http://www.egnyte.com/jobs/
+
+- name: "Comp"
+  description: "Comp"
+  country: "Poland"
+  pictureUrl: public/img/organizations/comp-logo.png
+  url: http://www.comp.com.pl

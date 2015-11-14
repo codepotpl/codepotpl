@@ -1,0 +1,39 @@
+- name: "Programistamag"
+  country: "Poland"
+  pictureUrl: public/img/organizations/programistamag-logo.png
+  url: http://programistamag.pl/
+
+- name: "GeekClub"
+  country: "Poland"
+  pictureUrl: public/img/organizations/geekclub-logo.png
+  url: http://geekclub.pl/
+
+- name: "Kariera Plus"
+  country: "Poland"
+  pictureUrl: public/img/organizations/karieraplus-logo.png
+  url: http://karieraplus.pl/
+
+- name: "Praca.pl"
+  country: "Poland"
+  pictureUrl: public/img/organizations/praca-logo.png
+  url: http://praca.pl/
+
+- name: "Crossweb.pl"
+  country: "Poland"
+  pictureUrl: public/img/organizations/crossweb-logo.png
+  url: http://crossweb.pl/
+
+- name: "Spotkania IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/spotkaniait-logo.png
+  url: http://spotkania-it.pl/
+
+- name: "Sekurak"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sekurak-logo.png
+  url: http://sekurak.pl/
+
+- name: "Vipwakat"
+  country: "Poland"
+  pictureUrl: public/img/organizations/vipwakat-logo.png
+  url: http://vipwakat.pl/

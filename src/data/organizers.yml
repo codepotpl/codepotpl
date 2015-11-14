@@ -1,0 +1,44 @@
+- firstName: Michał
+  lastName: Lewandowski
+  pictureUrl: public/img/people/michal-lewandowski.jpg
+
+- firstName: Maciej
+  lastName: Opała
+  pictureUrl: public/img/people/maciej-opala.jpg
+
+- firstName: Krzysztof
+  lastName: Siejkowski
+  pictureUrl: public/img/people/krzysztof-siejkowski.jpg
+
+- firstName: Tomasz
+  lastName: Netczuk
+  pictureUrl: public/img/people/tomasz-netczuk.jpg
+
+- firstName: Ilona
+  lastName: Sobiczewska
+  pictureUrl: public/img/people/ilona-sobiczewska.jpg
+
+- firstName: Marcin
+  lastName: Jasion
+  pictureUrl: public/img/people/marcin-jasion.jpg
+
+- firstName: Andrzej
+  lastName: Chmielowski
+  pictureUrl: public/img/people/andrzej-chmielowski.jpg
+
+- firstName: Agnieszka
+  lastName: Cieśla
+  pictureUrl: public/img/people/agnieszka-ciesla.jpg
+
+- firstName: Joanna
+  lastName: Siemińska
+  pictureUrl: public/img/people/joanna-sieminska.jpg
+
+- firstName: Tomasz
+  lastName: Ducin
+  pictureUrl: public/img/people/tomasz-ducin.jpg
+
+- firstName: Łukasz
+  lastName: Gajowy
+  pictureUrl: public/img/people/lukasz-gajowy.jpg
+

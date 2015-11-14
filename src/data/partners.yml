@@ -1,0 +1,176 @@
+- name: "Tiktalik"
+  description: "Inexpensive virtual servers, Simple Cloud Computing, Cheap VPS"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/tiktalik-logo.png
+  url: http://www.tiktalik.com
+
+- name: "Agile Development Day"
+  description: "Agile Workshop"
+  country: "Poland"
+  city: "Warsaw"
+  pictureUrl: public/img/organizations/add-logo.png
+  url: http://www.agiledevelopmentday.pl
+
+- name: "Devoxx Poland"
+  description: "Biggest Java Conference in Poland"
+  country: "Poland"
+  city: "Cracow"
+  pictureUrl: public/img/organizations/devoxx-logo.png
+  url: http://www.devoxx.pl
+
+- name: "MegiTeam"
+  description: "Hosting"
+  country: "Poland"
+  pictureUrl: public/img/organizations/megiteam-logo.png
+  url: http://www.megiteam.pl
+
+- name: "PyWaw Summit"
+  description: "Python Conference"
+  country: "Poland"
+  pictureUrl: public/img/organizations/pywaw-s-logo.png
+  url: http://summit.pywaw.org/
+
+- name: "Torun JUG"
+  description: "JUG"
+  country: "Poland"
+  pictureUrl: public/img/organizations/torun-jug-logo.png
+  url: http://torun.jug.pl/
+
+- name: "GeeCON"
+  description: "Java Conference"
+  country: "Poland"
+  pictureUrl: public/img/organizations/geecon-logo.png
+  url: http://www.geecon.org/
+
+- name: "MCE 2015"
+  description: "Mobile Conference"
+  country: "Poland"
+  pictureUrl: public/img/organizations/mce-logo.png
+  url: http://mceconf.com/
+
+- name: "Zielona Góra JUG"
+  description: "JUG"
+  country: "Poland"
+  pictureUrl: public/img/organizations/pjug-logo.png
+  url: http://java.pl
+
+- name: "Zielona Góra JUG"
+  description: "JUG"
+  country: "Poland"
+  pictureUrl: public/img/organizations/zg-jug-logo.png
+  url: http://zielona-gora-jug.github.io/
+
+- name: "Warszawa JUG"
+  description: "JUG"
+  country: "Poland"
+  pictureUrl: public/img/organizations/wjug-logo.png
+  url: http://warszawa.jug.pl/
+
+- name: "Django Girls"
+  description: "Django"
+  country: "Poland"
+  pictureUrl: public/img/organizations/django-girls.png
+  url: http://djangogirls.org/
+
+- name: "Spotkania Entuzjastów R"
+  description: "R"
+  country: "Poland"
+  pictureUrl: public/img/organizations/smarter-poland.png
+  url: http://smarterpoland.pl/
+
+- name: "Enterprise Search Warsaw Meetup"
+  description: "Search"
+  country: "Poland"
+  pictureUrl: public/img/organizations/eswm-logo.png
+  url: http://www.meetup.com/es-warsaw/
+
+- name: "PyKonik"
+  description: "Python"
+  country: "Poland"
+  pictureUrl: public/img/organizations/pykonik-logo.png
+  url: http://blog.pykonik.org/
+
+- name: "WRUG"
+  description: "Ruby"
+  country: "Poland"
+  pictureUrl: public/img/organizations/wrug-logo.png
+  url: http://wrug.eu/
+
+- name: "NetWtorek"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/netwtorek-logo.png
+  url: http://netwtorek.pl/
+
+- name: "ScKRK"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sckrk-logo.png
+  url: http://www.meetup.com/sc-krk/
+
+- name: "Sages"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/sages-logo.png
+  url: http://www.sages.com.pl/
+
+- name: "Polygon"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/polygon-logo.png
+  url: http://polygon.pw.edu.pl/
+
+- name: "CocoaHeads Kraków"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/cocoaheads-logo.png
+  url: http://www.meetup.com/CocoaHeads-Krakow/
+
+- name: "Mobile Warsaw"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/mobilewarsaw-logo.png
+  url: http://mobile-warsaw.pl/
+
+- name: "Techsoup"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/techsoup-logo.png
+  url: http://fundacjatechsoup.pl/
+
+- name: "Geek Girls Carrots"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/gcc-logo.png
+  url: http://geekgirlscarrots.org/
+
+- name: "JDay"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/jday-logo.png
+  url: http://www.jday.com.ua/
+
+- name: "Łódź JUG"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/juglodz-logo.png
+  url: http://www.juglodz.pl/
+
+- name: "JDay"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/mobilization-logo.png
+  url: http://2015.mobilization.pl/
+
+- name: "AWS User Group Poland"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/aws-ug-poland.png
+  url: http://www.meetup.com/AWSUGPL/
+
+- name: "Lublin JUG"
+  description: "IT"
+  country: "Poland"
+  pictureUrl: public/img/organizations/ljug-logo.png
+  url: http://www.meetup.com/Lublin-Java-User-Group/

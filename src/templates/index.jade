@@ -1,0 +1,477 @@
+html
+    head
+        title Codepot
+        meta(charset='utf-8')
+        link(rel='icon' type='image/png' href='public/img/favicon-32.png' sizes='32x32')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
+        link(type='text/plain' rel='author' href=host + 'humans.txt')
+        include socialmetatags
+        style
+            include ../../public/style.css
+        script
+            include ../../public/head.js
+        //link(rel='stylesheet' type='text/css' href='public/style.css')
+        //script(src='public/head.js')
+        //TODO add environment variable to control inlining mechanism
+    body(itemtype='http://schema.org/EducationEvent', itemscope)
+        div#navbar.fixed
+            nav.top-bar(data-topbar role='navigation')
+                ul.title-area
+                    li.name
+                        h1
+                    li.toggle-topbar.menu-icon
+                        a(href='#')
+                            span 
+                section.top-bar-section
+                    ul.right
+                        li.name
+                            a(href='#about') ABOUT
+                        li.name
+                            a(href='#venue') VENUE
+                        li.name
+                            a(href='#tutors') TUTORS
+                        if workshops.length > 0
+                            li.name
+                                a(href='https://registration.codepot.pl/agenda') WORKSHOPS & AGENDA
+                        //-
+                            li.name
+                                a(href='#agenda') AGENDA
+                        li.name
+                            a(href = '/information') INFORMATION
+                        li.name
+                            a(href='#sponsor-us') SPONSORS
+                        li.name
+                            a(href='#volunteers') VOLUNTEERS
+                        li.name
+                            a(href='#organizers') TEAM
+                        li.name
+                            a(href = 'https://registration.codepot.pl/' target='_blank') LOG IN
+                        li.name
+                            a(href='https://plus.google.com/+CodepotPlCodepot/videos' target='_blank') &nbsp;
+                                i.icon-gplus &nbsp;
+                        li.name
+                            a(href='https://twitter.com/codepot_pl' target='_blank') &nbsp;
+                                i.icon-twitter &nbsp;
+                        li.name
+                            a(href='https://www.facebook.com/codepotpl' target='_blank') &nbsp;
+                                i.icon-facebook-1 &nbsp;
+                        li.name
+                            a(href='http://www.meetup.com/Warsaw-Codepoters/' target='_blank')
+                                i.icon-codepot-icon-meetup &nbsp;
+                        li.name
+                            a(href='mailto:contact@codepot.pl') &nbsp;
+                                i.icon-mail &nbsp;
+
+        header
+            div.row
+                div.small-12.columns
+                    h1(itemprop='name') CODEPOT
+                    h2(itemprop='attendee') 100% workshop conference!
+                        time(itemprop='startDate' datetime='2015-08-28' hidden)!='August 28-29th, 2015&nbsp'
+                        span(itemprop='location' itemscope itemtype='http://schema.org/Place')
+                            span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
+                                span(itemprop='addressLocality' hidden)!='Warsaw'
+                            span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+
+                    div.row.show-for-medium-up
+                        div.small-12.medium-10.medium-centered.columns
+                            div.row.credentials
+                                div.small-12.medium-6.columns
+                                    i.icon-calendar
+                                    span August, 28-29th
+                                        | <br/> 2015
+                                div.small-12.medium-6.columns.right
+                                    i.icon-codepot-icon-map-pin
+                                    a(href='https://www.google.pl/maps/@52.2484033,21.0651879,17z' target='blank')
+                                        span SWPS, Warsaw
+                                        | <br/> Chodakowska 19/31
+
+            img.show-for-small(src='public/img/codepot-header-illustration-small.png')
+            img.show-for-medium-up(src='public/img/codepot-header-illustration-medium-up.png')
+
+            div.row.show-for-small-down.credentials-below-logo
+                div.small-12.columns
+                    div.row
+                        div.small-12.medium-10.medium-centered.columns
+                            div.row.credentials
+                                div.small-12.medium-6.columns
+                                    i.icon-calendar
+                                    span August, 28-29th
+                                        | <br/> 2015
+                                div.small-12.medium-6.columns.right
+                                    i.icon-codepot-icon-map-pin
+                                    a(href='https://www.google.pl/maps/@52.2484033,21.0651879,17z' target='blank')
+                                        span SWPS, Warsaw
+                                        | <br/> Chodakowska 19/31
+
+        //section#video
+        //    div.row
+
+        section#about
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 ABOUT
+                    div.small-12.medium-6.columns(itemprop='description')
+                        p
+                        | 100% workshop technology conference taking place at the end of summer,
+                        | August 28-29th, 2015 at the University of Social Sciences and Humanities in Warsaw, Poland.
+                        | If you believe in learning by doing approach and are thirsty for knowledge and networking this
+                        | event is for you!
+                    div.small-12.medium-6.columns(itemprop='description')
+                        p
+                        |There will be multiple hands-on sessions on software development, devops tools,
+                        | product design, IoT and hardware renaissance, agile practices and many, many more.
+                        |Instead of just
+                        | talking about great new tools - Codepot will show you how to actually use them.
+            div.row.graphics
+                div.small-12.medium-10.medium-centered.columns
+                    ul.small-block-grid-2.medium-block-grid-6
+                        li.wrapper
+                            i.icon-calendar
+                            div.center-holder
+                                h1.number 2
+                                span.discription days
+                        li.wrapper
+                            i.icon-codepot-icon-settings
+                            div.center-holder
+                                h1.number 82
+                                span.discription workshops
+                        li.wrapper
+                            i.icon-codepot-icon-hammer
+                            div.center-holder
+                                h1.number 58
+                                span.discription technical workshops
+                        li.wrapper
+                            i.icon-codepot-icon-ball
+                            div.center-holder
+                                h1.number 24
+                                span.discription soft-skills sessions
+                        li.wrapper
+                            i.icon-codepot-icon-group
+                            div.center-holder
+                                h1.number 350
+                                span.discription attendees
+                        li.wrapper
+                            i.icon-codepot-icon-opened
+                            div.center-holder
+                                h1.number 16
+                                span.discription parallel sessions
+            div.row.video.show-for-medium-up
+                | <iframe width="640" height="360" src="https://www.youtube.com/embed/VtdqLJ7bwFo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+        section#video
+            div.row.video.show-for-small
+                | <iframe width="320" height="180" src="https://www.youtube.com/embed/VtdqLJ7bwFo?rel=0" frameborder="0" allowfullscreen></iframe>
+        section#registration
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    p
+                    span Log in and leave feedback for workshops and CODE<b>POT</b>.
+                    a(href='https://registration.codepot.pl/')
+                        button Log in
+
+        section#venue
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 VENUE
+            div.row.content
+                div.small-12.medium-10.medium-centered.columns
+                    p Our conference will be held at the University of Social Science and Humanities.
+                    p See the website:
+                        a(href='http://www.swps.pl/english-version' target='blank') http://www.swps.pl/english-version
+                    button#show_map SEE THE MAP
+        section#map(style='display: none;')
+            div#map-canvas
+
+
+        if tutors && tutors.length > 0
+            section#tutors
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        h1 TUTORS
+                        span.tagline We present our great tutors!
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        ul.small-block-grid-2.medium-block-grid-4
+                            each tutor, index in tutors
+                                li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
+                                    a(href="#" data-reveal-id="tutor" + index)
+                                        img(src=tutor.pictureUrl)
+                                        div.empty
+                                        div.center-holder
+                                            div.description-wrapper
+                                                span.top-line!=[tutor.firstName, tutor.lastName].join(' ')
+                                                hr
+                                                span.bottom-line!=tutor.tagline
+                                    div.reveal-modal(id="tutor" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
+                                        div.row.img
+                                            div.medium-3
+                                                img(src=tutor.pictureUrl)
+                                        div.row.contact
+                                            div.icons.inline
+                                                if tutor.linkedInProfileUrl
+                                                    a(href!=tutor.linkedInProfileUrl target='_blank')
+                                                        i.icon-linkedin
+                                                if tutor.githubUsername
+                                                    a(href='https://www.github.com/' + tutor.githubUsername target='_blank')
+                                                        i.icon-github-circled-alt2
+                                                if tutor.twitterUsername
+                                                    a(href='https://twitter.com/' + tutor.twitterUsername target='_blank')
+                                                        i.icon-twitter
+                                                if tutor.stackoverflowId
+                                                    a(href!=tutor.stackoverflowId target='_blank')
+                                                        i.icon-stackoverflow
+                                                if tutor.googlePlusHandler
+                                                    a(href='https://plus.google.com/' + tutor.googlePlusHandler target='_blank')
+                                                        i.icon-gplus
+                                                if tutor.facebookUrl
+                                                    a(href!=tutor.facebookUrl target='_blank')
+                                                        i.icon-facebook-1
+                                            div.name.inline
+                                                if tutor.websiteUrl
+                                                    a(href!=tutor.websiteUrl target='_blank')
+                                                        span.name!=[tutor.firstName, tutor.lastName].join(' ')
+                                                else
+                                                    span.name!=[tutor.firstName, tutor.lastName].join(' ')
+                                            div.clearBoth
+                                        div.row.tagline
+                                            span.bottom-line!=tutor.tagline
+                                        div.row.bioInMd
+                                            if tutor.bioInMd
+                                                !=markdown(tutor.bioInMd)
+
+                                        a.close-reveal-modal(aria-label="Close") &#215;
+
+        if workshops && workshops.length > 0
+            section#workshops
+                div.row.header
+                    div.small-12.medium-10.medium-centered.columns
+                        h1 WORKSHOPS
+                        span.tagline Here are amazing workshops that will be on CODEPOT.
+                div.row.button-section
+                    div.small-12.medium-10.medium-centered.columns
+                        div.center
+                            a(href='https://registration.codepot.pl/agenda')
+                                button LIST OF WORKSHOPS & AGENDA
+        
+        //-
+            section#agenda
+                div.row
+                    div.small-12.columns
+                        h1 AGENDA
+                div.row
+                    div.small-12.large-5.large-push-1.columns
+                        h2 DAY 1, FRIDAY 28th&nbsp;AUGUST
+                        div.agenda-row
+                            span.time 8:00<span>-</span><br>9:00
+                            div.dot
+                            span.name Registration
+                        div.agenda-row
+                            span.time 9:00<span>-</span><br>9:15
+                            div.dot
+                            span.name Opening
+                        div.agenda-row
+                            span.time 9:15<span>-</span><br>12:30
+                            div.dot
+                            span.name Workshops
+                        div.agenda-row
+                            span.time 12:30<span>-</span><br>13:30
+                            div.dot
+                                i.icon-codepot-icon-cutlery
+                            span.name Lunch
+                        div.agenda-row
+                            span.time 13:30<span>-</span><br>14:45
+                            div.dot
+                            span.name Workshops
+                        div.agenda-row
+                            span.time 14:45<span>-</span><br>15:00
+                            div.dot
+                                i.icon-codepot-icon-coffee
+                            span.name Coffee break
+                        div.agenda-row
+                            span.time 15:00<span>-</span><br>18:15
+                            div.dot
+                            span.name Workshops
+                    div.small-12.large-5.large-push-1.end.columns
+                        h2 DAY 2, SATURDAY 29th&nbsp;AUGUST
+                        div.agenda-row
+                            span.time 9:00<span>-</span><br>9:30
+                            div.dot
+                            span.name Registration
+                        div.agenda-row
+                            span.time 9:30<span>-</span><br>9:45
+                            div.dot
+                            span.name Opening
+                        div.agenda-row
+                            span.time 9:45<span>-</span><br>13:00
+                            div.dot
+                            span.name Workshops
+                        div.agenda-row
+                            span.time 13:00<span>-</span><br>14:00
+                            div.dot
+                                i.icon-codepot-icon-cutlery
+                            span.name Lunch
+                        div.agenda-row
+                            span.time 14:00<span>-</span><br>15:00
+                            div.dot
+                            span.name Workshops
+                        div.agenda-row
+                            span.time 15:00<span>-</span><br>15:15
+                            div.dot
+                                i.icon-codepot-icon-coffee
+                            span.name Coffee break
+                        div.agenda-row
+                            span.time 15:15<span>-</span><br>18:30
+                            div.dot
+                            span.name Workshops
+
+        section#sponsor-us
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 SPONSOR US
+                    span.tagline Be the part of the only one workshop conference in Poland.
+                    div.center
+                        a(href='public/codepot-sponsor-offer.pdf' target='blank')
+                            button SPONSOR OFFER
+
+        if sponsors && sponsors.length > 0
+            section#sponsors
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        h1#sponsors SPONSORS
+                        span.tagline Here are amazing companies that make Codepot possible!
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        ul.small-block-grid-2.medium-block-grid-3
+                            each sponsor, index in sponsors
+                                li.wrapper(class=((index % 2 == 0) ? 'small-up' : 'small-down') class=((index % 3 === 0 || index % 3 === 2) ? 'medium-down' : 'medium-up'))
+                                    div.box(itemscope itemtype='http://schema.org/Organization')
+                                        a(href=sponsor.url, itemprop='url', target='_blank')
+                                            div.sponsors
+                                                img(src=sponsor.pictureUrl)
+                                        div(hidden)
+                                            div(itemprop='name')!=sponsor.name
+                                            div(itemprop='description')!=sponsor.description
+                                            div(itemprop='address', itemscope, itemtype='http://schema.org/PostalAddress')
+                                                span(itemprop='addressCountry')!=sponsor.country
+                                                span(itemprop='addressLocality')!=sponsor.city
+
+        if partners && partners.length > 0
+            section#partners
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        h1 PARTNERS
+                        span.tagline Codepot is supported by the following organisations!
+                div.row.partners-body
+                    div.small-12.medium-10.medium-centered.columns
+                        ul.small-block-grid-2.medium-block-grid-4.slick-carousel-run
+                            each partner, index in partners
+                                li.wrapper
+                                    div.box(itemscope itemtype='http://schema.org/Organization')
+                                        a(href=partner.url, itemprop='url', target='_blank')
+                                            div.partners
+                                                img(src=partner.pictureUrl)
+                                        div(hidden)
+                                            div(itemprop='name')!=partner.name
+                                            div(itemprop='description')!=partner.description
+                                            div(itemprop='address', itemscope, itemtype='http://schema.org/PostalAddress')
+                                                span(itemprop='addressCountry')!=partner.country
+                                                span(itemprop='addressLocality')!=partner.city
+
+        if media && media.length > 0
+            section#media
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        h1 MEDIA
+                        span.tagline Our befriended portals!
+                div.row
+                    div.small-12.medium-10.medium-centered.columns
+                        ul.small-block-grid-2.medium-block-grid-4.slick-carousel-run
+                            each med, index in media
+                                li.wrapper
+                                    div.box(itemscope itemtype='http://schema.org/Organization')
+                                        a(href=med.url, itemprop='url', target='_blank')
+                                            div.media
+                                                img(src=med.pictureUrl)
+                                        div(hidden)
+                                            div(itemprop='name')!=med.name
+                                            div(itemprop='description')!=med.description
+                                            div(itemprop='address', itemscope, itemtype='http://schema.org/PostalAddress')
+                                                span(itemprop='addressCountry')!=med.country
+                                                span(itemprop='addressLocality')!=med.city
+
+        section#volunteers
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 VOLUNTEERS
+                    span.tagline The team that make Codepot possible!
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    ul.small-block-grid-2.medium-block-grid-5
+                        each volunteer, index in volunteers
+                            li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
+                                img(src=volunteer.pictureUrl)
+                                div.information
+                                    div.center-holder(itemprop='organizer' itemscope itemtype='http://schema.org/Person')
+                                        div.name-wrapper
+                                            span(itemprop='givenName').first-name!=volunteer.firstName
+                                            hr
+                                            span(itemprop='familyName').last-name!=volunteer.lastName
+                                    if volunteer.twitterUsername || volunteer.githubUsername || volunteer.linkedInProfileUrl || volunteer.facebookUrl
+                                        div.center-holder-social
+                                            div.social
+                                                if volunteer.linkedInProfileUrl
+                                                    a(href!=volunteer.linkedInProfileUrl target='_blank')
+                                                        i.icon-linkedin
+                                                if volunteer.githubUsername
+                                                    a(href='https://www.github.com/' + volunteer.githubUsername target='_blank')
+                                                        i.icon-github-circled-alt2
+                                                if volunteer.twitterUsername
+                                                    a(href='https://twitter.com/' + volunteer.twitterUsername target='_blank')
+                                                        i.icon-twitter
+                                                if volunteer.stackoverflowId
+                                                    a(href!=volunteer.stackoverflowId target='_blank')
+                                                        i.icon-stackoverflow
+                                                if volunteer.googlePlusHandler
+                                                    a(href='https://plus.google.com/' + volunteer.googlePlusHandler target='_blank')
+                                                        i.icon-gplus
+                                                if volunteer.facebookUrl
+                                                    a(href!=volunteer.facebookUrl target='_blank')
+                                                        i.icon-facebook-1
+
+        section#organizers
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 ORGANIZERS
+                    span.tagline Meet the Team!
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    ul.small-block-grid-2.medium-block-grid-5
+                        each organizer, index in organizers
+                            li.wrapper(class=(index % 2 == 0) ? 'odd' : 'even')
+                                img(src=organizer.pictureUrl)
+                                div.information
+                                    div.center-holder(itemprop='organizer' itemscope itemtype='http://schema.org/Person')
+                                        div.name-wrapper
+                                            span(itemprop='givenName').first-name!=organizer.firstName
+                                            hr
+                                            span(itemprop='familyName').last-name!=organizer.lastName
+
+        section#contact
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    h1 CONTACT
+                    span.tagline
+                        a(href='mailto:contact@codepot.pl') contact@codepot.pl
+
+        section#subscribe
+            div.row
+                div.small-12.medium-10.medium-centered.columns
+                    form(method="post" action="//codepot.us10.list-manage.com/subscribe/post?u=e3b6b208ec2b30c8e9827973f&amp;id=d26e38382d")
+                        h1 SUBSCRIBE
+                        span.tagline Subscribe to our mailing list to find out about new workshops and tutors first.
+                        div.center
+                            input(type='email' required='required' placeholder='Your e-mail address' name='EMAIL' id='mce-EMAIL')
+                            button SUBSCRIBE
+
+        script(src='public/body.js' defer)

@@ -1,0 +1,38 @@
+{
+  "name": "codepotpl",
+  "version": "1.0.0",
+  "description": "Codepot main website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dist": "grunt dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codepotpl/codepotpl.git"
+  },
+  "author": "Tomasz Netczuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codepotpl/codepotpl/issues"
+  },
+  "homepage": "https://github.com/codepotpl/codepotpl",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "compression": "^1.4.3",
+    "express": "^4.12.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-imagemagick": "^0.1.5",
+    "grunt-pngmin": "^1.0.2",
+    "grunt-sass": "^1.1.0",
+    "jade": "^1.9.2",
+    "markdown": "^0.5.0",
+    "yamljs": "^0.2.1"
+  }
+}

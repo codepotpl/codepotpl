@@ -1,0 +1,68 @@
+html
+    head
+        title Codepot
+        meta(charset='utf-8')
+        link(rel='icon' type='image/png' href='public/img/favicon-32.png' sizes='32x32')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
+        include socialmetatags
+        link(rel='stylesheet' type='text/css' href='public/style.css')
+        script(src='public/head.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js')
+
+
+    body(itemtype='http://schema.org/EducationEvent', itemscope)
+        a(href='/')
+            header.call-for-papers-form
+                div.row
+                    div.small-12.columns
+                        h1(itemprop='name') CODEPOT
+                        h2(itemprop='attendee') 100% workshop conference!
+                        span.tagline
+                            time(itemprop='startDate' datetime='2015-08-28')!='August 28-29th, 2015&nbsp'
+                            span(itemprop='location' itemscope itemtype='http://schema.org/Place')
+                                span(itemprop='address' itemscope itemtype='http://schema.org/PostalAddress')
+                                    span(itemprop='addressLocality')!='Warsaw'
+                                span(class='hidden' itemprop='name')!='University of Social Sciences and Humanities'
+
+        section#call-for-papers-form
+            .row
+                div.small-12.columns
+                    h1!='CALL FOR PAPERS'
+                    p Please fill in the form and submit. We will contact you about the result shortly.
+            .row
+                form.large-10.columns
+                    .row
+                        .small-12.medium-3.columns
+                            label.right.inline(for='name') Full name *
+                        .small-12.medium-9.columns
+                            input(placeholder='', type='text', name='entry.1436400997', required='', id='name')
+                    .row
+                        .small-12.medium-3.columns
+                            label.right.inline(for='email') E-mail *
+                        .small-12.medium-9.columns
+                            input(placeholder='', type='email', name='entry.268804549', required='', id='email')
+                    .row
+                        .small-12.medium-3.columns
+                            label.right.inline(for='topic') Topic *
+                        .small-12.medium-9.columns
+                            input(placeholder='', type='text', name='entry.472766301', required='', id='topic')
+                    .row
+                        .small-12.medium-3.columns
+                            label.right.inline(for='description') Short but accurate description *
+                        .small-12.medium-9.columns
+                            textarea(placeholder='', name='entry.1981681847', rows='6', cols='0', dir='auto', required='', id='description')
+                    .row
+                        .small-12.medium-3.columns
+                            label.right.inline(for='requested-time') How much time do you need? *
+                        .small-12.medium-9.columns
+                            input(placeholder='(1, 3 hours, more)', type='text', name='entry.1693997362', required='', id='requested-time')
+                    .row
+                        .small-12.medium-3.columns
+                            label.right.inline(for='workshops') Have you ever spoken on conference or prepared a workshop before? If yes, please tell us something more? If no, please leave it blank.
+                        .small-12.medium-9.columns
+                            textarea(placeholder='', name='entry.1344399983', rows='8', cols='0', id='workshops')
+                    .row
+                        .small-12.columns
+                            button.right(value='Submit', id='call-for-paper-button', disabled='') SUBMIT FORM
+
+        script(src='public/call-for-papers.js')
