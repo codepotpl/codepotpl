@@ -15,3 +15,6 @@ To build for staging/release environment just run docker:
 - `docker build --tag codepotpl .` to build image,
 - `docker run -it -p 8080:8080 -e CDPT_HOST="<HOST_HERE>" codepotpl` to run container with exposed port 8080.
 
+# Static `index.html`
+
+Just run the server. Every time you do this `index.html` will be overridden.

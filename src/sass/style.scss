@@ -14,8 +14,8 @@ $adjust: true;
 @import "foundation/components/thumbs";
 
 $slick-font-path: "public/font/";
-@import "slick";
-@import "slick-theme";
+@import "slick.scss";
+@import "slick-theme.scss";
 
 $green: #2CB588;
 $dark-green: #219B6F;

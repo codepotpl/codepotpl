@@ -141,3 +141,26 @@ var server = app.listen(8080, function () {
     console.log('Codepot.pl website listening at http://%s:%s', host, port);
 });
 
+app.render('index', {
+        host: process.env['CDPT_HOST'],
+        organizers: data.organizers,
+        tutors: data.tutors,
+        workshops: data.workshops,
+        sponsors: data.sponsors,
+        partners: data.partners,
+        media: data.media,
+        workshops: data.workshops,
+        metaTags: metaTagsData,
+        markdown: markdown.markdown.toHTML,
+        volunteers: data.volunteers
+    },
+    function (err, html) {
+        var fs = require('fs');
+
+        fs.writeFile('index.html', html, function(err) {
+            if(err) {
+                return console.log(err);
+            }
+        });
+    });
+
