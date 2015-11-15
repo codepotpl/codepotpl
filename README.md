@@ -17,4 +17,8 @@ To build for staging/release environment just run docker:
 
 # Static `index.html`
 
-Just run the server. Every time you do this `index.html` will be overridden.
+Run:
+
+1. `node_modules/.bin/grunt dist`
+2. `CDPT_HOST="http://codepot.pl/" node index.js`
+3. Commit `public` directory and `index.html`.
