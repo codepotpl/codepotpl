@@ -36,7 +36,12 @@ var data = {
     partners: YAML.load('src/data/partners.yml'),
     media: YAML.load('src/data/media.yml'),
     workshops: [],
-    volunteers: YAML.load('src/data/volunteers.yml')
+    volunteers: YAML.load('src/data/volunteers.yml'),
+    workshopsWithTutors: require('./src/data/workshops-with-tutors').sort(function (a, b) {
+        var x = a.title.toLowerCase();
+        var y = b.title.toLowerCase();
+        return x < y ? -1 : x > y ? 1 : 0;
+    }),
 };
 
 if (!Array.prototype.find) {
@@ -97,8 +102,9 @@ app.get('/', function (req, res) {
         media: data.media,
         workshops: data.workshops,
         metaTags: metaTagsData,
-        markdown:markdown.markdown.toHTML,
-        volunteers: data.volunteers
+        markdown: markdown.markdown.toHTML,
+        volunteers: data.volunteers,
+        workshopsWithTutors: data.workshopsWithTutors
     });
 });
 
@@ -130,7 +136,7 @@ app.get('/workshops-wip', function (req, res) {
         partners: data.partners,
         workshops: data.workshops,
         metaTags: metaTagsData,
-        markdown:markdown.markdown.toHTML,
+        markdown: markdown.markdown.toHTML,
     });
 });
 
@@ -152,13 +158,14 @@ app.render('index', {
         workshops: data.workshops,
         metaTags: metaTagsData,
         markdown: markdown.markdown.toHTML,
-        volunteers: data.volunteers
+        volunteers: data.volunteers,
+        workshopsWithTutors: data.workshopsWithTutors
     },
     function (err, html) {
         var fs = require('fs');
 
-        fs.writeFile('index.html', html, function(err) {
-            if(err) {
+        fs.writeFile('index.html', html, function (err) {
+            if (err) {
                 return console.log(err);
             }
         });

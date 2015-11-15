@@ -233,17 +233,38 @@ html
 
                                         a.close-reveal-modal(aria-label="Close") &#215;
 
-        if workshops && workshops.length > 0
-            section#workshops
-                div.row.header
-                    div.small-12.medium-10.medium-centered.columns
-                        h1 WORKSHOPS
-                        span.tagline Here are amazing workshops that will be on CODEPOT.
-                div.row.button-section
-                    div.small-12.medium-10.medium-centered.columns
-                        div.center
-                            a(href='https://registration.codepot.pl/agenda')
-                                button LIST OF WORKSHOPS & AGENDA
+        //if workshops && workshops.length > 0
+        //    section#workshops
+        //        div.row.header
+        //            div.small-12.medium-10.medium-centered.columns
+        //                h1 WORKSHOPS
+        //                span.tagline Here are amazing workshops that will be on CODEPOT.
+        //        div.row.button-section
+        //            div.small-12.medium-10.medium-centered.columns
+        //                div.center
+        //                    a(href='https://registration.codepot.pl/agenda')
+        //                        button LIST OF WORKSHOPS & AGENDA
+
+        section#workshops
+            div.row.header
+                div.small-12.medium-10.medium-centered.columns
+                    h1 WORKSHOPS
+                each workshop, index in workshopsWithTutors
+                    div.row
+                        div.small-11.small-centered.columns
+                            a(href="#" data-reveal-id="workshop" + index)
+                                button.workshop-button
+                                    !=workshop.title
+                            div.reveal-modal(id="workshop" + index data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog")
+                                div.row.workshop-modal
+                                    div.small-12.columns
+                                        h2!=workshop.title
+                                        span.description!=markdown(workshop.descriptionInMd)
+                                        h3 TUTORS
+                                        each tutor in workshop.tutors
+                                            div.tutor
+                                                img(src=tutor.picture_url)
+                                                span.tutor-name!=tutor.name
         
         //-
             section#agenda

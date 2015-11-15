@@ -1,0 +1,1814 @@
+[
+  {
+    "title": "Bluetooth Low Energy by Example - TI\u0027s Sensor Tags",
+    "descriptionInMd": "TI SensorTag is a great Bluetooth Low Energy device full of sensors (accelerometer, gyroscope, compass, thermometers, barometer and much more). You can use it either to have some fun testing and playing with each of the sensors or even preparing a prototype for your next startup! You will learn how to develop an idea into a working prototype, based on Sensor Tags integrated with mobile devices.\n\nRemember to submit your project idea before the workshop, because you will work together with mentors on selected project utilising TIST devices. We can\u0027t wait for your project suggestions!",
+    "tutors": [
+      {
+        "name": "Błażej Marcinkiewicz",
+        "tagline": "Ultimate problem solver",
+        "picture_url": "public/img/people/blazej-marcinkiewicz.jpg",
+        "twitter_username": "blazejmar",
+        "github_username": "marcinkiewiczblazej",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "iOS developer for over 4 years, previously embedded platform programmer. Recently I\u0027ve been working on a supplementary app for an activity tracker communicating over Bluetooth LE."
+      },
+      {
+        "name": "Tomasz Grynfelder",
+        "tagline": "Senior Software Engineer at Neofonie Mobile GmbH",
+        "picture_url": "public/img/people/tomasz-grynfelder.jpg",
+        "twitter_username": "tgrynfelder",
+        "github_username": "tgrf",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/tgrynfelder",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Mobile technologies freak highly focused on iOS development, having an affair with hardware prototyping. Serial conferences and workshops attender, mostly as a speaker. Great fan of cycling and sailing."
+      },
+      {
+        "name": "Krzysiek Wróbel",
+        "tagline": "Developer @ Company name",
+        "picture_url": "public/img/people/krzysztof-wrobel.jpg",
+        "twitter_username": "MrChrisWrobel",
+        "github_username": "KrzysztofWrobel",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/mrchriswrobel",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Krzysiek finished his Dual Degree Masters from Technische Universität Berlin and Warsaw University of Technology. 6 years of Computer Science studies with focus on computer vision, augmented reality and machine learning. Additionally 3 years’ of professional experience in mobile development as Android Developer. He is passionate about human-computer interfaces and wearable and  emphasises on combining and adapting advanced technologies for daily usage. Understands the need of \u0027Running Lean\u0027 and recently is delighted by possibilities of Rx Android.\nHe is co-founder of \u0027Grip It\u0027, an application for sport climbing training. "
+      }
+    ]
+  },
+  {
+    "title": "\"Dylemat developera: startup czy kontrakt\" - własny biznes kontra software house i korporacja",
+    "descriptionInMd": "Chcemy powiedzieć o drodze jaka czeka programistę, jego dylematach i wyborach a także ma to być case study nad tym jak wygląda ta droga dalej. Chciałbym ze swoich doświadczeń i kolegi zrobić podręcznik o funkcji i przebiegu całości.",
+    "tutors": [
+      {
+        "name": "Tomasz Chaciński",
+        "tagline": "Twórca sportowej aplikacji dla gier opartej na grywalizacji",
+        "picture_url": "public/img/people/tomasz-chacinski.jpg",
+        "twitter_username": "tomasz.chaciski1",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/tomasz-chaci%C5%84ski/52/4a1/796",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://sdacademy.pl/",
+        "bio_in_md": "Posiadam 7 lat doświadczenia w sprzedaży. Większość swoich lat pracy spędziłem w Grupie Pracuj, gdzie aktualnie jestem odpowiedzialny za kluczowych klientów. Zebrane doświadczenie uświadomiło mnie jak wiele problemów posiadają firmy oraz ich działy HR- stąd też powstał pomysł na startup FitCompany, którym mam przyjemność zarządzać. Od wczesnych lat mojego życia jestem pasjonatem sportu, który uprawiam codziennie. Wiem, że to właśnie sport wykształtował mnie jako człowieka i dobrego pracownika. Swoją pasję do sportu przekładam na biznes, który tworzę."
+      },
+      {
+        "name": "Szymon Pruszyński",
+        "tagline": "Coordinator, Business Developer - Software Development Academy",
+        "picture_url": "public/img/people/szymon-pruszynski.jpg",
+        "twitter_username": "SimonPruszynski",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://sdacademy.pl/",
+        "bio_in_md": "Pracowałem przez dwa lata w dużej niemieckiej kompanii shippingowej. Następnie współpracowałem ze startupem Ocean CleanUp z Holandii po czym uświadomiłem sobie, że moje miejsce jest pośród polskiej społeczności startupowej i w ramach tego organu zawiązałem współpracę z SDA - akademią programistów, która dostarcza gotowe rozwiązanie na problemy kadrowe branży i pomaga ambitnym młodym ludziom wchodzić na rynek i stanowić na nim konkurencję."
+      }
+    ]
+  },
+  {
+    "title": "Docker starter - from zero to container hero!",
+    "descriptionInMd": "Come and see, what’s that world-famous Docker is about. No previous Docker experience needed. We’ll jump through all essential aspects of this technology as well as some really interesting internals. Lots of examples will get you ready for way better development and deployment experience.",
+    "tutors": [
+      {
+        "name": "Przemysław Hejman",
+        "tagline": "Senior Systems Engineer @ Applause, Inc.",
+        "picture_url": "public/img/people/przemyslaw-hejman.jpg",
+        "twitter_username": "slepykorzen",
+        "github_username": "mieciu",
+        "linkedin_profile_url": "https://www.linkedin.com/profile/view?id\u003d176852407\u0026trk\u003dhp-identity-name",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Hybrid systems and software engineer (still looking for a sweetspot in between of those) currently working at Applause, Inc. Strong believer in DevOps attitude when getting things done. Apart from dealing with code, deployments and automation - an avid guitar player."
+      }
+    ]
+  },
+  {
+    "title": "Jak dogadywać się z obcymi formami inteligencji - przewodnik dla liderów technicznych i rzemieślników",
+    "descriptionInMd": "Biznes: \"Ile Ci to zajmie?\"\n\nTy: \"Nie wiem, jeszcze nigdy tego nie robiłem!\" \n\nBiznes: \"A kiedy będziesz wiedział ile Ci to zajmie\"\n\nPodczas warsztatu: \n\n- zdebugujemy tą i podobne i sytuacje, \n\n- uświadomisz sobie z czego wynika różnica w postrzeganiu czasu, wartości i wewnętrznych wyobrażeń \n\n- poznasz techniki dopasowywania protokołu komunikacyjnego\n\nPrawdopodobnie    to    wrodzona    dociekliwość    oraz    zamiłowanie    do    poszukiwania    modeli,    struktur    i    wzorców    spowodowały,    że    zajmujesz    się    projektowaniem    i    programowaniem    systemów.\n\nChcemy    zaprosić    Cię    do podróży    po    kolejnym    systemie,    który    jest znacznie    bardziej    złożony    niż    te,    z    którymi    spotykasz    się    na    co    dzień    – Twój    mózg.\n\nNa    podstawie    tej    „technicznej”    wiedzy    opracowano    wiele    skutecznych    technik,    które    rozwiązują    konkretne    problemy polegające na niedopasowaniu \"protokołów komunikacyjnych\" w zespole lub pomiędzy biznesem a IT.\n",
+    "tutors": [
+      {
+        "name": "Sławomir Sobótka",
+        "tagline": "Trener @ Bottega IT Solutions",
+        "picture_url": "public/img/people/slawomir-sobotka.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/ssobot",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "www.bottega.com.pl",
+        "bio_in_md": "Jestem trenerem i konsultantem w firmie Bottega IT Solutions, specjalizuję się w technologiach Java EE. W codziennej pracy integruję Domain Driven Design, wzorce, style architektoniczne, zwinne procesy wytwórcze i zdrowy rozsądek. Stosuję nadrzędną zasadę: rozpoznać klasę problemu z jaką mamy do czynienia i dobrać do niej odpowiednią klasę narzędzia. Hobbystycznie interesuję się psychologią pozytywną i kognitywistyką. Lubię myśleć o sobie jako entuzjaście Software Craftsmanship."
+      },
+      {
+        "name": "Dorota Pawelec-Sobótka",
+        "tagline": "Trener @ Bottega IT Solutions",
+        "picture_url": "public/img/people/dorota-pawelec-sobotka.png",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://art-of-software.blogspot.com/",
+        "bio_in_md": "Z branżą IT jestem związana od 12 lat pracując jako programistka, analityk i lider zespołów. Obecnie moje zainteresowania skupiają się głównie wokół aspektów miękkich pracy programistycznej."
+      }
+    ]
+  },
+  {
+    "title": "Scaling web services in AWS cloud with Kubernetes",
+    "descriptionInMd": "Don’t stop at just launching a single application in docker and running it in a VM, take it to the next level!  Using Kubernetes, one can deploy multiple applications to the same cluster and easily scale up/down, apply rolling updates and even deploy canary builds.  All while maximizing your hardware and encouraging better separation of concerns.\n\nKubernetes is a sophisticated and ever expanding piece of software and therefore not everything can be covered in a day.  However, in this workshop you’ll learn how to: create your own cluster, deploy a couple applications on it and even apply a rolling update of a running application.\n\nYou’ll do this in a workshop environment and leverage AWS for your infrastructure needs.  What you do in this workshop can be used in virtually any cloud environment.  Kubernetes is an open source project sponsored by Google with the talent that helped form Google’s own cluster managers, Omega and Borg.\n\nPlease bring your laptop with a terminal (to run ssh connections)  Please be familiar with how to create ssh keys, use ssh, and JSON.\n\nAll workshop files will be published on GitHub.",
+    "tutors": [
+      {
+        "name": "Michael  Venezia",
+        "tagline": "Software Engineer",
+        "picture_url": "public/img/people/michael-venezia.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "http://www.linkedin.com/in/mbvenezia",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Hi, my name is Michael and I am an architect and manager at Viacom for multiplatform technology.  I have created systems that handle millions of page views and app feeds a day.  I have taken a strong interest in containers and surrounding systems (including Kubernetes) because I feel it can empower development teams to create better systems without the traditional costs associated with microservices. In my spare time I like to watch and play sports, play video games and watch people do speed runs of classic video games."
+      }
+    ]
+  },
+  {
+    "title": "Wprowadzenie do coachingu – jak skutecznie słuchać?",
+    "descriptionInMd": "Na warsztatach poznasz kilka praktycznych technik prowadzenia konwersacji, w szczególności słuchania na różnych „poziomach” - po to, żeby najprościej w świecie lepiej się dogadywać z ludźmi. \n\nTechniki słuchania, które poznasz są proste, choć nie zawsze łatwe do stosowania. Bardzo możliwe, że okaże się, że część z nich już czasem stosujesz. Wartością warsztatów jest nauczenie się świadomego ich stosowania.\n\nSerdecznie zapraszam.",
+    "tutors": [
+      {
+        "name": "Paweł Wrzeszcz",
+        "tagline": "Agile coach, Trainer, Consultant, Partner at BNS IT",
+        "picture_url": "public/img/people/pawel-wrzeszcz.png",
+        "twitter_username": "pawelwrzeszcz",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://pawel.wrzesz.cz/",
+        "bio_in_md": "I am an Agile coach, Trainer and Business Consultant.\n\nI support software development teams and companies in becoming even more effective. I am part of amazing team of coaches  and trainers at BNS IT.\n\nDuring my career I was a software developer, Scrum Master, leader, coach, facilitator, UX designer, Product Manager and, most importantly, business owner. I co-founded and developed SoftwareMill - a unique, fully distributed 20+ company without managers where everyone works remotely. \n\nAs a personal coach I support people with IT background running or willing to start their own business.\n\nApart from work you may find me spending time with my family or running somewhere in Park Skaryszewski or practicing B.K.S. Iyengar yoga.\n\nFrom time to time I tweet at twitter.com/pawelwrzeszcz and blog at pawel.wrzesz.cz."
+      }
+    ]
+  },
+  {
+    "title": "Wprowadzenie do coachingu – jak skutecznie słuchać?",
+    "descriptionInMd": "Na warsztatach poznasz kilka praktycznych technik prowadzenia konwersacji, w szczególności słuchania na różnych „poziomach” - po to, żeby najprościej w świecie lepiej się dogadywać z ludźmi. \n\nTechniki słuchania, które poznasz są proste, choć nie zawsze łatwe do stosowania. Bardzo możliwe, że okaże się, że część z nich już czasem stosujesz. Wartością warsztatów jest nauczenie się świadomego ich stosowania.\n\nSerdecznie zapraszam.",
+    "tutors": [
+      {
+        "name": "Paweł Wrzeszcz",
+        "tagline": "Agile coach, Trainer, Consultant, Partner at BNS IT",
+        "picture_url": "public/img/people/pawel-wrzeszcz.png",
+        "twitter_username": "pawelwrzeszcz",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://pawel.wrzesz.cz/",
+        "bio_in_md": "I am an Agile coach, Trainer and Business Consultant.\n\nI support software development teams and companies in becoming even more effective. I am part of amazing team of coaches  and trainers at BNS IT.\n\nDuring my career I was a software developer, Scrum Master, leader, coach, facilitator, UX designer, Product Manager and, most importantly, business owner. I co-founded and developed SoftwareMill - a unique, fully distributed 20+ company without managers where everyone works remotely. \n\nAs a personal coach I support people with IT background running or willing to start their own business.\n\nApart from work you may find me spending time with my family or running somewhere in Park Skaryszewski or practicing B.K.S. Iyengar yoga.\n\nFrom time to time I tweet at twitter.com/pawelwrzeszcz and blog at pawel.wrzesz.cz."
+      }
+    ]
+  },
+  {
+    "title": "Understanding Unreal Engine 4 C++",
+    "descriptionInMd": "Unreal Engine 4 is an amazing tool available for free for half a year now, allowing game developers to use both Blueprints visual scripting and C++. While it’s fairly easy to start with Blueprints, UE4 specific C++ can be hard to understand. During workshop we will try to break down main naming conventions, macros and basic project code architecture. ",
+    "tutors": [
+      {
+        "name": "Kacper Domański",
+        "tagline": "Wizard King @ KNTG Polygon",
+        "picture_url": "null",
+        "twitter_username": "null",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/kacper-doma%C5%84ski",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Unreal Engine 4 is an amazing tool available for free for half a year now, allowing game developers to use both Blueprints visual scripting and C++. While it’s fairly easy to start with Blueprints, UE4 specific C++ can be hard to understand. During workshop we will try to break down main naming conventions, macros and basic project code architecture. "
+      }
+    ]
+  },
+  {
+    "title": "Komuikacja - Sposób na zrozumienie drugiej osoby.",
+    "descriptionInMd": "Dlaczego czasem z pewnymi nowymi osobami rozmowa nam nie idzie,a z innymi już po kilku sekundach mamy wrażenie że znamy się całe życie?  A może wasz zespół od początku jest \u0027trudny\u0027, panuje w nim niemiła atmosfera, a imiona ulatują w niebyt?Na warsztacie opowiem  o tym dlaczego tak się dzieje. Zaprazentuje  kilka narzędzi, które pomogą skutecznie nawiązać i utrzymać komunikację. Pokaże też, czego należy unikać w komunikacji aby nie przerodziłą się w walke na emocje. Oprócz tego nauczymy się słuchać w trochę inny sposób.",
+    "tutors": [
+      {
+        "name": "Adrian Soja",
+        "tagline": "Database Developer @ Touk",
+        "picture_url": "public/img/people/adrian_soja.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Na co dzień Developer Danych i wszystkiego co się z tym je w firmie TOUK.Moim hobby i pasją, oprócz trudnych zagadnień bazodanowych od strony analizy biznesowej i technicznej, są kwestie związane z kompetencjami miękkim. Na codzień wykorzystuję wiedzę i doświadczenie Coacha oraz Praktyka Komunikacji Transformującej™ w kontaktach z klientami, a także w organizacji i zarządzaniu zespołem developerskim."
+      }
+    ]
+  },
+  {
+    "title": "Runtime Permissions in practical use.",
+    "descriptionInMd": "Jedną z większych nowości szczególnie dla deweloperów z tegorocznego Google I/O było wprowadzenie stopniowych uprawnień (Runtime Permissions). Powoduje to że musimy (a raczej powinniśmy) sprawdzać je przed każdym użyciem a także być przygotowani na odmowę dostępu np. do kontaktów użytkownika. W tym warsztacie krótko omówimy Runtime Permissions, skupiając się na tym jak pisać na \"stare\" Androidy z użyciem nowych uprawnień, a następnie przejdziemy do kodowania przykładów sprawdzania uprawnień, prośby o dostęp do wybranych a także jak można to sobie uprościć. Wymaganiem jest posiadanie skonfigurowanego emulatora Android M lub telefonu z tą wersją Androida.",
+    "tutors": [
+      {
+        "name": "Michał Tajchert",
+        "tagline": "Entrepreneur @ 12hours.io, GDG Warszawa",
+        "picture_url": "public/img/people/michal-tajchert.jpg",
+        "twitter_username": "Tajchert",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/profile/view?id\u003d241772131",
+        "stackoverflow_id": "",
+        "googleplus_handler": "+MichalTajchert",
+        "website_url": "",
+        "bio_in_md": "GDG Warsaw organizer, Android developer, currently working on 12Hours app. Created lots of awesome projects, and developed tons of mobile apps that make ideas come true. For over a year doing most of work in wearables market, since Sony smartwatches, and Google Glass -  lately focusing developing efforts on the Android Wear platform. Author of Android libraries such as BusWear, WaitingDots, ExceptionWear and few more."
+      }
+    ]
+  },
+  {
+    "title": "Xamarin platform for Android Developers",
+    "descriptionInMd": "During this workshop we\u0027ll play with Xamarin framework and try to find the answer if it\u0027s really a tool to write app once and run it anywhere. The idea is to write simple todo list app aiming at Android platform and if all goes well run it on iOS as well.\n\nIf you already know Xamarin, then this workshop is probably not for you.\n",
+    "tutors": [
+      {
+        "name": "Aleksander Piotrowski",
+        "tagline": "Code Monkey @ Applause.com",
+        "picture_url": "public/img/people/aleksander-piotrowski.jpg",
+        "twitter_username": "pelotasplus",
+        "github_username": "pelotasplus",
+        "linkedin_profile_url": "https://www.linkedin.com/in/pelotasplus",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer."
+      }
+    ]
+  },
+  {
+    "title": "Functional Programming with Swift",
+    "descriptionInMd": "In this workshop, we\u0027ll look at functional programming concepts in Swift, mostly using playgrounds. We\u0027ll look at how to write programs in a functional way, and explore the concepts of functional programming.",
+    "tutors": [
+      {
+        "name": "Chris Eidhof",
+        "tagline": "Software Developer @ objc.io",
+        "picture_url": "public/img/people/chris-eidhof.jpg",
+        "twitter_username": "chriseidhof",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://chris.eidhof.nl",
+        "bio_in_md": "Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as [Deckset](http://decksetapp.com) and [Scenery](http://www.getscenery.com). He started [UIKonf](http://www.uikonf.com), [objc.io](http://www.objc.io), and wrote a book about [Functional Programming in Swift](http://www.objc.io/books/)."
+      }
+    ]
+  },
+  {
+    "title": "Let\u0027s play with tests! - introduction to Unity Test Tools",
+    "descriptionInMd": "During this workshop we will talk a bit about test automation in general and  we will focus on Unity Test Tools, free assets available at Unity Asset Store that allow creating runnable test cases everybody in the team, not only coders.",
+    "tutors": [
+      {
+        "name": "Konrad Gadzina",
+        "tagline": "Senior Software Engineer @ Ganymede",
+        "picture_url": "public/img/people/konrad-gadzina.jpg",
+        "twitter_username": "fenixb3",
+        "github_username": "FeniXb3",
+        "linkedin_profile_url": "https://www.linkedin.com/in/fenixb3",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://enklawa-tworcza.blogspot.com/",
+        "bio_in_md": "Senior Software Engineer at Ganymede. Leading coding dojo and sharing his interest in test automation. Working in gamedev since the end of 2014, but he\u0027s been creating games as a hobby and because of studying Vudei Game Development at Jagiellonian University. He\u0027s a big fan of Behaviour-Driven Development and automation in general. He\u0027s passionate about table-top games, loves to play on ukulele, harmonica and any other instruments he can get."
+      }
+    ]
+  },
+  {
+    "title": "Use less Robolectric",
+    "descriptionInMd": "I will show some tricks how Robolectric can be replaced with RoboSpock and Dagger",
+    "tutors": [
+      {
+        "name": "Przemysław Jakubczyk",
+        "tagline": "Android Technical Lead @ Applause.com",
+        "picture_url": "public/img/people/przemyslaw-jakubczyk.jpg",
+        "twitter_username": "",
+        "github_username": "pjakubczyk",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/przemysław-jakubczyk/4b/ba7/545",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Active member of Warsaw developers community. As the author of RoboSpock is a strong believer in TDD. Person who really cares about code quality. Currently working for Applause creating Android SDK library and auto instrumentation service."
+      }
+    ]
+  },
+  {
+    "title": "Hackowanie konsol webowych urządzeń sieciowych - Hands on",
+    "descriptionInMd": "W trakcie warsztatów na żywo zaprezentowane zostaną wybrane problemy w bezpieczeństwie urządzeń sieciowych (podatności w konsolach webowych). W wielu przypadkach zaprezentowaną zostaną metody nieuwierzytelnionego dostępu na uprawnieniach administracyjnych.\n\nW drugiej części warsztatów uczestnicy będą również mogli przetestować zdobytą wiedzę samodzielnie podłączając się do podatnych urządzeń dostępnych w LAB.\n\nWymagania:\n\n- Laptop z przewodową kartą sieciową, kabel sieciowy.\n\n- Zainstalowane oprogramowanie burp suite free.\n\nW warsztatach też można uczestniczyć jako obserwator (bez laptopa).\n\nUczestnicy będą musieli podpisać oświadczenie o wykorzystaniu zdobytej wiedzy tylko w sposób legalny i etyczny.",
+    "tutors": [
+      {
+        "name": "Marcin Sajdak",
+        "tagline": "pentester @ securitum",
+        "picture_url": "public/img/people/marcin_sajdak.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/in/sekurak",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Michał Sajdak posiada dziesięcioletnie doświadczenie w zagadnieniach związanych z technicznym bezpieczeństwem IT. Realizuje testy penetracyjne oraz audyty bezpieczeństwa. Prowadzi szkolenia z zakresu bezpieczeństwa. Posiadacz certyfikatów: CISSP, CEH, CTT+. Założyciel serwisu sekurak.pl"
+      }
+    ]
+  },
+  {
+    "title": "Spring Boot \u0026 Cloud - showcase of T/BDD, Domain Driven Design, and distributed microservices - the easy way.",
+    "descriptionInMd": "We’ll take a simple set of requirements, and build a Spring app using TDD/    BDD, but with modeling based on aggregate roots and bounded contexts from DDD. Then we will turn this into a distributed system, with microservices, using some of the Spring Cloud tools.\n\nThis partially live coding session is aimed at people for whom Spring Boot, Cloud, DDD and microservices are new. There’ll be no rocket science, instead we will talk about and explain all the steps, to understand what’s the difference between the old style of modeling, and how DDD brings us to microservices. We will look at what Spring has to offer for our case, and hopefully, we will see, that while microservices are much more difficult on operation side, they are not that hard in normal development, even on a small scale[*].\n\n(* Don’t do microservices on a small scale though. This architecture is for solving problems emerging from Conway’s Law, so if you don’t have them, or do not expect to have them, don’t touch microservices)\n\nDifficulty level: basic Java knowledge Requirements: if you want to hack around: JDK8, IDE, Gradle, Git. If you want just to look\u0026listen - nothing.\n",
+    "tutors": [
+      {
+        "name": "Jakub Nabrdalik",
+        "tagline": "Head of Software Development in PL @ 4financeIT",
+        "picture_url": "public/img/people/jakub-nabrdalik.jpg",
+        "twitter_username": "jnabrdalik",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/jnabrdalik",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Jakub Nabrdalik is the Head of Software Development in Poland at 4FinanceIT. 12 years of hands on experience as a developer, architect, analyst and  everything in between. You can find all the details here: solidcraft.eu"
+      }
+    ]
+  },
+  {
+    "title": "Successfully working with Core Data",
+    "descriptionInMd": "Core Data. One of the most popular and yet most dreaded Apple frameworks. It\u0027s a powerful data storage tool, however as always with great power comes great responsibility.\nIf you want to learn how to use Core Data successfully and avoid many pitfalls that await within its roots you should come visit our workshop. You\u0027ll learn how Core Data is actually built, what components does it consist of and how they work together. Moreover you\u0027ll find out how to use multithreading with Core Data without random crashes and, last but not least, you\u0027ll learn how to deal with performance issues and to do about them.\n",
+    "tutors": [
+      {
+        "name": "Maciej Oczko",
+        "tagline": "null",
+        "picture_url": "public/img/people/maciej-oczko.jpg",
+        "twitter_username": "maciejoczko",
+        "github_username": "literator",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "I\u0027m a software engineer, in love with iOS. I\u0027m passionate about clean code, so things like testing, architecture and model design are my points of interest. Equally, I care a lot about user experience and I enjoy making responsive, beautiful and clear UI. Interacting with others is so inspiring that I\u0027m big agile evangelist and I love team work."
+      },
+      {
+        "name": "Paweł Dudek",
+        "tagline": "null",
+        "picture_url": "public/img/people/pawel-dudek.jpg",
+        "twitter_username": "eldudi",
+        "github_username": "paweldudek",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Software engineering that has been on the iOS platform for over 6 years. Build beautiful apps for enterprises at [Taptera](http://www.taptera.com). Organiser of [Mobile Warsaw](http://www.mobile-warsaw.pl). Loves clean, testable code, Chemex coffee and craft beers."
+      }
+    ]
+  },
+  {
+    "title": "Selling your product - basics of marketing for developers.",
+    "descriptionInMd": "Devs love to create stuff. Yes, we do. Most times it is the easier part of the product lifecycle. In this short workshop, I will take you to the other side. The side of \"personas\", \"landing pages\", \"sales funnels\" and all of this marketing mumbo jumbo. Spoiler alert! I will not show you the \"how to get rich\" tactics, only how to introduce your product to the world.\n",
+    "tutors": [
+      {
+        "name": "Sylwester Madej",
+        "tagline": "Co-founder/Android Developer @ Outline",
+        "picture_url": "public/img/people/sylwester-madej.jpg",
+        "twitter_username": "smdremedy",
+        "github_username": "smdremedy",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/sylwester-madej/16/3ab/963",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Co-founder of Outline (http://byoutline.com) - team of Android experts, crafting beautiful apps. Experienced Java (8 yrs) and Android (4 yrs) developer - created both enterprise systems in TouK and multiplayer games in Gadu Gadu. Currently focused on optimizing development speed. Likes to share knowlege by blogging on http://soldiersofmobile.com, training developers at http://szkoleniaandroid.pl and speaking on events e.g. Droidcon, Mobilization, Warsjawa, MobileWarsaw."
+      }
+    ]
+  },
+  {
+    "title": "Akka in Action - Actors, Clusters, Streams",
+    "descriptionInMd": "During this session for intermediate Scala and Akka devs we\u0027ll dive into implementing distributed systems using Akka Cluster and some of the interesting features relating to it. First we\u0027ll simply connect multiple nodes in a cluster, but then we\u0027ll add Persistence in order to make our systems resilient against failure. We\u0027ll also talk about distributed systems and partitions in general and learn to understand and make the right trade-offs when designing distributed applications. All this will be implemented as part of a simple demo-application we\u0027ll be working together on as a group (each contributing a node in the cluster).",
+    "tutors": [
+      {
+        "name": "Konrad Malawski",
+        "tagline": "Akka hakker @ Typesafe",
+        "picture_url": "public/img/people/konrad-malawski.jpg",
+        "twitter_username": "ktosopl",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://akka.io/",
+        "bio_in_md": "Akka hakker @ Typesafe, where he also participated in the Reactive Streams initiative and implemented it\u0027s Technology Compatibility Kit. Konrad is a late-night passionate dev living by the motto \"Life is Study!\". His favourite discussion topics range from distributed systems to capybaras. He has founded and run multiple user groups (Java, Scala, Computer Science, ...), and has is leading the awesome GeeCON conference and participates as program committee member of JavaOne SF. Other than that, he\u0027s a frequent speaker on distributed systems and concurrency topics, at conferences all around the world. In those rare times he\u0027s not coding, he spreads the joy of computer science, through helping local user groups and whitepaper reading clubs."
+      }
+    ]
+  },
+  {
+    "title": "Ansible - zarządzanie konfiguracją w końcu zrobione jak trzeba",
+    "descriptionInMd": "Poznaj Ansible - narzędzie do automatyzacji zadań i zarządzania konfiguracją lżejsze i łatwiejsze niż Puppet i Chef razem wzięte. Szkolenie składa się z krótkiego wstępu merytorycznego oraz częście praktycznej. W efekcie stworzysz samodzielnie uproszczone, ale realistyczne środowisko serwerowe. Zajęcia powadzi znany ewangelista Ansible w Polsce, administrator i programista systemowy Grzegorz Nosek.",
+    "tutors": [
+      {
+        "name": "Grzegorz Nosek",
+        "tagline": "Chief Tinkering Officer @ MegiTeam",
+        "picture_url": "public/img/people/grzegorz-nosek.jpg",
+        "twitter_username": "grzegorznosek",
+        "github_username": "gnosek",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/grzegorz-nosek/a8/42a/172",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Zbyt doświadczony admin Linuksów i programista systemowy, Chief Tinkering Officer w MegiTeam. Leniwy do szpiku kości, automatyzuje wszystko, co musi zrobić trzeci raz."
+      }
+    ]
+  },
+  {
+    "title": "For-comprehension MacGyver",
+    "descriptionInMd": "MacGyver przy pomocy srebrnej taśmy, sznurka i noża mógł zbudować wszystko. Zostań MacGyver\u0027em świata programowania. Odkryj możliwości map, flatMap i filter a to wszystko dostępne pod wszechstronnym lukrem składniowym for-comprehension.\n\nW trakcie warsztatów dowiesz się jak używać go z typami Option, Try, Future i Either. Zaprezentuję standardowe techniki oraz potencjalne pułapki.\n",
+    "tutors": [
+      {
+        "name": "Przemysław Piotrowski",
+        "tagline": "Software Engineer @ Adform.com",
+        "picture_url": "public/img/people/przemyslaw-piotrowski.jpg",
+        "twitter_username": "ppiotrow",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/ppiotrow",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Entuzjasta języka Scala zainteresowany tematyką skalowalności aplikacji."
+      }
+    ]
+  },
+  {
+    "title": "API design process",
+    "descriptionInMd": "Don\u0027t let your tools take over and decide on your API for you! API is the first class citizen and we will learn together how to design it up-front instead of creating an accidental one.\n\nDuring this workshop we will focus on creating HTTP REST (or REST-like) API for a simple service. We will encounter several difficulties and try to handle them. No specific backend technology knowledge is required, but attendee should have an understanding of what API, HTTP and JSON are.\n",
+    "tutors": [
+      {
+        "name": "Wojtek Erbetowski",
+        "tagline": "Head of Engineering @ Polidea",
+        "picture_url": "public/img/people/wojtek-erbetowski.jpg",
+        "twitter_username": "erbetowski",
+        "github_username": "wojtekerbetowski",
+        "linkedin_profile_url": "https://www.linkedin.com/profile/view?id\u003d45616048",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://erbetowski.pl/",
+        "bio_in_md": "Wojtek is Head of Engineering at Polidea – mobile/hardware software-house. That’s an unusual environment for a backend dev – here it’s the mobile app, that is the center of universe. Backend is the one that has to fit best, so that the app remains simple and robust. Thanks to that he has gathered many interesting tips and tricks, that he will gladly share. Wojtek invented MobileWarsaw, GitKata and Mobile Central Europe. He’s also co-leader of Warsaw JUG and Warsjawa conference. Worked on Apphance Flow – an OS build tool for mobile and co-created a library for unit testing Android apps – RoboSpock."
+      },
+      {
+        "name": "Katarzyna  Kucharczyk",
+        "tagline": "Software Engineer @ Polidea",
+        "picture_url": "public/img/people/katarzyna-kucharczyk.jpg",
+        "twitter_username": "kasiacode",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/katarzyna-kucharczyk/a2/374/a82",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Currently working at Polidea as a backend software engineer. Mainly experienced with Python, Java, Groovy and Cloud Computing technologies. Well-versed IT enthusiast, who likes reading about distributed systems and asynchronous programming. Privately she loves sports (dancing, sailing, running) and reading about healthy life style and psychology."
+      }
+    ]
+  },
+  {
+    "title": "Be proud of your code - the Software Design Workshop",
+    "descriptionInMd": "Challenge yourself in tackling software design problems. Solve design riddles in small teams. Confront your solutions with other team members. Learn from them and teach them something new. Present design solutions to wider audience. See how to make your solutions simpler, apply design patterns, discuss software design, present and defend your point of view. After all, a conference is a great opportunity to see various perspectives, exchange experience and share knowledge, isn\u0027t it?",
+    "tutors": [
+      {
+        "name": "Dawid Pytel",
+        "tagline": "Senior Developer @ CoCoNet",
+        "picture_url": "public/img/people/dawid-pytel.jpg",
+        "twitter_username": "",
+        "github_username": "destin",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/dawid-pytel/4a/747/256",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Java Developer and Team Leader interested mainly in server-side programming, clean and well designed code, automated tests and agile processes. Dawid has been doing projects for public sector and banking industry for over 8 years, during which he has been striving to train, share knowledge and coach others in order to make himself redundant. Personally he loves spending time with his family, learning languages and contributing to open source projects."
+      }
+    ]
+  },
+  {
+    "title": "A Note On Java EE Testing",
+    "descriptionInMd": "Online session - Answers for the most frequently asked questions about unit-, integration-, system and stress testing.",
+    "tutors": [
+      {
+        "name": "Adam Bien",
+        "tagline": "Chief Java Enthusiast, adam-bien.com",
+        "picture_url": "public/img/people/adam-bien.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://adam-bien.com/",
+        "bio_in_md": "Consultant and author Adam Bien is an Expert Group member for the Java EE 6 and 7, EJB 3.X, JAX-RS, and JPA 2.X JSRs. He has worked with Java technology since JDK 1.0 and with Servlets/EJB 1.0 and is now an architect and developer for Java SE and Java EE projects. He has edited several books about JavaFX, J2EE, and Java EE, and he is the author of Real World Java EE Patterns—Rethinking Best Practices and Real World Java EE Night Hacks—Dissecting the Business Tier. Adam is also a Java Champion, Top Java Ambassador 2012, and JavaOne 2009, 2011, 2012, 2013 and 2014 Rock Star. Adam occasionally organizes Java EE workshops at Munich’s airport (http://airhacks.com)."
+      }
+    ]
+  },
+  {
+    "title": "Groovy on Android - there is no going back.",
+    "descriptionInMd": "New languages push their limits to support our favourite mobile platform. Groovy is one of them. It\u0027s a very mature language, used to write servers for financial institutions, among others. So why not try it for our awesome apps?\n\nDuring the workshop we will explore possibilities this language gives us, compared to its older brother - Java. I will show you, that you already know this language and can start using it for professional development. There will be plenty of tricks to save you from writing boilerplate code, but also some nuisances you are likely to encounter. Join this session to learn if you are ready for Groovy.\n",
+    "tutors": [
+      {
+        "name": "Maciej Górski",
+        "tagline": "Lazy Developer @ EL Passion",
+        "picture_url": "public/img/people/maciej-gorski.jpg",
+        "twitter_username": "mg6maciej",
+        "github_username": "mg6maciej",
+        "linkedin_profile_url": "https://www.linkedin.com/in/mg6maciej",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Maciej is a passionate Android developer. He cares about writing cleaner code and less amount of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables."
+      },
+      {
+        "name": "Karol Kowalski",
+        "tagline": "Android-Groovy Developer @ ElPassion",
+        "picture_url": "public/img/people/karol-kowalski.jpg",
+        "twitter_username": "ordon1313",
+        "github_username": "OrdonTeam",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Karol began his journey into the world of developers two years ago. From the very first day he learned best practices from Uncle Bob and after one year in Impaq, he took a fancy to Groovy and Android development. Since march he combined both these interests in ElPassion as Android-Groovy Dev."
+      }
+    ]
+  },
+  {
+    "title": "Enhance your IDE - write a plugin for Eclipse, IntelliJ and NetBeans!",
+    "descriptionInMd": "What is 3 hours long and includes the 3 major IDEs? This workshop! It does not matter if you use Eclipse, IntelliJ or NetBeans - we will learn how to extend these IDEs by writing plugins for them. After this, the only limit will be the sky ... and your heap space.",
+    "tutors": [
+      {
+        "name": "Anton Sarov",
+        "tagline": "Software Engineer @ Entimo",
+        "picture_url": "public/img/people/anton-sarov.jpg",
+        "twitter_username": "duxanton",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "A Java coder. Anton is able to pay his rent thanks to a position as a Java Software Engineer in a Berlin-based company, working with rich client technologies. He can be found on the streets of Berlin riding his Honda (and thinking about Java). Oh, and he loves the Play Framework."
+      }
+    ]
+  },
+  {
+    "title": "Clean code and money - hot to talk about technical debt",
+    "descriptionInMd": "This code is horrible but we have no time to fix it\u0027 Ever heard this one said? Or: \u0027This is pain in the ass but Mr X won\u0027t let me fix it.\u0027 Or maybe you don\u0027t really think it\u0027s worth it?\n\nDuring this workshop we shall discuss how to work with legacy code so you are sure that the time spent is worth the effort and finally how to convince others that you really know what you\u0027re doing.\n",
+    "tutors": [
+      {
+        "name": "Beata Nowakowska",
+        "tagline": "null",
+        "picture_url": "public/img/people/beata-nowakowska.jpg",
+        "twitter_username": "BeataNowakowska",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/beata-nowakowska/2/66b/baa",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "https://glowkapracuje.wordpress.com/",
+        "bio_in_md": "Beata is a developer, Scrum Master, agile and business coach. She started as a developer and quickly became the refactoring-guy-on-duty for the team and the teacher of all the quality stuff. At some point she realized that there is something even more important then clean code. Something that creates environment where writing clean code is easy and natural. She got interested in agile and scrum and soon started spreading that knowledge together with clean code. But it wasn\u0027t enough - she became a Scrum Master and learned classic coaching from the best coaches in Poland. Now she\u0027s three in one: Developer, Scrum Master and a Proffessional Coach. She shares the knowledge all over the country with her classes. She belives that knowledge about human brain can make software development easy. It can make working a happier and even the world a better place."
+      }
+    ]
+  },
+  {
+    "title": "Dubstep developer - how to use open source code/hardware for music production",
+    "descriptionInMd": "I\u0027ll give a short introduction to functional sound synthesis, sequencing and midi interop using Overtone and Arduino-based open source hardware. Prepare for live music coding!",
+    "tutors": [
+      {
+        "name": "Piotr Jagielski",
+        "tagline": "Java Developer @ TouK",
+        "picture_url": "public/img/people/piotr-jagielski.jpg",
+        "twitter_username": "pjagielski",
+        "github_username": "pjagielski",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "I make Java backends for almost 9 years, recently exploring the container-less distributed service architecture. In my spare time I do some Clojure and learn sound synthesis. I wrote \"Instant Spring Security Starter\" and commit to hermes.allegrotech.io"
+      }
+    ]
+  },
+  {
+    "title": "Data Mining + dplyr \u003d przetwarzanie i analiza danych w R",
+    "descriptionInMd": "Na warszatacie przedstawię światową opinię wielkich korporacji na temat R. Następnie po miękkim wstępie odnośnie potrzeby i zastosowań analizy danych przejdziemy do praktycznego warsztatu z wykorzystania R w przetwarzaniu danych i data miningu (eksploracji danych). Obecnie R posiada wiele pakietów ułatwiających pracę z danymi. Osobiście przedstawię dość popularne rozwiązanie jakim jest pakiet dplyr, który został stworzony w duchu \"Grammar of Data Manipulation\". Pokażę jak R może łatwo łączyć się z relacyjnymi bazami danych oraz jak można przyspieszać obliczenia poprzez dodawanie wstawek z C++ oraz poprzez rozpraszanie obliczeń na wiele wątków. Warsztat zakończymy wykorzystaniem kilku najpopularniejszych metod klasyfikacji, które mogą z powodzeniem być wykorzystywane w codziennych praktycznych problemach, a wszystko przypieczętujemy (jeśli starczy czasu) raportem z analizy danych w formacie HTML, dzięki integracji R z markdownem i pandoc\u0027iem.\n",
+    "tutors": [
+      {
+        "name": "Marcin Kosiński",
+        "tagline": "Data Scientist @ Grupa Wirtualna Polska",
+        "picture_url": "public/img/people/marcin-kosinski.jpg",
+        "twitter_username": "",
+        "github_username": "MarcinKosinski",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/marcin-kosi%C5%84ski/ab/35a/814",
+        "stackoverflow_id": "http://stackoverflow.com/users/3857701/marcin-kosinski",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Data Scientist w Grupie Wirtualna Polska. Kończy ostatni rok studiów na specjalności Statystyka Matematyczna i Analiza Danych na Politechnice Warszawskiej. Na co dzień pasjonat pakietu statystycznego R i ogromny entuzjasta wyzwań. Pomaga organizować warszawskie Spotkania Entuzjastów R i Maratony Analizy Danych. Zgadza się ze stwierdzeniem, że jeśli dostatecznie długo dręczy się dane, to w końcu powiedzą to co chciało się usłyszeć, jednak nie praktykuje tej zasady."
+      }
+    ]
+  },
+  {
+    "title": "End-to-End Testing",
+    "descriptionInMd": "Pokrycie podstawowych scenariuszy naszej aplikacji testami \u0027End to End\u0027 pozwoli nam na bezpiecznie dokonywanie zmian w kodzie bez narażania się na ryzyko wystawienie na produkcję aplikacji nie spełniającej oczekiwań użytkownika końcowego.\n\nUczestnicy warsztatu dowiedzą się jak skonfigurować narzędzia do automatycznego testowania aplikacji angularowej oraz jak pisać i uruchamiać testy e2e (Jasmine, Protractor).\n\nPonadto, przedstawię również interesujące narzędzie - Elementor - wspomagające pisanie testów oraz zaprezentuję sposoby ich debugowania.\n\nPrzed warsztatem warto zainstalować:\n- webstorm: https://www.jetbrains.com/webstorm/download - lub inny dobry edytor JS np. sublime.\n- nodejs: https://nodejs.org - najlepiej kliknąć w zielony przycisk.\n- java: https://www.java.com/pl/download\n\nPrzyda się podstawowa znajomość JavaScript oraz AngularJS.",
+    "tutors": [
+      {
+        "name": "Robert Gurgul",
+        "tagline": "Front-end / Trener @ helloworld.edu.pl",
+        "picture_url": "public/img/people/robert-gurgul.jpg",
+        "twitter_username": "rgurgul",
+        "github_username": "rgurgul",
+        "linkedin_profile_url": "http://pl.linkedin.com/in/robertgurgul",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "I am front-end developer and trainer. Currently I collaborate with companies such as Javatech and Eduweb. I also lead my own training business under the brand \"helloword\" (helloworld.edu.pl)."
+      }
+    ]
+  },
+  {
+    "title": "Building WatchKit apps",
+    "descriptionInMd": "Wearables matters. Learn how to build a Watch app for watchOS 2 from scratch. Beyond that, learn about all new support for fluid animations, Digital Crown and more.",
+    "tutors": [
+      {
+        "name": "Wojciech Łukaszuk",
+        "tagline": "Software Engineer @ mBank",
+        "picture_url": "public/img/people/wojciech-lukaszuk.jpg",
+        "twitter_username": "wojteklukaszuk",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/profile/view?id\u003d284279040",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Swift and WatchKit enthusiast. Currently works as an iOS engineer at mBank"
+      }
+    ]
+  },
+  {
+    "title": "Lego Serious Play - A Scrum Exploration Game",
+    "descriptionInMd": "Do you like Lego? I do to. Let\u0027s explore important aspects of Scrum with Lego. Bring your inner child and let him learn!",
+    "tutors": [
+      {
+        "name": "Kate Terlecka",
+        "tagline": "Founder @ Brass Willow",
+        "picture_url": "public/img/people/kate-terlecka.jpg",
+        "twitter_username": "kateterlecka",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/kate-terlecka/19/738/77a",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Kate is a consultant, a Scrum.org-licensed trainer and a coach with broad experience spanning from hardware corporations to small privately owned software companies. She concentrates her efforts on market in Poland, helping companies foster self-organization and return more value than they did before. Her main forcus are people - she is intersted in anthropology, sociology and psychology - how humans learn, interact, grow and create amazing things. She wants to change something in the way people in Poland make software, so she foounded Brass Willow, which is bringing together experienced trainers, coaches and technical experts who together want to make a true difference."
+      }
+    ]
+  },
+  {
+    "title": "Baby Steps to Being a Data Scientist",
+    "descriptionInMd": "Data Science is hot topic, but very often smart people don\u0027t know how to start. Reading books or doing online courses really is good thing, but not enough for applying knowledge. My idea is solve one practical problem from kaggle.com in order to show how to easy start participate. You can trait it like introduction to data science, and after this meeting you can participate with others competitions on the kaggle (or other sites). Note, this experience will not include big picture data science (you need spent months/years to be expert - well as any other area), but show you few very important parts from data science by the line of least resistance.",
+    "tutors": [
+      {
+        "name": "Vladimir Alekseichenko",
+        "tagline": "Data Scientist",
+        "picture_url": "public/img/people/vladimir-alekseichenko.jpg",
+        "twitter_username": "slon1024",
+        "github_username": "slon1024",
+        "linkedin_profile_url": "https://linkedin.com/in/vladimiralekseichenko",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "I like to think and travel. I love discovering this world and try to find some patterns and understand them. I have experience in  different areas, tools and programming languages, but the most interesting thing for me is analyze data."
+      }
+    ]
+  },
+  {
+    "title": "Scrum Lego Game - play a game and learn Scrum",
+    "descriptionInMd": "Scrum Lego Game is a fun workshop where participants have an opportunity to learn and practice basics of Scrum framework by building a city out of Lego bricks. Participants will gain hands on experience with iterative product development and an understanding of key Scrum values and practices.",
+    "tutors": [
+      {
+        "name": "Łukasz Aziukiewicz",
+        "tagline": "Scrum Master @ STX Next",
+        "picture_url": "public/img/people/lukasz-aziukiewicz.jpg",
+        "twitter_username": "aziuk_l",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/łukasz-aziukiewicz/5/b12/373",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Lukasz is a Scrum Master, Agile Coach, certified individual and group coach. Agile Software Development methods practitioner for the past 2 years, building effective teams in different companies. Formerly a project manager working on initiatives led according to PRINCE2 and PMI methods. Currently works as a Scrum Master at STX Next, actively involved in company\u0027s transition to Agile and mentoring inexperienced Scrum Masters."
+      }
+    ]
+  },
+  {
+    "title": "Learn the benefits of Cynefin while building a castle",
+    "descriptionInMd": "A lot of people think about agile and Scrum like it was a silver bullet. Everything can be modified to be “agile compliant” today - just add “agile” to whatever you do and… boom! But the reality is a little bit more complicated and we should always carefully consider best work method to use. In this case agile means ability to choose between simple acting, Scrum, Kanban or even old fashioned waterfall.\n\nCynefin framework developed by D. Snowden is one of the best tools to help you with this choice. During my workshop you will learn precisely what Cynefin is, how to use it, what are it’s beneftis and what else can be done with it’s help. And all this while building and extending a castle for bored billionaire.\n",
+    "tutors": [
+      {
+        "name": "Ewa Gowin",
+        "tagline": "Lean Agile Coach @ Grupa Allegro",
+        "picture_url": "public/img/people/ewa-gowin.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/profile/view?id\u003d20260551",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Product and Process Development Team Lead at Grupa Allegro with 9 years of product and project management experience. For last four years Ewa has been working as a Lean Agile Coach and Scrum Master. In this time she was supporting transformation in Allegro and PayU, coaching at least a dozen of teams that just begun to work with scrum, and at the same time working as a Scrum Master in one of Allegro’s teams. Since year and a half she is supporting IT Operations improving work with Kanban. Ewa is certified product owner and scrum master. Co-founder of agile247.pl mostly interested in people and interactions in agile for she believes there’s nothing impossible for well-knit team."
+      }
+    ]
+  },
+  {
+    "title": "Object-oriented programming in Python",
+    "descriptionInMd": "Workshop for beginners on object-oriented features of Python programming language. I\u0027ll start with basics and progress to the rarely used features. If you still don\u0027t know how the inheritance works, what are descriptors and properties and how the MRO works in the inside this workshop is just for you!",
+    "tutors": [
+      {
+        "name": "Radosław Ganczarek",
+        "tagline": "Senior Python Developer @ STX Next",
+        "picture_url": "public/img/people/radoslaw-ganczarek.jpg",
+        "twitter_username": "dreamwalker_in",
+        "github_username": "dreamwalker",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/dreamwalker",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Radosław Ganczarek discovered Python and Linux during studies and from that time haven\u0027t stopped using it. In Linux his preference gone from Slackware to ArchLinux, which gave him strong console and scripting skills (vim FTW!). In Python most of his experience is about using Django web framework, but he also spent some time developing automation and deployment scripts with fabric. Recently interested in strengthening his JavaScript skills, but Python still remains his weapon of choice for performing any task."
+      }
+    ]
+  },
+  {
+    "title": "Make your life easier via Dagger ButterKnife Retrofit Robospice and other libraries",
+    "descriptionInMd": "I would like to show a few popular libraries for Android. I want to show in example how to use it in easy way from the beginning to the end.",
+    "tutors": [
+      {
+        "name": "Konrad Krakowiak",
+        "tagline": "Senior Software Engineer @ Polidea",
+        "picture_url": "public/img/people/konrad-krakowiak.jpg",
+        "twitter_username": "KKonrad1987",
+        "github_username": "KKonradMC",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/konrad-krakowiak/72/833/110",
+        "stackoverflow_id": "2833965/konrad-krakowiak",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "I have almost 6 years experience in programming, of which 5 years as an Android developer. I attended in development of many projects from the beginning (planning, design) to the end (release). I want to show you how you can create a professional application in a easy way via Android Libraries."
+      }
+    ]
+  },
+  {
+    "title": "BPM Camunda",
+    "descriptionInMd": "Tworzenie oraz uruchamianie procesów biznesowych na platformie open source BPM Camunda. W ramach ćwiczeń zostanie utworzony przykładowy proces biznesowy z zadaniami użytkowników oraz zagadnieniami integracyjnymi.",
+    "tutors": [
+      {
+        "name": "Andrzej Cyb",
+        "tagline": "Senior Software Engineer @ SII Polska",
+        "picture_url": "public/img/people/andrzej-cyb.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/andrzej-cyb/21/961/583",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": ""
+      }
+    ]
+  },
+  {
+    "title": "Clean code and money - hot to talk about technical debt",
+    "descriptionInMd": "This code is horrible but we have no time to fix it\u0027 Ever heard this one said? Or: \u0027This is pain in the ass but Mr X won\u0027t let me fix it.\u0027 Or maybe you don\u0027t really think it\u0027s worth it?\n\nDuring this workshop we shall discuss how to work with legacy code so you are sure that the time spent is worth the effort and finally how to convince others that you really know what you\u0027re doing.\n",
+    "tutors": [
+      {
+        "name": "Beata Nowakowska",
+        "tagline": "null",
+        "picture_url": "public/img/people/beata-nowakowska.jpg",
+        "twitter_username": "BeataNowakowska",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/beata-nowakowska/2/66b/baa",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "https://glowkapracuje.wordpress.com/",
+        "bio_in_md": "Beata is a developer, Scrum Master, agile and business coach. She started as a developer and quickly became the refactoring-guy-on-duty for the team and the teacher of all the quality stuff. At some point she realized that there is something even more important then clean code. Something that creates environment where writing clean code is easy and natural. She got interested in agile and scrum and soon started spreading that knowledge together with clean code. But it wasn\u0027t enough - she became a Scrum Master and learned classic coaching from the best coaches in Poland. Now she\u0027s three in one: Developer, Scrum Master and a Proffessional Coach. She shares the knowledge all over the country with her classes. She belives that knowledge about human brain can make software development easy. It can make working a happier and even the world a better place."
+      }
+    ]
+  },
+  {
+    "title": "JVM Tuning",
+    "descriptionInMd": "Błąd braku pamięci w Javie, jeśli wierzyć API mówi o jednym przypadku, kiedy może go JVM rzucić. Jest to faktycznie częsty przypadek, ale! jeden z trzech możliwych. Zarządzanie pamięci to nie tylko ustawianie Xms na Xmx, ale kilka rzeczy więcej. Samych parametrów dotyczących śmieciarzy jest ponad stronę A4.\n\nJDK Hotspot ma z siedem przydatnych narzędzi, o których przeciętny programista nie wie, a które przydają się, by sprawdzić jak się miewają nasze procesy JVMowe. Wątki można wyszukiwać procesami systemowymi. Zresztą, same narzędzia GNU/Linux są wcale do rzeczy.\n\nPodczas warsztatów: \n- pobawimy się strojeniem JVMa - zarządzaniem pamięcią, śmieciarzami, czytaniem ich logów, sprawdzaniem kiedy są jakie kolekcje\n- pomonitorujemy JVMa - popatrzymy na wykresy śmieciarza, wątków, pokażemy bebechy\n- dowiemy się czym się różni profilowanie od samplowania, \n- poużywamy różnych dziwnych narzędzi jakie mamy w systemach i JDKach, a których może nie na codzień używamy.\n\nLudzie siedzący w strojeniu JVMa na codzień raczej nie powinni przychodzić, to nie dla Was. :-) Ale zawsze można mi przysłać jakiego maila z pytaniem o to czy będzie tamto czy owamto, szczerze odpiszę.",
+    "tutors": [
+      {
+        "name": "Tomasz Borek",
+        "tagline": "Continuous learner @ Symentis",
+        "picture_url": "public/img/people/tomasz-borek.jpg",
+        "twitter_username": "LAFK_pl",
+        "github_username": "LIttleAncientForestKami",
+        "linkedin_profile_url": "pl.linkedin.com/in/tjborek",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "https://lafkblogs.wordpress.com",
+        "bio_in_md": "Coder from Poland*. Hoping to learn something new every day.\n\nThankful to everybody who helps me while I hop along. Proud of: http://sckrk.com and http://geecon.org.\n\nCo-leads: SCKRK, Polish JUG, Lambda Lounge Kraków.\n\nI’m a flawed human, and unafraid to say so.\n\nInto: people, software, music, role-playing, honesty, learning.\n\nDislikes: doing unnecessary things, doing \"because I can\". \n\n* I got it from me parents. They coded and so do I."
+      }
+    ]
+  },
+  {
+    "title": "Go language - the best bet for DevOps tools",
+    "descriptionInMd": "Tools like Docker, Consul, InfluxDB, Hugo, Packer, Terraform or Kubernetes are storming the DevOps world. Is it a coincidence that all of them are created in Go language? There are some unique language features that promote Go for such use cases.\nYou can create tools with speed like in Python, have static typing and memory management like in Java, run your code fast as in C, do things concurrently like in Erlang and build portable binaries like nothing else.\nLearn how to make small, sharp unix style tools in no time with Go.",
+    "tutors": [
+      {
+        "name": "Kamil Chmielewski",
+        "tagline": "Technical PO @ Allegro",
+        "picture_url": "public/img/people/kamil-chmielewski.jpg",
+        "twitter_username": "",
+        "github_username": "kamilchm",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Looking for Open Source solutions that provide value. States that job was done only when users says so. Devotee of the Zen of Python and Unix Philosophy. Developer, tester, scrum master, team leader, architect, product owner or just someone who deliver working software."
+      }
+    ]
+  },
+  {
+    "title": "Być jak Steve Jobs i Martin Luther King, czyli sztuka wystąpień publicznych",
+    "descriptionInMd": "Co zrobić, aby Twoje wystąpienie było wyjątkowe i zapamiętane przez wszystkich słuchaczy? Czy faktycznie w prezentacjach najważniejsza jest merytoryka? Jak dotrzeć ze swoim przekazem zarówno do programistów jak i ludzi biznesu? Podczas warsztatów otrzymasz w pigułce najważniejsze i mające największy wpływ na jakość wystąpienia wskazówki. Z kolei analiza wystąpień praktyków oraz praca z kamerą, pozwolą Ci się przekonać o tym, co decyduje o sukcesie prezentacji.",
+    "tutors": [
+      {
+        "name": "Anna Józwik",
+        "tagline": "HR Manager @ CodiLime",
+        "picture_url": "public/img/people/anna-jozwik.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/profile/view?id\u003d184315736\u0026trk\u003dhp-identity-name",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "HR Manager w firmie CodiLime Sp. z o.o. W latach 2007-2014 związana z firmą technologiczno-doradczą Gemius SA, w której odpowiadała za budowę i realizację polityki personalnej. Wcześniej jako doradca zawodowy i trener zdobywała doświadczenie w sektorze publicznym w Polsce i Wielkiej Brytanii, specjalizując się w szkoleniach z zakresu rozwoju umiejętności miękkich. Z wykształcenia pedagog specjalny, absolwentka Akademii Pedagogiki Specjalnej w Warszawie. Ukończyła także studia podyplomowe z zakresu Zarządzania Zasobami Pracy w Szkole Głównej Handlowej oraz Polish Open University."
+      }
+    ]
+  },
+  {
+    "title": "Multi-model Databases",
+    "descriptionInMd": "Warsztaty z nieco odwróconą logiką - zaczynamy od tego jakich danych potrzebujesz a na tej podstawie modelujemy ich schemat i wybieramy odpowiednią bazę danych, a być może nawet kilka.\n\nW warsztatach nauczysz się, jak myśleć o potrzebnych lub niepotrzebnych danych. Dowiesz się jak twoje wyobrażenie przekuć na właściwy model. Następnie na bazie kilku przykładów nauczysz się krok po kroku jak wykorzystując tą wiedzę zbudować solidny system bazodanowy dla twojego projektu!\n",
+    "tutors": [
+      {
+        "name": "Marcin Karkocha",
+        "tagline": "Software Engineer @ Intel",
+        "picture_url": "public/img/people/marcin-karkocha.jpg",
+        "twitter_username": "kivvio",
+        "github_username": "kivio",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/kivio",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Marcin jest programistą Pythona który kocha zasadę jednej drogi do celu. Na co dzień perfekcjonista zakochany w zasadach projektowych i refaktoryzacji. Z szerokim doświadczeniem w tworzeniu API dla projektów dużej skali. Od czasu do czasu pracuje nad projektami Open Source. Prelegent na wielu konferencjach i warsztatach. Twórca Trójmiejskiej Grupy miłośników Pythona - PyGDA. W wolnej chwili teoretyzuje nad stworzeniem własnego języka programowania pozbawionego wad. Aktualnie współpracuje z firmą Intel, pracując nad OpenStackiem."
+      }
+    ]
+  },
+  {
+    "title": "Unreal Engine 4 - Particle Systems and Vector Fields",
+    "descriptionInMd": "At the workshop you will learn how to use Cascade - the particle editor in Unreal Engine 4. You will also create your own GPU Sprites and Vector Fields. We will focus mostly on GPU particles, but we will take a look at different types as well. After this workshop, you will know how to create awesome particle systems from scratch.",
+    "tutors": [
+      {
+        "name": "Krzysztof Pachulski",
+        "tagline": "Arcane Master @ KNTG Polygon",
+        "picture_url": "public/img/people/krzysztof-pachulski.jpg",
+        "twitter_username": "daltostronic",
+        "github_username": "daltostronic",
+        "linkedin_profile_url": "https://www.linkedin.com/in/krzysztofpachulski",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://dalton.gd/",
+        "bio_in_md": "IT student, vice president of Game Developers\u0027 Society \"Polygon\", game dev enthusiast. He has provided several workshops and lectures about gamedev for various groups of interest (such as children or developers) on different topics (e.g. writing shaders, UE4 editor, UE4 animations)."
+      }
+    ]
+  },
+  {
+    "title": "From the void into the graph with Neo4j",
+    "descriptionInMd": "This is going to be 4 hours of fun with Neo4j, Cypher and social media trends analysis  with graphs. So we are going to learn how to feed graphs with data, how to model graphs and how we can leverage dynamic nature of edges and vertexes to adjust graphs structure to our needs. At the end we are going to take a look how to ask the right questions to graphs using Cypher query language.",
+    "tutors": [
+      {
+        "name": "Jarosław Pałka",
+        "tagline": "Code mangler @Allegro.pl",
+        "picture_url": "public/img/people/jaroslaw-palka.jpg",
+        "twitter_username": "j_palka",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/jpalka",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "I have spent last 15 years of my life in IT working as database and system administrator, developer, architect, manager and \"on site disaster engineer \". At the moment I work as code mangler at Allegro, recovering from long journey as chief architect of a large SaaS platform for HR solutions. I was involved in small, medium and horribly and nonsense large systems, from \"waterfall\" through Agile to \"no methodology\" methodology. It all lead me to conclusion that it doesn\u0027t matter what you do as long as you do it right, keep it simple and use the right tool to do the job for you. In the meantime I fell in love it TDD and Software Craftmanship, explored architectures and design of legacy systems and was trapped inside JVM, till death do as apart. I also spent a lot of time exploring ideas like system thinking, system dynamics, strange attractor and complexity theory. From time to time you can hear my low quality jokes about architecture at conferences in Poland. I am also trying to make a world a better place as blog author at http://geekyprimitives.wordpress.com and trainer at http://symentis.pl/."
+      }
+    ]
+  },
+  {
+    "title": "React-native: building native iOS apps with javascript",
+    "descriptionInMd": "At this workshop you will implement a basic native (kind of) iOS app using Facebook\u0027s React Native framework.\n\n## What is React Native:\n\nReact-Native is Facebook\u0027s React based native application framework. You can write iOS applications\nusing native Views and Controls, while the whole application logic is written in Javascript (the good\nparts of it in fact). Soon Android version will be released but for now we can build iOS apps with it.\n\nIt\u0027s true embodiment of Attwood\u0027s Law:  any application that can be written in JavaScript, _will_ eventually be written in JavaScript.\n\n## Who is the ideal participant:\n\n* mobile developers (iOS/Android) who wants to learn to develop iOS (later Android) apps differently\n* Javascript developer who wants to write native iOS apps (Android in the future) without learning Obj-C\n\n## Prerequisites (important - to save download bandwidth during the workshop!)\n\n* Apple Id: [Apple Developer site](https://developer.apple.com)\n* You need to have Macbook (!) and XCode 6.4 or XCode 7 beta installed [Xcode Downloads](https://developer.apple.com/xcode/downloads/)\n* You need to know a bit about javascript, For start that\u0027s enough:  [Mozilla Javascript primer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)\n* You need to follow requirements from [React Native Getting Started](http://facebook.github.io/react-native/docs/getting-started.html)\n* Optionally - iPhone/iPod/iPad (we will use simulator most of the time",
+    "tutors": [
+      {
+        "name": "Jarek Potiuk",
+        "tagline": "CTO @ Polidea",
+        "picture_url": "public/img/people/jarek-potiuk.jpg",
+        "twitter_username": "higrys",
+        "github_username": "potiuk",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/jarekpotiuk",
+        "stackoverflow_id": "http://stackoverflow.com/users/516701/jarek-potiuk",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Enthusiastic and pragmatic CTO, Technology Evangelist, Software Gardener, geek and gadget lover, who tries keep sane while helping to build business and at the same time stay in touch with one of his true passions - programming. Other passions include singing in choir and - recently - running and being fit."
+      }
+    ]
+  },
+  {
+    "title": "Electronics Fundamentals for Dummies (Arduino included)",
+    "descriptionInMd": "The workshop aims to teach how the basic electronic components and circuits work. It covers a voltage divider with a photoresistor, a DYI capacity meter with an RC circuit, and, optionally, switch debouncing and a bipolar transistor.\n\nThis is more than yet another Arduino introduction, as you are going to learn something about the electronic components as well.\n\nBasic programming skills are recommended so that we can focus on the hardware part.\n",
+    "tutors": [
+      {
+        "name": "Jacek Kunicki",
+        "tagline": "Full Stack Software Engineer @ SoftwareMill",
+        "picture_url": "public/img/people/jacek-kunicki.jpg",
+        "twitter_username": "rucek",
+        "github_username": "rucek",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/jacekkunicki",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Jacek Kunicki is a full stack software engineer and one of the numeorus CEOs at SoftwareMill - a great remote workplace with no bosses. He contributes to some open source projects (Spring Boot, swagger2raml, Codebrag) and, apart from programming, plays a lot with hardware (Arduino and others). Jacek hates boilerplate and loves automation of everything, so that he has less to do."
+      }
+    ]
+  },
+  {
+    "title": "Heroku - free* and fast prototyping",
+    "descriptionInMd": "I want to introduce Heroku platform to others. Will describe it briefly and then will show how to create and manage apps, how to add and use addons and efficiently use this platform. We will work on simple Python application.\n\n\\* Heroku requires account validation via providing billing information to use even free plans of add-ons. But relax - credit card is not required to fully experience this workshop.\n",
+    "tutors": [
+      {
+        "name": "Dariusz Aniszewski",
+        "tagline": "Senior Software Engineer @ Polidea",
+        "picture_url": "public/img/people/dariusz-aniszewski.jpg",
+        "twitter_username": "aniszewski_eu",
+        "github_username": "DariuszAniszewski",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Backendowiec z Androidowymi zapędami, piwowar domowy, rowerowy entuzjasta."
+      }
+    ]
+  },
+  {
+    "title": "Tworzenie gier 2d w Unity.",
+    "descriptionInMd": "Na wykładzie tym będę pokazywał jak zrobić grę w 2d wykorzystując do tego Unity. Użyję do tego wszystkich narzędzi, które udostępnia silnik oraz będę szczegółowo opisywał, co do czego służy.",
+    "tutors": [
+      {
+        "name": "Jakub Siwek",
+        "tagline": "Unity Developer @ Gamedev House, KNTG Polygon",
+        "picture_url": "public/img/people/jakub-siwek.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/jakub-siwek/86/b16/6a9",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Jestem programistą Unity od 2,5 roku. Pracowałem dla firm: Fuero Games, Kerris Technology, Custom. Jestem również aktywnym członkiem Koła Naukowego Twórców Gier Polygon oraz prezesem Stowarzyszenia Twórców Gier Polygon. Jestem również założycielem grupy Gamedev House, która zajmuje się prowadzeniem szkoleń, wykładów i warsztatów. Pojedyncze spotkania otwarte organizujemy pod nazwą Unity Training Day. Pierwsza płatna seria warsztatów startuje od następnego tygodnia. Wszystkie szczegóły są dostępne na naszej stronie internetowej www.gamedevhouse.pl"
+      }
+    ]
+  },
+  {
+    "title": "Full stack javascript development - AngularJS + NodeJS",
+    "descriptionInMd": "This workshop will take you from nothing to a fully implemented frontend single page application wired up to a RESTful backend service. The frontend will be written in AngularJS utilizing the common tooling such as gulp, bower, npm, etc. For the backend we will be using NodeJS + Express for the middleware. Along the way we will look at some language features in javascript such as callbacks and closures, best practices like linting and unit testing and common pitfalls like the pyramid of doom.",
+    "tutors": [
+      {
+        "name": "George Babey",
+        "tagline": "Lead Software Engineer @ Applause.com",
+        "picture_url": "public/img/people/george-babey.jpg",
+        "twitter_username": "georgebabey",
+        "github_username": "georgebabey",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/george-babey/2/5b9/a73",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "George is a Lead Engineer at Applause where he is focused on improving the crowd testing platform. He spends his days mainly in Javascript, both on the frontend with Angular and server-side with NodeJS. Prior to Applause he worked at Carbonite where he developed the UI for their first server appliance. A former C# / .net developer, he still helps run the local Boston Azure User Group."
+      },
+      {
+        "name": "Bojiang Jin",
+        "tagline": "Software Engineer @ Applause.com",
+        "picture_url": "public/img/people/bojiang-jin.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/in/bojiangjin",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Grown in China, studied aboard in US. Joined Applause as a software engineer. Very into web development. Experienced with Javascript, Python and Java."
+      }
+    ]
+  },
+  {
+    "title": "Hipster IoC containers review",
+    "descriptionInMd": "\"King of the castle\" Spring IoC said... but what if we need something lighter or mayby just try different approach to IoC. I want to prepare workshop about less popular IoC containers: Google Guice, HK2, Dagger, Picocontainer. Workshop will be code kata style - four groups,  one technology for each, two hours coding and last hour for review. In the end we can point main adventages and disadvanteges of this technologies.",
+    "tutors": [
+      {
+        "name": "Paweł Szymczyk",
+        "tagline": "Software Enginere @ Grupa Allegro",
+        "picture_url": "public/img/people/pawel-szymczyk.jpg",
+        "twitter_username": "p_szymczyk",
+        "github_username": "pawelszymczyk",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Software Engineer w Grupie Allegro, pracuje w zespole zajmującym się narzędziami ułatwiającymi tworzenie mikrousług. Core developer w projektach open source: \u003ca href\u003dhttps://github.com/allegro/hermes”\u003eHermes\u003c/a\u003e, \u003ca href\u003dhttps://github.com/javers/javers”\u003eJavers\u003c/a\u003e."
+      }
+    ]
+  },
+  {
+    "title": "Single Page Apps with AngularJS Routing and Templating",
+    "descriptionInMd": "1. Idea SPA\n2. Routing\n3. Szablony\n4. Budowa aplikacji\n5. Dobre praktyki\n",
+    "tutors": [
+      {
+        "name": "Dariusz Kalbarczyk",
+        "tagline": "Współautor książki \"AngularJS. Pierwsze kroki\"",
+        "picture_url": "public/img/people/dariusz-kalbarczyk.jpg",
+        "twitter_username": "ngKalbarczyk",
+        "github_username": "kalbarczyk",
+        "linkedin_profile_url": "https://www.linkedin.com/in/ngkalbarczyk",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Doświadczony programista, od ponad 15 lat związany z rynkiem IT. Fascynat nowych technologii, social mediów, współautor książki „AngularJS. Pierwsze kroki”. Współtwórca warszawskiej grupy AngularJS Warsaw, przez lata współpracujący z największymi firmami na rynku finansowym i telekomunikacyjnym. Z AngularJS związany od 3 lat. W czasie tym brał udział w tworzeniu między innymi, opartego o najnowsze technologie, bankowego systemu transakcyjnego, przeznaczonego na urządzenia mobilne. Zdobyte doświadczenie, oraz entuzjazm pracy z AngularJS zostały dość szeroko opisane przez autora we wspomnianej już książce wydawnictwa Helion „AngularJS. Pierwsze kroki”."
+      },
+      {
+        "name": "Arek Kalbarczyk",
+        "tagline": "Developer @ 10clouds",
+        "picture_url": "public/img/people/arkadiusz-kalbarczyk.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/arkadiusz-kalbarczyk/b4/4bb/7a1",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Programista z dwuletnim doświadczenie w AngularJS. Współautor bestselleru \u0027AngularJS Pierwsze kroki\u0027. Współtwórca warszawskiej grupy AngularJS Warsaw. Brał udział między innymi w rozwijaniu webowej platformy ubezpieczeniowej opartej o najnowsze technologie."
+      }
+    ]
+  },
+  {
+    "title": "Pig i Hive: szybkie wprowadzenie / Pig and Hive crash course",
+    "descriptionInMd": "Celem warsztatu jest wprowadzenie do narzędzi umożliwiających szybką eksplorację danych oraz umożliwiających analizowanie, raportowanie i przetwarzanie na dużych zbiorach danych.\n\nWymagania: odrobina analitycznego zacięcia, podstawy SQL i znajomość dowolnego języka skryptowego.\n",
+    "tutors": [
+      {
+        "name": "Radosław Stankiewicz",
+        "tagline": "Expert @ Bank Zachodni WBK S.A",
+        "picture_url": "public/img/people/radoslaw-stankiewicz.jpg",
+        "twitter_username": "rrydziu",
+        "github_username": "stankiewicz",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/stankiewicz",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Radosław Stankiewicz jest specjalistą IT z szerokim zapleczem teoretycznym i praktycznym. Od 2006 roku zdobywa doświadczenia w różnych dziedzinach - od technologii mobilnych do JEE - a wszystko to w całej różnorodności projektów i środowisk m.in. bankowości, telekomunikacji, sektorze publicznym. Aktualnie pracuje na stanowisku IT Expert w Banku Zachodnim WBK S.A., gdzie rozwija frontend Bankowości Elektronicznej oraz platformę Big Data."
+      },
+      {
+        "name": "Bartłomiej Tartanus",
+        "tagline": "Developer @ OSA | Data Scientist @ LOWE Media",
+        "picture_url": "public/img/people/bartlomiej-tarnaus.jpg",
+        "twitter_username": "bartektartanus",
+        "github_username": "bartektartanus",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/bartlomiejtartanus",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Programista z pasji, matematyk z wykształcenia. Taka mieszanka znalazła do tej pory zastosowanie w projekcie badawczym NEKST - współtworzył polską wyszukiwarkę internetową, gdzie był odpowiedzialnym.in. za moduł odpowiadający na pytania w języku naturalnym. Tam poznał czym jest Big Data i jak z pomocą żółtego słonia o imieniu Hadoop można ten temat ujarzmić. Obecnie jako deweloper Java EE tworzy Otwarty System Antyplagiatowy - OSA oraz pracuje jako data scientist w domu mediowym. Dodatkowo udziela się dydaktycznie na wydziale MiNI Politechniki Warszawskiej, gdzie prowadzi zajęcia ze studentami z programowania z językach C/C++ oraz R. Prywatnie amator perkusji."
+      }
+    ]
+  },
+  {
+    "title": "Reprogram your brain",
+    "descriptionInMd": "We know how to reprogram our computers to add functionality and fix bugs. Why shouldn\u0027t we do the same with ourselves?\n\nJoin this workshop to learn:\n\n1. How to get off the mental treadmill and gain freedom to choose your (re)actions.\n2. How our minds form habits and how to substitute our bad habits with better ones.\n3. How to rebuild our character and get rid of unhelpful beliefs.\n",
+    "tutors": [
+      {
+        "name": "Michał Parkoła",
+        "tagline": "Founder @ People Skills for Geeks",
+        "picture_url": "public/img/people/michal-parkola.jpg",
+        "twitter_username": "michalparkola",
+        "github_username": "michalparkola",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/parkola",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Michał is the founder of People Skills for Geeks, Agile Coach at Fluid Circle and Tinkerer at Sandbenders.io. As an Agile Coach he has helped dozens of teams become happier and more effective and as a Product Owner he led the development of an international payments platform for a multinational corporation in the financial sector."
+      }
+    ]
+  },
+  {
+    "title": "Elasticsearch - the ultimate tutorial - from basics to creating clusters and common tricks",
+    "descriptionInMd": "Elasticsearch - the ultimate tutorial: basics (what is Elasticsearch, what is NoSQL), how to run/install, query language, Python/Java API, indices configuration, clusterization, logs gathering, tips \u0026 tricks.",
+    "tutors": [
+      {
+        "name": "Jakub Kucharski",
+        "tagline": "Team Lead @ Growbots",
+        "picture_url": "public/img/people/jakub-kucharski.jpg",
+        "twitter_username": "83TB",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/in/kubakucharski",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Team Lead at Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales. Builder, minimalist, founder of Orsi Project and Makerland. Cryptocurrency/De-centralization enthusiast and Python Software Enginner."
+      },
+      {
+        "name": "Przemysław Łyszczarz",
+        "tagline": "Software Engineer @ Growbots",
+        "picture_url": "public/img/people/przemyslaw-lyszczarz.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Software Engineer at Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales."
+      },
+      {
+        "name": "Tomek Marmołowski",
+        "tagline": "Software Engineer @ Growbots",
+        "picture_url": "public/img/people/tomasz-marmolowski.jpg",
+        "twitter_username": "83TB",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/in/kubakucharski",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Software Engineer at Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales."
+      },
+      {
+        "name": "Tomasz Roda",
+        "tagline": "CTO @ Growbots",
+        "picture_url": "public/img/people/tomasz-roda.jpg",
+        "twitter_username": "Tom_Roda",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/in/troda",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "CTO of Growbots - rapidly growing, successful Warsaw startup that builds A.I. for Sales. Pragmatic software engineer and system architect who likes challenges. Experienced in building distributed systems processing big amount of data (systems with 200+ servers). Also team builder who tries to engage some of the best people to his team(s) - great software engineers, tech leads, architects who create great atmosphere at work at the same time. Dedicated to co-creating startup. In free time (not too much recently) likes running, karting and squash. \"Suchary\" lover ;)"
+      }
+    ]
+  },
+  {
+    "title": "Podstawy Hadoop i MapReduce / Introduction to Hadoop and MapReduce",
+    "descriptionInMd": "The aim of this workshop is introduction to Apache Hadoop application development. We will learn how to design and develop basic MapReduce applications for Hadoop cluster. There will be also presented parts of Hadoop ecosystem and basic information about main components like HDFS or YARN.\n\nStudents should have basic experience developing Java applications and using a Java IDE. No prior Hadoop knowledge is required.\n",
+    "tutors": [
+      {
+        "name": "Bartłomiej Tartanus",
+        "tagline": "Developer @ OSA | Data Scientist @ LOWE Media",
+        "picture_url": "public/img/people/bartlomiej-tarnaus.jpg",
+        "twitter_username": "bartektartanus",
+        "github_username": "bartektartanus",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/bartlomiejtartanus",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Programista z pasji, matematyk z wykształcenia. Taka mieszanka znalazła do tej pory zastosowanie w projekcie badawczym NEKST - współtworzył polską wyszukiwarkę internetową, gdzie był odpowiedzialnym.in. za moduł odpowiadający na pytania w języku naturalnym. Tam poznał czym jest Big Data i jak z pomocą żółtego słonia o imieniu Hadoop można ten temat ujarzmić. Obecnie jako deweloper Java EE tworzy Otwarty System Antyplagiatowy - OSA oraz pracuje jako data scientist w domu mediowym. Dodatkowo udziela się dydaktycznie na wydziale MiNI Politechniki Warszawskiej, gdzie prowadzi zajęcia ze studentami z programowania z językach C/C++ oraz R. Prywatnie amator perkusji."
+      },
+      {
+        "name": "Radosław Szmit",
+        "tagline": "Trener @ Sages",
+        "picture_url": "public/img/people/radoslaw-szmit.jpg",
+        "twitter_username": "RadoslawSzmit",
+        "github_username": "radoslawszmit",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/rados%C5%82aw-szmit/16/22/4b8",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Inżynier oprogramowania, specjalista Big Data, trener IT.\n\nAbsolwent Politechniki Warszawskiej aktualnie pracujący nad rozprawą doktorską z zakresu Big Data. Związany z Instytutem Podstaw Informatyki Polskiej Akademii Nauk pracujący między innymi w projekcie Adaptacyjny system wspomagający rozwiązywanie problemów w oparciu o analizę treści dostępnych źródeł elektronicznych oraz Otwarty System Antyplagiatowy realizowanego pod patronatem Międzyuniwersyteckiego Centrum Informatyzacji.\n\nZawodowo konsultant IT specjalizujący się w rozwiązaniach Java Enterprise Edition, trener IT w firmie Sages, zwolennik Agile oraz Software Craftsmanship, członek Warsaw Java User Group, Warsaw Hadoop User Group, Warszawskiej Grupy Wzorców Projektowych oraz Stowarzyszenia Software Engineering Professionals Polska.\n\nPrywatnie miłośnik tanga argentyńskiego, adept Israeli Krav Maga, entuzjasta nowoczesnych technologii, zapaleniec gry w koszykówkę, hobbysta savoir-vivre, wielbiciel thrillerów psychologicznych, amator gotowania oraz pasjonat fizyki teoretycznej.\n"
+      }
+    ]
+  },
+  {
+    "title": "Managing the chaos - Gitflow + Vagrant + Ansible",
+    "descriptionInMd": "Let\u0027s assume, that writing a part of code by one person takes x hours. If so, should two developers write the same code in half of the time? And ten developers in 0.1 of x? That would be beautiful, but unfortunately it is not. Even with the best efforts having additional people in project would result in taking longer time to solve the problem. So how should we deal with it?\n\nDuring the workshops about managing the chaos of cooperation I would like to teach, how to set up your working environment with Gitflow, Vagrant and Ansible. I will propose a solution where each developer can setup local instance of project with one commend, where merge conflicts are really rare and the production deployment takes less time than making yourself a cup of coffee.\n",
+    "tutors": [
+      {
+        "name": "Jakub Wasielak",
+        "tagline": "Senior Python Developer @ Grand Parade",
+        "picture_url": "public/img/people/jakub-wasielak.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/profile/view?id\u003d278472640",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Python Programmer with experience in developing web services - especially using Django. Currently Senior Developer in Grand Parade, where spent countless hours on introducing workflow based on Gitflow, Vagrant and Ansible. In free time fantasy lover, organizer of larp convention Fornost."
+      }
+    ]
+  },
+  {
+    "title": "Scala meta: macros, toolbox and even more fun!",
+    "descriptionInMd": "Participants will create simple macro aided application that shows user how powerful are Scala Macros and toolbox.\n\nFirstly I show how Scala AST looks like then I will introduce basic technics how create , test and debug Scala Macros.\n\nLater on I want to show usages of on a fly scala compiler (scala toolbox).\n",
+    "tutors": [
+      {
+        "name": "Krzysztof Romanowski",
+        "tagline": "Scala developer @ Virtuslab",
+        "picture_url": "public/img/people/krzysztof-romanowski.jpg",
+        "twitter_username": "RomanowskiKr",
+        "github_username": "Romanowski",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/romanowskikr/pl",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Scala developer at Virtuslab. I am a passionate about scala internlas (compiler, build tools, IDEs) and debugging stuff. I am one of creators of ScalaIDE expression evaluation engine. Mountains, bikes trips freak."
+      }
+    ]
+  },
+  {
+    "title": "Difficult conversations - 4 steps of clear communication",
+    "descriptionInMd": "Difficult conversations cannot be avoided. More important is what you would do then. In most cases we tend to use two strategies: being agressive so that we can protect what is important for us or being passive to not worsen the situation. It rarely works. You need another way.\n\nWe will discuss and practice particular technique that will help you to\n- have more understanding of your own and others needs\n- use language that will not unnecessarily rise emotional response\n- have more undersanding of your own and others motivation\n- define your borders not attacking others\n\nIf you find anything curious about it or just want to learn a little bit, come to the workshop.\n",
+    "tutors": [
+      {
+        "name": "Mariusz Sieraczkiewicz",
+        "tagline": "Software Development Team Coach @ BNS IT",
+        "picture_url": "public/img/people/mariusz-sieraczkiewicz.jpg",
+        "twitter_username": "ms_bnsit_pl",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://msieraczkiewicz.blogspot.com",
+        "bio_in_md": "Has been a software professional for more than 11 years. Passionate about learning from experience especially when dealing with real-life software projects. As a trainer and consultant works with top teams on technical leadership, process agility and clean code. Co-conducts in-depth researches on critical success factors in software development. At top of that Mariusz has published dozens of articles in Software Developer Journal and Polish “The Programist” magazine.\n\nHis motto is “In most cases it’s all about people” what drives his focus towards communication and team members cooperation. Domain experience: Telco, Finances, Insurance, Manufacturing, E-commerce. His thoughts can be followed on twitter @ms_bnsit_pl or his blog http://msieraczkiewicz.blogspot.com\n"
+      }
+    ]
+  },
+  {
+    "title": "Docker - Easy Containerization",
+    "descriptionInMd": "Nigdy nie lubiłem pracy z serwerami. Stawiając większą aplikację na kilku serwerach, o pomoc często prosiłem kolegów sysadministratorów. A gdy zdarzały się sytuacje, że kod lokalnie działał, a błędy występowały tylko na produkcji, wtedy zaczynało się programistyczne piekło. To nie powinno tak wyglądać!\n\nDocker to rozwiązanie dla większości tych problemów. To technologia z pogranicza świata programistycznego i sysadministracyjnego pozwalająca w łatwy sposób zamknąć w hermetyczne i lekkie kontenery interesujące nas aplikacje. Później dokładnie ten sam kontener możemy uruchamiać pojedynczą komendą w czasie kilku sekund na dowolnym serwerze, komputerze stacjonarnym czy laptopie niezależnie od systemu operacyjnego.\n\nPodczas warsztatów każdy będzie mógł nauczyć się jak od podstaw budować takie kontenery, jak nimi zarządzać oraz np. jak dzięki nim łatwo backupować dane z serwera. Wszystkie ćwiczenia prowadzone będą na autorskim środowisku szkoleniowym \"DockerHost on Demand\". Wystarczy tylko dostęp do przeglądarki lub klient ssh.",
+    "tutors": [
+      {
+        "name": "Krzysztof Szumny",
+        "tagline": "Python Developer @ STX Next",
+        "picture_url": "public/img/people/krzysztof-szumny.jpg",
+        "twitter_username": "noisypl",
+        "github_username": "noisy",
+        "linkedin_profile_url": "https://www.linkedin.com/in/krzysztofszumny",
+        "stackoverflow_id": "noisy",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Obecnie Python Developer w STXnext, niegdyś przez ponad 5 lat piszący w C/C++/Javie w Operze Software. Jako autor bloga o eczytnikach eKundelek.pl, w 2013 roku rzuciłem pracę by spróbować własnych sił tworząc własny startup SpisTresci.pl. Prywatnie miłośnik biegania i pływania. Co ważne w kontekście tematu warsztatów, osoba nienawidząca jakiejkolwiek administracji serwerami :)"
+      }
+    ]
+  },
+  {
+    "title": "Angular Materials in use",
+    "descriptionInMd": "Angular Materials is a set of reusable, well-tested, and accessible UI components designed for Angular framework. It helps to build a user-friendly interface very fast. During this workshop we will take a look at different UI components shipped with Angular Materials. Each attendee will build a small Angular application using AM components.\n\nRequirements: basic knowledge of Angular is nice to have (but not a must-have)\n",
+    "tutors": [
+      {
+        "name": "Mateusz Krupa",
+        "tagline": "Software Engineer @ ProData Consult",
+        "picture_url": "public/img/people/mateusz-krupa.jpg",
+        "twitter_username": "treestram",
+        "github_username": "Mateusz-Krupa",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/mateusz-krupa/46/636/993",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Mateusz Krupa is a Software Engineer with six years of commercial experience. He specializes in frontend development, building high-performance, scalable and maintainable applications in various environments; web, desktop, mobile and smartTV.\n\nHis expertise also covers Web Design, Usability and User Experience (UX). Mateusz Krupa has worked extensively with HTML/HTML5, CSS/CSS 3, JavaScript, Bootstrap, Axure RP, SASS and Angular.\n"
+      }
+    ]
+  },
+  {
+    "title": "Case Study: Agile @gov.pl",
+    "descriptionInMd": "Rewolucja się zaczęła! coi.gov.pl przeciera szlaki wytwarzając oprogramowanie w duchu Agile wykorzystując Scruma i Kanbana przy tworzeniu Systemu Rejestrów Państwowych (CEPiK, pl.ID: PESEL, Baza Urzędu Stanu Cywilnego, Rejestr Dowodów Osobistych i inne). Jest ciężko i jest trudno, ale też dużo udało się już zrobić.\n\nNa wykładzie opowiem jaką drogę przeszliśmy, gdzie mieliśmy problemy, co udało się zrobić i działa. Opowiem też w którą stronę chcemy iść, bo jeszcze bardzo dużo jest do zrobienia.\n\nPodpowiem, że będzie dużo o praktykach developerskich :)\n\n\n\nAgile transformation requires understanding of its rules by management. It is hard to leave status quo and change your way of thinking. It is especially hard when the previous model has been in use for many years. A frequent problem with Scrum / Kanban / Lean transformation is to go hard on deep water. Starting tommorow we\u0027re doing Scrum. Lack of understanding, communication chaos and rules distortion \u0027just because daily is not working for us\u0027. What if take a different approach: slow and prudent? Let say iteratively. Gradually introduce another steps of chosen framework. However the question persists. How to effectively change our conservative organization into agile and constantly changing in response to business needs company?",
+    "tutors": [
+      {
+        "name": "Matt Harasymczuk",
+        "tagline": "Agile Coach, Software Engineer, Speaker and Pilot",
+        "picture_url": "public/img/people/mateusz-harasymczuk.jpg",
+        "twitter_username": "MattAgile",
+        "github_username": "MattAgile",
+        "linkedin_profile_url": "https://www.linkedin.com/in/mattharasymczuk",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://www.slideshare.net/mattharasymczuk/presentations",
+        "bio_in_md": "Hi, my name is Matt and I am a Agile Coach, Software Engineer, Speaker and Pilot. I have been trusted to lead an Agile transformation for Polish government IT projects at the Center for Information Technology with the Ministry of the Interior. This is the first government unit in Poland that gone Agile.\n\nI help solving problems with Agile Software Engineering and embracing Scrum, Kanban, Lean, XP, Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT. Currently I am in the Air Force Academy studying \"Aviation and Astronautics\" and pursuing my life-long hobby, that is flying and my the ultimate dream - go to space.\n"
+      }
+    ]
+  },
+  {
+    "title": "Developer Tools Ecosystem",
+    "descriptionInMd": "The IT systems has become more and more complex. Fortunately we have now a set of utilities and tools that helps us in the development process. Project management (Jira, Jira Agile, Redmine), collaboration platforms (Confluence, Wiki), build (Continuous Integration and Delivery) systems (Jenkins, Travis, Bamboo, Team City), source code management (GIThub, BitBucket, Stash, Gitlab) and quality (Sonar, Clover, PMD, Checkstyle, Sputnik, Findbugs, JaCoCo) has become a standard part of our workflow. Here\u0027s a talk on how to connect the dots and set up the development tools ecosystem. Moreover we will cover GIT Flow in depth.\n\nPlease bring your laptop with Vagrant (\u003e\u003d 1.7) and Virtualbox (\u003e\u003d 4.3) installed. Preferred machine with at least 2 CPU Core and more than 4 GB of RAM.\n\nAll workshop files will be published at: [Github](https://github.com/MattAgile/ecosystem-workshop)\n",
+    "tutors": [
+      {
+        "name": "Matt Harasymczuk",
+        "tagline": "Agile Coach, Software Engineer, Speaker and Pilot",
+        "picture_url": "public/img/people/mateusz-harasymczuk.jpg",
+        "twitter_username": "MattAgile",
+        "github_username": "MattAgile",
+        "linkedin_profile_url": "https://www.linkedin.com/in/mattharasymczuk",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://www.slideshare.net/mattharasymczuk/presentations",
+        "bio_in_md": "Hi, my name is Matt and I am a Agile Coach, Software Engineer, Speaker and Pilot. I have been trusted to lead an Agile transformation for Polish government IT projects at the Center for Information Technology with the Ministry of the Interior. This is the first government unit in Poland that gone Agile.\n\nI help solving problems with Agile Software Engineering and embracing Scrum, Kanban, Lean, XP, Gamification, DevOps processes: CI, CD, Quality, ChM, RM, BDD, TDD, Risk Management and GIT. Currently I am in the Air Force Academy studying \"Aviation and Astronautics\" and pursuing my life-long hobby, that is flying and my the ultimate dream - go to space.\n"
+      },
+      {
+        "name": "Jan Folfas",
+        "tagline": "Junior Java Developer @ COI",
+        "picture_url": "public/img/people/jan-folfas.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/jan-folfas/a1/921/6b0",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": ""
+      },
+      {
+        "name": "Karol Kozakowski",
+        "tagline": "Intern @ Centralny Ośrodek Informatyki",
+        "picture_url": "public/img/people/karol-kozakowski.jpg",
+        "twitter_username": "cosaquee",
+        "github_username": "Cosaquee",
+        "linkedin_profile_url": "http://pl.linkedin.com/in/KarolKozakowski",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Student informatyki studiujący na Polsko-Japońskiej Akademii Technik Komputerowych. Zainteresowany całym spectrum technologii, zmotywowany do nauki i rozszerzania własnych kompetencji."
+      }
+    ]
+  },
+  {
+    "title": "Technology for social causes - working with the nonprofit sector",
+    "descriptionInMd": "The session will focus on WHY to volunteer your skills to help non-profit or activists or WHY to go work in one.  We will speak to WHAT are the examples of good social tech tools. We will talk about HOW to do it well and present various approaches we used in our work before (NetWtorek, SocHack, Dane po warszawsku). We will also be seeking feedback on how to do it more effectively.",
+    "tutors": [
+      {
+        "name": "Alicja Peszkowska",
+        "tagline": "Communications specialist @ TechSoup Europe",
+        "picture_url": "public/img/people/alicja-peszkowska.jpg",
+        "twitter_username": "alicjapeas",
+        "github_username": "",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/alicja-peszkowska/30/219/5b2/pl",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Alicja is a social innovator interested in how technology translates into social reality. A Communications Specialist at TechSoup Europe, Warsaw NetWtorek meet-ups organizer and a blogger. She also sings."
+      },
+      {
+        "name": "Karolina  Moraczewska",
+        "tagline": "Program Coordinator @ TechSoup Polska",
+        "picture_url": "public/img/people/karolina-moraczewska.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "public/img/people/karolina-moraczewska.jpg"
+      }
+    ]
+  },
+  {
+    "title": "How TypeScript saved web application",
+    "descriptionInMd": "JavaScript sucks.\n\nEven though it’s the best language to make your first “HelloWorld” example in matter of seconds, it makes it really hard to create or maintain large applications without lots of silly errors and hours of debugging.\n\nAfter 2 years of struggle with a quite large front-end app made in JavaScript (ES5) and wounds gained from CoffeeScript I found a path of hope. The path cobbled with types, function literals and classes.\n\nVerily I say unto you, follow the path of TypeScript.\n\n(Intro to TypeScript in web applications)\n",
+    "tutors": [
+      {
+        "name": "Jakub Strojewski",
+        "tagline": "Developer @ Evojam",
+        "picture_url": "public/img/people/jakub-strojewski.jpg",
+        "twitter_username": "ulfryk",
+        "github_username": "ulfryk",
+        "linkedin_profile_url": "https://www.linkedin.com/profile/view?id\u003d163128310",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Developer w [Evojam](http://evojam.com/). Niegdyś entuzjasta vanilla JavScript. Od prawie 3 lat pracuje w AngularJS, a od pół roku skutecznie usuwa zło statycznym typowaniem. Rowerzysta, uwielbia papierowe książki."
+      }
+    ]
+  },
+  {
+    "title": "Data Mining z Weką: pierwsze kroki / First steps in Data Mining with Weka",
+    "descriptionInMd": "The aim of this workshop is to show the very first steps needed to start mining data for knowledge: non-trivial relationships, associations and patterns. We will grab a set of numeric and ordinal data, perform some simple data preparation steps and try to find the pot of gold hidden behind the numbers. No programming skills are necessary to participate in this workshop.\n",
+    "tutors": [
+      {
+        "name": "Łukasz Kobyliński",
+        "tagline": "Co-founder @ Sages, Researcher @ IPI PAN",
+        "picture_url": "public/img/people/lukasz-kobylinski.jpg",
+        "twitter_username": "lkobylinski",
+        "github_username": "lkobylinski",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/lukasz-kobylinski/0/43a/470",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Łukasz Kobyliński posiada zarówno wieloletnią praktykę programistyczną, związaną z językiem Java i platformą Java Enterprise Edition, doświadczenie trenerskie w prowadzeniu szkoleń z tego obszaru, jak i doświadczenie związane z analizą danych i uczeniem maszynowym. Pracę doradczą i szkoleniową łączy z działalnością naukową - zajmuje się zagadnieniami związanymi z inżynierią lingwistyczną i przetwarzaniem obrazów."
+      },
+      {
+        "name": "Radosław Szmit",
+        "tagline": "Trener @ Sages",
+        "picture_url": "public/img/people/radoslaw-szmit.jpg",
+        "twitter_username": "RadoslawSzmit",
+        "github_username": "radoslawszmit",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/rados%C5%82aw-szmit/16/22/4b8",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Inżynier oprogramowania, specjalista Big Data, trener IT.\n\nAbsolwent Politechniki Warszawskiej aktualnie pracujący nad rozprawą doktorską z zakresu Big Data. Związany z Instytutem Podstaw Informatyki Polskiej Akademii Nauk pracujący między innymi w projekcie Adaptacyjny system wspomagający rozwiązywanie problemów w oparciu o analizę treści dostępnych źródeł elektronicznych oraz Otwarty System Antyplagiatowy realizowanego pod patronatem Międzyuniwersyteckiego Centrum Informatyzacji.\n\nZawodowo konsultant IT specjalizujący się w rozwiązaniach Java Enterprise Edition, trener IT w firmie Sages, zwolennik Agile oraz Software Craftsmanship, członek Warsaw Java User Group, Warsaw Hadoop User Group, Warszawskiej Grupy Wzorców Projektowych oraz Stowarzyszenia Software Engineering Professionals Polska.\n\nPrywatnie miłośnik tanga argentyńskiego, adept Israeli Krav Maga, entuzjasta nowoczesnych technologii, zapaleniec gry w koszykówkę, hobbysta savoir-vivre, wielbiciel thrillerów psychologicznych, amator gotowania oraz pasjonat fizyki teoretycznej.\n"
+      }
+    ]
+  },
+  {
+    "title": "Dive into data with Apache Spark",
+    "descriptionInMd": "Enjoy the blazing speed of Apache Spark! Analyse all your data and do it fast. Be ready to submerge yourself in the world of functional data processing using Scala. Have a taste of the most trendy big data tool of the moment.\nThis workshop is intended as an introduction to the basics of Spark, with examples of its different subsystems (MLlib, SparkSql).\n",
+    "tutors": [
+      {
+        "name": "Tomasz Bartczak",
+        "tagline": "Scala Developer @ Allegro",
+        "picture_url": "public/img/people/tomasz-bartczak.jpg",
+        "twitter_username": "bartczakt",
+        "github_username": "kretes",
+        "linkedin_profile_url": "https://www.linkedin.com/in/tomaszbartczak",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "I am a Java-retired Scala developer, now a Data Enginner wannabe"
+      },
+      {
+        "name": "Marcin Cylke",
+        "tagline": "Scala Developer @ TouK",
+        "picture_url": "public/img/people/marcin-cylke.jpg",
+        "twitter_username": "zygm0nt",
+        "github_username": "zygm0nt",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Scala and Big Data developer"
+      }
+    ]
+  },
+  {
+    "title": "Microservices - enough with theory, let\u0027s code some",
+    "descriptionInMd": "We have been on many talks about the (not so) new software design approach which is - \"Microservices\".\n\nHaving organized few Microservice Hackathons (both public and internal) and developing applications for the last 7 months using that approach, we would like to show you what are the BUTs of the idea. Rarely can you hear about the challenges and issues related to this architectural approach and we’ll tell nothing but the truth about it. Also we’ll show how you can quickly start creating your own apps using the tools we have created at 4finance / SoftwareMill.\n\nJust a glimpse of what will you see in action: zookeeper for service discovery; Kibana / Graphana for monitoring; client code in Java and Groovy; Ansible for provisioning. And the best part is that everything is opensourced and ready to use.\n\nExpect nothing but live coding and may the Demo Gods have mercy on us ;-)\n",
+    "tutors": [
+      {
+        "name": "Marcin Grzejszczak",
+        "tagline": "Software Architect @ 4financeIT",
+        "picture_url": "public/img/people/marcin-grzejszczak.jpg",
+        "twitter_username": "mgrzejszczak",
+        "github_username": "marcingrzejszczak",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/marcin-grzejszczak/19/651/155",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://marcin.grzejszczak.pl",
+        "bio_in_md": "Enthusiast of clean coding and good design. Author of \"Mockito Instant\" and \"Mockito Cookbook\" books. Contributor to several open source projects (including Groovy, Mockito, Spring-Cloud-Zookeeper, Spring-Cloud-Sleuth, Rest-assured, Drools, Moco). Co-author of the Groovy @Builder and \"micro-infra-spring\" microservices open source solution. Author of Uptodate Gradle plugin and Spock subjects-collaborators extension open source projects. Co-founder of the Warsaw Groovy User Group. A member of the Most Valuable Blogger program at DZone and Java Code Geeks."
+      },
+      {
+        "name": "Tomasz Szymański",
+        "tagline": "CEO @ SoftwareMill",
+        "picture_url": "public/img/people/tomasz-szymanski.jpg",
+        "twitter_username": "szimano",
+        "github_username": "szimano",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/szimano",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://szimano.org/",
+        "bio_in_md": "His journey with professional programming has started over 10 years ago. He did his first serious coding as an intern at JBoss, to become an Application Architect in one of the biggest banks in Republic of South Africa.\n\nHe believes in clean code, communities and agile methodologies. That is why after years of experience he has co-founded SoftwareMill - first polish softwarehouse that is fully remote and flat. For over 5 years he has been building a company, where 30 professionals are running projects on 4 continents.\n\nActive member and leader of Warsaw Java User Group, Warsaw Groovy User Group, organiser and speaker at conferences and dev events. Privately trying to match Tiger Woods in golf ;)\n"
+      }
+    ]
+  },
+  {
+    "title": "Reactive Cloud - leverage AWS Lambda \u0026 AWS API Gateway to develop event-driven, serverless solutions",
+    "descriptionInMd": "Let\u0027s build a fast, reactive application harnessing the power of Java and AWS Lambda. Then publish, maintain and monitor its API via AWS API Gateway. During our hands-on workshop we will check how AWS Lambda and AWS API Gateway services work in practice by implementing AWS Lambda Functions written in Java and then deploying them into the real AWS Cloud environment followed by exposing and publishing their API through AWS API Gateway as RESTful web-services.\n\nAs a bonus for (active!) workshop attendees I will hand out a number of coupons of $25-value for further experiments with AWS Cloud services.\n",
+    "tutors": [
+      {
+        "name": "Adam Smolnik",
+        "tagline": "AWS Certified Solutions Architect/Java Enthusiast",
+        "picture_url": "public/img/people/adam-smolnik.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/adam-smolnik/43/874/653",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Adam is a Principal Software Engineer at Pitney Bowes. Prior to PB, Adam worked as an application developer, consultant, designer for companies like Kroll Ontrack, IBM and EDS. He supports and contributes to developing Chmurowisko.pl, the most recognized Polish website revolving around Cloud technology. Adam is also co-founder of AWS User Group Poland, an active speaker at Cloud conferences, instructor at Cloud and Software workshops, Java/JEE trainer at Altkom, Cloud Computing Architect \u0026 Trainer at CloudPeak.pl as well as co-organizer Cloudyna conference (cloudyna.org)."
+      }
+    ]
+  },
+  {
+    "title": "How to develop applications for disabled people using PISAK libraries",
+    "descriptionInMd": "PISAK is an open-source, mainly Python platform for disabled people. It allows them to communicate and  entertain themselves by using a singular input (puffing, clicking, moving a muscle) or free-choice (eyetracker or headtracker). Easy to use, highly customisable, with a library that allows to fast prototype an application suitable for a disabled person in a couple of hours. You can check out the code at [Github](https://github.com/BrainTech/pisak) and read more about the project at [PISAK](http://pisak.org/)",
+    "tutors": [
+      {
+        "name": "Aleksander Kijek",
+        "tagline": "Project owner \u0026 developer @ BrainTech",
+        "picture_url": "public/img/people/aleksander-kijek.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Python coder and Linux enthusiast, fascinated by the brain machinery. Combines his knowledge of Neuropsychology and Neuroinformatics in coordination of project [PISAK](http://pisak.org/) which he manages for the last two years. Trainer in informal education and team-building for past several years."
+      }
+    ]
+  },
+  {
+    "title": "Searching for answers in dumps",
+    "descriptionInMd": "I\u0027d like to show how to read thread and heap dumps.\n\nNothing fancy, rather for beginners, however I noticed that not everybody can:\n\n- find simple and more tangled deadlocks looking at stacktraces\n- do rough profiling just by using jstack\n- see where memory leaks by analyzing heap dump\n- and similar stuff\n\nAnd of course - how to retrieve them ;)\n\nNo special experience or equipment is required, just basic Java knowledge and laptop\n",
+    "tutors": [
+      {
+        "name": "Maciej Próchniak",
+        "tagline": "Developer @ TouK",
+        "picture_url": "public/img/people/maciej-prochniak.jpg",
+        "twitter_username": "mpproch",
+        "github_username": "mproch",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/maciej-pr%C3%B3chniak/10/b31/139",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Maciek Próchniak is algebraic topologist, for more than 8 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently trying hard to code more functionally, preferably in Scala. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to noSQL databases. For 6 years happy @ TouK, and even more happy husband and father."
+      }
+    ]
+  },
+  {
+    "title": "Searching for answers in dumps",
+    "descriptionInMd": "I\u0027d like to show how to read thread and heap dumps.\n\nNothing fancy, rather for beginners, however I noticed that not everybody can:\n\n- find simple and more tangled deadlocks looking at stacktraces\n- do rough profiling just by using jstack\n- see where memory leaks by analyzing heap dump\n- and similar stuff\n\nAnd of course - how to retrieve them ;)\n\nNo special experience or equipment is required, just basic Java knowledge and laptop\n",
+    "tutors": [
+      {
+        "name": "Maciej Próchniak",
+        "tagline": "Developer @ TouK",
+        "picture_url": "public/img/people/maciej-prochniak.jpg",
+        "twitter_username": "mpproch",
+        "github_username": "mproch",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/maciej-pr%C3%B3chniak/10/b31/139",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Maciek Próchniak is algebraic topologist, for more than 8 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently trying hard to code more functionally, preferably in Scala. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to noSQL databases. For 6 years happy @ TouK, and even more happy husband and father."
+      }
+    ]
+  },
+  {
+    "title": "Add types - reduce bugs. Transition from Javascript to TypeScript.",
+    "descriptionInMd": "TypeScript is continuously gaining popularity and recognition in recent years, with Angular 2 using TypeScript being an important manifestation of the trend. Its advantages, such as static type checking and possibilities of better code structuring, have been appreciated by developers and proved to significantly reduce the amount of bugs.\n\nDuring the workshop, we’ll introduce you to the dead-simple TypeScript syntax, show its main strong points working in practice and create a small AngularJS app.\n\nNext, we’ll cover the main architectural challenges in AngularJS and show how TypeScript aids to overcome them. Last but not least, we’ll refactor an existing application (using external libraries) in order to gradually introduce types and use TypeScript capabilities to full extent.\n\nAll the details about our workshop and any necessary information you can find here: http://sollersconsulting.github.io/codepot/",
+    "tutors": [
+      {
+        "name": "Jakub Król",
+        "tagline": "Developer @ SollersConsulting",
+        "picture_url": "public/img/people/jakub-krol.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Programista w zespole IT w Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Zwolennik pisania reużywalnego kodu front-endowego i wykorzystania zwinnych metodyk w wytwarzaniu oprogramowania."
+      },
+      {
+        "name": "Mateusz Chrzonstowski",
+        "tagline": "Developer @ SollersConsulting",
+        "picture_url": "public/img/people/mateusz-chrzonstowski.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Starszy programista w zespole IT Sollers Consulting. Zajmuje się tworzeniem aplikacji webowych dla rynku ubezpieczeń. Entuzjasta frontendowych nowinek technologicznych, żywo zainteresowany Angularem i TypeScriptem."
+      }
+    ]
+  },
+  {
+    "title": "O miękkiej części pracy scrum mastera...",
+    "descriptionInMd": "... czyli odrobina teorii, dużo przykładów i jeszcze więcej praktycznych pomysłów na rozwiązanie problemów w zespołach. W czasie kilku godzin pokażemy nasz warsztat scrum mastera i podzielimy się swoimi doświadczeniami z dwóch dużych organizacji. Dodatkowo będziemy się starali się pokazać każdy problem z różnych perspektyw – deweloperskiej, biznesowej i psychologicznej.\n\nZakres warsztatu:\n\nRelacje w zespole –  o tym, co może być trudnego w rozwoju samego zespołu i jak sobie z tym radzić.\n\nKompetencje – jak stworzyć pętle informacji zwrotnej, pozwalające zespołowi się rozwijać. W tej części będzie dużo o testach i biznesie.\n\nAutonomia zespołu czyli o takich ramach pracy w Scrumie, które dają zarówno wsparcie, jak i wolność nie niszcząc przy okazji przyjemności z pracy.\n",
+    "tutors": [
+      {
+        "name": "Agnieszka Biernacka",
+        "tagline": "Scrum Master \u0026 Agile Coach @ PZU",
+        "picture_url": "public/img/people/agnieszka-biernacka.jpg",
+        "twitter_username": "JagaBiernacka",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/agnieszka-biernacka/16/292/608",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Obecnie scrum master i agile coach w PZU. Poprzednio pracowała jako scrum master z zespołem mobilnym w PayU (Grupa Allegro). Łączy wykształcenie z zakresu psychologii społecznej z doświadczeniem technicznym. Ma na swoim koncie pracę w zespole scrumowym w software house oraz bogate doświadczenie trenerskie (m.in. jako trener Red Hat w Altkom Akademia) i projektowe. Pasjonatka zwinnych metodyk, naukowo zajmuje się motywacją w Agile."
+      },
+      {
+        "name": "Hubert Liberadzki",
+        "tagline": "Scrum Master/QA @ PZU",
+        "picture_url": "public/img/people/hubert-liberadzki.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Scrum Master/QA w PZU (dawniej Test Leader w LG Electronics). Tester oprogramowania z bogatą wiedzą techniczną. Zainteresowany zwinnymi metodykami wytwarzania oprogramowania."
+      }
+    ]
+  },
+  {
+    "title": "Polymer and Firebase. Welcome to the future of web development.",
+    "descriptionInMd": "Polymer to największa rewolucja web developmetu od czasu pojawienia się HTML\u0027a. Zmienia on sposób myślenia i daje nowe możliwości tworzenia komponentowych aplikacji webowych.\n\nPodczas warsztatów poznasz ideę tworzenia aplikacji webowych z wykorzystaniem komponentów Polymer, poznasz praktyczne zastosowanie popularnych komponentów, dowiesz się jak stworzyć własny komponent i pochwalić się nim światu. Weźmiesz też udział we wspólnym tworzeniu nowoczesnej aplikacji dla uczestników konferencji.\n",
+    "tutors": [
+      {
+        "name": "Michał Suchecki",
+        "tagline": "Fullstack developer @ Javeo",
+        "picture_url": "public/img/people/michal-suchecki.jpg",
+        "twitter_username": "SucheckiMichal",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/michaljansuchecki",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Od 10 lat pracuję w @javeo_eu jako fullstack developer, obecnie w randze architekta. W bio wszyscy piszą jakie technologie lubią - ja lubię jak oprogramowanie działa a satysfakcję zawodową osiągam widząc uśmiech na twarzach pań Halinek z księgowości."
+      },
+      {
+        "name": "Daniel Chruściak",
+        "tagline": "Team Leader @ Javeo",
+        "picture_url": "public/img/people/daniel-chrusciak.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Software Developer with over 10 years experience. Currently Team Leader in Javeo where he builds next-generation applications. The enthusiast of Scala and functional programming, also follower of simplicity and clean code."
+      },
+      {
+        "name": "Bartosz Bąbol",
+        "tagline": "Software engineer @ Javeo",
+        "picture_url": "public/img/people/bartosz-babol.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Software engineer in Javeo, programming enthusiast,  particularly interested in functional and reactive programming."
+      }
+    ]
+  },
+  {
+    "title": "Data marketing",
+    "descriptionInMd": "Munging and analyzing data is loads of fun, especially when you communicate with people who understand you - quants, researchers, analysts, programmers. But usually they are not the decision makers. And when it comes to selling data, nobody will care about your beautiful analyses and visualizations, they will most probably want just one number.\n\nThe workshop is about choosing the first right number (the one that is demanded from you) and selling other ideas (the ones they should demand) to decision makers. It\u0027s based on WHO-approach of evidence briefs for policy and my two-years experience as a quant in public administration.\n",
+    "tutors": [
+      {
+        "name": "Alicja Raszkowska",
+        "tagline": "Quant @ Ministry of Health",
+        "picture_url": "public/img/people/alicja-raszkowska.jpg",
+        "twitter_username": "mamrotynka",
+        "github_username": "mamrotynka",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/alicjaraszkowska",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Alicja has been exploring data science since 2008. An incurable optimist, she has been working in the Polish public sector as an analyst-turned-technology-translator. She tends to munge and wrangle data until it shows the right, yet not necessarily the expected outcomes, constantly emphasizing the difference between the two to decision-makers. In her free time she enjoys board games and learning languages."
+      }
+    ]
+  },
+  {
+    "title": "Reactive Programming on Android",
+    "descriptionInMd": "During this workshop we will demonstrate API and techniques which can be applied to develop a reactive application for highly concurrent Android Environment. This workshop will not be focused on the Reactive Manifesto academic aspects, but on how to apply the concepts in real life application. Beginning with standard Android SDK, moving to 3rd party libraries, we will explore various methods of asynchronous computation based on event communication. This will allow you to learn the pros and cons of various approaches to develop Android apps. Instead of going deep into technical aspects how those mechanisms work, we will present how to use those APIs.\n\nWithin the scope we will develop an application using Android Rx, different methods to implement event bus pattern. To create more concise code we will employ Retrolambda plugin.\n\nThe attendee for this workshop should have basic knowledge of Android platform.\n\nRequirements:\n\n - Bring your laptop with stable release of Android Studio.\n\n - Mobile device with Android operating system.\n\n - USB cable to connect device to your machine.\n\n - Installed Java SDK version 7 and 8.\n",
+    "tutors": [
+      {
+        "name": "Damian Leszczyński",
+        "tagline": "Solutions Architect/Developer @ Samsung R\u0026D Institute Poland",
+        "picture_url": "public/img/people/damian-leszczynski.jpg",
+        "twitter_username": "D_Leszczynski",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/dleszczynski",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Damian Leszczyński works as Solutions Architect / Developer for Samsung Business. Currently his daily basis is to bring value on mobile devices to business customer. Before this opportunity he was responsible for architecture analysis provided to development teams. Enforcing the clean, decoupled and sustainable design, for open and complex production realities. All this would not have been possible without the dedication of several years of work on the ERP system for international production company, his passion to Software Engineering, JVM environment, lean methodologies and surround community of people willing to introduce change."
+      },
+      {
+        "name": "Paweł Ptaszyński",
+        "tagline": "Software Engineer @ Samsung R\u0026D Institute Poland",
+        "picture_url": "public/img/people/pawel-ptaszynski.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "https://pl.linkedin.com/in/pawelptaszynski",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Solution Architect and Developer working on new B2B solutions based on mobile devices powered by Android platform. He has been working in various roles covering full software development lifecycle - as analyst, developer, tester, dev team leader or even software process engineer, but has always been enthusiast of code. Part time agile evangelist and a fan of great dev tools. Recently passionate about Scala, reactive design \u0026 programming and PaaS solutions."
+      }
+    ]
+  },
+  {
+    "title": "The hands-on introduction to probabilistic programming in Figaro",
+    "descriptionInMd": "During workshop the fundamentals of probabilistic programming will be explained. Probabilistic programming has a considerable chance to democratize machine learning (ML) and artificial intelligence among non programmers and spread ML techniques across many disciplines and industries, and thus be the next big thing in data science. The concepts of probabilistic programming are to be demonstrated in Figaro, Scala library. A selected examples leading step by step to a nontrivial probabilistic programming system will be done during the workshop. The knowledge of Scala is advised but not strictly required (although in this case the knowledge of any modern programming language (c++, java, python, haskell,..) is strongly recommended in order to follow and comprehend the material). Functional nature of Scala is also to be embraced in the last parts of the workshop. The participants are asked to bring laptops with themselves. More details about the final setup are to be available later. The workshop is to be held in English.",
+    "tutors": [
+      {
+        "name": "Paweł Jakubas",
+        "tagline": "Software Engineer @ Samsung R\u0026D Institute Poland",
+        "picture_url": "public/img/people/pawel-jakubas.jpg",
+        "twitter_username": "",
+        "github_username": "https://github.com/paweljakubas",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/pawel-jakubas-phd/1/720/5a0",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Pawel Jakubas is a software engineer interested in full stack development, big data and data science. He works with a number of technologies, eg., scala, hadoop, spark, aws, mesos, mongodb, angularJS.. . He is passionate about harnessing distributed systems in the context of big data analytics. He holds MSc in finance and banking, MSc Eng in mechatronics, and PhD in physics. He can be contacted via: jakubas dot pawel at gmail dot com."
+      }
+    ]
+  },
+  {
+    "title": "Wykorzystaj serwisy Azure i skup się na tym, co ważne.",
+    "descriptionInMd": "W trakcie krótkiego warsztatu pokażę, jak wykorzystać usługi poziomu Platform as a Service dostępne na Microsoft Azure, aby skrócić czas dostarczenia systemu na rynek, oraz zminimalizować ogólne koszty związane z utrzymaniem tzw \"produkcji\". Wyjaśnię, jak dzięki dobremu wykorzystaniu narzędzi możemy skoncentrować się na tym, co tworzymy i zepchnąć problem deploymentu na drugi plan.",
+    "tutors": [
+      {
+        "name": "Krzysztof Szabelski",
+        "tagline": "Technical Advisor @ Future Processing",
+        "picture_url": "public/img/people/krzysztof-szabelski.jpg",
+        "twitter_username": "kszabelski",
+        "github_username": "https://github.com/szabl",
+        "linkedin_profile_url": "https://pl.linkedin.com/pub/krzysztof-szabelski/1b/a75/21a",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Na co dzień doradca i konsultant techniczny w gliwickiej firmie Future Processing. Zajmuje się przede wszystkim architekturą systemów, optymalizowaniem procesów wytwarzania oprogramowania i programowaniem w C#. Zawsze jednak stara się wychodzić daleko poza świat technologii Microsoft, aby czerpać inspirację i poszerzać swoją wiedzę. Prywatnie motocyklista, skialpinista i pasjonat wszelkich sportów ekstremalnych."
+      }
+    ]
+  },
+  {
+    "title": "Tasting Typography: Make Your Own Letters",
+    "descriptionInMd": "Have you ever wondered why there are so many different fonts? Where did they come from? What differentiates them? Are you able to design your own letters? Come to our workshop to try your hand at lettering craftsmanship.",
+    "tutors": [
+      {
+        "name": "Gosia Dzierżewicz",
+        "tagline": "UI Designer @ Polidea",
+        "picture_url": "public/img/people/gosia-dzierzewicz.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Gosia Dzierżewicz is a UI Designer at Polidea. During her studies at the Design Faculty of the Academy of Fine Arts in Warsaw she focused on graphic design. That’s why Gosia sees typography as a powerful tool for effective visual communication and uses its principles to create clear and understandable interfaces. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences."
+      },
+      {
+        "name": "Magda Zadara",
+        "tagline": "UI Designer @ Polidea",
+        "picture_url": "public/img/people/magda-zadara.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Magda Zadara studied product design at Central Saint Martins and the Academy of Fine Arts in Warsaw and decided to mix her passion for technology with the traditional craft she learned to work on digital products. Currently, she works as a UI Designer at Polidea, where she’s part of developer-designer teams who create mobile apps. She also runs the Design Practice Meetup and is one of the organisers of MCE Conferences."
+      }
+    ]
+  },
+  {
+    "title": "Software Defined Networking and OpenStack",
+    "descriptionInMd": "Deep dive into Software Defined Networking (SDN) and Cloud.\n\nFirst we will remind some networking concepts and introduce SDN.\n\nYou will write own SDN controller in POX/Ryu.\n\nThen we will get OpenStack Networking insight, to finally explore how SDN can be used for OpenStack.\n\nSome minimum knowledge of IP networks is needed. Most of coding will be done in Python.\n",
+    "tutors": [
+      {
+        "name": "Konrad Gawda",
+        "tagline": "Network Specialist",
+        "picture_url": "public/img/people/konrad-gawda.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Telecommunications specialist, born in Vienna, graduated Warsaw University of Technology. Working with lab evaluation of new technologies and preparing prototypes of innovative telco solutions. Also - Python programmer and hobby electronics developer."
+      },
+      {
+        "name": "Michał Muszalski",
+        "tagline": "System Architect",
+        "picture_url": "public/img/people/michal-muszalski.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Telecommunications specialist, graduated from Warsaw University of Technology. Working with new telco solutions: preparing prototypes and concepts of the innovative solutions. Python developer concerned in network and application security. Personally interested in photography, electronics and gliding."
+      },
+      {
+        "name": "Michał Pawłowski",
+        "tagline": "Network Specialist",
+        "picture_url": "public/img/people/michal-pawlowski.jpg",
+        "twitter_username": "",
+        "github_username": "",
+        "linkedin_profile_url": "",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "",
+        "bio_in_md": "Graduated from Warsaw University of Technology, telecommunication network engineer. Main area of work includes programmable networks (SDN) and network function virtualization (NFV)."
+      }
+    ]
+  },
+  {
+    "title": "Make it smooth and easy - frontend application with Ember CLI",
+    "descriptionInMd": "Move your programming life to the next level of simplicity with Ember CLI. The command line tool for creating ambitious web applications. At our workshop we will check, how much fun brings using this simple solution with creating more or less complicated web applications.",
+    "tutors": [
+      {
+        "name": "Katarzyna Jastrzębska",
+        "tagline": "Frontend Developer @ Scalac",
+        "picture_url": "public/img/people/katarzyna-jastrzebska.jpg",
+        "twitter_username": "kejt_bw",
+        "github_username": "https://github.com/kajas90",
+        "linkedin_profile_url": "https://www.linkedin.com/pub/kasia-jastrz%C4%99bska/64/9a6/836",
+        "stackoverflow_id": "",
+        "googleplus_handler": "",
+        "website_url": "http://scalac.io",
+        "bio_in_md": "I believe that passion for work is the key to do something better and better. Frontend development is my passion, this is something I want to improve not only when I\u0027m working, but all the time.  Sight is the most important human sense and my goal is to give user the best experience with applications I\u0027m preparing.  At the moment I\u0027m improving my design and Adobe Illustrator Skills, I love to work with JavaScript and every variation of this language."
+      }
+    ]
+  }
+]
