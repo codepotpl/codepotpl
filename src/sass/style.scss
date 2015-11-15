@@ -464,6 +464,25 @@ section#tutors {
   }
 }
 
+button.workshop-button {
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.workshop-modal {
+  .tutor {
+    margin-bottom: 1rem;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+  }
+  .tutor-name {
+    vertical-align: top;
+  }
+}
+
 section#agenda {
   h2 {
     @extend .font-source-sans-pro-regular;
